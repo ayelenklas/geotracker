@@ -13,7 +13,7 @@ def main():
             if found:
                 zip_code_list.append(found.group(0))
     
-    with open('raw_data/zip.pkl', 'wb') as f:
+    with open('geotracker/data/zip.pkl', 'wb') as f:
         pickle.dump(zip_code_list, f)
 
 
