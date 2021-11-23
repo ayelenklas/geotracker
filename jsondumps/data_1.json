@@ -1,0 +1,260 @@
+{
+    "results": {
+        "next": "https://places.ls.hereapi.com/places/v1/discover/search;context=Zmxvdy1pZD05MmNlMjBhNy04ZmJjLTU5MjItOGFlNi01ZWJjMzIxYTY1NWNfMTYzNzY4NDY0NTc5M18xOTY4XzgyOTAmb2Zmc2V0PTUmc2l6ZT01?in=52.516850000000005%2C13.319549999999998%3Br%3D4000.0&q=restaurant&app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+        "items": [
+            {
+                "position": [
+                    52.51954,
+                    13.31452
+                ],
+                "distance": 453,
+                "title": "Schnitzelei",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Röntgenstraße 7<br/>Charlottenburg, 10587 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u336y-215ce91e6dfb47d8b1a0921626da21f4;context=Zmxvdy1pZD05MmNlMjBhNy04ZmJjLTU5MjItOGFlNi01ZWJjMzIxYTY1NWNfMTYzNzY4NDY0NTc5M18xOTY4XzgyOTAmcmFuaz0w?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "austrian",
+                        "title": "Austrian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u336y-215ce91e6dfb47d8b1a0921626da21f4",
+                "openingHours": {
+                    "text": "Mon-Fri: 16:00 - 23:00<br/>Sat, Sun: 12:00 - 23:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T160000",
+                            "duration": "PT07H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+                        },
+                        {
+                            "start": "T120000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.51372,
+                    13.31698
+                ],
+                "distance": 389,
+                "title": "Restaurante Pizzeria Si",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Otto-Suhr-Allee 19<br/>Charlottenburg, 10585 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u336x-648951ff302e40bc9dedbc1b4263acc5;context=Zmxvdy1pZD05MmNlMjBhNy04ZmJjLTU5MjItOGFlNi01ZWJjMzIxYTY1NWNfMTYzNzY4NDY0NTc5M18xOTY4XzgyOTAmcmFuaz0x?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "italian",
+                        "title": "Italian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "pizza",
+                        "title": "Pizza",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u336x-648951ff302e40bc9dedbc1b4263acc5",
+                "openingHours": {
+                    "text": "Mon-Sun: 12:00 - 12:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T120000",
+                            "duration": "PT24H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "Restaurant Si",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.51409,
+                    13.31958
+                ],
+                "distance": 307,
+                "title": "Dave B.",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Otto-Suhr-Allee 6<br/>Charlottenburg, 10585 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u336x-3ae01ea7ccfa4a2c9f673147ad0cab1c;context=Zmxvdy1pZD05MmNlMjBhNy04ZmJjLTU5MjItOGFlNi01ZWJjMzIxYTY1NWNfMTYzNzY4NDY0NTc5M18xOTY4XzgyOTAmcmFuaz0y?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "american",
+                        "title": "American",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "international",
+                        "title": "International",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "natural-healthy",
+                        "title": "Natural/Healthy",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "pizza",
+                        "title": "Pizza",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u336x-3ae01ea7ccfa4a2c9f673147ad0cab1c",
+                "openingHours": {
+                    "text": "Mon-Fri: 07:00 - 19:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T070000",
+                            "duration": "PT12H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "Dave b.",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.51803,
+                    13.31806
+                ],
+                "distance": 165,
+                "title": "Siebrand Katharina Gaststätte Automatenaufsteller",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Cauerstraße 15<br/>Charlottenburg, 10587 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u336z-fa567de6927d4f4799827870c666e619;context=Zmxvdy1pZD05MmNlMjBhNy04ZmJjLTU5MjItOGFlNi01ZWJjMzIxYTY1NWNfMTYzNzY4NDY0NTc5M18xOTY4XzgyOTAmcmFuaz0z?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "276u336z-fa567de6927d4f4799827870c666e619"
+            },
+            {
+                "position": [
+                    52.51822,
+                    13.32336
+                ],
+                "distance": 299,
+                "title": "Café am Salzufer / Dembar",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Salzufer 13<br/>Charlottenburg, 10587 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u336z-e734b93a2a7e737c3b38bc53bc0e9ea3;context=Zmxvdy1pZD05MmNlMjBhNy04ZmJjLTU5MjItOGFlNi01ZWJjMzIxYTY1NWNfMTYzNzY4NDY0NTc5M18xOTY4XzgyOTAmcmFuaz00?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "italian",
+                        "title": "Italian",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u336z-e734b93a2a7e737c3b38bc53bc0e9ea3",
+                "alternativeNames": [
+                    {
+                        "name": "Am Salzufer Café & Restaurant",
+                        "language": "de"
+                    }
+                ]
+            }
+        ]
+    },
+    "search": {
+        "context": {
+            "location": {
+                "position": [
+                    52.51685,
+                    13.31955
+                ],
+                "address": {
+                    "text": "Kohlrauschstraße 14<br/>Charlottenburg, 10587 Berlin<br/>Germany",
+                    "house": "14",
+                    "street": "Kohlrauschstraße",
+                    "postalCode": "10587",
+                    "district": "Charlottenburg",
+                    "city": "Berlin",
+                    "county": "Berlin",
+                    "stateCode": "Berlin",
+                    "country": "Germany",
+                    "countryCode": "DEU"
+                }
+            },
+            "type": "urn:nlp-types:place",
+            "href": "https://places.ls.hereapi.com/places/v1/places/loc-dmVyc2lvbj0xO3RpdGxlPUtvaGxyYXVzY2hzdHJhJUMzJTlGZSsxNDtsYXQ9NTIuNTE2ODUwMDAwMDAwMDA1O2xvbj0xMy4zMTk1NDk5OTk5OTk5OTg7c3RyZWV0PUtvaGxyYXVzY2hzdHJhJUMzJTlGZTtob3VzZT0xNDtjaXR5PUJlcmxpbjtwb3N0YWxDb2RlPTEwNTg3O2NvdW50cnk9REVVO2Rpc3RyaWN0PUNoYXJsb3R0ZW5idXJnO3N0YXRlQ29kZT1CZXJsaW47Y291bnR5PUJlcmxpbjtjYXRlZ29yeUlkPWJ1aWxkaW5nO3NvdXJjZVN5c3RlbT1pbnRlcm5hbA;context=c2VhcmNoQ29udGV4dD0x?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA"
+        },
+        "supportsPanning": true,
+        "ranking": "category-recommendations"
+    }
+}
