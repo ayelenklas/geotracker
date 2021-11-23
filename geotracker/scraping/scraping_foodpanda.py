@@ -1,6 +1,16 @@
 ''' Scraping Food Panda's website'''
 
 import csv
+from selenium import webdriver
+import chromedriver_binary
+from selenium.webdriver.chrome.options import Options
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+options = Options()
+options.add_argument("--headless")
+driver = webdriver.Chrome(options=options)
+
 
 lat = []
 lon = []
@@ -10,8 +20,8 @@ with open('Berlin Zip Codes - Sheet1.csv') as csvfile:
         lat.append(row['Lat'])
         lon.append(row['Lon'])
 
-print (lat)
 
-
-
-
+driver.get(
+    "https://www.foodpanda.de/restaurants/new?lat={lat[0]}&lng={lon[0]}&vertical=restaurants"
+)
+print(driver.select_elements_by_css('*'))
