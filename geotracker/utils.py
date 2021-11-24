@@ -4,7 +4,7 @@ class Utils:
     def __init__(self):
         pass
 
-    def get_circlegrid(topleft, bottomright, spacing=2, overlap=1):
+    def get_circlegrid(self, topleft, bottomright, spacing=2, overlap=1):
     
         lats = np.linspace(topleft[0], bottomright[0], spacing)
         lons = np.linspace(bottomright[1], topleft[1], spacing)
