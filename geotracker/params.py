@@ -5,24 +5,23 @@ URL = 'https://places.ls.hereapi.com/places/v1/discover/search'
 with open('key.txt') as f:
     HERE_API_KEY = f.readlines()[0]
 
-SIZE=5
-RANGE=4000
+SIZE=100
 
-BL = (52.4027,13.2054)
-TR = (52.631,13.598)
+TL = (52.635010,13.198130)
+BR = (52.39405827510934,13.596147274545292)
 
-# arg[0] -> top right arg[1] -> bottom left
-point = Utils().find_centers(TR, BL)
+# arg[0] -> top left arg[1] -> bottom right
+points, radius = Utils().get_circlegrid(TL, BR, 9, 1.2)
 
 # example "in=52.521,13.3807;r=7768"
 PARAMS = []
-for value in point.values():
+for value in points.values():
     PARAMS.append(
         dict(
         q="restaurant",
         size=SIZE,
         apiKey=HERE_API_KEY,
-        **{"in":f'{value};r={RANGE}'}
+        **{"in":f'{value};r={radius}'}
         )
     )
 

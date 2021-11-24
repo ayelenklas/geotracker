@@ -1,0 +1,2497 @@
+{
+    "results": {
+        "items": [
+            {
+                "position": [
+                    52.62878,
+                    13.20237
+                ],
+                "distance": 321,
+                "title": "Pizza Planet",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Edisonstraße 17<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-e6a80b094e7e4d75a71e3021dae6faef;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0w?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "hotdogs",
+                        "title": "Hot Dogs",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "pizza",
+                        "title": "Pizza",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-e6a80b094e7e4d75a71e3021dae6faef",
+                "openingHours": {
+                    "text": "Mon-Wed: 17:00 - 22:00<br/>Thu, Fri: 11:30 - 22:00<br/>Sat, Sun: 14:00 - 22:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T170000",
+                            "duration": "PT05H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE"
+                        },
+                        {
+                            "start": "T113000",
+                            "duration": "PT10H30M",
+                            "recurrence": "FREQ:DAILY;BYDAY:TH,FR"
+                        },
+                        {
+                            "start": "T140000",
+                            "duration": "PT08H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.63523,
+                    13.20926
+                ],
+                "distance": 538,
+                "title": "Fisch Eck",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Hafenstraße 2<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-9506f142c2e44756996fb7cf8f881313;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0x?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "276u337k-9506f142c2e44756996fb7cf8f881313",
+                "openingHours": {
+                    "text": "Mon-Fri: 08:00 - 18:00<br/>Sat: 08:00 - 15:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T080000",
+                            "duration": "PT10H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,MO,MO,TU,TU,TU,WE,WE,WE,TH,TH,TH,FR,FR,FR"
+                        },
+                        {
+                            "start": "T080000",
+                            "duration": "PT07H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA,SA,SA"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "Fisch-Eck",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.63458,
+                    13.20657
+                ],
+                "distance": 406,
+                "title": "Restaurant Pizzeria Bu",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Neuendorfstraße 5<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-924c7c13a5504457a71b4265a56bb814;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0y?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "276u337k-924c7c13a5504457a71b4265a56bb814"
+            },
+            {
+                "position": [
+                    52.634135,
+                    13.20745
+                ],
+                "distance": 375,
+                "title": "Restaurant Syrtaki",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Neuendorfstraße 21<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-7ae795ebbaa54abfb8d1c302d3bf67dd;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0z?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "greek",
+                        "title": "Greek",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-7ae795ebbaa54abfb8d1c302d3bf67dd",
+                "openingHours": {
+                    "text": "Mon-Fri: 17:30 - 23:00<br/>Sat, Sun: 11:00 - 23:59",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T173000",
+                            "duration": "PT05H30M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+                        },
+                        {
+                            "start": "T110000",
+                            "duration": "PT12H59M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.62929,
+                    13.20103
+                ],
+                "distance": 351,
+                "title": "Cafe-Restaurant Fair-Play",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Fontanestraße 170<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-5898e81b33504182943c85afb1a8a47b;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz00?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "international",
+                        "title": "International",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-5898e81b33504182943c85afb1a8a47b",
+                "openingHours": {
+                    "text": "Mon-Fri: 15:00 - 23:59<br/>Sat: 11:00 - 23:00<br/>Sun: 11:00 - 22:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T150000",
+                            "duration": "PT08H59M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+                        },
+                        {
+                            "start": "T110000",
+                            "duration": "PT12H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA"
+                        },
+                        {
+                            "start": "T110000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.63458,
+                    13.20657
+                ],
+                "distance": 406,
+                "title": "Bistro & Partyservice Thiel",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "snacks-fast-food",
+                    "title": "Snacks/Fast food",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/snacks-fast-food?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Neuendorfstraße 5<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-2a6414fb033945238e17b48baba1b230;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz01?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "276u337k-2a6414fb033945238e17b48baba1b230"
+            },
+            {
+                "position": [
+                    52.63458,
+                    13.20657
+                ],
+                "distance": 406,
+                "title": "Buongustaio",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Neuendorfstraße 5<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-23b8bcd083db4e6a87a958fa828dc4d5;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz02?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "italian",
+                        "title": "Italian",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-23b8bcd083db4e6a87a958fa828dc4d5",
+                "openingHours": {
+                    "text": "Mon-Sun: 11:00 - 22:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T110000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "Buongustaio Ristorante",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.63527,
+                    13.20734
+                ],
+                "distance": 493,
+                "title": "Restaurant Heynekendorp",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Neuendorfstraße 1<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276aabd1-36073186da4c0f9a2849ea7565f1a5af;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz03?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "mediterranean",
+                        "title": "Mediterranean",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276aabd1-36073186da4c0f9a2849ea7565f1a5af"
+            },
+            {
+                "position": [
+                    52.63303,
+                    13.21059
+                ],
+                "distance": 417,
+                "title": "Kantine Thermo Fischer",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Neuendorfstraße 24C<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/2768lxx5-1293b5bad80f068970c5b0255d0d7463;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz04?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "2768lxx5-1293b5bad80f068970c5b0255d0d7463"
+            },
+            {
+                "position": [
+                    52.63664,
+                    13.20513
+                ],
+                "distance": 627,
+                "title": "SUBWAY",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Postplatz 4C<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/2768lxx5-2082625edb330135ad005dc237915fa6;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz05?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "sandwich",
+                        "title": "Sandwiches",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "2768lxx5-2082625edb330135ad005dc237915fa6",
+                "openingHours": {
+                    "text": "Mon: 10:00 - 15:00<br/>Tue-Fri: 10:00 - 20:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T100000",
+                            "duration": "PT05H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO"
+                        },
+                        {
+                            "start": "T100000",
+                            "duration": "PT10H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:TU,WE,TH,FR"
+                        }
+                    ]
+                },
+                "chainIds": [
+                    "1605"
+                ]
+            },
+            {
+                "position": [
+                    52.63715,
+                    13.20323
+                ],
+                "distance": 699,
+                "title": "Minh Khai Asia Snack",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Havelpassage 4<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-e739ebc90d1f4551a6192c03159a52d1;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0xMA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "asian",
+                        "title": "Asian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "chinese",
+                        "title": "Chinese",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "japanese",
+                        "title": "Japanese",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "sushi",
+                        "title": "Japanese - Sushi",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "thai",
+                        "title": "Thai",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-e739ebc90d1f4551a6192c03159a52d1",
+                "openingHours": {
+                    "text": "Mon-Sat: 11:00 - 21:00<br/>Sun: 12:00 - 21:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T110000",
+                            "duration": "PT10H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA"
+                        },
+                        {
+                            "start": "T120000",
+                            "duration": "PT09H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.63802,
+                    13.19575
+                ],
+                "distance": 1017,
+                "title": "Bistro am Conny",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Nauener Straße 20<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-dde40ec5f2eb4eb481d8b5cf6a7075b2;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0xMQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-dde40ec5f2eb4eb481d8b5cf6a7075b2",
+                "openingHours": {
+                    "text": "Mon-Fri: 06:00 - 15:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T060000",
+                            "duration": "PT09H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.63802,
+                    13.19575
+                ],
+                "distance": 1017,
+                "title": "Partyservice Hennigsdorf Bartsch",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "dance-night-club",
+                    "title": "Dance or Nightclub",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/dance-night-club?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/33.icon",
+                "vicinity": "Nauener Straße 20<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-aa2b547584234272860f6429b860c3a1;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0xMg?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "276u337k-aa2b547584234272860f6429b860c3a1"
+            },
+            {
+                "position": [
+                    52.63789,
+                    13.20504
+                ],
+                "distance": 767,
+                "title": "Kim Kim",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Postplatz 3<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-929e8ddef65a4073ae966ab93e098917;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0xMw?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "asian",
+                        "title": "Asian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "chinese",
+                        "title": "Chinese",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "thai",
+                        "title": "Thai",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "vietnamese",
+                        "title": "Vietnamese",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-929e8ddef65a4073ae966ab93e098917",
+                "openingHours": {
+                    "text": "Mon-Sun: 10:00 - 21:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T100000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.63285,
+                    13.1944
+                ],
+                "distance": 770,
+                "title": "Zum Strammen Max",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Tucholskystraße 12<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-8587626df86847429889c48f0f172da6;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0xNA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-8587626df86847429889c48f0f172da6"
+            },
+            {
+                "position": [
+                    52.63639,
+                    13.19978
+                ],
+                "distance": 709,
+                "title": "Auers",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Havelplatz 3<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-3f3e71ca9b8a4fdfa008ccfa986b677f;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0xNQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "276u337k-3f3e71ca9b8a4fdfa008ccfa986b677f"
+            },
+            {
+                "position": [
+                    52.63803,
+                    13.19188
+                ],
+                "distance": 1201,
+                "title": "Zur Deutschen Eiche",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Fasanenstraße 1<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-38de7ad80bd049ae8f96acb75d04743c;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0xNg?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-38de7ad80bd049ae8f96acb75d04743c"
+            },
+            {
+                "position": [
+                    52.63607,
+                    13.19876
+                ],
+                "distance": 720,
+                "title": "Bistro 76",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Fontanestraße 112<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-101ad696d18a4e208f150cc070fb7b50;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0xNw?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "276u337k-101ad696d18a4e208f150cc070fb7b50",
+                "openingHours": {
+                    "text": "Mon-Fri: 08:00 - 12:00<br/>Sat: 08:00 - 23:59",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T080000",
+                            "duration": "PT15H59M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SA"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.63724,
+                    13.20505
+                ],
+                "distance": 694,
+                "title": "Madlen-Kaffee Haus",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "coffee-tea",
+                    "title": "Coffee/Tea",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/coffee-tea?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/23.icon",
+                "vicinity": "Postplatz 4<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276jx7ps-ad0036dbc81e02ed1933e4e1b972773b;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0xOA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "breakfast",
+                        "title": "Breakfast",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "ice-cream",
+                        "title": "Ice cream",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276jx7ps-ad0036dbc81e02ed1933e4e1b972773b",
+                "openingHours": {
+                    "text": "Mon-Sat: 09:00 - 20:00<br/>Sun: 10:00 - 18:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T090000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA"
+                        },
+                        {
+                            "start": "T100000",
+                            "duration": "PT08H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.63701,
+                    13.19916
+                ],
+                "distance": 790,
+                "title": "Theodor's",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Fontanestraße 110<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276jx7ps-8e749478387902f1176f8282373a86a9;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0xOQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "international",
+                        "title": "International",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276jx7ps-8e749478387902f1176f8282373a86a9"
+            },
+            {
+                "position": [
+                    52.63703,
+                    13.20132
+                ],
+                "distance": 725,
+                "title": "Viet Thai Sushi Bar",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Havelpassage 14<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/2768lxx5-da2484b4dd2d0562772a8ae6bd869ce3;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0yMA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "asian",
+                        "title": "Asian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "chinese",
+                        "title": "Chinese",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "japanese",
+                        "title": "Japanese",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "sushi",
+                        "title": "Japanese - Sushi",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "vietnamese",
+                        "title": "Vietnamese",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "2768lxx5-da2484b4dd2d0562772a8ae6bd869ce3",
+                "openingHours": {
+                    "text": "Mon-Sat: 11:00 - 22:00<br/>Sun: 12:00 - 22:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T110000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA"
+                        },
+                        {
+                            "start": "T120000",
+                            "duration": "PT10H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.63693,
+                    13.20289
+                ],
+                "distance": 681,
+                "title": "Janny's Eis Hennigsdorf",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "food-drink",
+                    "title": "Food & Drink",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/food-drink?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/09.icon",
+                "vicinity": "Havelpassage 5<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/2768lxx5-98f5e4e36e9304406a162c0f2c2461f0;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0yMQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "ice-cream",
+                        "title": "Ice cream",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "2768lxx5-98f5e4e36e9304406a162c0f2c2461f0"
+            },
+            {
+                "position": [
+                    52.63784,
+                    13.20507
+                ],
+                "distance": 761,
+                "title": "City Bistro",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Postplatz 3A<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/2768lxx5-2f4efd08a12803dbefb20056d6ba73fa;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0yMg?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "turkish",
+                        "title": "Turkish",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "2768lxx5-2f4efd08a12803dbefb20056d6ba73fa",
+                "openingHours": {
+                    "text": "Mon-Sun: 09:00 - 03:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T090000",
+                            "duration": "PT18H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.64109,
+                    13.19648
+                ],
+                "distance": 1273,
+                "title": "Einfach Hubertus",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Forststraße 37<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-99de1e92a82c4a0c8221f86aa531c28f;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0yMw?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "breakfast",
+                        "title": "Breakfast",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "natural-healthy",
+                        "title": "Natural/Healthy",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-99de1e92a82c4a0c8221f86aa531c28f",
+                "openingHours": {
+                    "text": "Tue-Sat: 08:00 - 21:00<br/>Sun: 10:00 - 21:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T080000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:TU,TU,WE,WE"
+                        },
+                        {
+                            "start": "T080000",
+                            "duration": "PT13H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:TU,WE,TH,TH,TH,FR,FR,FR,SA,SA,SA"
+                        },
+                        {
+                            "start": "T090000",
+                            "duration": "PT12H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:TH,FR,SA"
+                        },
+                        {
+                            "start": "T100000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SU,SU,SU,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.60186,
+                    13.23964
+                ],
+                "distance": 3980,
+                "title": "Ristorante Emilio",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Heiligenseestraße 51<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337j-f0cd5687b68e4519b89f4b5fcaa80e2f;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0yNA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "italian",
+                        "title": "Italian",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337j-f0cd5687b68e4519b89f4b5fcaa80e2f",
+                "openingHours": {
+                    "text": "Mon-Fri: 16:00 - 23:00<br/>Sat, Sun: 12:00 - 23:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T160000",
+                            "duration": "PT07H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+                        },
+                        {
+                            "start": "T120000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.6542,
+                    13.19756
+                ],
+                "distance": 2633,
+                "title": "Call A Pizza",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "business-industry",
+                    "title": "Business/Industry",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/business-industry?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/02.icon",
+                "vicinity": "Rigaer Straße 23<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337s-7074e6daf8c145528b9df7e8d8943c0e;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0yNQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "pizza",
+                        "title": "Pizza",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337s-7074e6daf8c145528b9df7e8d8943c0e",
+                "openingHours": {
+                    "text": "Mon-Sun: 11:00 - 22:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T110000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.64269,
+                    13.1947
+                ],
+                "distance": 1487,
+                "title": "Waldcafe Wendlandt",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Waldstraße<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337s-eddfb3c93df24f12826823f511fc5f69;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0yNg?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337s-eddfb3c93df24f12826823f511fc5f69"
+            },
+            {
+                "position": [
+                    52.65144,
+                    13.19833
+                ],
+                "distance": 2322,
+                "title": "Stadtbad",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Rigaer Straße 3<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337s-b161d7b682ba93f9026e6a8c92eaa948;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0yNw?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "276u337s-b161d7b682ba93f9026e6a8c92eaa948"
+            },
+            {
+                "position": [
+                    52.66568,
+                    13.20852
+                ],
+                "distance": 3862,
+                "title": "Mystery Beach - Taorigroup",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Parkallee<br/>16727 Velten",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337s-9301159ed6624956b8a1f6e646eb235a;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0yOA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "grill",
+                        "title": "Grill",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337s-9301159ed6624956b8a1f6e646eb235a"
+            },
+            {
+                "position": [
+                    52.64694,
+                    13.20121
+                ],
+                "distance": 1795,
+                "title": "Die Escobar",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "dance-night-club",
+                    "title": "Dance or Nightclub",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/dance-night-club?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/33.icon",
+                "vicinity": "Fontanestraße 36<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337s-06c88b8a5152433cbdf1fc1541224dde;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0yOQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "international",
+                        "title": "International",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337s-06c88b8a5152433cbdf1fc1541224dde",
+                "openingHours": {
+                    "text": "Tue-Sat: 19:00 - 02:00<br/>Sun: 19:00 - 00:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T190000",
+                            "duration": "PT07H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:TU,WE,TH,FR,SA"
+                        },
+                        {
+                            "start": "T190000",
+                            "duration": "PT05H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SU"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "Escobar",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.618,
+                    13.24097
+                ],
+                "distance": 2803,
+                "title": "Sampor-Kaffee-Berlin",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "shop",
+                    "title": "Shop",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/shop?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/09.icon",
+                "vicinity": "Ruppiner Chaussee 289<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337m-4237224b03d4495f89d70f6b30ead9c0;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0zMA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337m-4237224b03d4495f89d70f6b30ead9c0",
+                "openingHours": {
+                    "text": "Mon: 14:00 - 18:00<br/>Tue-Sat: 09:00 - 18:00<br/>Sun: 12:00 - 18:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T140000",
+                            "duration": "PT04H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,MO"
+                        },
+                        {
+                            "start": "T090000",
+                            "duration": "PT09H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:TU,TU,TU,WE,WE,WE,TH,TH,TH,FR,FR,FR,SA"
+                        },
+                        {
+                            "start": "T090000",
+                            "duration": "PT07H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA"
+                        },
+                        {
+                            "start": "T120000",
+                            "duration": "PT06H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SU,SU,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.61408,
+                    13.24352
+                ],
+                "distance": 3188,
+                "title": "Villa Felice",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Schulzendorfer Straße 3<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337m-405ebf19b8dd4fa981d176bb2060d3f5;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0zMQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "european",
+                        "title": "European",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "italian",
+                        "title": "Italian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "pizza",
+                        "title": "Pizza",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337m-405ebf19b8dd4fa981d176bb2060d3f5",
+                "openingHours": {
+                    "text": "Mon-Sat: 12:00 - 23:59<br/>Sun: 10:00 - 22:30",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T120000",
+                            "duration": "PT11H59M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA"
+                        },
+                        {
+                            "start": "T100000",
+                            "duration": "PT12H30M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.6255,
+                    13.22953
+                ],
+                "distance": 1740,
+                "title": "Tratoria Toskana",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Ruppiner Chaussee 406<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337m-2c1304914a634085b0dda4df84055943;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0zMg?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "pizza",
+                        "title": "Pizza",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337m-2c1304914a634085b0dda4df84055943"
+            },
+            {
+                "position": [
+                    52.625281,
+                    13.229763
+                ],
+                "distance": 1763,
+                "title": "Casa Toscana",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Ruppiner Chaussee 404<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337m-052910a076ac41068b89776c7d85b002;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0zMw?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "italian",
+                        "title": "Italian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "mediterranean",
+                        "title": "Mediterranean",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "pizza",
+                        "title": "Pizza",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337m-052910a076ac41068b89776c7d85b002",
+                "openingHours": {
+                    "text": "Mon-Sun: 12:00 - 12:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T120000",
+                            "duration": "PT24H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.61844,
+                    13.21897
+                ],
+                "distance": 1670,
+                "title": "Raw Food and Art Factoryberlin",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Hennigsdorfer Straße<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-fdddcca6a4204d24b8a98dac0dac92c7;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0zNA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "276u337k-fdddcca6a4204d24b8a98dac0dac92c7"
+            },
+            {
+                "position": [
+                    52.64219,
+                    13.20599
+                ],
+                "distance": 1245,
+                "title": "Hong Hanh Asiahaus",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Berliner Straße 26<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-f932a96276db4ab1a767deeda06cd6b4;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0zNQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "asian",
+                        "title": "Asian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "chinese",
+                        "title": "Chinese",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "chinese-cantonese",
+                        "title": "Chinese - Cantonese",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "japanese",
+                        "title": "Japanese",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "sushi",
+                        "title": "Japanese - Sushi",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "thai",
+                        "title": "Thai",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-f932a96276db4ab1a767deeda06cd6b4",
+                "openingHours": {
+                    "text": "Mon-Fri: 10:00 - 20:30<br/>Sat, Sun: 11:00 - 20:30",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T100000",
+                            "duration": "PT10H30M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+                        },
+                        {
+                            "start": "T110000",
+                            "duration": "PT09H30M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.64152,
+                    13.19126
+                ],
+                "distance": 1510,
+                "title": "Zur Erholung",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Forststraße 42<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-f33e5decb7104e0489bd9ec836a474ac;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0zNg?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "burger",
+                        "title": "Burgers",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-f33e5decb7104e0489bd9ec836a474ac",
+                "openingHours": {
+                    "text": "Tue-Sat: 16:00 - 00:00<br/>Sun: 10:00 - 13:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T160000",
+                            "duration": "PT08H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:TU,WE,TH,FR,SA"
+                        },
+                        {
+                            "start": "T100000",
+                            "duration": "PT03H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.60948,
+                    13.20041
+                ],
+                "distance": 2417,
+                "title": "Die Buhne",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Dorfstraße 26<br/>Nieder Neuendorf, 16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-ea9de59348634af48d9a640f80269232;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0zNw?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-ea9de59348634af48d9a640f80269232",
+                "openingHours": {
+                    "text": "Tue-Fri: 17:00 - 22:00<br/>Sat: 12:00 - 22:00<br/>Sun: 09:30 - 22:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T170000",
+                            "duration": "PT05H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:TU,WE,TH,FR"
+                        },
+                        {
+                            "start": "T120000",
+                            "duration": "PT10H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA"
+                        },
+                        {
+                            "start": "T093000",
+                            "duration": "PT12H30M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.6081,
+                    13.21187
+                ],
+                "distance": 2584,
+                "title": "Restaurant Haus Dannenberg",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Alt-Heiligensee<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-dd850f0e52a37e2a6730b0143bbfbdc5;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0zOA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "276u337k-dd850f0e52a37e2a6730b0143bbfbdc5"
+            },
+            {
+                "position": [
+                    52.61894,
+                    13.21967
+                ],
+                "distance": 1651,
+                "title": "Babab",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "snacks-fast-food",
+                    "title": "Snacks/Fast food",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/snacks-fast-food?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Hennigsdorfer Straße 77<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-b2b8fa51740840f1b412519e60fab6b6;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz0zOQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "asian",
+                        "title": "Asian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "hotdogs",
+                        "title": "Hot Dogs",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-b2b8fa51740840f1b412519e60fab6b6",
+                "openingHours": {
+                    "text": "Mon, Wed-Sun: 12:00 - 21:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T120000",
+                            "duration": "PT09H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.64109,
+                    13.19648
+                ],
+                "distance": 1273,
+                "title": "Marci's Hubertus",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Forststraße 37<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-ae4babc68ed14156b0361183406f9c65;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz00MA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "276u337k-ae4babc68ed14156b0361183406f9c65"
+            },
+            {
+                "position": [
+                    52.61306,
+                    13.21763
+                ],
+                "distance": 2159,
+                "title": "Roma Ristorante Pizzeria",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Hennigsdorfer Straße 17<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-95d1d5f21a414a6186923d3f0c6d871d;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz00MQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "italian",
+                        "title": "Italian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "pizza",
+                        "title": "Pizza",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-95d1d5f21a414a6186923d3f0c6d871d",
+                "openingHours": {
+                    "text": "Mon-Fri: 16:00 - 23:00<br/>Sat, Sun: 12:00 - 23:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T160000",
+                            "duration": "PT07H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+                        },
+                        {
+                            "start": "T120000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.61498,
+                    13.20157
+                ],
+                "distance": 1800,
+                "title": "Ristorante Toscanini",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Am Yachthafen 7<br/>Nieder Neuendorf, 16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-952f79ced4154895930b28c067ddf507;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz00Mg?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "italian",
+                        "title": "Italian",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-952f79ced4154895930b28c067ddf507",
+                "openingHours": {
+                    "text": "Mon-Sun: 12:00 - 22:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T120000",
+                            "duration": "PT10H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.60926,
+                    13.20013
+                ],
+                "distance": 2443,
+                "title": "Cafe Diadem",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Dorfstraße 28<br/>Nieder Neuendorf, 16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-73f94974d8cf4a30b3834301b5af7f59;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz00Mw?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-73f94974d8cf4a30b3834301b5af7f59",
+                "openingHours": {
+                    "text": "Mon-Sun: 11:00 - 20:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T110000",
+                            "duration": "PT09H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,MO,MO,MO,TU,TU,WE,WE,WE,WE,TH,TH,TH,TH,FR,FR,FR,FR,SA,SA,SA,SA,SU,SU,SU,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.60736,
+                    13.21085
+                ],
+                "distance": 2654,
+                "title": "Trattoria Giardini del Villaggio",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Alt-Heiligensee<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-5296c6a4e30f494093f1504d84abdaa7;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz00NA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "276u337k-5296c6a4e30f494093f1504d84abdaa7"
+            },
+            {
+                "position": [
+                    52.60736,
+                    13.21085
+                ],
+                "distance": 2654,
+                "title": "Dorfaue",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Alt-Heiligensee<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-40163d07953742b7bc425aa3099a1c1d;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz00NQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "balkan",
+                        "title": "Balkan",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "italian",
+                        "title": "Italian",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-40163d07953742b7bc425aa3099a1c1d",
+                "openingHours": {
+                    "text": "Wed-Sun: 12:00 - 12:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T120000",
+                            "duration": "PT24H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:WE,TH,FR,SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.60588,
+                    13.21233
+                ],
+                "distance": 2832,
+                "title": "Straßenbahndepot",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Alt-Heiligensee 73<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-2f8f769cf29649adb3c2c21e0d28376d;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz00Ng?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "european",
+                        "title": "European",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "international",
+                        "title": "International",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-2f8f769cf29649adb3c2c21e0d28376d",
+                "openingHours": {
+                    "text": "Wed-Fri: 17:00 - 22:00<br/>Sat, Sun: 12:00 - 22:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T170000",
+                            "duration": "PT05H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:WE,TH,FR"
+                        },
+                        {
+                            "start": "T120000",
+                            "duration": "PT10H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.64073,
+                    13.20659
+                ],
+                "distance": 1085,
+                "title": "Domino's Pizza Hennigsdorf",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Feldstraße 2<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-281e0b77da72fa2a5c5404862b564a7b;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz00Nw?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "pizza",
+                        "title": "Pizza",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-281e0b77da72fa2a5c5404862b564a7b",
+                "openingHours": {
+                    "text": "Mon-Sun: 11:00 - 23:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T110000",
+                            "duration": "PT12H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.640842,
+                    13.206981
+                ],
+                "distance": 1100,
+                "title": "Pizza Didoff",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Berliner Straße 58<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-2736e36080ed4656bc043ffcbb58acf4;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz00OA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "italian",
+                        "title": "Italian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "pizza",
+                        "title": "Pizza",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-2736e36080ed4656bc043ffcbb58acf4",
+                "openingHours": {
+                    "text": "Mon-Fri: 17:00 - 21:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T170000",
+                            "duration": "PT04H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.60774,
+                    13.19831
+                ],
+                "distance": 2630,
+                "title": "Athos",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Dorfstraße 48<br/>Nieder Neuendorf, 16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-0fbd4b4b593a475983e7ae05bb189589;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz00OQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "greek",
+                        "title": "Greek",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "international",
+                        "title": "International",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-0fbd4b4b593a475983e7ae05bb189589",
+                "openingHours": {
+                    "text": "Mon-Sun: 11:30 - 23:59",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T113000",
+                            "duration": "PT12H29M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.60439,
+                    13.19756
+                ],
+                "distance": 3006,
+                "title": "Zum Blockhaus",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Am Oberjägerweg 5<br/>Nieder Neuendorf, 16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337k-08b0db88e7a64a29b0c97d0acaf502fe;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz01MA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337k-08b0db88e7a64a29b0c97d0acaf502fe"
+            },
+            {
+                "position": [
+                    52.60023,
+                    13.2211
+                ],
+                "distance": 3582,
+                "title": "Tenniscasino Heiligensee",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "sports-facility-venue",
+                    "title": "Sport Facility/Venue",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/sports-facility-venue?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/30.icon",
+                "vicinity": "Elchdamm 171<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337h-8e55b34731ca4ae59338d3b2f37d384f;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz01MQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "id": "276u337h-8e55b34731ca4ae59338d3b2f37d384f"
+            },
+            {
+                "position": [
+                    52.60011,
+                    13.2131
+                ],
+                "distance": 3474,
+                "title": "Seebad Heiligensee",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Sandhauser Straße 132<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276u337h-61d13f1ec91546419abdd8509a738ec4;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz01Mg?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u337h-61d13f1ec91546419abdd8509a738ec4",
+                "openingHours": {
+                    "text": "Mon, Sun: 09:00 - 19:00<br/>Tue-Sat: 09:00 - 22:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T090000",
+                            "duration": "PT13H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA"
+                        },
+                        {
+                            "start": "T110000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:TU,WE,TH,FR"
+                        },
+                        {
+                            "start": "T100000",
+                            "duration": "PT12H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA"
+                        },
+                        {
+                            "start": "T090000",
+                            "duration": "PT10H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SU"
+                        },
+                        {
+                            "start": "T100000",
+                            "duration": "PT09H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SU"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "Seebad-Heiligensee",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.62197,
+                    13.22477
+                ],
+                "distance": 1648,
+                "title": "Ronnys No. 1",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "snacks-fast-food",
+                    "title": "Snacks/Fast food",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/snacks-fast-food?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Hennigsdorfer Straße 118<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/276d408k-9712c56448f2001364f1666427e19916;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz01Mw?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "pizza",
+                        "title": "Pizza",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276d408k-9712c56448f2001364f1666427e19916",
+                "openingHours": {
+                    "text": "Mon-Sun: 11:00 - 21:30",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T110000",
+                            "duration": "PT10H30M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.62044,
+                    13.23675
+                ],
+                "distance": 2420,
+                "title": "Ha Long Bay",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Ruppiner Chaussee 331<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/2768lxx5-ad015f26853306b6b828ba032e50f4c8;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz01NA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "asian",
+                        "title": "Asian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "japanese",
+                        "title": "Japanese",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "sushi",
+                        "title": "Japanese - Sushi",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "vietnamese",
+                        "title": "Vietnamese",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "2768lxx5-ad015f26853306b6b828ba032e50f4c8",
+                "openingHours": {
+                    "text": "Tue-Sun: 11:00 - 22:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T110000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.6542,
+                    13.19756
+                ],
+                "distance": 2633,
+                "title": "Hong Kong City",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Rigaer Straße 23<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/2768lxx5-ab5a4cd916340c9f30b2391e83cb0d33;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz01NQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "asian",
+                        "title": "Asian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "chinese",
+                        "title": "Chinese",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "2768lxx5-ab5a4cd916340c9f30b2391e83cb0d33"
+            },
+            {
+                "position": [
+                    52.64171,
+                    13.20623
+                ],
+                "distance": 1192,
+                "title": "Schallnus Musik-Cafe Pinte",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Berliner Straße 28<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/2768lxx5-99d3f9cc77b0018a85c0b6f596037f5a;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz01Ng?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "2768lxx5-99d3f9cc77b0018a85c0b6f596037f5a"
+            },
+            {
+                "position": [
+                    52.6542,
+                    13.19756
+                ],
+                "distance": 2633,
+                "title": "Tandoori Palace",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Rigaer Straße 23<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/2768lxx5-32b85ea244c80dc6ac734424fbb4aeab;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz01Nw?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "asian",
+                        "title": "Asian",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "indian",
+                        "title": "Indian",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "2768lxx5-32b85ea244c80dc6ac734424fbb4aeab",
+                "openingHours": {
+                    "text": "Tue-Sun: 11:30 - 22:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T113000",
+                            "duration": "PT10H30M",
+                            "recurrence": "FREQ:DAILY;BYDAY:TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                }
+            },
+            {
+                "position": [
+                    52.65054,
+                    13.20121
+                ],
+                "distance": 2191,
+                "title": "Bierstube zum Tunnel",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Fontanesiedlung 7<br/>16761 Hennigsdorf",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/2768lxx5-1e6e0ee17d9c06e5a8f51cb88bb06d95;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz01OA?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "german",
+                        "title": "German",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "2768lxx5-1e6e0ee17d9c06e5a8f51cb88bb06d95"
+            },
+            {
+                "position": [
+                    52.61894,
+                    13.21967
+                ],
+                "distance": 1651,
+                "title": "Maja's Café",
+                "averageRating": 0.0,
+                "category": {
+                    "id": "restaurant",
+                    "title": "Restaurant",
+                    "href": "https://places.ls.hereapi.com/places/v1/categories/places/restaurant?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/03.icon",
+                "vicinity": "Hennigsdorfer Straße 77<br/>Heiligensee, 13503 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.ls.hereapi.com/places/v1/places/2768lxx5-09e421d7054606e3437d69b51b81166b;context=Zmxvdy1pZD1lNzU1MmNhOC1jNDVlLTUyMTAtODNjMi04ODVhODYxMDhjZGVfMTYzNzc0MjMyMzA3Nl80NzgzXzI2MzMmcmFuaz01OQ?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA",
+                "tags": [
+                    {
+                        "id": "ice-cream",
+                        "title": "Ice cream",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "2768lxx5-09e421d7054606e3437d69b51b81166b",
+                "openingHours": {
+                    "text": "Mon-Thu, Sun: 12:00 - 20:00<br/>Fri, Sat: 12:00 - 21:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T120000",
+                            "duration": "PT08H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,SU"
+                        },
+                        {
+                            "start": "T120000",
+                            "duration": "PT09H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:FR,SA"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "search": {
+        "context": {
+            "location": {
+                "position": [
+                    52.631,
+                    13.2054
+                ],
+                "address": {
+                    "text": "Rathenaustraße 17<br/>16761 Hennigsdorf<br/>Germany",
+                    "house": "17",
+                    "street": "Rathenaustraße",
+                    "postalCode": "16761",
+                    "district": "Hennigsdorf",
+                    "city": "Hennigsdorf",
+                    "county": "Oberhavel",
+                    "stateCode": "Brandenburg",
+                    "country": "Germany",
+                    "countryCode": "DEU"
+                }
+            },
+            "type": "urn:nlp-types:place",
+            "href": "https://places.ls.hereapi.com/places/v1/places/loc-dmVyc2lvbj0xO3RpdGxlPVJhdGhlbmF1c3RyYSVDMyU5RmUrMTc7bGF0PTUyLjYzMTtsb249MTMuMjA1NDtzdHJlZXQ9UmF0aGVuYXVzdHJhJUMzJTlGZTtob3VzZT0xNztjaXR5PUhlbm5pZ3Nkb3JmO3Bvc3RhbENvZGU9MTY3NjE7Y291bnRyeT1ERVU7ZGlzdHJpY3Q9SGVubmlnc2RvcmY7c3RhdGVDb2RlPUJyYW5kZW5idXJnO2NvdW50eT1PYmVyaGF2ZWw7Y2F0ZWdvcnlJZD1idWlsZGluZztzb3VyY2VTeXN0ZW09aW50ZXJuYWw;context=c2VhcmNoQ29udGV4dD0x?app_id=7996Mfm4PcoRUK8qeQhQ&app_code=BVbNbahKcpPBKHD9gsEiDA"
+        },
+        "supportsPanning": true,
+        "ranking": "category-recommendations"
+    }
+}
