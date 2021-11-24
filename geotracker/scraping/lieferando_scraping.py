@@ -1,11 +1,11 @@
 #! python3
 # Author: Malte Berneaud
 # Date: 24.11.2021
-
 import pickle
 import re
 import time
 import pandas as pd
+import numpy as np
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -188,6 +188,7 @@ def get_addresses(restaurant_list, driver, start=0):
 
     print("##### SECOND LOOP: Restaurant Pages #######")
     print("dropping duplicate restaurants")
+    print(f"starting scraper from index: {start}")
 
     # Load data if there is something already
     if start != 0:
@@ -218,7 +219,7 @@ def get_addresses(restaurant_list, driver, start=0):
         df["restaurant_url"]
     )  # Why do I create this here and then not use it later?
     print(
-        f"scraping {len(restaurant_urls)} restaurant pages"
+        f"{len(restaurant_urls)-start} restaurant pages left to scrape"
     )  # Just for this. That's lazy AF.
 
     for index, restaurant_url in enumerate(restaurant_urls[start:]):
@@ -242,10 +243,10 @@ def get_addresses(restaurant_list, driver, start=0):
                 f"../../raw_data/lieferando_pickles/city_lists/city_list_{index+start}.pkl",
                 "wb",
             ) as f:
-                pickle.dump(zip_code_list, f)
+                pickle.dump(city_list, f)
 
         driver.get(restaurant_url)
-        wait = WebDriverWait(driver, 10)
+        wait = WebDriverWait(driver, 5)
         wait.until(
             ec.visibility_of_element_located(
                 (By.XPATH, "//button[@class='info info-icon js-open-info-tab']")
@@ -274,10 +275,12 @@ def get_addresses(restaurant_list, driver, start=0):
             street = re.search(r".*", address)[0]
         except TypeError:
             street = "not found"
+
         try:
             zip_code = re.search(r"[0-9]{5}", address)[0]
         except TypeError:
             zip_code = "not found"
+
         try:
             city = re.search(r"[\w]+$", address)[0]
         except TypeError:
@@ -288,7 +291,7 @@ def get_addresses(restaurant_list, driver, start=0):
         street_list.append(street)
         zip_code_list.append(zip_code)
         city_list.append(city)
-        time.sleep(2)
+        time.sleep(np.random.randint(1, 4))
 
     ##########
     ### EXPANDING A DATA FRAME AND EXPORT
@@ -310,7 +313,7 @@ def main():
     # get the restaurant list
     restaurant_list, driver = get_restaurants(zip_codes, start=189)
     # get addresses
-    restaurant_df = get_addresses(restaurant_list, driver, start=120)
+    restaurant_df = get_addresses(restaurant_list, driver, start=0)
     restaurant_df.to_csv("../data/lieferando_restaurants.csv")
 
 
