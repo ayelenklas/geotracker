@@ -275,7 +275,7 @@ def get_addresses(restaurant_list, driver, start=0):
                 cprint("Successfully located info info-icon js-open-info-tab", "green")
             finally:
                 if tries == 0:
-                    cprint("failed to locate info button after 5 tries. Continuing to next iteration", "red", attrs=['bold'])
+                    cprint("failed to locate info button after 3 tries. Continuing to next iteration", "red", attrs=['bold'])
                     street_list.append("not found")
                     zip_code_list.append("not found")
                     city_list.append("not found")
@@ -349,7 +349,7 @@ def main():
     # get the restaurant list
     restaurant_list, driver = get_restaurants(zip_codes, start=189)
     # get addresses
-    restaurant_df = get_addresses(restaurant_list, driver, start=2300)
+    restaurant_df = get_addresses(restaurant_list, driver, start=2740)
     restaurant_df.to_csv("../data/lieferando_restaurants.csv")
 
 
