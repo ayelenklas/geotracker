@@ -2,6 +2,7 @@
 # Author: Malte Berneaud
 # Date: 24.11.2021
 import pickle
+from termcolor import cprint
 import re
 import time
 import pandas as pd
@@ -47,7 +48,7 @@ def scroll_down(driver):
         last_height = new_height
 
 
-def get_restaurants(zip_codes, start=0):
+def get_restaurants(zip_codes, start=0, headless=True):
     """
     Takes a list of zip codes and a start integer and then iterates the scraper
     over all zip codes starting from start, scraping the lieferando zip code
@@ -62,9 +63,15 @@ def get_restaurants(zip_codes, start=0):
     # Create iterable list of URLS for the scraper
     base_url = "https://www.lieferando.de/en/delivery/food/berlin-"
 
-    # Set selenium options
+
+
+    print("##### FIRST LOOP: ZIP CODE PAGES #######")
+
+
+    # Set selenium options and start driver
     options = Options()
-    options.add_argument("--headless")  # Starts driver without opening a window
+    if headless:
+        options.add_argument("--headless")  # Starts driver without opening a window
     driver = webdriver.Firefox(options=options)
     time.sleep(10)
 
@@ -77,10 +84,15 @@ def get_restaurants(zip_codes, start=0):
     else:
         restaurant_list = []
 
+
+    # Early exit if all Zip Codes have already been scraped
+    if start == len(zip_codes) - 1:
+        print("ZIP code page scrape complete, jumping to restaurant page scrape")
+        return restaurant_list, driver
+
     ############
     ### FIRST LOOP: ZIP CODE LEVEL
     ############
-    print("##### FIRST LOOP: ZIP CODE PAGES #######")
 
     for index, zip_code in enumerate(zip_codes[start:]):
 
@@ -215,18 +227,16 @@ def get_addresses(restaurant_list, driver, start=0):
     df.drop_duplicates(subset=["restaurant_url"], inplace=True)
 
     # Restaurant urls for iteration
-    restaurant_urls = list(
-        df["restaurant_url"]
-    )  # Why do I create this here and then not use it later?
-    print(
-        f"{len(restaurant_urls)-start} restaurant pages left to scrape"
-    )  # Just for this. That's lazy AF.
+    restaurant_urls = list(df["restaurant_url"])
+
+    print(f"{len(restaurant_urls)-start} restaurant pages left to scrape")
 
     for index, restaurant_url in enumerate(restaurant_urls[start:]):
+        print(f"scraping: {restaurant_url} ------ at position: {start+index}")
 
         # Print progress and pickle intermediate results
-        if index % 20 == 0:
-            print(f"reached restaurant number:{index+start}")
+        if index % 10 == 0 and index != 0:
+            #print(f"reached restaurant number:{index+start}")
 
             # Pickling intermediate objects
             with open(
@@ -245,13 +255,38 @@ def get_addresses(restaurant_list, driver, start=0):
             ) as f:
                 pickle.dump(city_list, f)
 
-        driver.get(restaurant_url)
-        wait = WebDriverWait(driver, 5)
-        wait.until(
-            ec.visibility_of_element_located(
-                (By.XPATH, "//button[@class='info info-icon js-open-info-tab']")
-            )
-        )
+
+        # Starting restaurant Loop
+        successful = False
+        tries = 3
+        while not successful:
+            print(f"trying to get info js button. Remaining tries: {tries}")
+            driver.get(restaurant_url)
+            wait = WebDriverWait(driver, 10)
+            try:
+                wait.until(
+                ec.visibility_of_element_located(
+                    (By.XPATH, "//button[@class='info info-icon js-open-info-tab']")))
+            except:
+                cprint("failed to locate info info-icon js-open-info-tab. Trying again.", "red")
+                tries -= 1
+            else:
+                successful = True
+                cprint("Successfully located info info-icon js-open-info-tab", "green")
+            finally:
+                if tries == 0:
+                    cprint("failed to locate info button after 5 tries. Continuing to next iteration", "red", attrs=['bold'])
+                    street_list.append("not found")
+                    zip_code_list.append("not found")
+                    city_list.append("not found")
+                    break
+
+        if tries == 0:
+            continue
+
+
+
+
 
         # Clicking the button to show the address
         button = driver.find_element(
@@ -288,10 +323,11 @@ def get_addresses(restaurant_list, driver, start=0):
 
 
         # add the new variables to dictionaries in restaurant_list
+
         street_list.append(street)
         zip_code_list.append(zip_code)
         city_list.append(city)
-        time.sleep(np.random.randint(1, 4))
+        time.sleep(np.random.randint(1, 3))
 
     ##########
     ### EXPANDING A DATA FRAME AND EXPORT
@@ -313,7 +349,7 @@ def main():
     # get the restaurant list
     restaurant_list, driver = get_restaurants(zip_codes, start=189)
     # get addresses
-    restaurant_df = get_addresses(restaurant_list, driver, start=0)
+    restaurant_df = get_addresses(restaurant_list, driver, start=2300)
     restaurant_df.to_csv("../data/lieferando_restaurants.csv")
 
 
