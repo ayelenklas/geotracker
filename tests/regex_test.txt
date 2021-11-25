@@ -1,0 +1,222 @@
+
+Banner logo	
+This November is Wikipedia Asian Month
+Join WAM contests and win postcards from Asia.
+
+[Help with translations!]Hide
+Telephone numbers in Germany
+From Wikipedia, the free encyclopedia
+Jump to navigationJump to search
+Germany telephone numbers
+Karte Telefonvorwahlen Deutschland.png
+8 geographic zones
+Location
+Country	Germany
+Continent	Europe
+Regulator	Federal Network Agency
+Type	Open
+NSN length	3 to 13[1]
+Typical format	(0xx…) xx…
+Access codes
+Country calling code	+49
+International call prefix	00
+Trunk prefix	0
+List of Germany dialing codes
+The regulation of telephone numbers in Germany is the responsibility of the Federal Network Agency (German: Bundesnetzagentur, BNetzA) of the German government. The agency has a mandate to telecommunications in Germany and other infrastructure systems.
+
+
+Contents
+1	Overview
+2	Geographic numbering
+3	Non-geographic numbering
+3.1	Emergency and network services
+4	History
+5	See also
+6	References
+7	External links
+Overview
+Germany has an open telephone numbering plan. There used to be no fixed lengths for either area codes or subscriber telephone numbers, meaning that some subscriber numbers may be as short as two digits. As a result, dialing sequences are generally of a variable length, except for some non-geographic area codes for which subscriber numbers use a fixed-length format. It is not possible to determine unambiguously the end of a phone number from a prefix or the digits already dialed. This feature allows the extension of the length of phone numbers without revoking or changing existing numbers. Cell phone numbers in Germany are not given geographic area codes but non-geographic codes. Thus they can easily be told apart from other numbers.
+
+A new numbering plan was introduced on 3 May 2010. Since then new landline phone numbers have a standard length of 11 digits, which includes the area code but omits the trunk prefix of 0. Area codes remain as they are and are still variable in length. Exceptions to the 11 digit rule are the four cities of Berlin, Frankfurt, Hamburg and Munich, which are the only cities with two digit area codes and require only 10 digit numbers so as not to exceed the maximum length of 8 digits for a subscriber number.[2]
+
+The German telephone network uses 5200 geographical area codes, the length of which varies from two to five digits (not including the trunk code 0), with five-digit area codes only being assigned in the New States (prefix 03). In general, geographic area codes start with digits 02 to 09, whereas other non-geographic area codes including those for cell phone usage are assigned to 01 and network services to 11.[3]
+
+Geographic numbering
+Main article: Area codes in Germany
+Geographic area codes have a length of two to five digits. The maximum total length is eleven digits.
+
+Geographic numbers are assigned to carriers in blocks, from which these carriers can make derivative assignments to subscribers.
+
+Subscriber numbers do not start with 0 or 11 and can be called directly from landlines within the same geographic area code.
+
+Originally, the first digits following the area code would indicate a smaller area within these area codes or the type of the subscriber line (analogue or ISDN). However, this is no longer true as subscribers can keep their numbers when moving within an area code or when switching from analogue to ISDN. Further, new carriers assign numbers from different blocks.
+
+(0xx) xxxx-xxxx
+This is the format used for the four largest geographic areas in Germany: Berlin (030), Hamburg (040), Frankfurt (069) and Munich (089).
+Newly assigned numbers have a length of eight digits for the local subscriber number, yielding a total length of ten digits (not including the 0 trunk code). This is shorter than the maximum of eleven digits in other areas in order to avoid local numbers to be longer than eight digits.
+Numbers assigned in the past, which are generally grandfathered, may be as short as five digits.
+(0xxx) xxxx-xxxx
+In area codes that use three digits, newly assigned numbers (for all locations from May 2010; some cities were earlier, e.g. Cologne in February 2007) also have a length of eight digits, yielding a total length of eleven digits. Grandfathered numbers may be as short as four digits (seven total).
+(0xxxx) xxx-xxxx
+In area codes that use four digits, newly assigned numbers (for all locations from May 2010; some cities were earlier, e.g. Heidelberg in May 2003) have a length of seven digits, also yielding a total length of eleven digits. Grandfathered numbers may be as short as three digits (seven total) in very rural areas.
+(03xxxx) xx-xxxx
+Some smaller areas in the former East Germany use five-digit area codes, all of which start with 3. Newly assigned numbers (for all locations from May 2010, some locations were earlier) have a length of six digits, also yielding a total length of eleven digits.
+Non-geographic numbering
+Main article: Area codes in Germany
+Non-geographic numbers were originally assigned the prefix 01. However, some of these services have been moved to other area codes.
+
+010xy, 0100yy
+These numbers can be dialled in front of the actual phone number in order to select a carrier (virtual phone number).
+011…
+Area codes starting with 011 overlap the prefix for network services. In general, these numbers cannot be dialled from abroad, with the exception being 0116xxx (or +49-116xxx) for harmonised services of social value.
+012xx-xxxxxxx…
+The prefix 012 has been assigned as a testbed for innovative services, such as VoIP or unified messaging, for which no other area codes were available. Allocations were only valid for a maximum of five years, after which new numbers would have to be assigned. Recent requests for registrations have been declined and referred to the premium-rate services under 0900. When the last remaining allocation expires in 2011[needs update], the prefix is planned to be returned to the reserved range.
+0137-xxx xxxxxxx, (0138-1xxx…)
+The area code 0137 is assigned for services that may result in a high number of connections in a fairly short period of time, e.g. votes or competitions initiated from TV or radio shows. The first digit indicates the rate for a call, the second digit indicates the maximum number of calls that can be handled per time period.
+There are also sixteen[3] grandfathered numbers in the range 0138-1, which have originally been allocated by Deutsche Bundespost.
+015xx-xxxxxxx, 016x-xxxxxxx, 017x-xxxxxxx
+Mobile numbers are assigned non-geographic area codes starting with 015, 016 and 017 and have a length of 3 or 4 digits without the trunk prefix. The numbers have a total length of ten or eleven digits without the trunk prefix: numbers starting with 17 or 16 are 10 digits long except 176 and 1609, which are 11 digits long like the numbers starting with 15.
+Network operators issue area codes as listed in the following table.
+Prefix(ex)	In use by	MNP
+0151, 0160, 0170, 0171, 0175	T-Mobile (GSM/UMTS)	yes
+0152, 0162, 0172, 0173, 0174	Vodafone (GSM/UMTS)	yes
+0155, 0157, 0159, 0163, 0176, 0177, 0178, 0179	o2 Germany (GSM/UMTS)	yes
+0164, 0168, 0169	e*message (pagers)	no
+However, since the advent of mobile number portability, mobile phone number prefixes can no longer be relied on to determine the current operator behind a particular mobile phone number – only the original operator. As mobile phone plans often include different rates for intra-network calls, it is important for users on such plans to know the network operator of the party they wish to call. The information on which number is registered to which cellular network is updated daily and is publicly available.
+All network operators offer free automated services that can be reached via phone and/or internet and give users the ability to enter any number and determine to which network the number belongs.
+018xx-xxxxxxx…018xxxxxxx-xx
+The prefix 018 is used for user groups. The length of the block number and the terminal number is flexible from two to seven digits. However, the sum is always nine digits, yielding a total length of eleven digits including the 18.
+0180-xxxxxxx
+The area code 0180 is used for service-oriented services, such as call centres, hotlines, etc. Prior to 1 March 2010, these numbers were known as shared cost services, a name that had been obsoleted by falling prices for national calls.
+Prefix	Rate	rate from landlines	rate from mobile phones
+0180-1	time-based rate 1	0.039 €/min.	max. 0.42 €/min.
+0180-2	per-call rate 1	0.06 €/call	max. 0.42 €/min.
+0180-3	time-based rate 2	0.09 €/min.	max. 0.42 €/min.
+0180-4	per-call rate 2	0.20 €/call	max. 0.42 €/min.
+0180-5	time-based rate 3	0.14 €/min.	max. 0.42 €/min.
+0180-6	per-call rate 3	0.20 €/call.	max. 0.60 €/call.
+0180-7	time-based rate 4, first 30 seconds free	0.14 €/min. after 30s	max. 0.42 €/min. after 30s
+0181-xxx-x…, 0181-xxxx-x…
+The area code 0181 is used for international virtual private networks (international user groups). The length of the IVPN block number is three or four digits; the terminal number may be up to seven digits.
+019xxx
+Numbers from 0191 to 0194 are used for dial-up access to online services (e.g. to the Internet).
+0198…, 0199…
+Numbers starting with 0198 and 0199 are reserved for routing of service numbers and network-internal use.
+031-x
+The numbers 031-0 and 031-1 are test numbers that will reach a recorded announcement indicating the selected carrier for long-distance and local calls, respectively.
+032-xxxxxxxxx
+National subscriber numbers have been allocated the area code 032. They are similar to geographic numbers but not tied to a specific location, allowing for nomadic use. Unlike personal numbers, national subscriber numbers are assigned to carriers in blocks, from which these carriers can make derivative assignments to subscribers. The total length is eleven digits (not counting the 0).
+0700-xxxxxxxx
+The area code 0700 is used for personal numbering. Unlike national subscriber numbers, the numbers are assigned individually, allowing for memorable numbers.
+0800-xxxxxxx
+The area code 0800 is assigned to freephone numbers. The numbers are assigned individually, allowing for memorable numbers.
+0900-x-xxxxxx
+The area code 0900 is assigned to premium-rate services. The first digit following the area code indicates the service type:
+Prefix	Service Type
+0900-1	Information services (no adult content)
+0900-3	Entertainment services (no adult content)
+0900-5	Other services (including those offering adult content)
+The numbers are assigned individually, allowing for memorable numbers.
+09009-xxxxxxx
+So-called "dialers", that is programmes that call a premium-rate service or modify a computer's configuration to call such a service must use numbers using the area code 09009. These programmes must also be registered with the Federal Network Agency.
+Emergency and network services
+Network services are not dialed with the trunk prefix 0. They resemble local numbers that start with 11 but usually cannot be dialed after an area code.
+
+110 – Police
+112 – Fire brigade, ambulance, rescue services (also the universal emergency number in the EU)
+115 – Civil services; requests are either answered directly or forwarded to the competent authority.
+116 xxx – Harmonised services of social value
+118 xx – Directory assistance
+19 222 – Non-emergency medical transports. This number is not an emergency number but a local number assigned uniformly in all geographic area codes. This requires dialling the area code from mobile phones or other non-geographic lines.
+(Originally, the block 19 xxx was used for local numbers assigned uniformly in all or several geographic area codes. All other allocations have already been converted to ordinary geographic numbers.)
+History
+Before German reunification, West Germany used country code +49 and East Germany used country code +37, each with its separate area codes and telephone networks. West Berlin was integrated into the West German telephone network, using the same +49 international dialling code as West Germany, with the area code 0311,[4] later changed to 030.[5] Unlike West Germany, from where calls to East Berlin were made using the prefix 00372 (international access code 00, East German country code 37, area code 2),[6] calls from West Berlin required only the short code 0372.[7] Conversely, those made to West Berlin from East Berlin only required the short code 849.[8]
+
+In 1992, two years after reunification, the phone networks were merged under country code +49.
+
+Geographic numbers in the New States were assigned area codes starting with 03, in some cases followed by the former East German area code (without the initial 0) or a code similar to it. Thus, Leipzig, for example, which had used East German domestic area code 041, was assigned the new area code 0341 in the unified telephone system. On the other hand, some area codes were changed: for example, the small town of Zossen used to have East German area code 0323, but the new area code is 03377. Area code 030, formerly used by West Berlin, was assigned to the entire reunified Berlin.
+
+The released country code +37 was later reused as the initial digits of several new codes for European countries that became independent states at the time (e.g.: +370 for Lithuania, +374 for Armenia, +375 for Belarus, etc.), as well as some microstates whose telephone networks had formerly been integrated to those of surrounding larger countries (e.g. +376 for Andorra, +377 for Monaco and +378 for San Marino).
+
+The German phone network became fully digitised in 1997, allowing more flexible use of the numbering space.
+
+On 1 January 1998, the Federal Network Agency (named the Regulatory Authority for Telecommunications and Postal Services at the time) became the numbering authority for phone numbers in Germany.
+
+See also
+List of dialling codes in Germany
+References
+ https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000510005PDFE.pdf
+ http://www.bundesnetzagentur.de/cln_1911/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Nummerierung/Nummerierungskonzept/nummerierungskonzept_node.html
+ Bundesnetzagentur (Federal Network Agency). "Nummerierungskonzept 2011 (Numbering Concept of 2011)" (PDF) (in German). Retrieved 2019-10-24.
+ Der Kunsthandel, Volume 63, A. Hüthig., 1971, page 36
+ Wasser, Luft und Betreib, Volume 21, 1977, page 360
+ The American Bar, the Canadian Bar, the International Bar, Volumes 1-2, R.B. Forster & Associates, 1986, pages 4133
+ 0372 – der Anschluss des Ostens, Die Vorwahl fürs andere Berlin führte oft ins Leere, Der Tagesspiegel, 2 October 2005
+ Rieseln lassen, Der Spiegel, 27 August, 1972
+ITU allocations list
+External links
+115 official site
+White Pages Germany
+Federal Network Agency - Number Management (German)
+vte
+Telephone numbers in Europe
+Sovereign states	
+AlbaniaAndorraArmeniaAustriaAzerbaijanBelarusBelgiumBosnia and HerzegovinaBulgariaCroatiaCyprusCzech RepublicDenmarkEstoniaFinlandFranceGeorgiaGermanyGreeceHungaryIcelandIrelandItalyKazakhstanLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican City
+States with limited
+recognition	
+AbkhaziaArtsakhKosovoNorthern CyprusSouth OssetiaTransnistria
+Dependencies and
+other entities	
+ÅlandFaroe IslandsGibraltarGuernseyIsle of ManJerseySvalbard
+Categories: Telephone numbers in GermanyTelephone numbers by countryTelecommunications in GermanyGermany communications-related lists
+Navigation menu
+Not logged in
+Talk
+Contributions
+Create account
+Log in
+ArticleTalk
+ReadEditView history
+Search
+Search Wikipedia
+Main page
+Contents
+Current events
+Random article
+About Wikipedia
+Contact us
+Donate
+Contribute
+Help
+Learn to edit
+Community portal
+Recent changes
+Upload file
+Tools
+What links here
+Related changes
+Special pages
+Permanent link
+Page information
+Cite this page
+Wikidata item
+Print/export
+Download as PDF
+Printable version
+In other projects
+Wikimedia Commons
+
+Languages
+Alemannisch
+العربية
+Boarisch
+Dansk
+Deutsch
+Español
+Français
+Bahasa Melayu
+Русский
+Edit links
+This page was last edited on 2 November 2021, at 11:20 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaMobile viewDevelopersStatisticsCookie statementWikimedia FoundationPowered by MediaWiki
