@@ -31,7 +31,7 @@ def square_around_coordinate(lat, lon, size) -> tuple:
     return (upper_lat, lower_lat, left_lon, right_lon)
 
 
-def get_square_borders(spacing)->list:
+def get_square_borders(spacing, top_left = (52.635010, 13.198130), bottom_right = (52.39405827510934, 13.596147274545292))->tuple:
     """
     Creates a list of upper and lower longitudes which can be used as centers
     to calculate the upper and lower bounds for squares which can then be used
@@ -45,11 +45,9 @@ def get_square_borders(spacing)->list:
     for mapping later
     """
 # Top left and bottom right of a square covering the entiretty of Berlin
-    BERLIN_TL = (52.635010,13.198130)
-    BERLIN_BR = (52.39405827510934,13.596147274545292)
 
 #  get a number of cirlces with the specified spacing.
-    center_coords, mradius = Utils().get_circlegrid_list(BERLIN_TL, BERLIN_BR, spacing, 1.2)
+    center_coords, mradius = Utils().get_circlegrid_list(top_left, bottom_right, spacing, 1.2)
 
     bounds = []
     for coord in center_coords:
