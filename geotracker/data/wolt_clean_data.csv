@@ -1,0 +1,244 @@
+,restaurant_name,avg_review_score,minimum_order_value,delivery_fee,pricyness,avg_delivery_time_clean,type_of_cuisine_categorized,street,zip_code,city_name,latitude,longitude,database
+0,Besh,8.8,10.0,,1.0,35.0,vegetarian or vegan,Brückenstraße 15,10179,Berlin,52.511594911272894,13.416638899619755,wolt
+1,Five Rivers,8.8,10.0,,2.0,55.0,asian,Albrechtstraße 11,10117,Berlin,52.5214627,13.3848372,wolt
+2,Ferrarino Pizza,8.6,10.0,,2.0,35.0,italian,Garnisonkirchpl. 2,10178,Berlin,52.52182999999999,13.40174,wolt
+3,Hito Falafel,9.0,10.0,,2.0,35.0,middle eastern,Chauseestraße 4,10115,Berlin,52.527779975720726,13.38692562524518,wolt
+4,Miu Lunch,,10.0,1.9,1.0,,asian,Reinhardtstraße 47 A,10117,Berlin,52.5221767,13.3781882,wolt
+5,Pizza-Scheune,8.4,10.0,,2.0,35.0,italian,Rosa-Luxemburg-Straße 49 ,10178,Berlin,52.5280443,13.4099983,wolt
+6,Good n Vegan Kreuzberg,9.0,,,2.0,,vegetarian or vegan,This is a virtual venue,10963,Berlin,52.5038107,13.3804042,wolt
+7,CRACKBUNS,9.0,10.0,,1.0,50.0,american,Auguststrasse 63,10117,Berlin,52.527203,13.3971057,wolt
+8,Hauptstadtburger,7.6,10.0,,2.0,35.0,american,Leipziger Pl. 12,10117,Berlin,52.5102491,13.3799541,wolt
+9,KAIMUG - Foodfactory Cube,8.2,10.0,,2.0,35.0,asian,Washingtonpl. 3,10557,Berlin,52.52366857353486,13.369385654631834,wolt
+10,Hummus Company,8.0,10.0,,1.0,35.0,middle eastern,Leipziger Platz 12,10117,Berlin,52.5102491,13.3799541,wolt
+11,BrewDog Berlin Mitte,8.0,10.0,,2.0,35.0,bars,Ackerstraße 29,10115,Berlin,52.532829205434375,13.395768525794836,wolt
+12,Chen Che,8.0,10.0,,1.0,35.0,asian,Rosenthaler Str. 62,10119,Berlin,52.527961,13.4030479,wolt
+13,Burgerzimmer X,7.8,10.0,,2.0,55.0,american,Heinrich-Heine-Straße 36,10179,Berlin,52.5057895,13.4121294,wolt
+14,Burgerwood,7.6,10.0,1.9,1.0,,american,Reinhardtstraße 47,10117, Berlin,52.52213430971234,13.378588283074198,wolt
+15,MarcAnns,8.8,10.0,1.9,2.0,,european,Invalidenstraße 114,10115,Berlin,52.5306911,13.3842847,wolt
+16,BunUp Mitte,7.8,10.0,,1.0,35.0,vegetarian or vegan,This is a virtual venue,10178,Berlin,52.5238316,13.3985704,wolt
+17,Chelany Mitte,8.6,10.0,,2.0,35.0,fastfood,Torstraße 221,10115,Berlin,52.5276532,13.38861,wolt
+18,Good Morning Vietnam,9.0,10.0,,2.0,35.0,asian,Alte Schönhauser Str. 60,10119,Berlin,52.52839669999999,13.409406,wolt
+19,Sons of Mana x Royals & Rice,9.0,10.0,,2.0,35.0,poke,Friedrichstraße 67,10117,Berlin,52.51261539999999,13.3905721,wolt
+20,Amrit Mitte,8.4,10.0,,3.0,35.0,middle eastern,Oranienburger Straße 45,10117,Berlin,52.525917599997776,13.389576901189136,wolt
+21,Aloha Poke Berlin,,10.0,1.9,2.0,,poke,Washingtonplatz 3,10557,Berlin,52.523606500000014,13.369197899999994,wolt
+22,Lovebirds - Contemporary Pizza,8.4,10.0,,1.0,35.0,italian,Rosenthaler Straße 3,10119,Berlin,52.5287412,13.4018009,wolt
+23,Sushi Miyabi Mitte,8.0,10.0,,2.0,35.0,asian,Georgenstraße 195,10117,Berlin,52.52005035643261,13.39064903068943,wolt
+24,Mr Imbiss Berlin,,10.0,1.9,,,,Schützenstraße 2,10117, Berlin,52.508507041615765,13.390493204098584,wolt
+25,Ristorante Bella Vita,7.6,10.0,,2.0,35.0,italian,Mittelstraße 62,10117,Berlin,52.5179452,13.389358,wolt
+26,Caphe HOA,9.4,10.0,,2.0,55.0,vegetarian or vegan,Stallschreiberstrasse 15,10179,Berlin,52.5064966,13.4082134,wolt
+27,Fam. Dang,8.0,10.0,,2.0,55.0,asian,Torstraße 125,10119,Berlin,52.52974381102301,13.400502548444754,wolt
+28,Quchnia,8.0,,,3.0,,european,Markgrafenstr. 35,10117,Berlin,52.51279599999999,13.3937831,wolt
+29,Torbar,,10.0,1.9,4.0,,middle eastern,Torstraße 183,10115,Berlin,52.52860156318629,13.3934536106567,wolt
+30,SMASH! Mitte,8.6,10.0,,1.0,35.0,american,This is a virtual venue,10179,Berlin,52.5115059,13.4169483,wolt
+31,District Mot,8.2,10.0,,1.0,35.0,asian,Rosenthaler Str. 62,10119,Berlin,52.527961,13.4030479,wolt
+32,Gaststätte Sophieneck,8.8,10.0,,,35.0,european,Große Hamburger Str. 37,10115,Berlin,,,wolt
+33,GOOD BANK - Joachimstrasse,8.4,10.0,,2.0,,poke,Joachimstrasse 17A,10119,Berlin,52.527821,13.4004662,wolt
+34,Steel Vintage Bikes Café Auguststr.,9.0,10.0,1.9,1.0,,breakfast/dessert,Auguststraße 91,10117,Berlin,52.52602558141521,13.390530028241969,wolt
+35,Umami Prenzlauer Berg,8.8,10.0,,2.0,35.0,asian,Knaackstraße 16-18,10405,Berlin,52.53461799999999,13.4197911,wolt
+36,Pizza Point Zimmerstr.,8.4,10.0,,1.0,35.0,italian,Zimmerstraße 10,10969,Berlin,52.5073228,13.3878867,wolt
+37,Frittenwerk Berlin Friedrichstraße,8.8,10.0,,1.0,35.0,american,Friedrichstraße 69,10117,Berlin,52.51263669999999,13.3896904,wolt
+38,Soy Restaurant,9.4,10.0,,2.0,55.0,mediterranean,Rosa-Luxemburg-Straße 30,10178,Berlin,52.52601407098775,13.411483058480062,wolt
+39,Reisfreude,9.0,10.0,,1.0,55.0,european,Brückenstraße 1c,10179,Berlin,52.51191129999999,13.4171379,wolt
+40,Aiko Sushi,8.4,10.0,,3.0,55.0,asian,Brunnenstraße 193,10119,Berlin,52.53053882332101,13.400382578829037,wolt
+41,Soul Sushi Berlin-Mitte,8.8,10.0,,1.0,55.0,asian,Oranienburger Str. 52,10117,Berlin,52.5259259,13.38825,wolt
+42,Djimalaya,9.0,,,2.0,,mediterranean,Invalidenstraße 159,10115,Berlin,52.5323523,13.3973485,wolt
+43,Berliner Marcus Bräu,8.4,10.0,1.9,2.0,,european,"Münzstraße 1-3,",10178,Berlin,52.52397187772237,13.409258666270404,wolt
+44,Angry Chicken - Mitte,8.8,10.0,,1.0,35.0,snacks,Rosa-Luxemburg-Straße 7,10178,Berlin,52.5237938,13.4091964,wolt
+45,Son Kitchen Foodtruck,8.6,10.0,,2.0,55.0,asian,Varian-Fry-Straße ,10785,Berlin,52.5088036,13.3742494,wolt
+46,Happy Buddha,7.4,10.0,,2.0,50.0,middle eastern,Schlegel Straße 22,10115,Berlin,52.53034265713895,13.38685159671559,wolt
+47,Asman,8.4,10.0,1.9,1.0,,middle eastern,Ackerstraße 20,10115,Berlin,52.53156796761646,13.39662193373002,wolt
+48,Vino e Basilico,9.0,,,3.0,,european,Tucholskystraße 18/20,10117,Berlin,52.5252037,13.3932662,wolt
+49,Tiny's Pizza,8.2,10.0,1.9,2.0,,italian,Rosenthaler Straße 36,10178,Berlin,52.52467990421904,13.40214651380219,wolt
+50,At Home by ZENKICHI,9.6,,,4.0,,asian,Johannisstrasse 20,10117,Berlin,52.52471,13.38885,wolt
+51,Burgermeister Potsdamer Platz,8.8,10.0,,1.0,55.0,american,Potsdamer Platz 1 ,10785,Berlin,52.50911563386791,13.374227434253475,wolt
+52,Hayal Grill,9.2,10.0,,2.0,50.0,steak,Charlottenstraße 13,10969,Berlin,52.50701122999866,13.393112483191135,wolt
+53,Anand,8.0,10.0,,2.0,55.0,middle eastern,Albrechtstraße 12,10117,Berlin,52.5211654,13.384961,wolt
+54,Yokozuna Sushi,8.8,10.0,,3.0,35.0,asian, Torstraße 41,10119,Berlin,52.52865349523008,13.411356136938425,wolt
+55,Transit Mitte,8.8,10.0,1.9,1.0,,asian,Rosenthalerstraße 68,10119,Berlin,52.52864513176107,13.4022783,wolt
+56,smartdeli - sushi & more,8.8,10.0,,2.0,35.0,asian,Novalisstr. 2,10115,Berlin,52.52817,13.3891001,wolt
+57,Chupenga - Burritos & Salads Georgenstr.,8.4,10.0,,1.0,35.0,poke,Georgenstraße 200,10117,Berlin,52.51995687003612,13.389513147222218,wolt
+58,Com Viet Berlin,7.8,10.0,,2.0,35.0,asian,Münzstraße 3,10178,Berlin,52.5239938,13.408986,wolt
+59,Five Guys Mitte,7.8,10.0,,2.0,55.0,american,Alexanderpl. 2,10178,Berlin,52.5205493482613,13.41422543051924,wolt
+60,Brammibal's Donuts - Potsdamer Platz,9.6,10.0,,1.0,55.0,breakfast/dessert,Alte Potsdamer Str. 11,10785,Berlin,52.5080051,13.3738108,wolt
+61,Toca Rouge,8.6,10.0,,2.0,35.0,asian,Torstraße 195,10115,Berlin,52.5282882,13.3919802,wolt
+62,Italofritzen,7.4,10.0,,2.0,35.0,european,Friedrichstraße 105,10117,Berlin,52.5227282,13.3881445,wolt
+63,VietBowl Mitte,,10.0,1.9,2.0,,asian,Zimmerstraße 69,10117,Berlin,52.5080041,13.3928408,wolt
+64,Espresso House Friedrichstraße,7.6,10.0,1.9,1.0,,fastfood,Friedrichstraße 125,10117,Berlin,52.5258858,13.3868659,wolt
+65,Vadoli,8.2,10.0,,2.0,55.0,european,Oranienburger Str. 13,10178,Berlin,52.5238316,13.3985704,wolt
+66,Listo Lounge,,10.0,1.9,3.0,,fastfood,Mohrenstraße 30,10117,Berlin,52.5121406,13.3928272,wolt
+67,Campus Suite - Food Factory Cube,8.8,10.0,,1.0,55.0,italian,Washingtonplatz 3,10557,Berlin,52.5236065,13.3691979,wolt
+68,Tasty Bistro,7.6,10.0,,1.0,55.0,italian,Rungestraße 14,10179,Berlin,52.5122717,13.4182962,wolt
+69,Kebap with attitude,8.2,10.0,,2.0,55.0,middle eastern,Gipsstraße 2,10119,Berlin,52.52724314420447,13.39913771682263,wolt
+70,dean&david Quartier 205,8.0,10.0,,2.0,35.0,healthy,Mohrenstraße 50,10117,Berlin,52.51226659611019,13.390251283808636,wolt
+71,FECHTNER Berlin,8.8,10.0,1.9,2.0,,european,Torstraße 114,10119,Berlin,52.529583,13.4025829,wolt
+72,Atame,9.2,,,2.0,,mediterranean,Dircksenstraße 40,10178,Berlin,52.52355832952749,13.40683685030174,wolt
+73,Takumi'9 Sapporo,9.0,10.0,1.9,2.0,,asian,Chausseestraße 124,10115,Berlin,52.5290334,13.3846772,wolt
+74,Burger Vision Torstraße,8.4,10.0,,2.0,50.0,american,Torstraße 128,10119,Berlin,52.5293856,13.4004516,wolt
+75,Salami Social Club II,7.8,10.0,,2.0,50.0,italian,Schönhauser Allee 176,10119,Berlin,52.53172205551587,13.412003162761234,wolt
+76,Jinbu Sushi,8.4,10.0,,2.0,35.0,asian,Bertolt-Brecht-Platz 2,10117,Berlin,52.52243060340517,13.386233377523824,wolt
+77,The Indique,7.8,10.0,,3.0,35.0,middle eastern,Ziegelstraße 29,10117,Berlin,52.52367950000001,13.3906793,wolt
+78,Royals & Rice,8.8,10.0,,3.0,35.0,asian,Torstraße 164,10115,Berlin,52.5288602,13.3959879,wolt
+79,Hopfingerbräu am Brandenburger Tor,,10.0,1.9,2.0,,european,Ebertstraße 24,10117,Berlin,52.5172234,13.377556,wolt
+80,MIBAP,9.2,10.0,,2.0,55.0,asian,This is a virtual venue,10179,Berlin,52.5129513,13.4172072,wolt
+81,Wrapublic Mitte,8.8,10.0,,2.0,35.0,steak,Torstraße 118,10119,Berlin,52.5295128,13.4021367,wolt
+82,beets&roots Mauerstr.,8.4,10.0,,2.0,50.0,poke,Mauerstraße 76,10117,Berlin,52.509409528999086,13.387916692065224,wolt
+83,Da Vinci Ristorante,7.6,10.0,,2.0,35.0,italian,Georgenstraße 192,10117,Berlin,52.5201646,13.3913112,wolt
+84,Rotes Kamel,8.6,10.0,,2.0,35.0,steak, Hannah-Arendt-Str. 4,10117,Berlin,52.5140041,13.3811706,wolt
+85,Dunkin’ Donuts Friedrichsstraße,,10.0,,2.0,55.0,breakfast/dessert,Bhf. Friedrichstr Bahnhof Friedrichstraße,1011,  Berlin,52.52052444659835,13.386710500133292,wolt
+86,Chopstix Mitte,9.0,10.0,,2.0,35.0,asian,Dircksenstraße 35,10178,Berlin,52.5228184,13.4095516,wolt
+87,Tuans Huette,9.0,10.0,,2.0,55.0,asian,Dircksenstraße 40,10178,Berlin,52.523608,13.4069478,wolt
+88,Aitme ,,,,2.0,,mediterranean,This is a virtual venue,10119,Berlin,52.5273961,13.3981992,wolt
+89,CHICKEN POW ! Mitte,8.2,10.0,,1.0,50.0,fastfood,This is a virtual venue,10179,Berlin,52.5115059,13.4169483,wolt
+90,Asia Gondel,8.8,10.0,,1.0,35.0,asian,Brückenstr 1-b,10179,Berlin,52.5116365,13.4171036,wolt
+91,Bar Internazionale,8.2,10.0,,2.0,55.0,european,Rosa-Luxemburg-Str. 31,10178, Berlin,52.52628499999999,13.4109594,wolt
+92,Curry Mitte,9.0,10.0,,1.0,35.0,fastfood,Torstraße 122 ,10119,Berlin,52.52947949164066,13.401082658763467,wolt
+93,Quà Phê,9.4,10.0,,1.0,35.0,asian,Schendelgasse 9,10119,Berlin,52.52679045899932,13.408479274123788,wolt
+94,NamPan,8.8,10.0,,2.0,35.0,asian,Oranienburger Straße 66,10117,Berlin,52.52507150722472,13.391728193152892,wolt
+95,VietBowl Potsdamer Platz,8.6,10.0,,2.0,35.0,asian,Marlene-Dietrich-Platz 1,10785,Berlin,52.5070442,13.3720023,wolt
+96,Co-Chu,8.8,10.0,,2.0,50.0,asian,"Invalidenstraße, 29",10115,Berlin,52.5312198,13.3844848,wolt
+97,Mogg,9.0,10.0,,2.0,35.0,,Auguststr. 11- 13,10117,Berlin,52.5264862,13.3944418,wolt
+98,CHIMNEYS,8.4,10.0,,1.0,35.0,breakfast/dessert,Brunnenstraße 173,10119,Berlin,52.53288560000001,13.3984218,wolt
+99,Subway Behrenstrasse,7.6,10.0,,2.0,35.0,fastfood,Behrenstrasse 47,10117,Berlin,52.51580522932664,13.38987548836371,wolt
+100,Tiger Ramen,7.4,10.0,,2.0,,asian,This is a virtual venue,10119,Berlin,52.5307021,13.4023004,wolt
+101,Namu Sushi,8.0,10.0,,2.0,35.0,asian,Oranienburger Str. 17,10178,Berlin,52.5240721,13.3975879,wolt
+102,Akito Sushi Bar,8.8,10.0,,2.0,35.0,asian,Reinhardtstraße 6,1011, Berlin,52.5239124,13.3867527,wolt
+103,Restaurant acht&dreissig,8.0,10.0,,3.0,35.0,european,Oranienburger Str. 38,10117,Berlin,52.5254649,13.391443,wolt
+104,Vegian,,10.0,,2.0,50.0,vegetarian or vegan,This is a virtual venue,10179,Berlin,52.5115059,13.4169483,wolt
+105,O'Tacos Berlin Spandauer Str.,7.4,10.0,,2.0,50.0,european,This is a virtual venue,10178,Berlin,52.5206084,13.404795,wolt
+106,Steel Vintage Bikes Café Wilhemstr.,9.2,,,1.0,,cafes,Wilhelmstraße 91,10117,Berlin,52.5126941,13.3822101,wolt
+107,Cowei,8.6,10.0,,1.0,35.0,asian,James-Simon-Park 152,10178,Berlin,52.5222596,13.3996438,wolt
+108,Viet Street - Sushi Bar,8.8,10.0,,2.0,35.0,asian,Dirckenstr. 93,10178,Berlin,52.5180296,13.4154194,wolt
+109,Berlin Currys,7.8,10.0,,1.0,35.0,fastfood,Karl-Liebknecht-Str. 13,10178,Berlin,52.5223087920727,13.40833332740671,wolt
+110,Alt-Berliner Gasthaus Julchen Hoppe,9.0,10.0,1.9,2.0,,european,Rathausstraße 25,10178,Berlin,52.51733607261106,13.404971896959797,wolt
+111,Pizza Peppino,,10.0,,1.0,35.0,european,Tucholskystraße 13,10117,Berlin,52.52339332586772,13.391764043640274,wolt
+112,Stay Green,9.4,10.0,,1.0,35.0,poke,Leipziger Str. 51,10117,Berlin,52.5107206,13.4016645,wolt
+113,Capvin,8.2,10.0,,2.0,35.0,italian,Weinbergsweg 24,10119,Berlin,52.53074110000001,13.401757,wolt
+114,Mama Cook,8.6,10.0,,1.0,35.0,asian,Hedemannstraße 10,10969,Berlin,52.50299,13.38859,wolt
+115,Delhi 6,8.4,10.0,,3.0,35.0,middle eastern,Friedrichstraße 237,10969,Berlin,52.50193897290694,13.391047288360232,wolt
+116,Food Brother Mitte,8.0,10.0,,2.0,35.0,middle eastern,Rosenthaler Straße 67,10119,Berlin,52.52856269999999,13.402465,wolt
+117,DALUMA,8.6,10.0,,2.0,35.0,poke,Weinbergsweg 3,10119,Berlin,52.53050805139134,13.40215026441957,wolt
+118,Pizzeria Marienkaefer,8.6,10.0,,2.0,35.0,italian,Marienstraße 18 ,10117,Berlin,52.52231788904327,13.383895084656176,wolt
+119,SIIO,,10.0,1.9,2.0,,asian,Spandauer Str. 3,10178,Berlin,52.5200252,13.4037884,wolt
+120,Saravanaa Bhavan Berlin,8.6,10.0,,2.0,50.0,middle eastern,Potsdamer Platz 5,10785,Berlin,52.510509,13.3761878,wolt
+121,Sucre Et Sel,8.2,10.0,,3.0,50.0,european,Torstrasse 132,10119,Berlin,52.5294179,13.4000347,wolt
+122,Hasir Burger,8.2,10.0,,1.0,35.0,fastfood,Chausseestr.30 ,10115,Berlin,52.5323728,13.3812135,wolt
+123,Goodtime,8.8,10.0,,3.0,35.0,asian,Hausvogteiplatz 11a ,10117,Berlin,52.512719989573846,13.396920166606986,wolt
+124,Espresso House Potsdamer Platz,8.4,10.0,,1.0,35.0,fastfood,Potsdamer Platz 10,10785,Berlin,52.5082174,13.3769992,wolt
+125,Mundo,8.4,10.0,,2.0,45.0,mediterranean,Zimmerstr. 19,10969,Berlin,52.5075063,13.3895957,wolt
+126,Golden Fleece,8.8,10.0,,3.0,35.0,european,Torstraße 69,10119,Berlin,52.52939139999999,13.4076279,wolt
+127,Espresso House DomAquarée,8.8,10.0,1.9,1.0,,fastfood,Karl-Liebknecht-Str. 5,10178,Berlin,52.5199169,13.4040187,wolt
+128,Ristorante Pizzeria Roma,8.4,10.0,,2.0,50.0,italian,Friedrichstraße 129,10117,Berlin,52.52504113280851,13.387145586434125,wolt
+129,Wildes Fraeulein,9.2,10.0,,2.0,35.0,european,Hilda-Geiringer-Weg 6,10557,Berlin,52.52675619999999,13.3723415,wolt
+130,Cocolo Ramen Mitte,9.2,10.0,1.9,2.0,,asian,Gipsstraße 3,10119,Berlin,52.5271845,13.3993081,wolt
+131,Vedang - plant burger (Mall of Berlin),9.0,10.0,,3.0,50.0,american,Leipziger Pl. 12,10117,Berlin,52.5102491,13.3799541,wolt
+132,Effe & Gold,,10.0,,1.0,50.0,american,Washingtonplatz 3,10557,Berlin,52.5236065,13.3691979,wolt
+133,Cha - Natural Drinks,9.0,10.0,,1.0,35.0,breakfast/dessert,Brunnenstraße 173,10115,Berlin,52.53288509999999,13.3984652,wolt
+134,Choppaluna,9.0,10.0,,2.0,50.0,healthy,Rudi-Dutschke-Str. 17,10969,Berlin,52.5067797,13.3933877,wolt
+135,Maison Dang,8.2,10.0,1.9,1.0,,asian,Tucholskystraße 34,10117,Berlin,52.52631535360692,13.393759968406496,wolt
+136,bacg,8.6,10.0,1.9,1.0,,middle eastern,Neue Schönhauser Str.,10178,Berlin,52.52485032890104,13.405544419780236,wolt
+137,Mövenpick Restaurant Berlin,7.4,10.0,1.9,2.0,,poke,Schöneberger Str. 3,10963,Berlin,52.5038107,13.3804042,wolt
+138,Army Food,,10.0,1.9,1.0,,healthy,Mauerstraße 1,10117,Berlin,52.510943,13.3870163,wolt
+139,Indian Village,8.2,10.0,,2.0,35.0,fastfood,Dircksenstraße 94,10178,Berlin,52.5181633,13.4153644,wolt
+140,Hayal Meyhane Mezze Bar,,10.0,1.9,3.0,,asian,Charlottenstraße 13,10969,Berlin,52.50700379103972,13.3932614590103,wolt
+141,Ming Dynastie Mitte,9.2,10.0,,2.0,35.0,asian,Brückenstrasse 6,10179,Berlin,52.5134234,13.4181172,wolt
+142,Jigi Poke Mitte,8.8,10.0,,2.0,35.0,poke,Rosenthaler 69,10119,Berlin,52.52875640803166,13.402202582625035,wolt
+143,Bao Burger by District Mot,7.6,10.0,,2.0,50.0,asian,This is a virtual venue,10119,Berlin,52.527961,13.4030479,wolt
+144,Quy Nguyen Vegan Living ,8.8,10.0,,2.0,50.0,asian,Oranienburger Str. 7,10178,Berlin,52.52374380000001,13.4004558,wolt
+145,MEATBALLERY,,10.0,,2.0,50.0,european,Elisabeth-Schwarzhaupt-Platz 5,10115,Berlin,52.5326499,13.3876973,wolt
+146,Katchi Ice Cream (Hackescher Markt),,10.0,1.9,2.0,,breakfast/dessert,Oranienburger Strasse 89,10178,Berlin,52.52355439999999,13.4005345,wolt
+147,PHO Noodlebar Mitte,8.2,10.0,,2.0,50.0,asian,Linienstraße 134,10115,Berlin,52.52645771339539,13.387788991402266,wolt
+148,momos - organic veggie dumplings,8.6,10.0,,2.0,35.0,vegetarian or vegan,Chausseestr.2 ,10115,Berlin,52.52756239232951,13.3870843374352,wolt
+149,BURGERS BURGERS Mitte,8.6,10.0,,2.0,50.0,american,Brückenstraße 1A,10179,Berlin,52.51158751982628,13.416926842325902,wolt
+150,PUFFLE BEES,9.2,10.0,,2.0,35.0,breakfast/dessert,Brunnenstraße 165,10119,Berlin,52.533995,13.3980013,wolt
+151,HaiCoffee,8.6,10.0,,2.0,35.0,asian,Wallstraße 2,10179,Berlin,52.5111832,13.4036668,wolt
+152,Vegan Bashi,8.2,10.0,,3.0,,asian,This is a virtual venue,10119,Berlin,52.5307021,13.4023004,wolt
+153,Dolores - Mitte,8.8,10.0,,2.0,35.0,mexican,Rosa – Luxemburg – Straße 7,10178,Berlin,52.5237938,13.4091964,wolt
+154,"YADA YADA baked potatoes,salads...and more",9.0,10.0,1.9,2.0,,poke,Kommandantenstraße 71,10117,Berlin,52.5086018,13.4033065,wolt
+155,Nihombashi,7.8,10.0,,2.0,,asian,Weinbergsweg 4,10119,Berlin,52.5307021,13.4023004,wolt
+156,FACTORY GIRL,8.8,,,2.0,,breakfast/dessert,Auguststraße 29c,10119,Berlin,52.5272762,13.3987744,wolt
+157,Yada Yada Breakfast Club,9.0,10.0,1.9,2.0,,breakfast/dessert,Köpenicker Str. 93,10179,Berlin,52.5118344,13.4134833,wolt
+158,Paulaner Wirtshaus Berlin Potsdamer Platz,8.2,10.0,,2.0,35.0,european,Alte Potsdamer Str. 1,10785,Berlin,52.508671,13.3753261,wolt
+159,Tommi's Burger Joint Mitte,7.6,10.0,,2.0,35.0,american,Invalidenstrasse 160,10115,Berlin,52.53238289999999,13.3976359,wolt
+160,Van Long,8.4,10.0,,2.0,35.0,asian,Reinhardtstraße 8,10117,Berlin,52.52379697423213,13.386434408597848,wolt
+161,Jabe Dine & Bar,8.8,10.0,,2.0,55.0,asian,Alte Schönhauser Str. 7,10119,Berlin,52.5274014094146,13.408137673016736,wolt
+162,Go!Fish - Spandauer Strasse,7.0,10.0,,1.0,50.0,seafood,This is a virtual venue,10178,Berlin,52.5206084,13.404795,wolt
+163,Pockets,8.6,10.0,,2.0,35.0,mediterranean,Torstraße 189,10115,Berlin,52.52842494597571,13.392690086507711,wolt
+164,Mizu Ramen,8.8,10.0,,2.0,50.0,asian,Friedrichstraße 115,10117,Berlin,52.5268053,13.3874491,wolt
+165,MA'LOA Poke Bowl Oberwallstr.,8.8,10.0,1.9,2.0,,american,Oberwallstraße 9,10117,Berlin,52.5134504,13.396947,wolt
+166,Yuna,9.2,10.0,1.9,2.0,,bars,Oranienburger Straße 22,10178,Berlin,52.52435000000001,13.39617,wolt
+167,Simela,8.6,10.0,,2.0,35.0,italian,Koppenplatz 1,10115,Berlin,52.5275297,13.3981443,wolt
+168,Haferkater Mitte,8.8,10.0,1.9,2.0,,breakfast/dessert,Friedrichstraße 141 / S-Bahnhof,10117,Berlin,52.5202894,13.3869776,wolt
+169,Café Journale ,7.8,10.0,,1.0,45.0,italian,Lindenstraße 37,10969,Berlin,52.5068558,13.3984213,wolt
+170,Hans im Glück Berlin Hauptbahnhof,8.2,10.0,,2.0,35.0,american,Europaplatz 1,10557,Berlin,52.5254009639078,13.369513069171637,wolt
+171,Manngo,7.4,10.0,,1.0,35.0,asian,Mulackstraße 29,10119,Berlin,52.5273003,13.4056547,wolt
+172,Shezan,8.6,10.0,,2.0,50.0,middle eastern,Neue Roßstraße 13,10179,Berlin,52.51217999072536,13.408207427139809,wolt
+173,Ristorante Marea,7.4,10.0,,3.0,35.0,european,Leipziger Platz 10,10117,Berlin,52.50924990669846,13.37970100978669,wolt
+174,Marina Blu,7.8,10.0,,3.0,50.0,italian,Weinbergsweg 8A,10119,Berlin,52.53126551033871,13.40291421123817,wolt
+175,Weltwirtschaft am HKW,,10.0,1.9,2.0,,european,John Foster Dulles Allee 10,10557,Berlin,52.51928550268709,13.364887312045054,wolt
+176,Spreegold Mitte,7.8,10.0,,2.0,35.0,breakfast/dessert,Rosa-Luxemburg-Straße 2,10178,Berlin,52.5231703,13.4092207,wolt
+177,auf die Hand - Friedrichstrasse,7.6,10.0,1.9,1.0,,european,Friedrichstraße 63,10117,Berlin,52.51169119999999,13.3898889,wolt
+178,pao pao Modern Tea,9.2,10.0,,2.0,35.0,breakfast/dessert,Rosenthaler Str. 66,10119,Berlin,52.5284291,13.40252,wolt
+179,Momotaro Tavern,8.6,10.0,,1.0,35.0,asian,Panoramastraße 1A,10178,Berlin,52.52119813848951,13.409617039645097,wolt
+180,La Premiata ,8.2,10.0,,3.0,35.0,italian, Weinbergsweg 4,10119,Berlin,52.5307021,13.4023004,wolt
+181,cafe camaleon,8.4,10.0,,3.0,35.0,cafes,Rosenthalerstraße 53,10178,Berlin,52.5258247,13.4038859,wolt
+182,Rises Deliciacies,8.8,10.0,,2.0,35.0,middle eastern,Veteranenstraße 25,10119,Berlin,52.53302849816972,13.40014627916736,wolt
+183,Ristorante Bonfini,7.0,10.0,,2.0,35.0,european,Chausseestraße 15,10115,Berlin,52.5295285,13.3848003,wolt
+184,Creasian,7.6,10.0,,2.0,35.0,asian,Große Hamburger Straße 21,10115,Berlin,52.52424725298764,13.399283277399832,wolt
+185,Al Contadino Mozzarella Bar & Bottega,9.2,10.0,1.9,3.0,,european,Auguststraße 34,10119,Berlin,52.52764950259383,13.400837996222302,wolt
+186,Machiavelli,8.4,10.0,,2.0,50.0,european,Albrechtstr.13 Berlin,10117, Berlin,52.52130280012305,13.385180090564926,wolt
+187,Vedang - plant burger (Alexa),8.6,,,3.0,35.0,american,"Grunerstraße 20 Alexa Foodcourt, 2. OG",10179,Berlin,52.51971747719034,13.415936597520494,wolt
+188,Monsieur Vuong,8.8,10.0,,2.0,50.0,asian,Alte Schönhauser Str. 46,10119,Berlin,52.5266587656873,13.40794609384705,wolt
+189,Huong Que - Mitte,9.0,10.0,,2.0,35.0,asian,Weinbergsweg 27,10119,Berlin,52.53032327108959,13.401492579761,wolt
+190,Eat Culture,8.6,10.0,,2.0,35.0,healthy,Dircksenstraße 2,10178,Berlin,52.5216144,13.411286,wolt
+191,Jabe Sushi Bar,8.8,,,2.0,35.0,asian,This is a virtual venue,10117,Berlin,52.51261539999999,13.3905721,wolt
+192,Restaurant Mittmann's,9.0,10.0,,2.0,50.0,european,Rungestraße 11,10179,Berlin,52.5123151,13.4167629,wolt
+193,Little Green Rabbit Unter den Linden,8.2,10.0,1.9,2.0,,healthy,Unter den Linden 21,10117,Berlin,52.5166207,13.3897757,wolt
+194,Van Anh Quan,,10.0,,1.0,35.0,asian,Brunnenstrasse 182,10119,Berlin,52.5315687,13.3993977,wolt
+195,Cana Restaurant ,9.2,10.0,,2.0,35.0,middle eastern,Neue Roßstraße 11,10179,Berlin,52.512489901723086,13.408856382209862,wolt
+196,La Gino,8.0,10.0,,1.0,50.0,european,Rudi-Dutschke-Straße 20,10969,Berlin,52.50697564217489,13.392174971759124,wolt
+197,Sons of Mana Mitte,8.4,10.0,,2.0,35.0,poke,Chausseestraße 19,10115,Berlin,52.53019931058914,13.383765637415303,wolt
+198,Pantry,10.0,10.0,1.9,4.0,,middle eastern,Friedrichstraße 120,10117,Berlin,52.5265902,13.3868778,wolt
+199,St. Oberholz,8.4,10.0,1.9,2.0,,cafes,Rosenthaler Str. 72a,10119,Berlin,52.52947318491223,13.401836958757409,wolt
+200,Standard Serious Pizza - Mitte,7.4,10.0,,2.0,35.0,italian,Torstraße 102,10119,Berlin,52.5294757,13.4039167,wolt
+201,Tacco Point,7.4,10.0,,1.0,50.0,mexican,Zimmerstr. 19,10969,Berlin,52.5075063,13.3895957,wolt
+202,Peking Ente Berlin,8.8,10.0,,2.0,35.0,asian,Voßstraße 1,10117,Berlin,52.5115276,13.3828073,wolt
+203,Bombay,8.6,10.0,,2.0,35.0,middle eastern,Friedrichstraße 106c,10117, Berlin,52.5232743,13.3884602,wolt
+204,Akito Sushi Express,8.8,10.0,,2.0,35.0,asian,Chausseestraße 116,10115,Berlin,52.5300273,13.3834134,wolt
+205,Mr. Vertigo,8.4,10.0,1.9,2.0,,breakfast/dessert,Chausseestraße 17,10115,Berlin,52.5300558,13.3842739,wolt
+206,Ryong,8.8,10.0,,2.0,35.0,asian,Torstraße 59,10119,Berlin,52.52907725886125,13.40893395582038,wolt
+207, Hofbräu Wirtshaus Berlin,8.4,10.0,,3.0,35.0,european,Karl-Liebknecht-Str. 30,10178,Berlin,52.5246416,13.4138208,wolt
+208,Babami,8.2,10.0,,2.0,50.0,asian,Zimmerstraße 23,10969,Berlin,52.5075736,13.3914197,wolt
+209,YamYam,8.6,10.0,1.9,2.0,,asian,Alte Schönhauser Str. 6,10119,Berlin,52.5276072,13.4081676,wolt
+210,Chef's,8.8,10.0,1.9,2.0,,italian,Weinbergsweg 5,10119,Berlin,52.5307281,13.402446,wolt
+211,KAFFEEMITTE,9.0,10.0,1.9,2.0,,breakfast/dessert,Weinmeisterstraße 9a,10178,Berlin,52.52521369999999,13.4061021,wolt
+212,mama trattoria,8.0,10.0,,2.0,50.0,european,Pariser Platz 6a,10117,Berlin,52.516929596762495,13.377739214551184,wolt
+213,Chicken Buzz,8.8,10.0,,1.0,35.0,snacks,Rosenthaler Str. 71,10119,Berlin,52.5290313,13.4020603,wolt
+214,Q Burger Mitte,8.4,10.0,,1.0,50.0,american,Zimmerstraße 68,10117,Berlin,52.508031841694375,13.393314303705523,wolt
+215,NORDSEE - Berlin Spandauer Straße,8.2,10.0,,1.0,35.0,seafood,Spandauer Str. 4,10178,Berlin,52.52070579999999,13.4046972,wolt
+216,Minty's Fresh Food Bar,,10.0,1.9,1.0,,breakfast/dessert,Torstraße 178,10115,Berlin,52.52847496427177,13.394461747404078,wolt
+217,Restaurant Aposto,8.0,10.0,,2.0,35.0,european,Monbijouplatz 12,10178,Berlin,52.52256,13.39942,wolt
+218,90°C Bubble Tea & Cafe,9.2,10.0,,2.0,35.0,breakfast/dessert,Novalisstraße 1,10115,Berlin,52.52780391678912,13.389289793255063,wolt
+219,Pinocchio Berlin,8.0,10.0,,2.0,35.0,european,Alexanderplatz 2,10178,Berlin,52.52082559999999,13.4144639,wolt
+220,Nem&More,8.0,10.0,,2.0,35.0,asian,Brückenstraße 3,10179,Berlin,52.51209410680064,13.417184344174451,wolt
+221,Linh Coffee Lab,9.0,10.0,1.9,1.0,,cafes,Chausseestr. 19,10115,Berlin,52.5302259,13.3840856,wolt
+222,Frittenwerk Mall of Berlin,8.6,10.0,,1.0,35.0,fastfood,Leipziger Pl. 12,10117, Berlin,52.5106200356328,13.379610784424187,wolt
+223,Noumi,9.2,10.0,,2.0,35.0,asian,Jägerstr. 35,10117,Berlin,52.5143007,13.397416,wolt
+224,Coréen Restaurant,9.0,10.0,,1.0,35.0,asian,Torstraße 179,10115,Berlin,52.52879,13.39407,wolt
+225,Rotisserie Weingrün,9.2,10.0,,4.0,50.0,european,Gertraudenstraße 10-12,10178,Berlin,52.51265623800703,13.402922865605952,wolt
+226,Shiso Burger Mitte,8.6,10.0,1.9,2.0,,,Auguststrasse 29C,10119,Berlin,52.527281088490106,13.39881999755326,wolt
+227,Breakfast Club by Quchnia,8.2,10.0,1.9,2.0,,breakfast/dessert,This is a virtual venue,10117,Berlin,52.51279599999999,13.3937831,wolt
+228,Izumi Restaurant-Sushi Bar,8.2,10.0,,3.0,35.0,asian,Kronenstraße 66,10117,Berlin,52.51128484392625,13.38877091446268,wolt
+229,Einstein Unter den Linden,8.8,10.0,1.9,4.0,,european,Unter den Linden 42,10117,Berlin,52.5174343,13.3859139,wolt
+230,Yumcha Heroes,9.0,10.0,,2.0,50.0,asian,Weinbergsweg 8,10119,Berlin,52.53116037652719,13.402767995750356,wolt
+231,Aplo Greek Kitchen & Foods,7.8,10.0,,1.0,35.0,mediterranean,Torstraße 118,10119,Berlin,52.5295128,13.4021367,wolt
+232,Rosenburger,8.8,10.0,,1.0,35.0,american,Brunnenstraße 196,10119,Berlin,52.5300812,13.4006739,wolt
+233,Yakoolza,8.6,10.0,,2.0,50.0,asian,Wilhelmstraße 87,10117,Berlin,52.51309810543373,13.381989088118448,wolt
+234,Don Sushi 15,8.4,10.0,,2.0,50.0,asian,Brückenstraße 15,10179,Berlin,52.5115758,13.4165275,wolt
+235,Cafe Fleury,9.2,10.0,,2.0,50.0,european,Weinbergsweg 20,10119,Berlin,52.53117446073856,13.402212173018816,wolt
+236,Eden - Vietnamese Restaurant,8.6,10.0,1.9,2.0,,asian,Rosenstraße 19,10178,Berlin,52.5216976,13.4049481,wolt
+237,WILD & RAW,8.6,10.0,,2.0,35.0,healthy,Weinbergsweg 5,10119,Berlin,52.5307281,13.402446,wolt
+238,Kuchi Mitte,8.8,10.0,,2.0,35.0,asian,Gipsstraße 3,10119,Berlin,52.5271845,13.3993081,wolt
+239,SUPERFOODS & ORGANIC LIQUIDS Mitte,6.8,10.0,1.9,2.0,,healthy,Friedrichstraße 63,10117,Berlin,52.5117086966474,13.389806035124268,wolt
+240,Hoongy,8.6,10.0,,2.0,35.0,asian,Chausseestraße 5,10115,Berlin,52.5280788,13.3872605,wolt
+241,Esra,7.8,10.0,,1.0,35.0,middle eastern,Rosa-Luxemburg-Straße 5,10178,Berlin,52.523637,13.409156,wolt
+242,Global Tea,9.0,10.0,,1.0,50.0,breakfast/dessert,Max-Beer-Straße 13,10119,Berlin,52.52554070000001,13.4080503,wolt

@@ -44,7 +44,9 @@ count_lines:
 # ----------------------------------
 #      UPLOAD PACKAGE TO PYPI
 # ----------------------------------
-PYPI_USERNAME=<AUTHOR>
+PYPI_USERNAME=castoldie
+PACKAGE_NAME=geotracker
+
 build:
 	@python setup.py sdist bdist_wheel
 
@@ -53,3 +55,8 @@ pypi_test:
 
 pypi:
 	@twine upload dist/* -u $(PYPI_USERNAME)
+
+REQ_FILENAME=request
+
+make_request:
+	@python -m ${PACKAGE_NAME}.${REQ_FILENAME}
