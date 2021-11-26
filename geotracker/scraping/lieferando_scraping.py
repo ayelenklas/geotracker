@@ -334,7 +334,7 @@ def get_addresses(restaurant_list, driver, start=0):
     ##########
     df["street"] = street_list
     df["zip_code"] = zip_code_list
-    df["city"] = city
+    df["city"] = city_list
 
     # Consideration: Export the partial df to disc after a certain number of iterations
     # in order to preserve data in case I get banned halfway through
@@ -349,7 +349,7 @@ def main():
     # get the restaurant list
     restaurant_list, driver = get_restaurants(zip_codes, start=189)
     # get addresses
-    restaurant_df = get_addresses(restaurant_list, driver, start=2740)
+    restaurant_df = get_addresses(restaurant_list, driver, start=3320)
     restaurant_df.to_csv("../data/lieferando_restaurants.csv")
 
 
