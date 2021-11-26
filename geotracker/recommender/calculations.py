@@ -2,7 +2,7 @@ import pandas as pd
 from geotracker.recommender.functions import (
     get_circle_centers_radius,
     restaurants_in_circle,
-    calculate_circle_weights,
+    restaurants_meeting_criteria,
 )
 
 
@@ -37,19 +37,18 @@ def main():
                 restaurants_in_circle_df.insert(1, "spacing", spacing)
                 restaurant_list.append(restaurants_in_circle_df)
 
-
-            circle_weight = calculate_circle_weights(
+            matched_restaurants = restaurants_meeting_criteria(
                 restaurants_in_circle_df, good_review_threshold=5
             )
 
             circle_dict = dict(
-                circle_id = index,
+                circle_id=index,
                 spacing=spacing,
                 center_lat=center_lat,
                 center_lon=center_lon,
                 mradius=mradius,
                 degradius=degradius,
-                circle_weight=circle_weight,
+                circle_weight=len(matched_restaurants),
             )
             circle_list.append(circle_dict)
 
@@ -59,8 +58,9 @@ def main():
 
     # write DF of restaurants in circles to disk
     restaurants_in_circles = pd.concat(restaurant_list)
-    restaurants_in_circles.to_csv("geotracker/data/restaurants_in_circles.csv",
-                                  index=False)
+    restaurants_in_circles.to_csv(
+        "geotracker/data/restaurants_in_circles.csv", index=False
+    )
 
     return None
 

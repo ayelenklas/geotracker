@@ -55,14 +55,28 @@ def restaurants_in_circle(df, center_lat, center_lon, degradius) -> pd.DataFrame
     return df_in_circle
 
 
-def calculate_circle_weights(restaurants_df, good_review_threshold=5):
+def restaurants_meeting_criteria(
+    restaurants_df, good_review_threshold=5, avoid_lieferando=False, avoid_wolt=False
+):
     """
-    For a data frame of restaurants that fall into a circle, this returns
-    a weight for the circle which is a count of "good" restaurants.
-    Good restaurants are restaurants whose average review score exceeds
-    good_review_threshold
+    Returns a data frame with the restaurants that meet criteria specified
+    in the arguments.
+
+    TODO: implement functions that reduce size of restaurants based on other features
     """
     if len(restaurants_df) == 0:
         return 0
 
-    return np.sum(restaurants_df.avg_review_score > good_review_threshold)
+    # Filtering out only good restaurants
+    good_restaurants = restaurants_df[
+        restaurants_df.avg_review_score > good_review_threshold
+    ]
+
+    # restaurants not already on Lieferando
+    if avoid_lieferando:
+        pass
+    # restaurants not already on Wolt
+    if avoid_wolt:
+        pass
+
+    return len(good_restaurants)
