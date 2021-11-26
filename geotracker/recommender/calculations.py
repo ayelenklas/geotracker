@@ -1,5 +1,10 @@
 import pandas as pd
-from geotracker.recommender.functions import get_circle_centers_radius, restaurants_in_circle, calculate_circle_weights
+from geotracker.recommender.functions import (
+    get_circle_centers_radius,
+    restaurants_in_circle,
+    calculate_circle_weights,
+)
+
 
 def main():
     """
@@ -11,38 +16,53 @@ def main():
     Then, a CSV file of all circles and weights is for each spacing iteration
     is stored on disk.
     """
-    restaurnts_df = pd.read_csv("../data/restaurants.csv")
+    restaurants_df = pd.read_csv("geotracker/data/wolt_clean_data.csv")
 
-    spacings = [20, 14, 10, 5]
+    spacings = [50, 30, 20, 15, 10, 5]
 
-    dict_list = []
+    restaurant_list = []
+    circle_list = []
     for spacing in spacings:
         center_coords, mradius, degradius = get_circle_centers_radius(spacing)
-        for center_coord in center_coords:
+        for index, center_coord in enumerate(center_coords):
             center_lat = center_coord[0]
             center_lon = center_coord[1]
             restaurants_in_circle_df = restaurants_in_circle(
-                restaurnts_df, center_lat, center_lon, degradius
+                restaurants_df, center_lat, center_lon, degradius
             )
+
+            # Add circle index to restaurants_in_circle and save to list of dfs
+            if len(restaurants_in_circle_df) != 0:
+                restaurants_in_circle_df.insert(0, "circle_id", index)
+                restaurants_in_circle_df.insert(1, "spacing", spacing)
+                restaurant_list.append(restaurants_in_circle_df)
+
+
             circle_weight = calculate_circle_weights(
-                restaurants_in_circle_df,
-                good_review_threshold=2.5)
+                restaurants_in_circle_df, good_review_threshold=5
+            )
 
             circle_dict = dict(
-                center_lat = center_coord,
-                center_lon = center_lon,
-                mradius = mradius,
-                degradius = degradius,
-                spacing = spacing,
-                circle_weight = circle_weight
+                circle_id = index,
+                spacing=spacing,
+                center_lat=center_lat,
+                center_lon=center_lon,
+                mradius=mradius,
+                degradius=degradius,
+                circle_weight=circle_weight,
             )
-            dict_list.append(circle_dict)
+            circle_list.append(circle_dict)
 
-    circle_df = pd.DataFrame(dict_list)
-    circle_df.to_csv("../data/circle_weights.csv")
+    # Write DF of circles to disk
+    circle_df = pd.DataFrame(circle_list)
+    circle_df.to_csv("geotracker/data/circle_weights.csv", index=False)
+
+    # write DF of restaurants in circles to disk
+    restaurants_in_circles = pd.concat(restaurant_list)
+    restaurants_in_circles.to_csv("geotracker/data/restaurants_in_circles.csv",
+                                  index=False)
 
     return None
-
 
 
 if __name__ == "__main__":

@@ -25,7 +25,6 @@ def get_circle_centers_radius(
         top_left, bottom_right, spacing, 1.2
     )
 
-
     return center_coords, mradius, degradius
 
 
@@ -36,10 +35,10 @@ def is_restaurant_in_circle(observation, center_lat, center_lon, degradius) -> b
     circle's radius in degrees.
     """
 
-    obs_lat = observation["lat"]
-    obs_lon = observation["lon"]
+    obs_lat = observation["latitude"]
+    obs_lon = observation["longitude"]
 
-    return (obs_lat-center_lat)**2 + (obs_lon-center_lon)**2 <= degradius**2
+    return (obs_lat - center_lat) ** 2 + (obs_lon - center_lon) ** 2 <= degradius ** 2
 
 
 def restaurants_in_circle(df, center_lat, center_lon, degradius) -> pd.DataFrame:
@@ -48,18 +47,22 @@ def restaurants_in_circle(df, center_lat, center_lon, degradius) -> pd.DataFrame
     fall into the circle
     """
 
-    df_in_circle = df[(df["latitude"]-center_lat)**2 + (df["longitude"]-center_lon)**2 <= degradius**2]
+    df_in_circle = df[
+        (df["latitude"] - center_lat) ** 2 + (df["longitude"] - center_lon) ** 2
+        <= degradius ** 2
+    ]
 
     return df_in_circle
 
 
-
-def calculate_circle_weights(restaurants_df, good_review_threshold=2.5):
+def calculate_circle_weights(restaurants_df, good_review_threshold=5):
     """
     For a data frame of restaurants that fall into a circle, this returns
     a weight for the circle which is a count of "good" restaurants.
     Good restaurants are restaurants whose average review score exceeds
     good_review_threshold
     """
+    if len(restaurants_df) == 0:
+        return 0
 
-    return restaurants_df[restaurants_df.avg_review_score > good_review_threshold].sum()
+    return np.sum(restaurants_df.avg_review_score > good_review_threshold)
