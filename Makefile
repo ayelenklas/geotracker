@@ -60,3 +60,6 @@ REQ_FILENAME=request
 
 make_request:
 	@python -m ${PACKAGE_NAME}.${REQ_FILENAME}
+
+streamlit:
+	@streamlit run geotracker/website/app.py
