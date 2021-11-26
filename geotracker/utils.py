@@ -37,7 +37,7 @@ class Utils:
         degradius = (side_lenght/(2 * (spacing - 1))) * overlap
         mradius = abs(1000*(degradius * (40075 * np.cos(topleft[1]) / 360)))
 
-        return points, mradius
+        return points, mradius, degradius
 
 
 
