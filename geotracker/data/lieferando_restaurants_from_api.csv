@@ -1,0 +1,920 @@
+restaurant_name,platform,reviews,avg_review_score,street,zip_code,city,latitude,longitude,type_of_cuisine,avg_delivery_time,pricyness,delivery_fee,minimum_order_value
+Funa Sushi Zehlendorf,lieferando,94,4.7,Brümmerstraße 40,14199,Berlin,52.4532141,13.2864961,"['sushi_51', 'asian_1864', 'poke-bowl_2318']",40,0,0,990
+Bowlicious,lieferando,64,4.1,Meerscheidtstr. 4,14199,Berlin,52.5092104,13.2801693,"['vegetarian_391', 'japanese_551', 'asian_1864']",45,0,0,1500
+SL Pizza Felice,lieferando,69,3.8,Leipziger Straße 58,14199,Berlin,52.51133,13.39702,"['italian-pizza_271', 'pasta_1614', 'falafel_1215']",25,0,150,3500
+Nampan Restaurant,lieferando,205,4.5,Oranienburger Straße 66,14199,Berlin,52.5250277,13.3916776,"['sushi_51', 'japanese_551', 'vietnamese_261']",40,0,290,7500
+Miu Sushi,lieferando,2107,4.8,Eisenacher Straße 80,14199,Berlin,52.4889816,13.3499362,"['sushi_51', 'asian_1864', 'poke-bowl_2318']",50,1144,0,2000
+Sushi Yana,lieferando,2582,4.3,Lietzenburger Straße 29,14199,Berlin,52.4989812,13.335613,"['sushi_51', 'japanese_551', 'asian_1864']",30,972,0,1500
+AsiaLand,lieferando,0,0.0,Augsburger Straße 29,14199,Berlin,52.5013194,13.3344323,"['sushi_51', 'japanese_551', 'asian_1864']",50,0,0,3000
+fastVegan by Levo & Lori,lieferando,150,3.9,Martin-Luther-Straße 41,14199,Berlin,52.4936537,13.3458766,"['italian-pizza_271', 'vegetarian_391', 'pasta_1614']",40,0,500,1000
+Apna Virsa,lieferando,86,4.4,Gustav-Müller-Straße 1,14199,Berlin,52.485443,13.3622971,"['indian_71', 'chicken_231', 'soup_1406']",40,0,200,2000
+Hamdibaba,lieferando,3,5.0,Hauptstraße 159,14199,Berlin,52.4898136,13.3602157,"['italian-pizza_271', 'falafel_1215', 'doener_821']",35,0,0,2500
+Pizza Luna,lieferando,5360,4.3,Martin-Luther-Str. 21,14199,Berlin,52.4975441,13.3464952,"['italian-pizza_271', 'italian_21', 'snacks_201']",40,1139,300,3000
+Gambino Lieferservice,lieferando,6220,4.4,Bundesallee 186-187 Hs.nr.,14199,Berlin,52.489016,13.3314211,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,1504,100,1690
+Crispy's Chicken,lieferando,611,4.0,Hauptstraße 149,14199,Berlin,52.487888,13.3583794,"['burgers_541', 'american_381', 'chicken_231']",40,0,0,1750
+Pizza Carino - italienische Küche,lieferando,86,4.9,Hohenzollerndamm 11,14199,Berlin,52.4949639,13.3260311,"['italian-pizza_271', 'italian_21', 'pasta_1614']",30,0,0,3000
+Sushi Nami Schöneberg,lieferando,370,4.4,Grunewaldstraße 39,14199,Berlin,52.4893693,13.3446888,"['sushi_51', 'asian_1864', 'poke-bowl_2318']",30,0,0,890
+OToTO,lieferando,693,4.2,Grunewaldstraße 39,14199,Berlin,52.4893693,13.3446888,"['sushi_51', 'asian_1864', 'poke-bowl_2318']",30,0,0,890
+Kebab House,lieferando,139,2.8,Bülowstraße 1-3,14199,Berlin,52.4989241,13.3553525,"['doener_821', 'turkish_31', 'falafel_1256']",40,703,0,1000
+Pizzeria Tarantella,lieferando,1641,3.9,Grunewaldstraße 35,14199,Berlin,52.4893357,13.3463268,"['italian-pizza_271', 'pasta_1614', 'falafel_1215']",35,1111,200,2000
+Ohanami Sushi & More,lieferando,3777,4.6,Martin-Luther-Straße 47,14199,Berlin,52.4927526,13.3456038,"['sushi_51', 'asian_1864', 'vietnamese_261']",30,1113,0,2990
+Bahar Restaurant,lieferando,46,3.8,Hauptstraße 112,14199,Berlin,52.4815016,13.3482676,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,0,150,1400
+Dildaar Indische Spezialitäten,lieferando,6548,4.3,Landsberger Allee 171,14199,Berlin,52.5318293,13.469589,"['indian_71', 'curry_731', 'lunch_351']",40,1168,0,2200
+Lon Men,lieferando,18892,4.1,Bamberger Straße 30,14199,Berlin,52.4884322,13.3365507,"['chinese_41', 'falafel_1215', 'asian_1864']",30,911,0,1500
+Shawarma One,lieferando,1247,4.2,Hauptstraße 113-115,14199,Berlin,52.4818212,13.3491987,"['burgers_541', 'vegetarian_391', 'lebanese_491']",40,833,50,1500
+Taj Mahal Haus 3,lieferando,1042,4.5,Hauptstraße 54,14199,Berlin,52.4812756,13.3472078,"['italian-pizza_271', 'indian_71', 'curry_731']",40,0,0,1500
+Tasty Burger Brothers,lieferando,362,4.3,Bamberger Straße 7,14199,Berlin,52.496171,13.3370072,"['burgers_541', 'drinks-and-snacks_661']",30,0,0,1500
+Sushi TB Alaska,lieferando,27,4.1,Schmiljanstraße 4,14199,Berlin,52.4705927,13.3294952,"['sushi_51', 'chinese_41', 'soup_1406']",40,0,0,1500
+Mille Gusti,lieferando,1145,4.8,Brandenburgische Str. 78,14199,Berlin,52.4877756,13.3179478,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",30,0,150,1500
+Burger City,lieferando,445,4.4,Lietzenburger Straße 77,14199,Berlin,52.499729,13.3243961,"['burgers_541', 'vegetarian_391', '100-halal_921']",30,0,0,1190
+bundesburger,lieferando,1229,4.0,Bundesallee 199,14199,Berlin,52.49257,13.33137,"['burgers_541', 'fries_1734', 'snacks_201']",30,0,100,1200
+Pizza & Burger Bulls,lieferando,1051,3.9,Hohenstaufenstraße 40,14199,Berlin,52.49431,13.33926,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",40,1034,0,1200
+Papa Grill - Libanesischer Holzkohlegrill,lieferando,424,4.4,Feurigstraße 39,14199,Berlin,52.4815079,13.3499389,"['burgers_541', '100-halal_921', 'arab_1246']",60,1385,0,1500
+027 ~ Not Your Ordinary Kebab,lieferando,418,4.3,Kantstraße 143,14199,Berlin,52.5057239,13.3205023,"['doener_821', '100-halal_921', 'poke-bowl_2318']",50,1670,200,1600
+Ayu Sushi,lieferando,932,5.0,Bornstraße 7,14199,Berlin,52.4657334,13.3252849,"['sushi_51', 'japanese_551', 'asian_1864']",40,0,0,990
+SL West Burger Grill,lieferando,506,4.4,Uhlandstraße 137,14199,Berlin,52.4934475,13.3239325,"['burgers_541', 'falafel_1215', 'spare-ribs_121']",40,1440,300,4500
+Sushi - T. Phu,lieferando,7689,4.8,Berliner Str. 5,14199,Berlin,52.4879285,13.3339462,"['sushi_51', 'japanese_551']",30,1236,0,2000
+Getränke Bärlin,lieferando,30,5.0,Hohenzollerndamm 197,14199,Berlin,52.493582,13.3242397,"['drinks-and-snacks_661', 'ice-cream_1194']",20,0,0,2500
+Com Dai Dung - Japanische Spezialitäten,lieferando,1144,3.8,Grunewaldstr. 54,14199,Berlin,52.4881688,13.3377084,"['sushi_51', 'thai_61', 'vietnamese_261']",45,986,0,1200
+Bobsek Burger,lieferando,5786,4.9,Berliner Straße 30,14199,Berlin,52.486684,13.3234169,"['burgers_541', 'american_381', 'snacks_201']",30,919,100,1490
+Keyfi Sefa by The Meat,lieferando,5,4.7,Altonaer Straße 20,14199,Berlin,52.5185412,13.3414995,"['sushi_51', 'vegetarian_391', 'falafel_1215']",40,0,290,2900
+1ASUSHI OHSAKE,lieferando,1636,5.0,Uhlandstr. 145,14199,Berlin,52.4959251,13.3243326,"['sushi_51', 'japanese_551', 'poke-bowl_2318']",30,1192,0,3000
+Burger Now,lieferando,1708,4.5,Fasanenstraße 14,14199,Berlin,52.5046373,13.3274203,"['burgers_541', 'falafel_1215', 'wrap_1416']",30,686,0,1690
+Chainone,lieferando,82,4.2,Gotzkowskystraße 24,14199,Berlin,52.5244728,13.330153,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,0,250,3990
+Kazoku Berlin,lieferando,2166,4.8,Wegenerstraße 6,14199,Berlin,52.4894844,13.3169015,"['sushi_51', 'japanese_551', 'asian_1864']",40,979,0,1500
+Golden Cut Burger & Vegan,lieferando,224,3.7,Cuxhavener Straße 12,14199,Berlin,52.518285,13.3377447,"['burgers_541', 'american_381', 'falafel_1215']",90,0,190,1990
+Mamma Mia,lieferando,3304,3.7,Sprengelstraße 42,14199,Berlin,52.5421856,13.3577109,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",25,898,300,1500
+At Omar's,lieferando,2606,4.9,Uhlandstr. 142,14199,Berlin,52.4949189,13.3242146,"['falafel_1215', 'falafel_1256', 'syrian_2438']",40,962,150,1200
+Fancy Burger meets Vegan,lieferando,2219,4.5,Wilmersdorfer Straße 133,14199,Berlin,52.5108669,13.3058606,"['burgers_541', 'american_381', 'falafel_1215']",40,1000,190,1990
+Fusion 137,lieferando,175,4.5,Uhlandstraße 106a,14199,Berlin,52.48805,13.32294,"['italian-pizza_271', 'burgers_541', 'falafel_1215']",30,0,300,6000
+Café Kardamom,lieferando,37,4.4,Badensche Straße 55,14199,Berlin,52.4854547,13.3401893,"['italian-pizza_271', 'salads_1456', 'sandwiches_671']",40,0,0,1600
+Sunny Burrito,lieferando,82,4.7,Berliner Straße 141,14199,Berlin,52.4863367,13.3241868,"['mexican_221', 'american_381', 'falafel_1215']",30,0,0,1200
+Stay Healthy,lieferando,120,4.9,Berliner Straße 136,14199,Berlin,52.4862741,13.3231045,"['falafel_1215', 'sandwiches_671', 'poke-bowl_2318']",40,0,0,1000
+Taj India Haus,lieferando,1214,4.5,Stuttgarter Platz 16,14199,Berlin,52.505275,13.3010598,"['italian-pizza_271', 'vegetarian_391', 'indian_71']",50,0,0,1200
+Spice India,lieferando,1389,4.4,Uhlandstraße 161,14199,Berlin,52.4992243,13.3251089,"['vegetarian_391', 'indian_71', 'asian_1864']",40,1544,0,2500
+Saiko Sushi,lieferando,1381,4.8,Klingsorstraße 19,14199,Berlin,52.45139,13.32995,"['sushi_51', 'japanese_551', 'asian_1864']",30,0,0,990
+Sushi EM,lieferando,3202,4.3,Emser Straße 25,14199,Berlin-Wilmersdorf,52.4972417,13.3204219,"['sushi_51', 'japanese_551', 'poke-bowl_2318']",50,1172,0,1500
+Bao An,lieferando,2312,4.1,Berliner Straße 17,14199,Berlin,52.48715,13.32801,"['sushi_51', 'vegetarian_391', 'vietnamese_261']",30,1046,0,1700
+Safran Berlin,lieferando,15501,4.4,Brüsseler Straße 17,14199,Berlin,52.5467301,13.3492476,['indian_71'],50,1368,0,2500
+"86 Burger ""Beef & Vegan Grill""",lieferando,705,3.1,Prinzregentenstraße 95,14199,Berlin,52.49212,13.33339,"['burgers_541', 'falafel_1215', 'drinks-and-snacks_661']",55,979,190,1990
+Atlantik Fischrestaurant,lieferando,248,4.4,Martin-Luther-Straße 134,14199,Berlin,52.47934,13.34458,"['turkish_31', 'seafood_1476', 'fish_421']",50,1899,0,3000
+Sagar,lieferando,3168,4.5,Prinzregentenstr. 53,14199,Berlin,52.4788776,13.3330163,"['indian_71', 'falafel_1215', 'curry_731']",40,1019,0,2000
+Berlin Cigköfte Vegan,lieferando,703,4.3,Herrfurthstrasse 32,14199,Berlin,52.4773189,13.4252372,['falafel_1215'],40,1390,100,5500
+Yogi Indischer Lieferservice,lieferando,2036,4.7,Kamenzer Damm 31,14199,Berlin,52.4342997,13.3582528,"['indian_71', 'falafel_1215', 'curry_731']",30,1057,0,3290
+Bellami Burger,lieferando,1233,4.4,Rheinstraße 43,14199,Berlin,52.4657605,13.329635,"['burgers_541', 'salads_1456', 'snacks_201']",40,0,0,1990
+Da Giorgio,lieferando,4074,4.2,Uhlandstr. 153,14199,Berlin,52.4977,13.3246917,"['italian-pizza_271', 'burgers_541', 'steak_401']",40,1059,100,1500
+ALCATRAZ,lieferando,337,4.7,Bundesplatz 6,14199,Berlin,52.47905,13.32822,"['vegetarian_391', 'mexican_221', 'falafel_1215']",40,1281,199,1000
+doppelt Käse,lieferando,185,4.6,Laubacher Straße 11,14199,Berlin,52.4707069,13.3202819,"['burgers_541', 'american_381', 'falafel_1215']",40,0,100,1500
+Falafel Baba,lieferando,190,4.2,Schloßstraße 106,14199,Berlin,52.4603158,13.3244678,"['100-halal_921', 'falafel_1256', 'arab_1246']",20,1038,0,3500
+NYC Beef & Vegan Club,lieferando,371,3.9,Goethestraße 79,14199,Berlin,52.5087213,13.3209195,"['burgers_541', 'american_381', 'falafel_1215']",30,0,190,1990
+Saigonese Kitchen Berlin,lieferando,541,3.9,Güntzelstrasse 24,14199,Berlin,52.4916074,13.3241889,"['vegetarian_391', 'falafel_1215', 'asian_1864']",30,917,0,2000
+"86 Burger ""Beef & Vegan Grill""",lieferando,950,4.5,Alt-Moabit 37,14199,Berlin,52.52481,13.33384,"['burgers_541', 'american_381', 'falafel_1215']",30,970,190,1990
+Pizzeria Piccolo Taormina,lieferando,1174,4.4,Uhlandstr. 29,14199,Berlin,52.50132,13.32439,"['italian-pizza_271', 'steak_401', 'seafood_1476']",40,1251,200,1200
+Machiavelli am Roseneck,lieferando,439,4.1,Clayallee 1,14199,Berlin,52.4748053,13.2781437,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",40,1439,200,2000
+Manhattan Burger,lieferando,2211,4.7,Schloßstraße 39,14199,Berlin,52.5130245,13.2973661,"['burgers_541', 'american_381', 'falafel_1215']",40,958,0,1500
+Nori Sushi,lieferando,1847,4.7,Trautenaustraße 13,14199,Berlin,52.49144,13.32717,"['sushi_51', 'chinese_41', 'asian_1864']",30,945,0,1500
+AssaTir Libanesische Küche,lieferando,3593,4.5,Uhlandstr. 83-84,14199,Berlin,52.4894093,13.3225828,"['falafel_1256', 'arab_1246', 'lebanese_491']",30,2271,150,1000
+Mai Kudamm,lieferando,34,3.9,Meinekestraße 23,14199,Berlin,52.5019033,13.3293492,"['sushi_51', 'asian_1864']",15,0,0,2000
+May Asia,lieferando,190,4.7,Lietzenburger Str. 77,14199,Berlin,52.499729,13.3243961,"['asian_1864', 'vietnamese_261']",30,1050,150,2000
+RASAS Indian Restaurant,lieferando,355,4.4,Bayernallee 42-42A,14199,Berlin,52.5121506,13.2642691,"['indian_71', 'fish_421', 'chicken_521']",30,0,0,3000
+Sushi Paris,lieferando,3316,4.7,Pariser Str. 44,14199,Berlin,52.49778,13.31968,['sushi_51'],30,1190,0,3000
+Burrito Company,lieferando,4290,4.0,Kantstraße 51,14199,Berlin,52.5067705,13.3096112,"['vegetarian_391', 'mexican_221', 'falafel_1215']",40,879,100,1200
+Call a Pizza,lieferando,2251,3.6,Hohenzollerndamm 7,14199,Berlin,52.49552,13.32767,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",75,1313,0,1400
+Any Sushi,lieferando,1295,4.5,Hubertusstraße 3,14199,Berlin,52.4600345,13.3251933,"['sushi_51', 'asian_1864', 'desserts_954']",50,1077,0,1500
+Dawat Indische Spezialitäten,lieferando,5027,3.9,Celsiusstr. 56,14199,Berlin,52.412163,13.3125831,"['indian_71', 'curry_731', 'lunch_351']",40,1168,0,2200
+Asia Light,lieferando,2077,4.6,Ladenbergstr. 4,14199,Berlin,52.4462807,13.2926678,"['sushi_51', 'asian_1864', 'vietnamese_261']",40,1232,0,2000
+Rohhäppchen,lieferando,20,4.7,Westfälische Straße 52,14199,Berlin,52.4964077,13.2927926,"['sushi_51', 'falafel_1215', 'asian_1864']",45,0,0,2490
+Wie zuhause in Italien,lieferando,249,4.6,Brandenburgische Straße 43,14199,Berlin,52.4966426,13.3076681,"['italian-pizza_271', 'italian_21', 'pasta_1614']",30,0,100,1000
+India Palace I,lieferando,4344,4.4,Hedwigstraße 5,14199,Berlin-Friedenau,52.471464,13.3382338,"['indian_71', 'falafel_1215', 'chicken_521']",40,1327,0,1500
+Tossakan,lieferando,692,4.7,Kaiserdamm 89,14199,Berlin,52.5095607,13.2814214,"['vegetarian_391', 'asian_1864', 'thai_61']",40,0,0,1800
+Restaurant Tulum,lieferando,415,4.4,Am Volkspark 85,14199,Berlin,52.4830652,13.3207044,"['burgers_541', 'vegetarian_391', 'mexican_221']",40,1087,0,1500
+Balli Burger,lieferando,1486,4.4,Schmiljanstraße 17,14199,Berlin,52.46939,13.3324,"['burgers_541', 'salads_1456', 'hot-dog_1824']",40,996,150,1790
+Fattoush Lebanese Fresh Food,lieferando,2115,4.9,U-Bahnhof Fehrbelliner Platz 00,14199,Berlin,52.490421,13.314223,"['falafel_1215', 'arab_1246', 'lebanese_491']",30,826,0,1500
+Burritos & Bowls,lieferando,661,4.2,Rheinstraße 61,14199,Berlin,52.4702631,13.33442,"['mexican_221', 'falafel_1215', 'poke-bowl_2318']",50,985,0,1000
+Neki Sushi,lieferando,336,4.8,Gieselerstraße 17,14199,Berlin,52.4912011,13.3180777,"['sushi_51', 'japanese_551']",40,1660,0,2490
+Stella Di Mare,lieferando,82,4.1,Kundrystraße 6,14199,Berlin,52.4745809,13.3290007,"['italian-pizza_271', 'pasta_1614']",40,0,100,1000
+Manhattan Pizza,lieferando,11783,4.3,Albrechtstr. 114,14199,Berlin,52.454723,13.327343,"['italian-pizza_271', 'italian_21', 'snacks_201']",60,1412,0,700
+Sushi Yoshi,lieferando,214,4.6,Westfälische Straße 46,14199,Berlin,52.4968632,13.2925316,"['sushi_51', 'japanese_551', 'asian_1864']",30,0,0,800
+Burgerzimmer,lieferando,2174,4.0,Berliner Straße 8a,14199,Berlin,52.4348125,13.2628302,"['burgers_541', 'vegetarian_391', '100-halal_921']",60,974,0,1400
+La Luna,lieferando,7305,4.7,Rheinstr. 47,14199,Berlin,52.4669100,13.3306725,"['italian-pizza_271', 'italian_21', 'steak_401']",40,839,0,1500
+008 Look & Feel Grill chinesische Spezialitäten,lieferando,2269,4.7,Lefevrestrasse 1,14199,Berlin,52.4664321,13.327696,"['chinese_41', 'asian_1864', 'lunch_351']",30,1377,0,1300
+Fame-Burger-Burritos-Bowls,lieferando,4721,4.0,Rheinstraße 61,14199,Berlin,52.4702631,13.33442,"['burgers_541', 'mexican_221', 'poke-bowl_2318']",40,753,0,1200
+Sake Sushi Bar,lieferando,3312,4.7,Schlüter Str. 33,14199,Berlin,52.5039400,13.3165800,"['sushi_51', 'asian_1864', 'soup_1406']",40,1440,100,3000
+West Burger,lieferando,1159,4.3,Uhlandstraße 104-105,14199,Berlin,52.4869588,13.3228903,"['burgers_541', 'american_381', 'snacks_201']",50,665,150,1000
+Thaifood & Sushi Bar,lieferando,7942,4.4,Albrechtstr. 112,14199,Berlin,52.4546838,13.3278993,"['sushi_51', 'indian_71', 'thai_61']",40,744,0,1500
+Restaurant DuftReis,lieferando,961,4.6,Joachim-Friedrich-Straße 32,14199,Berlin,52.5008221,13.2963206,"['sushi_51', 'chinese_41', 'vietnamese_261']",40,0,0,1500
+Lino Pizza,lieferando,2657,3.8,Rheinstr. 32-33,14199,Berlin,52.46666,13.32977,"['italian-pizza_271', 'italian_21']",50,1224,0,2000
+Pizza e Pasta am Rüdesheimer Platz,lieferando,2985,4.2,Rüdesheimer Str. 9,14199,Berlin,52.4725888,13.3148251,"['italian-pizza_271', 'italian_21', 'pasta_1614']",30,882,0,1000
+Nikko Sushi,lieferando,2590,4.8,Laubacher Str. 11,14199,Berlin,52.4707069,13.3202819,"['sushi_51', 'japanese_551']",30,1163,0,1500
+"Burger Crew ""Homemade Beef Grill""",lieferando,4449,4.5,Krumme Straße 52,14199,Berlin,52.5062051,13.3093579,"['burgers_541', 'american_381', 'falafel_1215']",30,937,190,1990
+Star of India Lieferservice,lieferando,2305,4.3,Glasower Straße 52,14199,Berlin,52.4644024,13.4378733,"['chinese_41', 'indian_71', 'chicken_521']",50,1358,0,1700
+Restaurant Tugra,lieferando,222,4.8,Kurfürstendamm 96,14199,Berlin,52.4987274,13.2985326,"['salads_1456', 'turkish_31', 'arab_1246']",40,1629,0,3000
+Sushiforlife,lieferando,48,4.7,Bismarckstraße 69,14199,Berlin,52.5106435,13.2984978,"['sushi_51', 'asian_1864', 'soup_1406']",30,0,120,3300
+Pizza Baron,lieferando,1382,4.4,Fahrenheitstraße 28,14199,Berlin,52.4133,13.31393,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",50,835,200,1700
+Burger Company,lieferando,118,3.7,Ludwigkirchstraße 1,14199,Berlin,52.4983548,13.3262215,"['burgers_541', 'falafel_1215', 'wrap_1416']",55,0,0,1200
+Pizza Tino Lieferservice,lieferando,544,4.7,Bottroper Weg 14,14199,Berlin,52.5769562,13.2790206,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,962,500,3000
+Domino's Pizza,lieferando,1222,4.1,Uhlandstraße 87,14199,Berlin,52.4886243,13.322352,"['italian-pizza_271', 'american-pizza_281', 'snacks_201']",30,1002,0,790
+Ristorante Luardi,lieferando,1999,4.5,Kantstraße 60,14199,Berlin,52.5069119,13.3049117,"['italian-pizza_271', 'pasta_1614', 'steak_401']",30,1330,200,1500
+Amma,lieferando,1139,4.3,Brandenburgische Straße 22,14199,Berlin,52.4959906,13.3086033,"['indian_71', 'falafel_1215', 'chicken_521']",30,1509,0,1200
+Sushizimmer,lieferando,67,4.1,Kantstraße 62,14199,Berlin,52.5071691,13.3044105,"['sushi_51', 'chinese_41', 'asian_1864']",30,0,0,1000
+Roti Indisch & Internationale Küche,lieferando,1865,4.5,Ziegelhof 10,14199,Berlin,52.5289781,13.1986118,"['indian_71', 'curry_731', 'soup_1406']",40,1292,150,3000
+Barolo,lieferando,3019,4.3,Rheinstr. 62,14199,Berlin,52.4705068,13.3345441,"['italian-pizza_271', 'italian_21', 'steak_401']",40,1016,100,3000
+Pakhlay,lieferando,105,4.7,Kaiserdamm 33,14199,Berlin,52.5100325,13.2780341,"['indian_71', 'salads_1456', 'curry_731']",40,0,0,1500
+Pizza Bro Berlin,lieferando,125,4.2,Kantstraße 68,14199,Berlin,52.5069926,13.3019062,"['italian-pizza_271', 'pasta_1614', '100-halal_921']",30,0,0,2200
+Achilles Taverna,lieferando,227,5.0,Südwestkorso 15,14199,Berlin,52.4733811,13.3212434,"['greek_91', 'gyros_1356', 'fish_421']",35,0,0,3000
+China-Pfanne,lieferando,8559,4.3,Wilmersdorfer Straße 107a,14199,Berlin,52.5048807,13.3074666,"['chinese_41', 'asian_1864', 'thai_61']",40,780,0,1500
+La Dolce Vita 2,lieferando,39,4.2,Steglitzer Damm 5A,14199,Berlin,52.4514686,13.3364369,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",30,0,0,2000
+Balli Döner,lieferando,603,4.4,Rheinstraße 19,14199,Berlin,52.4688954,13.3321003,"['doener_821', 'turkish_31', '100-halal_921']",40,850,100,1500
+Call a Pizza,lieferando,1028,3.8,Cranachstraße 54,14199,Berlin,52.4674746,13.3424703,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,1315,0,800
+Indisches Restaurant Chirag,lieferando,964,4.5,Unter den Eichen 42-43,14199,Berlin,52.4495443,13.3027598,"['indian_71', 'falafel_1215', 'chicken_521']",40,1262,0,2300
+Hikari sushi,lieferando,132,4.7,Düppelstraße 34,14199,Berlin,52.4580919,13.3242702,"['sushi_51', 'chinese_41', 'asian_1864']",30,1000,0,2000
+Bollywood,lieferando,810,4.3,Havemannstraße 24,14199,Berlin,52.5677732,13.5722306,"['indian_71', 'curry_731', 'seafood_1476']",60,1164,0,1700
+Viet Long Restaurant,lieferando,675,4.9,Hohenzollerndamm 54a,14199,Berlin,52.486964,13.2981046,"['asian_1864', 'thai_61', 'vietnamese_261']",30,883,0,2000
+Pizza Max,lieferando,3628,4.5,Westfälische Str. 66,14199,Berlin,52.4952339,13.2982698,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,1114,100,1100
+Dana Pani Indische Spezialitäten,lieferando,3928,4.1,Britzer Damm 125,14199,Berlin,52.4515217,13.4384131,"['indian_71', 'curry_731', 'lunch_351']",40,1168,0,2200
+2 Friends Burger,lieferando,1588,4.2,Wilmersdorfer Straße 156,14199,Berlin,52.51545,13.30494,"['italian-pizza_271', 'burgers_541', 'falafel_1215']",30,865,0,2490
+Peter Pane,lieferando,1129,4.2,Schloßstraße 34-36,14199,Berlin,52.457979,13.3210808,"['burgers_541', 'falafel_1215', 'salads_1456']",60,1185,190,990
+Diazo,lieferando,299,4.4,Wundtstraße 72,14199,Berlin,52.5069321,13.2839402,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,0,50,1300
+Pizza La Casa,lieferando,253,4.2,Freiheit 35,14199,Berlin,52.529846,13.2289236,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,0,200,3500
+Vikings Burger,lieferando,607,4.7,Kurfürstendamm 132a,14199,Berlin,52.4971389,13.2930887,"['italian-pizza_271', 'burgers_541', 'mexican_221']",40,874,0,1400
+Grill Lokanta,lieferando,2311,4.6,Kaiserdamm 22,14199,Berlin,52.5105126,13.2840698,"['italian-pizza_271', 'pasta_1614', 'doener_821']",30,839,0,2000
+Indian Dream Lieferservice,lieferando,5220,4.5,Hindenburgdamm 57A,14199,Berlin,52.4463232,13.3155582,"['indian_71', 'salads_1456', 'curry_731']",35,1082,100,2500
+Shankara,lieferando,207,4.6,Wilhelmstrasse 1,14199,Berlin,52.52858,13.19487,"['indian_71', 'curry_731', 'chicken_521']",40,1409,200,4000
+Minh Trang,lieferando,368,4.7,Kantstraße 67,14199,Berlin,52.506966,13.3027027,"['sushi_51', 'asian_1864', 'vietnamese_261']",30,0,0,1950
+Kumari Nepalesisches Restaurant,lieferando,72,4.8,Ahrweilerstraße 31,14199,Berlin,52.47316,13.31753,"['indian_71', 'asian_1864', 'dumplings_1814']",50,0,0,2300
+La Rose Restaurant,lieferando,165,4.4,Neue Kantstraße 19,14199,Berlin,52.5062585,13.2845797,"['italian-pizza_271', 'pasta_1614', 'german_431']",40,0,100,1200
+Raja,lieferando,248,3.8,Marienfelder Allee 220,14199,Berlin,52.40748,13.3573,"['indian_71', 'curry_731', 'soup_1406']",70,1165,0,1700
+Asami XꞮ,lieferando,75,4.4,Birkbuschstraße 11,14199,Berlin,52.4512731,13.3210253,"['sushi_51', 'chinese_41', 'thai_61']",30,0,0,3000
+Amazing Burger,lieferando,95,3.6,Franklinstraße 10,14199,Berlin,52.519774,13.3286561,"['burgers_541', 'falafel_1215', 'wrap_1416']",65,0,0,1200
+Zaka Sushi,lieferando,4408,4.7,Bismarckstr. 32,14199,Berlin,52.45303,13.33822,"['sushi_51', 'japanese_551', 'asian_1864']",20,1076,0,1790
+Gyros Grill Villa Christina,lieferando,547,4.6,Feuerbachstraße 34,14199,Berlin,52.4636891,13.3321668,"['italian_21', 'greek_91', 'gyros_1356']",30,922,0,3000
+Darbar Indische Spezialitäten,lieferando,760,3.9,Wiclefstraße 42,14199,Berlin,52.5307893,13.3307873,"['indian_71', 'falafel_1215', 'curry_731']",50,1255,0,2200
+McDonald's®,lieferando,1409,4.0,Mecklenburgische Straße 65-68,14199,Berlin,52.4773301,13.3078838,"['burgers_541', 'american_381', 'ice-cream_1194']",30,991,0,1500
+Restaurant Scheune,lieferando,136,5.0,Eichkampstraße 155,14199,Berlin,52.4889219,13.2612051,"['italian-pizza_271', 'german_431', 'schnitzel_1654']",10,0,200,9000
+Exelans,lieferando,1102,3.9,Scharnweberstrasse 25,14199,Berlin,52.5649848,13.3252247,"['italian-pizza_271', 'doener_821', '100-halal_921']",40,990,500,5000
+Gujrat Palace Restaurant,lieferando,1025,3.8,Quellweg / rechter Betrieb 23,14199,Berlin,52.5380708,13.2696223,"['indian_71', 'fish_421', 'chicken_521']",50,1103,0,1500
+Pizza Fiore,lieferando,519,4.1,Drakestraße 77,14199,Berlin,52.43362,13.30652,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,0,100,1700
+L.A. Burger & Sushi,lieferando,620,4.5,Uranusweg 1,14199,Berlin,52.5663225,13.317449,"['sushi_51', 'burgers_541', 'vegetarian_391']",35,680,250,3500
+Vietnam Restaurant,lieferando,802,4.4,Clayallee 171-177,14199,Berlin,52.4522048,13.2705518,"['sushi_51', 'asian_1864', 'vietnamese_261']",30,1219,0,1490
+Asia Sushi Food,lieferando,1601,4.6,Sophie-Charlotten-Str. 25,14199,Berlin,52.5166857,13.2858697,"['sushi_51', 'vegetarian_391', 'asian_1864']",40,892,0,5000
+Sultan,lieferando,462,4.3,Ostpreußendamm 79,14199,Berlin,52.4184148,13.30514,"['italian-pizza_271', 'doener_821', '100-halal_921']",40,727,200,3000
+On the Way,lieferando,526,4.5,Kaiserdamm 89,14199,Berlin,52.5095607,13.2814214,"['chinese_41', 'asian_1864', 'korean_1114']",40,0,0,1500
+Fancy Grill meets Vegan,lieferando,316,3.5,Baseler Str. 2-4,14199,Berlin,52.44292,13.29467,"['burgers_541', 'american_381', 'falafel_1215']",65,0,190,1990
+Muna Restaurant,lieferando,219,4.5,Undinestraße 1,14199,Berlin,52.4496216,13.3168047,"['indian_71', 'asian_1864', 'chicken_521']",40,1016,0,1500
+Lotus Restaurant,lieferando,430,4.3,Kantstraße 70,14199,Berlin,52.5069491,13.3009206,"['vegetarian_391', 'indian_71', 'falafel_1215']",35,1206,0,3000
+Gyros Grill,lieferando,1024,4.3,Feuerbachstraße 1,14199,Berlin,52.4632118,13.3272497,"['greek_91', 'gyros_1356', 'sandwiches_671']",35,1002,0,3000
+City Pizza,lieferando,432,3.9,Kantstraße 66A,14199,Berlin,52.50702,13.30298,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",40,740,0,1000
+Mo's Kitchen,lieferando,1253,4.6,Schildhornstraße 86,14199,Berlin,52.462809,13.320093,"['italian-pizza_271', 'burgers_541', 'salads_1456']",40,976,0,1500
+Viet Thai Box - Sushi,lieferando,40,4.7,Warnemünder Strasse 1,14199,Berlin,52.475005,13.2912598,"['sushi_51', 'asian_1864', 'poke-bowl_2318']",30,0,0,1500
+Guo Guo Xiang Restaurant,lieferando,154,4.7,Breitenbachplatz 8,14199,Berlin,52.4674725,13.3081963,"['chinese_41', 'noodles_2258', 'soup_1406']",30,0,0,5000
+Smile,lieferando,225,4.6,Schildhornstraße 95,14199,Berlin,52.4620571,13.3223542,"['asian_1864', 'thai_61', 'soup_1406']",40,0,0,2000
+Damaru Indische Spezialitäten,lieferando,276,4.0,Schnellerstrasse 112,14199,Berlin,52.4547691,13.5163746,"['indian_71', 'asian_1864', 'curry_731']",40,1257,0,2000
+Pasta Focaccia,lieferando,377,4.2,Feuerbachstraße 34,14199,Berlin,52.4636891,13.3321668,"['italian-pizza_271', 'italian_21', 'pasta_1614']",35,718,0,1250
+Pizza & Pasta Karamel's,lieferando,244,4.3,Otto-Suhr-Allee 106b,14199,Berlin,52.5177575,13.3072377,"['italian-pizza_271', 'vegetarian_391', 'pasta_1614']",40,944,200,2000
+Lam Hong,lieferando,1056,4.4,Salzbrunner Straße 21,14199,Berlin,52.4889965,13.2936714,"['chinese_41', 'asian_1864', 'vietnamese_261']",40,878,0,1500
+Don Peppino,lieferando,3428,3.6,Berlinickestr. 16a,14199,Berlin,52.4560752,13.3236057,"['italian-pizza_271', 'italian_21', 'chicken_521']",30,823,100,1500
+Asado Steakhaus,lieferando,261,4.2,Potsdamer Chaussee 8,14199,Berlin,52.4326758,13.2359577,"['burgers_541', 'salads_1456', 'steak_401']",45,0,100,3500
+Hoshisushi,lieferando,343,4.5,Deitmerstraße 14,14199,Berlin,52.459695,13.3242131,"['sushi_51', 'vietnamese_261']",45,1200,0,3000
+Aarna Devi,lieferando,27,4.4,Westfälische Straße 72a,14199,Berlin,52.4945284,13.3011827,"['indian_71', 'asian_1864', 'curry_731']",30,0,0,1500
+DoHo Sushi Bar,lieferando,199,4.6,Dahlmannstraße 14,14199,Berlin,52.500414,13.3036041,"['sushi_51', 'vegetarian_391', 'asian_1864']",25,1218,250,3000
+Ristorante Salve,lieferando,489,4.6,Damaschkestraße 31,14199,Berlin,52.500954,13.297555,"['italian-pizza_271', 'italian_21', 'pasta_1614']",35,1025,0,1250
+soopri. Trend Food,lieferando,1231,4.5,Kantstraße 87,14199,Berlin,52.5066131,13.2968617,"['indian_71', 'mexican_221', 'falafel_1215']",40,976,0,2000
+Bistro Avci,lieferando,200,4.1,U-Bhf. - Schloßstraße 00,14199,Berlin,52.4611826,13.3248367,"['burgers_541', 'doener_821', '100-halal_921']",40,0,0,1000
+Pizza AHSA,lieferando,2626,4.0,Spandauer Damm 101,14199,Berlin,52.5182257,13.2821374,"['italian-pizza_271', 'burgers_541', '100-halal_921']",55,1098,50,1400
+Pho 2T Vietnam Cuisine - Sushi,lieferando,112,4.1,Blissestraße 20A,14199,Berlin,52.4844409,13.3198827,"['sushi_51', 'thai_61', 'vietnamese_261']",30,0,200,1000
+Crispy's,lieferando,612,4.1,Teltower Damm 19,14199,Berlin,52.4331349,13.2598333,"['burgers_541', 'american_381', 'chicken_231']",40,1229,0,1750
+Pizza Max,lieferando,56,4.2,Buhrowstraße 1,14199,Berlin,52.4489343,13.352887,"['italian-pizza_271', 'burgers_541', 'italian_21']",40,0,0,1500
+Kiwano,lieferando,20,4.3,Schmiljanstraße 17,14199,Berlin,52.4693882,13.3323968,"['salads_1456', 'desserts_954', 'snacks_201']",90,0,0,1750
+My Indian Dream,lieferando,204,4.2,Piesporter Straße 52,14199,Berlin,52.56269,13.4771,"['indian_71', 'fish_421', 'chicken_521']",65,1151,0,2000
+The Orient House,lieferando,208,4.2,Moritzstraße 5,14199,Berlin,52.538115,13.20241,"['100-halal_921', 'falafel_1256', 'arab_1246']",40,0,0,5000
+San Martin- Argentinisches Steakhouse,lieferando,353,4.2,Habelschwerdter Allee 1,14199,Berlin,52.4463074,13.2934928,"['steak_401', 'beef_1426', 'chicken_521']",50,1441,0,1500
+Asia Stern,lieferando,3241,3.2,Schmargendorfer Str. 35,14199,Berlin,52.471328,13.3341191,"['sushi_51', 'chinese_41', 'asian_1864']",75,1128,0,2500
+Pizzeria Cremina,lieferando,1823,4.1,Südwestkorso 60,14199,Berlin,52.4718700,13.3204100,"['italian-pizza_271', 'italian_21', 'pasta_1614']",30,790,0,1200
+Il Caminetto,lieferando,5291,4.0,Detmolder Straße 50,14199,Berlin,52.4786059,13.3206865,"['italian-pizza_271', 'italian_21', 'snacks_201']",30,791,0,1200
+Pad Thai Restaurant,lieferando,979,4.1,Cicerostrasse 49,14199,Berlin,52.4950234,13.3019521,"['asian_1864', 'curry_731', 'thai_61']",40,894,0,1500
+Getränke Bärlin Food,lieferando,354,4.2,Kaiserdamm 21,14199,Berlin,52.5104866,13.2842984,"['italian-pizza_271', 'pasta_1614', 'ice-cream_1194']",35,802,0,2000
+Ciao Ciao,lieferando,61,4.0,Grüntaler Straße 19,14199,Berlin,52.5531006,13.389099,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",25,0,300,3000
+Diazo,lieferando,325,3.5,Robert-Lück-Straße 1,14199,Berlin,52.4562863,13.32389,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",40,0,0,1000
+Asaki-Sushi,lieferando,278,4.0,Schloßstraße 66a,14199,Berlin,52.4537372,13.3168879,"['sushi_51', 'asian_1864', 'thai_61']",35,914,0,1500
+Prime Burger,lieferando,147,4.1,Quedlinburger Straße 11,14199,Berlin,52.5230416,13.3125492,"['burgers_541', 'falafel_1215', 'wrap_1416']",60,0,0,1200
+NYC beef & vegan Burger Club,lieferando,180,3.8,Schillerstraße 33,14199,Berlin,52.5103775,13.3084835,"['burgers_541', 'american_381', 'falafel_1215']",30,987,190,1990
+Baba Döner,lieferando,271,4.2,Unter den Eichen 96,14199,Berlin,52.4452765,13.2933908,"['doener_821', 'turkish_31', 'falafel_1256']",45,909,0,1500
+Mérida,lieferando,371,3.7,Drakestraße 42,14199,Berlin,52.4444595,13.2946695,"['mexican_221', 'pasta_1614', 'chicken_521']",60,1143,0,1500
+"Burger Crew ""Homemade Beef Grill""",lieferando,1850,3.5,Röntgenstraße 14a,14199,Berlin,52.5185441,13.3136597,"['burgers_541', 'american_381', 'poke-bowl_2318']",45,945,190,1990
+La Steakeria Steakhaus,lieferando,14,3.4,Ahornstraße 22,14199,Berlin,52.4610188,13.3210966,"['salads_1456', 'steak_401', 'fish_421']",45,1295,0,2000
+Ristorante Roma,lieferando,282,4.6,Bundesplatz 8,14199,Berlin,52.4782901,13.3279928,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,1080,299,1000
+Veg'es,lieferando,65,4.9,Fregestraße 5,14199,Berlin,52.4716574,13.337044,"['burgers_541', 'vegetarian_391', 'falafel_1215']",35,0,299,1000
+Trattoria Siciliana,lieferando,508,4.3,Bergstr. 7,14199,Berlin (Steglitz),52.45795,13.32887,"['italian-pizza_271', 'italian_21', 'pasta_1614']",35,1729,299,1000
+Madonna del Castello,lieferando,203,4.4,Schützenstraße 1,14199,Berlin (Steglitz),52.4554851,13.3250117,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",35,881,299,1000
+Ben & Jerry's und Magnum,lieferando,17,4.0,Berlinicke Straße 16,14199,Berlin,52.4558131,13.3233491,"['desserts_954', 'snacks_201', 'ice-cream_1194']",35,0,299,1000
+DECOrestaurant,lieferando,21,4.4,Gasteiner Straße 11,14199,Berlin,52.4878269,13.3215387,"['fish_421', 'bio_621', 'gourmet_2394']",45,0,299,1000
+ConCo Vietnamesische Küche,lieferando,134,4.5,Schloßstraße 49,14199,Berlin,52.4541826,13.3171382,"['asian_1864', 'vietnamese_261', 'soup_1406']",35,902,299,1000
+Il Mergellina,lieferando,157,4.4,Lepsiusstr. 36,14199,Berlin,52.4630424,13.3191612,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",35,1146,299,1000
+Nirwana - Indisches Restaurant,lieferando,547,4.0,Schloßstraße 48a,14199,Berlin,52.4542489,13.3172938,"['vegetarian_391', 'indian_71', 'curry_731']",35,1098,299,1000
+Reza Kubideh,lieferando,0,0.0,Berliner Straße 42A,14199,Berlin,52.48671,13.31924,"['100-halal_921', 'iranian_2324']",40,0,199,1000
+Bab & Kimchi,lieferando,154,3.9,Schöneberger Straße 10,14199,Berlin,52.4641058,13.331168,"['vegetarian_391', 'asian_1864', 'korean_1114']",35,1045,299,1000
+Subway,lieferando,241,3.0,Rheinstraße 66,14199,Berlin,52.4716974,13.3358317,"['salads_1456', 'sandwiches_671']",35,719,299,1000
+Ristorante Giramondo,lieferando,27,4.3,Markelstraße 46,14199,Berlin,52.46523,13.3209,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",35,1146,299,1000
+Anh Ba,lieferando,150,4.4,Nassauische Straße 36,14199,Berlin,52.4873589,13.3263076,"['vegetarian_391', 'falafel_1215', 'vietnamese_261']",45,0,299,1000
+Teja Restaurant,lieferando,76,4.1,Lepsiusstraße 69,14199,Berlin,52.4600525,13.3171005,"['vegetarian_391', 'indian_71', 'chicken_521']",35,0,299,1000
+Pho Bay,lieferando,321,4.7,Berliner Straße 32,14199,Berlin,52.4867251,13.3232007,"['asian_1864', 'vietnamese_261', 'soup_1406']",40,886,299,1000
+Döner & Hähnchen Haus,lieferando,272,4.0,Güntzelstraße 41,14199,Berlin,52.4912828,13.3235449,"['doener_821', 'turkish_31', 'turkish-pizza_291']",40,740,299,1000
+Sushi Miyabi,lieferando,1216,3.8,Uhlandstraße 104-105,14199,Berlin,52.4869588,13.3228903,"['sushi_51', 'asian_1864', 'chicken_521']",40,1147,299,1000
+Chibo - Korean Chicken & Bowls,lieferando,1318,4.0,Kantstraße 65,14199,Berlin,52.5073473,13.3035926,"['vegetarian_391', 'korean_1114', 'chicken_521']",45,990,299,1000
+Nuovo Mario Grunewald,lieferando,45,4.4,Reichenhaller Straße 4,14199,Berlin,52.4771897,13.2897703,"['vegetarian_391', 'italian_21', 'gluten-free_1556']",40,0,199,1000
+Thung Thai Restaurant,lieferando,78,4.7,Düppelstraße 41,14199,Berlin,52.4571351,13.322445,"['vegetarian_391', 'asian_1864', 'thai_61']",35,0,299,1000
+Restaurant Ratana,lieferando,279,4.4,Bundesallee 95,14199,Berlin,52.4664695,13.3279206,"['asian_1864', 'thai_61']",35,1331,299,1000
+China Food,lieferando,298,4.3,Schloßstraße 91,14199,Berlin,52.4580461,13.3220777,"['chinese_41', 'asian_1864', 'noodles_2258']",35,1185,299,1000
+Kim's Ha,lieferando,387,4.7,Kantstraße 87,14199,Berlin,52.5065958,13.2969289,"['asian_1864', 'noodles_2258', 'vietnamese_261']",40,971,299,1000
+Buchcafé,lieferando,148,4.4,Kantstr. 90,14199,Berlin,52.50633,13.2978499,"['vegetarian_391', 'asian_1864', 'korean_1114']",40,1002,299,1000
+Sushi Restaurant Co Do Hue,lieferando,234,4.3,Windscheidstraße 12,14199,Berlin,52.50735,13.29859,"['asian_1864', 'thai_61', 'vietnamese_261']",40,932,299,1000
+Dozo Ramen,lieferando,99,4.2,Leonhardtstraße 24,14199,Berlin,52.5046287,13.2984548,"['japanese_551', 'falafel_1215', 'soup_1406']",40,0,299,1000
+Zen House Vegan Restaurant,lieferando,142,4.1,Kantstraße 71,14199,Berlin,52.5069853,13.3001546,"['japanese_551', 'falafel_1215', 'asian_1864']",40,988,299,1000
+Dschunke,lieferando,69,4.1,Breite Straße 15,14199,Berlin,52.4747213,13.2935142,"['asian_1864', 'dumplings_1814']",40,0,199,1000
+Restaurant Masala,lieferando,212,4.1,Friedbergstrasse 38,14199,Berlin,52.5037756,13.29241,"['chinese_41', 'indian_71', 'indonesian_131', 'greek_91', 'chicken_521']",40,1488,299,1000
+Hafis,lieferando,58,4.1,Neue Kantstraße 17,14199,Berlin,52.5062464,13.283422,['iranian_2324'],40,1693,299,1000
+V'uisine,lieferando,15,4.4,Wilhelmsaue 110,14199,Berlin,52.4850892,13.3207525,"['falafel_1215', 'asian_1864', 'vietnamese_261']",35,0,199,1000
+Partybrenner,lieferando,207,4.8,Wittekindstraße 33,14199,Berlin,52.4594138,13.3725554,"['sushi_51', 'italian_21', 'drinks-and-snacks_661']",60,3233,200,2900
+Hage Ramen,lieferando,37,4.5,Brandenburgische Straße 77,14199,Berlin,52.4878312,13.317812,"['sushi_51', 'japanese_551', 'curry_731']",90,0,300,3000
+Pizza Meister,lieferando,17,3.7,Zossener Straße 12,14199,Berlin,52.4922794,13.3943531,"['italian-pizza_271', 'italian_21', 'salads_1456']",45,0,0,0
+Jayden Restaurant,lieferando,12,5.0,Manfred-von-Richthofen-Straße 6,14199,Berlin,52.4842452,13.3840319,"['sushi_51', 'japanese_551']",30,0,0,0
+SmokePops,lieferando,4,5.0,Reichenberger Straße 176,14199,Berlin,52.4997045,13.4170335,"['desserts_954', 'drinks-and-snacks_661']",55,0,0,0
+Moghul Restaurant - indische & vegane Spezialitäten,lieferando,6,4.1,Akazienstraße 5,14199,Berlin,52.4870688,13.3557138,"['indian_71', 'falafel_1215', 'curry_731']",40,0,0,0
+Quick Back,lieferando,0,0.0,U-Bahnhof Stadtmitte 0 (U2 am Gleis),14199,Berlin,52.5111603,13.389742,"['salads_1456', 'desserts_954', 'breakfast_361']",30,0,199,0
+Mama's Küche 22,lieferando,0,0.0,Yorckstrasse 22,14199,Berlin,52.4929106,13.3800294,"['salads_1456', 'turkish_31', 'desserts_954']",55,0,0,0
+Call a Pizza,lieferando,9727,4.2,Mohrenstr. 67-69,14199,Berlin,52.5117899,13.3844984,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,1387,0,0
+Mundo II Restaurant,lieferando,120,3.8,Zimmerstraße 19,14199,Berlin,52.5075063,13.3895957,"['burgers_541', 'mexican_221', 'spanish-and-tapas_11']",55,0,0,0
+La Gino,lieferando,851,4.8,Rudi-Dutschke-Straße 20,14199,Berlin,52.507,13.39219,"['italian-pizza_271', 'italian_21', 'tarte_2424']",30,960,0,0
+Saiko Sushi,lieferando,617,4.6,Yorckstraße 77,14199,Berlin,52.4929841,13.3825385,"['sushi_51', 'japanese_551', 'asian_1864']",40,0,0,0
+Don Aldini,lieferando,155,4.4,Karl-Heinrich-Ulrichs-Straße 8,14199,Berlin,52.5009643,13.3541484,"['burgers_541', 'vegetarian_391', 'pasta_1614']",30,946,0,0
+Falafelo Berlin,lieferando,219,4.2,Mehringdamm 25,14199,Berlin,52.4939795,13.3888265,"['100-halal_921', 'falafel_1256', 'arab_1246']",40,0,0,0
+Pizza Max,lieferando,301,4.0,Wilhelmstraße 23,14199,Berlin,52.50401,13.3879699,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",35,0,0,0
+Pizza Noi,lieferando,2181,4.5,Potsdamer Straße 112,14199,Berlin,52.50064,13.3629801,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",40,978,0,0
+Pizza Kiste,lieferando,132,4.5,Mehringdamm 44,14199,Berlin,52.4923913,13.3869581,"['italian-pizza_271', 'pasta_1614', '100-halal_921']",25,0,0,0
+Yoko Sushi,lieferando,962,4.2,Wilhelmstraße 24,14199,Berlin,52.5038931,13.3894846,"['sushi_51', 'japanese_551', 'poke-bowl_2318']",30,1228,0,0
+Agenor,lieferando,269,4.8,Maaßenstraße 14,14199,Berlin,52.497331,13.3541896,"['vegetarian_391', 'falafel_1215', 'falafel_1256']",40,988,0,0
+Pizza El Fredo,lieferando,275,4.1,Friedrichstraße 14,14199,Berlin,52.50208,13.39149,"['italian-pizza_271', 'pasta_1614', '100-halal_921']",40,0,0,0
+Restaurant Split,lieferando,240,4.7,Blücherplatz 2,14199,Berlin,52.4963536,13.3902653,"['salads_1456', 'steak_401', 'fish_421']",35,0,0,0
+Taste of Happiness,lieferando,0,0.0,Maaßenstraße 11,14199,Berlin,52.4977002,13.3547303,"['desserts_954', 'baked-goods_2468', 'ice-cream_1194']",30,0,0,0
+Yummy Kitchen,lieferando,90,3.9,Zossener Straße 13,14199,Berlin,52.4921356,13.3943125,"['burgers_541', 'wrap_1416', 'chicken_521']",60,1041,0,0
+BURGER KING ®,lieferando,781,1.9,Europaplatz 1,14199,Berlin,52.5249111,13.369492,"['burgers_541', 'american_381', 'snacks_201']",40,974,199,0
+Pinik's,lieferando,8,4.4,Obentrautstraße 70,14199,Berlin,52.4974153,13.3808574,"['burgers_541', 'vegetarian_391', 'turkish_31']",30,0,199,0
+Bergmann Burger by BeefMan,lieferando,441,4.6,Bergmannstraße 112,14199,Berlin,52.4902266,13.3873411,"['burgers_541', 'american_381', 'wrap_1416']",30,0,0,0
+Phantasia Restaurant,lieferando,346,4.8,Mehringdamm 44-46,14199,Berlin,52.4923913,13.3869581,"['sushi_51', 'japanese_551', 'dumplings_1814']",30,1092,0,0
+Ely's Burger,lieferando,383,4.0,Alboinstraße 77,14199,Berlin,52.4634362,13.3702493,"['italian-pizza_271', 'burgers_541', 'mexican_221']",40,1664,0,1490
+Zhong Hua,lieferando,948,4.5,Lindenstr. 29a,14199,Berlin,52.50501,13.39702,"['chinese_41', 'asian_1864', 'thai_61']",30,866,0,0
+Royals & Rice x Sons of Mana,lieferando,209,4.0,Friedrichstraße 67,14199,Berlin,52.5126154,13.3905721,"['asian_1864', 'vietnamese_261', 'poke-bowl_2318']",55,954,0,0
+Indisches Restaurant Muglia,lieferando,11325,4.6,Gneisenaustraße 69,14199,Berlin,52.490441,13.4017038,"['indian_71', 'curry_731', 'chicken_521']",40,1006,0,0
+Izumi Restaurant Sushi Bar,lieferando,1256,4.0,Kronenstr. 66,14199,Berlin,52.5111789,13.3886504,"['sushi_51', 'japanese_551', 'fish_421']",25,1182,0,0
+Delhi 6,lieferando,249,3.3,Friedrichstraße 237,14199,Berlin,52.50205,13.39094,['indian_71'],50,1304,0,0
+Pommes Freunde,lieferando,29,2.9,Leipziger Platz 12,14199,Berlin,52.5102817,13.3792042,"['burgers_541', 'vegetarian_391', 'american_381']",75,1038,0,0
+Da Vinci Pizza-Pasta-Salate,lieferando,2493,4.7,Derfflingerstraße 19,14199,Berlin,52.5026859,13.3562157,"['italian-pizza_271', 'pasta_1614', 'falafel_1215']",30,805,0,0
+La Piccola,lieferando,2219,4.2,Ritterstr. 60 B,14199,Berlin,52.50539,13.39782,"['italian-pizza_271', 'pasta_1614', 'arab_1246']",30,939,0,0
+Elys Burger,lieferando,13,3.9,Bundesallee 142 HH rechts,14199,Berlin,52.4770969,13.3289417,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,0,100,3000
+Beets & Roots,lieferando,416,3.8,Mauerstraße 76,14199,Berlin,52.5093377,13.3876592,"['vegetarian_391', 'falafel_1215', 'salads_1456']",30,963,0,0
+Winterfeld,lieferando,1390,4.6,Winterfeldtstr. 58,14199,Berlin,52.496839,13.351307,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",25,1437,0,0
+WORLD OF PIZZA,lieferando,3959,4.4,Seydelstr. 18,14199,Berlin Mitte,52.5084983,13.4053207,"['italian-pizza_271', 'burgers_541', 'gluten-free_1556']",30,1350,0,0
+Yakoolza,lieferando,19,4.6,Wilhelmstraße 87,14199,Berlin,52.5130232,13.3816551,"['sushi_51', 'salads_1456', 'asian_1864']",90,0,0,0
+Soul Sushi,lieferando,110,4.5,Oranienburger Straße 52,14199,Berlin,52.5259259,13.38825,"['sushi_51', 'japanese_551', 'asian_1864']",30,0,0,0
+Casalot Restaurant,lieferando,301,4.9,Claire-Waldoff-Straße 5,14199,Berlin,52.5245199,13.3862662,"['vegetarian_391', 'arab_1246', 'lebanese_491']",50,1615,1190,9000
+What a treat,lieferando,654,4.2,Gneisenaustrasse 94,14199,Berlin,52.4921043,13.3936627,"['burgers_541', '100-halal_921', 'breakfast_361']",50,816,0,0
+Kebab 36,lieferando,25,4.7,Blücherstraße 15,14199,Berlin,52.49527,13.397167,"['burgers_541', 'doener_821', 'turkish_31']",35,990,0,0
+Lieferservice Anand,lieferando,1734,4.2,Albrechtstr. 12,14199,Berlin,52.5211654,13.384961,"['indian_71', 'salads_1456']",35,1132,0,0
+PIZZA NUNO,lieferando,1345,4.2,Blücherstr. 66a,14199,Berlin,52.4959368,13.3968160,"['italian-pizza_271', 'italian_21', 'snacks_201']",30,796,0,0
+Pizza Kartell,lieferando,762,4.1,Fidicinstraße 43,14199,Berlin,52.4875423,13.3877248,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,0,0,0
+Piccola Romantica,lieferando,1058,4.7,Bergmannstr. 19,14199,Berlin,52.48909,13.3926319,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",30,945,0,0
+Thai Huong Snack,lieferando,22451,3.8,Heinrich Heine Platz 12,14199,Berlin,52.5064476,13.4177592,"['sushi_51', 'chinese_41', 'thai_61']",40,870,0,0
+Pizzeria Laila Kreuzberg,lieferando,2514,4.3,Tempelherrstraße 2,14199,Berlin,52.4947125,13.400871,"['italian-pizza_271', 'italian_21', 'pasta_1614']",30,813,0,0
+Guacamole,lieferando,474,4.3,Dudenstraße 6 rechts,14199,Berlin,52.4851164,13.384907,"['mexican_221', 'sandwiches_671', 'drinks-and-snacks_661']",40,1028,0,0
+Kim Long Asia,lieferando,1242,4.4,Potsdamer Straße 118,14199,Berlin,52.5002645,13.3625361,"['asian_1864', 'curry_731', 'thai_61']",30,763,0,0
+Hako Ramen,lieferando,741,4.2,Bergmannstraße 11,14199,Berlin,52.4893769,13.390305,"['japanese_551', 'noodles_2258', 'soup_1406']",60,1134,0,0
+Burger City,lieferando,794,3.9,Potsdamer Straße 129,14199,Berlin,52.4973097,13.3625665,"['burgers_541', 'vegetarian_391', '100-halal_921']",30,955,0,0
+Sushi For You,lieferando,3137,4.6,Dudenstraße 72,14199,Berlin,52.48531,13.37528,"['sushi_51', 'japanese_551', 'asian_1864']",30,1410,0,0
+Köfte City,lieferando,723,3.9,Mehringdamm 52,14199,Berlin,52.4917257,13.3866603,"['vegetarian_391', 'turkish_31', '100-halal_921']",40,965,0,0
+Schöne Burger,lieferando,1900,4.6,Goltzstr. 24,14199,Berlin,52.4968006,13.3534786,"['burgers_541', 'salads_1456', 'fries_1734']",35,803,0,0
+Yoko Sushi,lieferando,77,4.7,Martin-Luther-Straße 41,14199,Berlin,52.4936537,13.3458766,"['sushi_51', 'japanese_551', 'poke-bowl_2318']",25,0,0,0
+Pizza Hut,lieferando,142,2.3,Leipziger Platz 12,14199,Berlin,52.5104461,13.3800834,"['italian-pizza_271', 'pasta_1614', 'american-pizza_281']",90,1525,0,0
+Sushi City,lieferando,1001,5.0,Nollendorfstraße 26,14199,Berlin,52.497315,13.3514542,"['sushi_51', 'asian_1864', 'poke-bowl_2318']",30,0,0,0
+Burger am Feld,lieferando,175,4.2,Gitschiner Straße 70,14199,Berlin,52.4986418,13.4070887,"['burgers_541', 'vegetarian_391', '100-halal_921']",30,0,0,0
+Vadoli Pizza Berlin Mitte,lieferando,3644,4.4,Oranienburger Strasse 13-14,14199,Berlin,52.5238316,13.3985704,"['italian-pizza_271', 'italian_21', 'salads_1456']",30,887,0,0
+Mix my bowl,lieferando,27,4.1,Mehringdamm 72,14199,Berlin,52.4902106,13.3860044,"['salads_1456', 'lunch_351', 'poke-bowl_2318']",25,0,0,0
+Ristorante Centro Sud,lieferando,33,4.8,Bülowstr. 10,14199,Berlin,52.4984679,13.3574834,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",35,1003,0,0
+iiu - Asian Fusion Food,lieferando,5467,4.4,Oranienstr. 10-11,14199,Berlin,52.50018,13.42427,"['sushi_51', 'asian_1864', 'vietnamese_261']",30,1183,0,0
+Berkis,lieferando,5306,4.5,Winterfeldtstraße 45,14199,Berlin,52.4970130,13.3536903,['greek_91'],40,869,0,0
+Berlin Burrito,lieferando,1679,4.4,Pallasstraße 21,14199,Berlin,52.4945335,13.3543232,['mexican_221'],40,891,0,0
+Sushi For You,lieferando,503,4.4,Heinrich-Heine-Straße 29,14199,Berlin,52.5067624,13.4137248,"['sushi_51', 'japanese_551', 'asian_1864']",30,1410,0,0
+Kaiju,lieferando,66,4.6,Grunewaldstraße 21,14199,Berlin,52.4897736,13.3506465,"['sushi_51', 'asian_1864', 'vietnamese_261']",40,0,0,0
+Baharat Falafel & Shawarma,lieferando,300,4.4,Winterfeldtstraße 37,14199,Berlin,52.4968955,13.3551358,"['vegetarian_391', 'falafel_1256']",45,1012,0,0
+Call a Pizza,lieferando,118,4.0,Arndtstraße 6,14199,Berlin,52.48845,13.39478,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",35,0,0,0
+Tre Xanh,lieferando,881,4.6,Heimstraße 8,14199,Berlin,52.48754,13.39648,"['asian_1864', 'vietnamese_261']",25,744,0,0
+Müm Bistro,lieferando,63,3.9,Reichenberger Straße 151,14199,Berlin,52.4972728,13.4249715,"['sandwiches_671', 'breakfast_361', 'chicken_521']",25,916,0,0
+Chéri,lieferando,281,4.4,Dudenstraße 6,14199,Berlin,52.4851164,13.384907,"['burgers_541', 'mexican_221', 'pasta_1614']",40,997,0,0
+Burgerzimmer,lieferando,772,4.1,Heinrich-Heine-Straße 38,14199,Berlin,52.505646,13.4120233,"['burgers_541', 'vegetarian_391', '100-halal_921']",40,974,0,0
+Emo's Tempelburger,lieferando,770,4.5,Dudenstraße 15,14199,Berlin,52.484778,13.3830867,"['italian-pizza_271', 'burgers_541', '100-halal_921']",40,804,0,0
+Mezban,lieferando,1511,4.7,Eisenacher Straße 59,14199,Berlin,52.485112,13.3520983,"['indian_71', 'falafel_1215', '100-halal_921']",40,1535,0,0
+AMRIT - Berlin Schöneberg,lieferando,777,4.2,Winterfeldtstraße 40,14199,Berlin,52.497241,13.3549351,"['vegetarian_391', 'indian_71', 'falafel_1215']",40,1071,0,0
+Burgerzimmer,lieferando,612,4.7,Hauptstraße 159,14199,Berlin,52.4898083,13.3601656,"['burgers_541', 'vegetarian_391', '100-halal_921']",40,974,0,0
+AMRIT - Berlin Mitte,lieferando,1923,4.3,Oranienburger Straße 45,14199,Berlin,52.5259176,13.3898183,"['vegetarian_391', 'indian_71', 'falafel_1215']",40,1074,0,0
+Öz Adana Grillhaus,lieferando,285,3.8,Oranienstraße 2a,14199,Berlin,52.4995879,13.4257618,"['turkish_31', 'steak_401', 'chicken_231']",50,1279,0,0
+Atlantik Fischladen,lieferando,122,4.1,Potsdamer Straße 166,14199,Berlin,52.495478,13.3608162,"['salads_1456', 'seafood_1476', 'fish_421']",60,1642,0,0
+Trattoria Pirandello,lieferando,1185,4.2,Manfred von Richthofenstraße 9,14199,Berlin,52.4836571,13.3839838,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,1107,0,0
+Verona Italian Restaurant,lieferando,545,4.3,Fischerinsel 5,14199,Berlin,52.51281,13.4082101,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,1217,0,0
+Afropot Berlin,lieferando,4,4.6,Bergmannstraße 58,14199,Berlin,52.4889502,13.403051,"['vegetarian_391', 'lunch_351', 'african_771']",45,0,199,0
+Asia Food Sushi,lieferando,106,4.0,Genthiner Straße 50,14199,Berlin,52.50167,13.35808,"['sushi_51', 'chinese_41', 'chicken_521']",40,885,0,0
+PaPi Urban,lieferando,71,3.6,Urbanstraße 176,14199,Berlin,52.4943025,13.4020392,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",75,0,0,0
+Boccacelli,lieferando,409,4.6,Winterfeldtstraße 34,14199,Berlin,52.4970885,13.3556649,"['italian-pizza_271', 'italian_21', 'pasta_1614']",50,1697,0,0
+Monaco,lieferando,6,3.6,Mansteinstraße 17,14199,Berlin,52.4930506,13.3673294,"['italian-pizza_271', 'burgers_541', 'spanish-and-tapas_11']",55,0,0,0
+Pizza La Rosa,lieferando,333,3.9,Hauptstraße 26,14199,Berlin,52.4857818,13.3548744,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,866,0,0
+Jinbu Sushi,lieferando,138,4.3,Bertolt-Brecht-Platz 2,14199,Berlin,52.5225593,13.386168,"['sushi_51', 'asian_1864', 'soup_1406']",45,0,0,0
+Masuta Sushi,lieferando,866,4.5,Manteuffelstraße 99,14199,Berlin,52.5009343,13.4281498,"['sushi_51', 'vegetarian_391', 'poke-bowl_2318']",30,0,0,0
+Bamboo Bay,lieferando,204,4.9,Torgauer Straße 12-15,14199,Berlin,52.4818551,13.3564925,"['sushi_51', 'japanese_551', 'vietnamese_261']",30,1098,0,7500
+Mimatoha,lieferando,4048,4.1,Oranienstr. 47,14199,Berlin,52.5029312,13.4138817,"['sushi_51', 'chinese_41', 'thai_61']",40,860,0,0
+BonBon Asian Streetfood,lieferando,14,3.9,Friesenstraße 13,14199,Berlin,52.48634,13.3941,"['japanese_551', 'asian_1864', 'dumplings_1814']",35,0,199,0
+Da Dante,lieferando,1702,4.5,Oranienstraße 10-11,14199,Berlin,52.50018,13.42427,"['italian-pizza_271', 'italian_21']",50,1109,0,0
+Haci Baba,lieferando,1229,4.3,Adalbertstraße 89,14199,Berlin,52.50163,13.4192844,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,868,0,0
+Tele Pizza,lieferando,1291,4.4,Keithstraße 18-20,14199,Berlin,52.50346,13.34623,"['italian-pizza_271', 'burgers_541', 'snacks_201']",30,1079,0,0
+BURGER KING ®,lieferando,2322,2.5,Potsdamer Straße 114,14199,Berlin,52.5004124,13.3630204,"['burgers_541', 'american_381', 'snacks_201']",45,956,199,0
+Pizzeria Mario,lieferando,604,4.4,Leberstraße 25,14199,Berlin,52.4838373,13.3617332,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",40,786,0,0
+Peter Pane,lieferando,348,4.0,Friedrichstraße 101,14199,Berlin,52.5207889,13.3884786,"['burgers_541', 'falafel_1215', 'salads_1456']",45,1185,0,0
+Burger House,lieferando,393,4.1,Reichenberger Str. 174,14199,Berlin,52.49966,13.4172701,"['burgers_541', 'snacks_201', 'chicken_521']",30,922,0,0
+KFC,lieferando,77,1.5,Leipziger Platz 12,14199,Berlin,52.5102491,13.3799541,"['burgers_541', 'american_381', 'chicken_521']",90,0,0,0
+The Burrito Window,lieferando,574,3.9,Reichenberger Straße 176,14199,Berlin,52.4997045,13.4170335,"['vegetarian_391', 'mexican_221', 'falafel_1215']",10,874,0,0
+Monkey,lieferando,28,4.8,Schönleinstraße 34,14199,Berlin,52.4926564,13.4216942,"['sushi_51', 'vegetarian_391', 'asian_1864']",30,0,0,0
+dean & david,lieferando,545,4.0,Karl-Liebknecht-Str. 7,14199,Berlin,52.5208768,13.4055181,"['vegetarian_391', 'falafel_1215', 'salads_1456']",60,1114,0,0
+Don Giovanni,lieferando,367,4.0,Werftstraße 21,14199,Berlin,52.5228427,13.3595817,"['italian-pizza_271', 'italian_21', 'argentinian_1774']",30,909,0,0
+Rohhäppchen,lieferando,569,4.4,Dircksenstraße 51,14199,Berlin,52.5233116,13.4038078,"['sushi_51', 'falafel_1215', 'asian_1864']",60,1307,0,0
+Rainbowl I,lieferando,1242,4.5,Kurfürstenstraße 114,14199,Berlin,52.5034841,13.3472412,"['japanese_551', 'asian_1864', 'poke-bowl_2318']",40,1257,0,0
+Chelany - Mitte,lieferando,385,4.2,Torstraße 221,14199,Berlin,52.5276532,13.38861,"['indian_71', 'falafel_1215', 'pakistani_1804']",40,1497,0,0
+Q Burger,lieferando,794,4.4,Eisenacher Straße 87-88,14199,Berlin,52.4908186,13.349439,"['burgers_541', 'fries_1734', 'snacks_201']",25,759,0,0
+Fresh's,lieferando,1042,4.4,Oranienburger Straße 13/13-14,14199,Berlin,52.5238316,13.3985704,"['italian-pizza_271', 'salads_1456', 'wrap_1416']",40,788,0,0
+Saravanaa Bhavan,lieferando,0,0.0,Potsdamer Platz 5,14199,Berlin,52.5105094,13.3761875,"['vegetarian_391', 'indian_71', 'curry_731']",40,0,199,0
+Saha - Gaziantep Spezialitäten,lieferando,366,4.1,Adalbertstraße 86,14199,Berlin,52.5020211,13.4195515,"['vegetarian_391', 'doener_821', 'turkish_31']",25,719,0,0
+BEN RAHIM,lieferando,5,5.0,Sophienstraße 7,14199,Berlin,52.5252133,13.4018684,"['desserts_954', 'sandwiches_671', 'snacks_201']",25,675,199,0
+Bella Vita,lieferando,878,4.1,Kolonnenstraße 45,14199,Berlin,52.4853032,13.3642953,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",50,1254,0,0
+Burger Time,lieferando,2818,3.5,Kolonnenstr. 27,14199,Berlin,52.48492,13.36628,"['burgers_541', 'american_381', 'desserts_954']",40,716,0,0
+Fresh's,lieferando,814,4.3,Akazienstr. 9,14199,Berlin,52.4881993,13.354614,"['italian-pizza_271', 'salads_1456', 'wrap_1416']",25,867,0,0
+Olio Sale Pepe,lieferando,110,3.7,Willmanndamm 15,14199,Berlin,52.4902085,13.3618233,"['italian-pizza_271', 'pasta_1614']",45,0,0,0
+Dalya Restaurant,lieferando,46,4.3,Mariannenstraße 36,14199,Berlin,52.4977365,13.4214112,"['turkish_31', '100-halal_921', 'fish_421']",50,0,0,0
+La Pizzetta,lieferando,269,3.9,Kolonnenstraße 18,14199,Berlin,52.4848945,13.3637925,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,1228,0,0
+O'Tacos,lieferando,5,3.9,Spandauer Straße 4,14199,Berlin,52.5206084,13.404795,"['100-halal_921', 'wrap_1416', 'french_321']",45,0,199,0
+HIMALI RESTAURANT UND BAR,lieferando,133,4.2,Crellestraße 45,14199,Berlin,52.4873305,13.3586184,"['indian_71', 'asian_1864', 'curry_731']",30,1142,199,0
+Yogi - Restaurant,lieferando,1218,3.7,Müllenhoffstr. 1,14199,Berlin,52.4909261,13.4161406,"['indian_71', 'asian_1864', 'chicken_521']",35,1388,0,0
+Restaurant Mittmann,lieferando,558,3.7,Rungestraße 11,14199,Berlin,52.5123151,13.4167629,"['german_431', 'german_441', 'fish_421']",60,1435,0,0
+Vedang - plant burger Alexa,lieferando,443,4.7,Grunerstraße 20 (2. OG im Al,14199,Berlin,52.5199703,13.4147251,"['burgers_541', 'vegetarian_391', 'falafel_1215']",25,933,0,0
+Kreuzburger Oranienstraße,lieferando,414,3.9,Oranienstraße 190 links,14199,Berlin,52.5003921,13.4221018,"['burgers_541', 'fries_1734', 'hot-dog_1824']",75,904,0,0
+BURGER KING ®,lieferando,222,2.4,Georgenstraße 14-18,14199,Berlin,52.5200738,13.3872602,"['burgers_541', 'american_381', 'snacks_201']",45,981,199,0
+Call a Pizza,lieferando,5005,3.7,Martin-Luther-Straße 39,14199,Berlin,52.4938837,13.3459186,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",40,1298,0,0
+Que Pasa Restaurant,lieferando,185,3.5,Skalitzer Straße 107,14199,Berlin,52.4994376,13.427056,"['burgers_541', 'mexican_221', 'chicken_521']",60,904,0,0
+Starbucks,lieferando,36,3.8,Panoramastraße 1A,14199,Berlin,52.5207132,13.4092793,"['cafe_2134', 'cake_251', 'drinks-and-snacks_661']",35,599,0,0
+Viet Bowl,lieferando,69,4.4,Marlene-Dietrich-Platz 1,14199,Berlin,52.5070442,13.3720023,"['sushi_51', 'vegetarian_391', 'vietnamese_261']",40,1053,199,0
+Morgenland,lieferando,51,3.1,Skalitzer Straße 35,14199,Berlin,52.498796,13.4256527,"['burgers_541', 'pasta_1614', 'steak_401']",20,964,0,0
+Sto Steki,lieferando,187,4.3,Hasenheide 18,14199,Berlin,52.4879445,13.419687,"['greek_91', 'gyros_1356', 'seafood_1476']",40,958,0,0
+Burgermeister Kotti,lieferando,1616,3.5,Skalitzer Straße 136,14199,Berlin,52.4995032,13.4185966,"['burgers_541', 'american_381', 'snacks_201']",35,674,199,0
+Viet Street,lieferando,108,4.2,Dircksenstr. 93,14199,Berlin,52.5180296,13.4154194,"['sushi_51', 'asian_1864', 'vietnamese_261']",15,1101,0,0
+Hung Anh Vietnamesisches Restaurant,lieferando,173,4.2,Chausseestraße 130,14199,Berlin,52.527607,13.3864059,"['sushi_51', 'vegetarian_391', 'vietnamese_261']",90,1129,0,0
+Nhat Long,lieferando,3835,3.6,Torstraße 210,14199,Berlin,52.52766,13.3906,"['sushi_51', 'thai_61', 'vietnamese_261']",45,1466,0,0
+Trentasei,lieferando,135,4.2,Skalitzer Straße 34,14199,Berlin,52.4989133,13.4253506,"['italian-pizza_271', 'italian_21', 'pasta_1614']",35,1268,199,0
+Berliner Marcus Bräu,lieferando,153,3.9,Münzstr. 3,14199,Berlin,52.5239938,13.408986,"['german_431', 'schnitzel_1654', 'german_441']",35,1142,199,0
+Simela Finest Food,lieferando,165,4.1,Koppenplatz 1,14199,Berlin,52.5275297,13.3981443,"['italian-pizza_271', 'pasta_1614', 'tarte_2424']",30,0,0,0
+Salar of India,lieferando,136,4.4,Werner-Voß-Damm 60,14199,Berlin,52.47622,13.36808,"['indian_71', 'asian_1864', 'curry_731']",40,0,300,3500
+Yama Sushi & More,lieferando,20,4.5,Manfred-von-Richthofen-Straße 18,14199,Berlin,52.483225,13.3818386,"['sushi_51', 'asian_1864', 'vietnamese_261']",35,0,199,0
+Bonfini,lieferando,32,4.1,Chausseestraße 15,14199,Berlin,52.5295285,13.3848003,"['italian-pizza_271', 'italian_21', 'pasta_1614']",20,1190,0,0
+Trattoria Amici,lieferando,1520,4.5,Nachodstr. 6,14199,Berlin,52.4953824,13.3338113,"['italian-pizza_271', 'italian_21', 'pasta_1614']",50,838,100,1500
+Snack Swan,lieferando,32,4.1,Wilmersdorfer Straße 0 - U-Bhf.,14199,Berlin,52.5057497,13.3070244,"['falafel_1256', 'arab_1246', 'syrian_2438']",90,0,300,2999
+Dunkin' Donuts,lieferando,43,3.9,Europaplatz 1,14199,Berlin,52.5249111,13.369492,"['desserts_954', 'cake_251']",35,1100,199,0
+Restaurant Neumann's,lieferando,41,3.5,Alt Moabit 126,14199,Berlin,52.5229,13.3583501,"['indian_71', 'german_431', 'german_441']",35,1048,199,0
+Trattoria Gino,lieferando,8,3.5,Welserstraße 27,14199,Berlin,52.4993922,13.3422107,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",90,0,0,0
+Lookma,lieferando,14,4.2,Hauptstraße 155,14199,Berlin,52.4891872,13.3595757,"['desserts_954', 'cake_251']",35,0,199,0
+BURGER KING ®,lieferando,131,3.4,Alexanderplatz 8,14199,Berlin,52.5229508,13.4127606,"['burgers_541', 'american_381', 'snacks_201']",40,0,199,0
+King Dong,lieferando,1569,3.2,Eisenacher Straße 62,14199,Berlin,52.4849432,13.3529211,"['chinese_41', 'vegetarian_391', 'asian_1864']",50,739,0,0
+Linh Linh Restaurant,lieferando,109,4.3,Stresemannstr. 105,14199,Berlin,52.50601,13.37999,"['asian_1864', 'vietnamese_261']",40,829,199,0
+Kleine Auszeit,lieferando,0,0.0,Altmarkstraße 10,14199,Berlin,52.4621418,13.3423758,"['italian_21', 'snacks_201', 'breakfast_361']",30,0,199,1000
+Tole's Backshop,lieferando,4,5.0,Welserstraße 30,14199,Berlin,52.4997151,13.3430938,"['baked-goods_2468', 'breakfast_361']",45,0,199,0
+Stop for Tea,lieferando,4,4.2,Europaplatz 1,14199,Berlin,52.5251109,13.3704733,"['falafel_1215', 'sandwiches_671', 'snacks_201']",35,0,199,0
+Piazza Grande,lieferando,71,4.5,Prinzregentenstraße 1,14199,Berlin,52.492801,13.3327031,"['italian-pizza_271', 'italian_21', 'pasta_1614']",30,0,0,1000
+Army Food,lieferando,50,4.7,Mauerstr. 1,14199,Berlin,52.5082857,13.3898265,"['salads_1456', 'russian_781']",40,821,199,0
+Aprikosenbaum,lieferando,0,0.0,Körnerstraße 12,14199,Berlin,52.50088,13.3665101,"['greek_91', 'falafel_1215']",30,0,199,0
+Rausch Schokoladenhaus (Café),lieferando,22,4.8,Mohrenstr. 20,14199,Berlin,52.51198,13.3908001,"['desserts_954', 'cafe_2134', 'cake_251']",40,0,199,0
+Trattoria Fidelia,lieferando,420,3.8,Lüneburger Straße 390,14199,Berlin,52.5195645,13.3557979,"['italian-pizza_271', 'italian_21', 'noodles_2258']",35,1002,199,0
+La Trattoria,lieferando,157,4.2,Stülpnagelstraße 2,14199,Berlin,52.5106983,13.2835572,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,0,0,2000
+Rita Grill,lieferando,931,4.4,Spandauer Damm 44,14199,Berlin,52.5192622,13.290649,"['burgers_541', '100-halal_921', 'arab_1246']",45,1065,100,1200
+Starbucks,lieferando,59,4.3,Friedrichstraße 61,14199,Berlin,52.5111048,13.3899791,"['cafe_2134', 'cake_251', 'drinks-and-snacks_661']",40,599,0,0
+Station - Cucina Italiana,lieferando,453,4.6,U-Bahnhof Fehrbelliner Platz 00,14199,Berlin,52.490421,13.314223,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",50,933,0,1200
+Planet Wein,lieferando,69,4.7,Mohrenstraße 30,14199,Berlin,52.5121813,13.3926386,['drinks_241'],40,1899,199,0
+Pizza Rosa,lieferando,246,3.9,Hindenburgdamm 58b,14199,Berlin,52.4478976,13.3156132,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",35,808,0,1200
+Diazo,lieferando,28,4.1,Berliner Straße 52 c,14199,Bernau bei Berlin,52.677168,13.584852,"['italian-pizza_271', 'mexican_221', 'pasta_1614']",40,1101,200,5000
+Amba Indisch Restaurant,lieferando,172,4.0,Hermannstr. 93,14199,Berlin,52.4704567,13.429202,"['indian_71', 'falafel_1215', '100-halal_921']",40,0,0,1500
+Pizza Bleibtreu,lieferando,644,4.4,Bleibtreustraße 41,14199,Berlin,52.503071,13.3198672,"['italian-pizza_271', 'italian_21', 'snacks_201']",40,700,0,2000
+Golden Tea Garden,lieferando,424,4.7,Leonoren Straße 60,14199,Berlin,52.4397959,13.3426602,"['sushi_51', 'chinese_41', 'thai_61']",50,0,0,4000
+Mayan,lieferando,46,4.2,Spandauer Damm 44,14199,Berlin,52.5192243,13.2904737,"['vegetarian_391', '100-halal_921', 'arab_1246']",40,0,100,1200
+Tegernseer Tönnchen,lieferando,797,4.9,Berliner Straße 118,14199,Berlin,52.4862601,13.3178044,"['german_431', 'schnitzel_1654', 'german_441']",40,1233,0,2000
+Green Papaya,lieferando,3836,4.0,Pestalozzistraße 33,14199,Berlin,52.5079268,13.3058488,"['sushi_51', 'chinese_41', 'vietnamese_261']",40,888,0,2300
+De Niros Steinofenpizza,lieferando,322,4.2,Bundesallee 48a,14199,Berlin,52.4846857,13.3306472,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,0,0,1500
+Ristorante Da Toni,lieferando,79,4.7,Pariser Straße 18a,14199,Berlin,52.4983,13.31914,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",30,0,0,3500
+Mercosy Kreuzberg,lieferando,519,4.1,Dresdener Str. 11,14199,Berlin,52.5006984,13.4177965,"['falafel_1215', 'lunch_351', 'korean_1114']",50,864,199,0
+Leonidas Gyros & Souvlaki,lieferando,1156,4.0,Kurfürstendamm 165-166,14199,Berlin,52.4998187,13.3079088,"['greek_91', 'sandwiches_671', 'steak_401']",45,780,0,1500
+Curry at the Wall Berlin Mitte,lieferando,10,4.7,Zimmerstraße 100,14199,Berlin,52.50752,13.3858099,"['lunch_351', 'german_441', 'snacks_201']",40,950,199,0
+The Small Garden,lieferando,10,4.8,Charlottenstraße 79-80,14199,Berlin,52.5080064,13.3918671,"['vegetarian_391', 'salads_1456', 'desserts_954']",40,0,199,0
+Miteinander,lieferando,1841,4.6,Taunusstraße 11,14199,Berlin,52.47375,13.32221,"['german_431', 'schnitzel_1654', 'german_441']",50,1643,150,1500
+Bella's Bistro,lieferando,0,0.0,Karl-Heinrich-Ulrichs-Straße 8b,14199,Berlin,52.5013029,13.3539319,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,715,199,0
+Wienerwald,lieferando,1904,4.4,Lehniner Platz 2,14199,Berlin,52.4996181,13.3019201,"['burgers_541', 'schnitzel_1654', 'chicken_521']",30,940,0,2000
+Elias Gyrosland,lieferando,499,4.6,Bismarckstraße Ecke Steglitzer,14199,Berlin,52.451118,13.3380066,"['greek_91', 'gyros_1356', 'snacks_201']",40,760,190,1500
+Saki Sushi,lieferando,595,4.8,Rubensstraße 122,14199,Berlin,52.46349,13.3442201,"['sushi_51', 'japanese_551', 'asian_1864']",35,1441,0,1999
+ComCha Vegan,lieferando,0,0.0,Dresdener Straße 15 rechts,14199,Berlin,52.5010183,13.4172291,"['falafel_1215', 'vietnamese_261', 'spanish-and-tapas_11']",45,0,199,0
+One Dio Pizza,lieferando,401,4.4,Bundesallee 142,14199,Berlin,52.4770969,13.3289417,"['italian-pizza_271', 'italian_21', 'snacks_201']",25,1086,0,1490
+Ristorante Porta Nova,lieferando,58,3.7,Robert-Koch-Platz 12,14199,Berlin,52.5284163,13.3789203,"['italian-pizza_271', 'vegetarian_391', 'pasta_1614']",40,1351,199,0
+Mr. Imbiss,lieferando,437,4.6,Schützenstraße 2,14199,Berlin,52.5085963,13.390391,"['burgers_541', 'falafel_1215', 'snacks_201']",40,956,199,0
+Sajour,lieferando,14,4.9,Westfälische Strasse 39,14199,Berlin,52.49641,13.29471,"['pasta_1614', 'salads_1456', 'soup_1406']",30,1126,299,1000
+Ninhao China Restaurant,lieferando,64,4.9,Bismarckstraße 24,14199,Berlin,52.5122708,13.3120233,"['chinese_41', 'vegetarian_391', 'asian_1864']",35,1175,100,1500
+Terraverde Landkost aus Sizilien,lieferando,4,5.0,Handjerystraße 48,14199,Berlin,52.4693684,13.330174,['pasta_1614'],30,800,0,3500
+Haci Baba Kebaphaus,lieferando,421,3.5,Adalbertstraße 89,14199,Berlin,52.50163,13.4192844,"['doener_821', 'turkish_31', '100-halal_921']",50,777,199,0
+Prinz Bistro,lieferando,7,4.7,Askanischer Platz 2,14199,Berlin,52.50468,13.38084,"['burgers_541', 'falafel_1215', 'salads_1456']",45,0,199,0
+LvL - world of gaming,lieferando,5,4.5,Friedrichstraße 50 - 55,14199,Berlin,52.5090533,13.3903693,['burgers_541'],40,857,199,0
+Hanoi's Corner,lieferando,2689,4.7,Leibnizstr. 56,14199,Berlin,52.5016990,13.3132069,"['sushi_51', 'vietnamese_261']",65,910,0,2500
+Andy's Diner and Bar,lieferando,0,0.0,Karl-Liebknecht-Straße 5,14199,Berlin,52.5201491,13.403742,"['burgers_541', 'american_381', 'snacks_201']",15,1038,199,0
+Samos - Berlin,lieferando,373,4.5,Leibnizstraße 56,14199,Berlin,52.5017588,13.3128321,"['greek_91', 'gyros_1356', 'pork_1436']",30,1123,150,3000
+Dunkin' Donuts,lieferando,59,3.7,Potsdamer Straße 2,14199,Berlin,52.5095362,13.3746744,"['desserts_954', 'cake_251']",40,1540,199,0
+Asiagourmet,lieferando,22,4.2,Europaplatz 1,14199,Berlin,52.5249111,13.369492,"['asian_1864', 'snacks_201', 'poke-bowl_2318']",35,947,199,0
+Soli'Snacks,lieferando,72,4.6,U-Bhf. Fehrbelliner Platz -,14199,Berlin,52.490421,13.314223,"['burgers_541', 'mexican_221', 'sandwiches_671']",30,0,0,1500
+Alt-Berliner Gasthaus Julchen Hoppe,lieferando,1041,4.4,Rathausstraße 25,14199,Berlin,52.5172448,13.4048056,"['vegetarian_391', 'german_431', 'fish_421']",40,1239,199,0
+Akiko Sushi,lieferando,3926,4.3,Ahornstr. 32,14199,Berlin,52.4604140,13.3233083,['sushi_51'],60,1072,0,2500
+Dunkin' Donuts,lieferando,23,4.4,Unter den Linden 78,14199,Berlin,52.5169593,13.3803289,"['desserts_954', 'cake_251']",45,1540,199,0
+Quan Vuon,lieferando,166,4.5,Am Stichkanal 1-11,14199,Berlin,52.4105056,13.2825611,['vietnamese_261'],30,650,200,5000
+Kretamos,lieferando,221,4.6,Gardeschützenweg 68,14199,Berlin,52.4467987,13.3063914,"['greek_91', 'fish_421', 'pork_1436']",40,0,0,2500
+Oh My Bap,lieferando,106,4.7,U-Bahnhof Thielplatz ,14199,Berlin,52.45211,13.28332,"['falafel_1215', 'chicken_231', 'korean_1114']",35,0,299,1000
+Restaurant Gül,lieferando,287,4.6,Krumme Straße 55,14199,Berlin,52.5070012,13.3096337,"['vegetarian_391', 'turkish_31', 'fish_421']",40,1141,200,4000
+Marea,lieferando,20,3.8,Leipziger Platz 10,14199,Berlin,52.5091847,13.3798834,"['italian-pizza_271', 'italian_21']",45,1172,199,0
+Spoonful BERLIN,lieferando,0,0.0,Graefestraße 7,14199,Berlin,52.4946006,13.4186228,"['falafel_1215', 'desserts_954', 'ice-cream_1194']",30,0,199,0
+Restaurant Poseidon,lieferando,75,4.6,Fritz-Wildung-Straße 7A,14199,Berlin,52.4858339,13.3011456,"['salads_1456', 'balkan_301', 'chicken_521']",15,942,0,2000
+Vinakitchen,lieferando,607,4.5,Königin-Elisabeth-Straße 60,14199,Berlin,52.5178972,13.2807399,"['asian_1864', 'vietnamese_261', 'chicken_521']",40,777,0,2000
+Ristorante Rapallo,lieferando,107,4.7,Kurfürstendamm 111,14199,Berlin,52.4976002,13.2918442,"['italian-pizza_271', 'italian_21', 'pasta_1614']",30,1390,100,1400
+Caosis Cafe,lieferando,18,4.7,Wilmersdorfer Straße 100,14199,Berlin,52.50276,13.30816,"['salads_1456', 'lunch_351', 'poke-bowl_2318']",35,1005,299,1000
+Tampico Bowls,lieferando,74,4.4,Rheinstraße 11,14199,Berlin,52.4701714,13.3334254,"['italian-pizza_271', 'indian_71', 'mexican_221']",30,0,100,1200
+Seoul-Kwan,lieferando,320,4.5,Schmiljanstraße 25,14199,Berlin,52.47068,13.33059,"['asian_1864', 'desserts_954', 'korean_1114']",35,1036,299,1000
+Al Bacio,lieferando,32,4.7,Joachim-Friedrich-Straße 1,14199,Berlin,52.4933207,13.2959092,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",30,846,199,1000
+Sushi Orchidee,lieferando,2070,4.5,Stuttgarter Platz 13,14199,Berlin,52.5054934,13.3026428,"['sushi_51', 'chinese_41', 'thai_61']",30,1115,0,3000
+Pizza Hut,lieferando,384,3.9,Potsdamer Platz 1,14199,Berlin,52.508923,13.3748658,"['italian-pizza_271', 'pasta_1614', 'american-pizza_281']",40,1655,199,0
+Balli Döner & Burger,lieferando,1964,3.7,Wilmersdorfer Straße 130,14199,Berlin,52.510464,13.3057622,"['burgers_541', 'doener_821', '100-halal_921']",40,881,0,1200
+The Fresh Seeds,lieferando,301,4.0,Invalidenstraße 90,14199,Berlin,52.5284615,13.3765659,"['mexican_221', 'salads_1456', 'poke-bowl_2318']",40,874,199,0
+Paulaner Wirtshaus,lieferando,29,3.9,Alte Potsdamer Straße 1,14199,Berlin,52.508671,13.3753261,"['german_431', 'salads_1456', 'snacks_201']",40,993,199,0
+Pizzeria und Bistro Tasty Berlin,lieferando,9,4.3,Rungestraße 14,14199,Berlin,52.5122717,13.4182962,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",50,0,199,0
+Mirami,lieferando,220,4.5,Stresemannstraße 48-52,14199,Berlin,52.5017767,13.3862946,"['sushi_51', 'asian_1864', 'vietnamese_261']",45,1289,199,0
+arko,lieferando,0,0.0,Europaplatz 1,14199,Berlin,52.5249111,13.369492,['desserts_954'],30,786,199,0
+Dalbhat,lieferando,78,4.7,Mainzerstraße 8,14199,Berlin,52.4797158,13.3249822,"['vegetarian_391', 'curry_731', 'dumplings_1814']",40,819,299,1000
+Insel Café & Back & Kiosk,lieferando,10,3.8,Gotenstraße 19,14199,Berlin,52.48096,13.3599993,"['snacks_201', 'baked-goods_2468', 'breakfast_361']",35,0,199,0
+Reisfreude,lieferando,138,4.9,Brückenstraße 1c,14199,Berlin,52.5119113,13.4171379,"['vegetarian_391', 'italian_21', 'salads_1456']",40,775,199,0
+Eierschale,lieferando,81,4.1,Podbielskiallee 50,14199,Berlin,52.464329,13.2973991,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",60,1015,0,1500
+Restaurant Felfel,lieferando,7,3.9,Kaiser-Friedrich-Straße 34,14199,Berlin,52.5106593,13.3013469,"['burgers_541', 'vegetarian_391']",40,0,500,2000
+Unser Kebap,lieferando,3170,4.2,Albrechtstraße 55,14199,Berlin,52.4470569,13.3416131,"['italian-pizza_271', 'burgers_541', 'doener_821']",40,745,0,2000
+Feigen & Oliven,lieferando,58,4.2,Hohenzollerndamm 157,14199,Berlin,52.4881248,13.30205,"['italian-pizza_271', 'falafel_1256', 'arab_1246']",70,1023,100,1300
+Dos,lieferando,354,4.0,Kurfürstendamm 129b,14199,Berlin,52.4962136,13.2884043,"['burgers_541', 'mexican_221', 'spanish-and-tapas_11']",75,1120,0,2000
+Sanderella Delights,lieferando,156,3.9,Kaiserin-Augusta-Allee 38,14199,Berlin,52.5259056,13.3114851,"['100-halal_921', 'falafel_1256', 'arab_1246']",30,920,0,1000
+Dunkin' Donuts,lieferando,30,4.0,Friedrichstraße -,14199,Berlin,52.5173586,13.3887787,"['desserts_954', 'cake_251']",40,1540,199,0
+Caphe HOA,lieferando,228,4.8,Stallschreiberstraße 15 /0102,14199,Berlin,52.5063589,13.4079823,"['vegetarian_391', 'falafel_1215', 'asian_1864']",40,944,199,0
+Burgermeister Konstanzer,lieferando,54,3.9,Konstanzer Straße 1,14199,Berlin,52.4989782,13.3121473,"['burgers_541', 'vegetarian_391', 'american_381']",45,0,199,1000
+Kin-Za Schöneberg,lieferando,0,0.0,Eisenacher Straße 79,14199,Berlin,52.4887268,13.3495696,"['dumplings_1814', 'pork_1436', 'international_1486']",30,0,0,0
+Weilands Wellfood,lieferando,0,0.0,Eichhornstraße 3,14199,Berlin,52.5062668,13.3731315,"['vegetarian_391', 'falafel_1256', 'israeli_331']",45,0,199,0
+Hans im Glück,lieferando,176,3.1,Europaplatz 1,14199,Berlin,52.5249111,13.369492,"['burgers_541', 'american_381', 'falafel_1215']",35,1191,199,0
+Indian street food,lieferando,87,4.3,Schöneberger Straße 22,14199,Berlin,52.50258,13.37865,"['indian_71', 'falafel_1215', 'curry_731']",45,830,199,0
+Spoonful BERLIN,lieferando,0,0.0,Auguststraße 63,14199,Berlin,52.527203,13.3971057,"['falafel_1215', 'desserts_954', 'ice-cream_1194']",30,0,199,0
+Besh,lieferando,32,4.5,Brückenstraße 15,14199,Berlin,52.511513,13.416606,"['vegetarian_391', 'indian_71', 'arab_1246']",40,700,199,0
+Frittenwerk,lieferando,135,4.0,Friedrichstraße 69,14199,Berlin,52.5127799,13.3897306,"['falafel_1215', 'salads_1456', 'fries_1734']",40,0,199,0
+Toast Brothers,lieferando,158,3.3,Kantstr. 109,14199,Berlin,52.5065498,13.3054422,"['sandwiches_671', 'wrap_1416', 'breakfast_361']",70,732,0,2000
+Schmuck's Restauration,lieferando,205,4.4,Brückenstraße 13,14199,Berlin,52.5120669,13.4168464,"['german_431', 'salads_1456', 'german_441']",40,869,199,0
+BITES Asian Tapas & Bowls,lieferando,109,4.7,Yorckstr. 22,14199,Berlin,52.4929106,13.3800294,"['vegetarian_391', 'falafel_1215', 'asian_1864']",45,0,199,0
+Nem & More,lieferando,88,4.4,Brückenstraße 3,14199,Berlin,52.5120952,13.4171985,"['asian_1864', 'curry_731', 'vietnamese_261']",40,1092,199,0
+Mama Cook Restaurant,lieferando,1134,3.9,Hedemannstraße 10,14199,Berlin,52.50299,13.38859,"['vegetarian_391', 'asian_1864', 'vietnamese_261']",45,744,199,0
+Donut For You,lieferando,0,0.0,Schmiljanstraße 16,14199,Berlin,52.4689862,13.3320386,"['falafel_1215', 'desserts_954', 'baked-goods_2468']",35,0,0,1000
+Chupenga Burritos & Salads,lieferando,246,4.0,Mohrenstraße 42,14199,Berlin,52.5125932,13.394473,"['mexican_221', 'salads_1456', 'lunch_351']",40,971,199,0
+Diazo ®,lieferando,863,3.4,Attilastraße 175,14199,Berlin,52.4554479,13.3759942,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",40,1079,0,5000
+Kamps Bäckerei mit Backstube,lieferando,16,3.0,Europaplatz 1,14199,Berlin,52.5257518,13.3685059,"['sandwiches_671', 'baked-goods_2468', 'breakfast_361']",35,1656,199,0
+Mövenpick Hotel,lieferando,5,3.8,Schöneberger Str. 3,14199,Berlin,52.5038107,13.3804042,"['burgers_541', 'soup_1406', 'poke-bowl_2318']",45,0,199,0
+Restaurant Machiavelli,lieferando,232,3.7,Albrechtstraße 13,14199,Berlin,52.5212258,13.3854785,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",45,1304,199,0
+Restaurant Li Myra,lieferando,0,0.0,Maaßenstraße 11,14199,Berlin,52.4977,13.35473,"['italian_21', 'pasta_1614', 'fish_421']",40,0,199,0
+BACK-FACTORY,lieferando,30,4.3,Friedrichstraße 207,14199,Berlin,52.5073238,13.3901385,"['lunch_351', 'snacks_201', 'cake_251']",45,0,199,0
+BURGER KING ®,lieferando,814,2.4,Wilmersdorfer Straße 112,14199,Berlin,52.5070472,13.3068925,"['burgers_541', 'american_381', 'snacks_201']",45,975,199,1000
+HaiCoffee & Asian Food and Sushi,lieferando,72,4.4,Wallstraße 1-2,14199,Berlin,52.5110852,13.4030565,"['asian_1864', 'vietnamese_261']",40,0,199,0
+Asia Gondel,lieferando,66,4.0,Brückenstraße 1b,14199,Berlin,52.5116365,13.4171036,"['asian_1864', 'thai_61']",45,780,199,0
+Fatih Servet Döner,lieferando,31,4.3,Europaplatz / Hauptbahnhof Berlin 1,14199,Berlin,52.5250839,13.369402,"['vegetarian_391', 'doener_821', 'turkish_31']",35,724,199,0
+MA'LOA - Poké Bowl,lieferando,146,3.8,Oberwallstraße 9,14199,Berlin,52.5134504,13.396947,"['sushi_51', 'asian_1864', 'poke-bowl_2318']",40,1031,199,0
+Der Milchladen,lieferando,0,0.0,Dresdener Straße 20,14199,Berlin,52.5018788,13.4165739,"['lunch_351', 'cafe_2134', 'cake_251']",40,0,199,0
+Choppaluna,lieferando,41,4.6,Rudi-Dutschke-Straße 17,14199,Berlin,52.5067797,13.3933877,"['salads_1456', 'lunch_351', 'breakfast_361']",45,0,199,0
+Lami's cup and go,lieferando,8,4.9,Pestalozzistraße 28,14199,Berlin,52.5080396,13.3081808,"['desserts_954', 'snacks_201']",40,0,199,1000
+Al Sultan Bistro,lieferando,95,4.3,Mehringplatz 6,14199,Berlin,52.4991307,13.3931189,"['vegetarian_391', 'falafel_1215', 'falafel_1256']",45,750,199,0
+DINER 67,lieferando,16,4.4,Markgrafenstraße 67,14199,Berlin,52.50582,13.39388,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",45,774,199,0
+Mubi's Cookies,lieferando,0,0.0,Reichenberger Straße 176,14199,Berlin,52.4997045,13.4170335,"['desserts_954', 'baked-goods_2468', 'ice-cream_1194']",45,0,199,0
+Asia Sushi MJ,lieferando,2741,3.0,Teltower Damm 38,14199,Berlin,52.4305400,13.2591600,"['sushi_51', 'asian_1864']",40,806,0,1500
+Cafe des Schicksals,lieferando,14,4.7,Lindenstraße 16,14199,Berlin,52.5028732,13.3955236,"['salads_1456', 'gluten-free_1556', 'cake_251']",50,0,199,0
+Pablo Coffee,lieferando,0,0.0,Oranienstraße 35,14199,Berlin,52.5016918,13.4181371,['breakfast_361'],40,0,0,0
+Best Curry Berlin,lieferando,8,3.6,Leipziger Platz 12,14199,Berlin,52.5102817,13.3792042,"['falafel_1215', 'german_431', 'fries_1734']",40,910,199,0
+Pizza Point Berlin Kreuzberg,lieferando,10,3.8,Zimmerstraße 10,14199,Berlin,52.5073228,13.3878867,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",40,1038,199,0
+Pizzeria Italia Berlin,lieferando,9,3.7,Schöneberger Straße 8,14199,Berlin,52.5033785,13.3795119,"['italian-pizza_271', 'italian_21', 'pasta_1614']",45,0,199,0
+Morimori Ramen,lieferando,165,4.1,Oranienstrasse 201,14199,Berlin,52.4997914,13.4241851,"['japanese_551', 'falafel_1215', 'asian_1864']",50,1305,199,0
+Rotes Kamel,lieferando,62,4.4,Hannah-Arendt-Straße 4,14199,Berlin,52.5140041,13.3811706,"['100-halal_921', 'arab_1246', 'lebanese_491']",40,1561,199,0
+Subway,lieferando,36,2.2,Europaplatz 1,14199,Berlin,52.5249111,13.369492,"['salads_1456', 'sandwiches_671', 'wrap_1416']",35,0,199,0
+Vedang - plant burger Mall,lieferando,534,4.6,Leipziger Platz 12 (Mall of Ber,14199,Berlin,52.5105259,13.3808092,"['burgers_541', 'vegetarian_391', 'falafel_1215']",40,917,199,0
+MaKy - Vietnamese Cuisine,lieferando,21,4.2,Maybachufer 1,14199,Berlin,52.49545,13.42111,"['asian_1864', 'curry_731', 'vietnamese_261']",55,730,199,0
+Mom's Kitchen,lieferando,12,4.8,Annenstraße 48,14199,Berlin,52.5075276,13.4147844,"['falafel_1215', 'turkish_31', 'lunch_351']",40,0,199,0
+Pizza Slice,lieferando,14,4.0,Großbeerenstraße 78,14199,Berlin,52.4968388,13.3849195,"['italian-pizza_271', 'italian_21', 'pasta_1614']",45,1282,199,0
+Trattoria Ischia,lieferando,3,4.6,Brabanter Platz 2,14199,Berlin,52.4819884,13.3168705,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,0,199,1000
+Knofi,lieferando,27,4.6,Bergmannstraße 98,14199,Berlin,52.4897093,13.390908,"['vegetarian_391', 'pasta_1614']",45,0,199,0
+Goldies Smash Burgers,lieferando,0,0.0,Graefestraße 93,14199,Berlin,52.495294,13.4196821,"['burgers_541', 'fries_1734', 'snacks_201']",40,0,199,0
+Restaurant BaBaMi,lieferando,15,4.1,Zimmerstraße 23,14199,Berlin,52.5075736,13.3914197,"['asian_1864', 'soup_1406', 'poke-bowl_2318']",45,0,199,0
+Café Dix in der Berlinischen Galerie,lieferando,5,4.6,Alte Jakobstraße 124-128,14199,Berlin,52.5037684,13.3986729,"['vegetarian_391', 'falafel_1215', 'lebanese_491']",45,968,199,0
+Chupenga Burritos & Salads,lieferando,222,4.0,Charlottenstraße 4,14199,Berlin,52.5065747,13.3934657,"['mexican_221', 'salads_1456', 'lunch_351']",45,976,199,0
+BACK-FACTORY,lieferando,31,4.5,Schloßstraße 40,14199,Berlin,52.4566365,13.3195787,['snacks_201'],35,3063,299,1000
+Café Journale,lieferando,39,4.2,Lindenstraße 37,14199,Berlin,52.5068558,13.3984213,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",45,1000,199,0
+Bull Burger,lieferando,35,4.3,Mehringdamm 32,14199,Berlin,52.4938046,13.3877894,"['burgers_541', 'vegetarian_391', 'falafel_1215']",45,801,199,0
+China - City,lieferando,582,4.3,Leipziger Straße 46,14199,Berlin,52.5103859,13.3976361,"['chinese_41', 'vegetarian_391', 'asian_1864']",40,1383,199,0
+BRGRS BRGRS - Organic Burgers,lieferando,1247,3.2,Brückenstr. 1A,14199,Berlin,52.5115059,13.4169483,"['burgers_541', 'american_381', 'snacks_201']",40,905,199,0
+Sticks'n'Sushi,lieferando,263,4.3,Potsdamer Straße 85,14199,Berlin,52.5020079,13.3650928,"['sushi_51', 'japanese_551', 'fish_421']",45,2440,199,0
+Rivado,lieferando,0,0.0,Kurfürstenstraße 79,14199,Berlin,52.5040745,13.3465833,"['salads_1456', 'steak_401']",40,0,199,0
+Viet Bowl Mitte,lieferando,54,4.0,Zimmerstraße 69,14199,Berlin,52.5080041,13.3928408,"['asian_1864', 'thai_61', 'vietnamese_261']",40,881,199,0
+Swadishta,lieferando,228,4.1,Kurfürstenstraße 131a,14199,Berlin,52.50185,13.35386,"['vegetarian_391', 'indian_71', 'falafel_1215']",45,1007,199,0
+Hasir Burger,lieferando,538,4.1,Adalbertstraße 91,14199,Berlin,52.5011783,13.4189707,"['burgers_541', 'american_381', 'fries_1734']",50,916,199,0
+Blue Nile - Äthiopisches Restaurant,lieferando,67,3.6,Tempelhofer Ufer 6,14199,Berlin,52.4978594,13.387276,"['vegetarian_391', 'beef_1426', 'african_771']",40,1919,199,0
+MA'LOA - Poké Bowl,lieferando,135,4.0,Zimmerstraße 68,14199,Berlin,52.5080188,13.3931641,"['sushi_51', 'asian_1864', 'poke-bowl_2318']",40,1031,199,0
+Frittenwerk,lieferando,16,4.0,Leipziger Platz 12,14199,Berlin,52.5104461,13.3800834,"['falafel_1215', 'salads_1456', 'fries_1734']",50,0,199,0
+Bombay Berlin,lieferando,59,4.2,Friedrichstraße 106 c,14199,Berlin,52.5232743,13.3884602,"['vegetarian_391', 'indian_71', 'chicken_521']",45,0,199,0
+Naveenapath Srilanka haus,lieferando,34,4.4,Yorckstraße 89,14199,Berlin,52.49292,13.38574,"['indian_71', 'curry_731', 'chicken_521']",45,1259,199,0
+Q Burger,lieferando,183,4.2,Markgrafenstr. 58,14199,Berlin,52.5081566,13.3939132,"['burgers_541', 'snacks_201']",40,653,199,0
+Amrit Potsdamer Platz,lieferando,139,3.8,Ebertstraße 14,14199,Berlin,52.5105,13.37717,"['vegetarian_391', 'indian_71', 'falafel_1215']",45,0,199,0
+Yorck's Kebap Allin,lieferando,148,4.5,Yorckstraße 89a,14199,Berlin,52.4928094,13.3864707,"['turkish_31', 'turkish-pizza_291']",45,1003,199,0
+Humble vegane Burger & vegane Bowls,lieferando,49,4.7,Lützowstraße 19,14199,Berlin,52.5029538,13.3671836,"['falafel_1215', 'curry_731', 'poke-bowl_2318']",45,0,199,0
+Giovanni Rana,lieferando,18,3.9,Leipziger Platz 12,14199,Berlin,52.5102817,13.3792042,"['italian_21', 'pasta_1614', 'salads_1456']",40,695,199,0
+Nepal Haus,lieferando,86,4.6,Gneisenaustraße 4,14199,Berlin,52.4923547,13.3887523,"['indian_71', 'curry_731', 'chicken_521']",45,1046,199,0
+Döner Point,lieferando,36,4.3,Leipziger Straße 45,14199,Berlin,52.5104879,13.3966614,"['doener_821', '100-halal_921', 'falafel_1256']",40,0,199,0
+Ben & Jerry's und Magnum,lieferando,11,3.8,Heinrich-Heine-Straße 38c,14199,Berlin,52.5058504,13.412269,"['desserts_954', 'snacks_201', 'ice-cream_1194']",40,1202,199,0
+CAY TRE QUAN,lieferando,131,4.3,Potsdamer Straße 69,14199,Berlin,52.503222,13.3662007,"['asian_1864', 'vietnamese_261']",45,1157,199,0
+Waffle36,lieferando,0,0.0,Kottbusser Damm 9,14199,Berlin,52.493784,13.4212548,"['desserts_954', 'snacks_201']",40,0,0,0
+Wiki Wiki Poke,lieferando,0,0.0,Lininenstraße 130,14199,Berlin,52.527052,13.3888103,"['falafel_1215', 'poke-bowl_2318']",45,0,199,0
+Nisk,lieferando,39,4.5,Yorckstraße 25,14199,Berlin,52.49239,13.37909,"['pasta_1614', 'falafel_1215', 'drinks_241']",45,1029,199,0
+Asia Snack Mehringplatz,lieferando,17,3.7,Mehringplatz 21,14199,Berlin,52.49844,13.3922,"['asian_1864', 'curry_731', 'thai_61']",45,667,199,0
+Veggie & Vega - Restaurant,lieferando,132,3.7,Bergmannstraße 27,14199,Berlin,52.48877,13.39524,"['vegetarian_391', 'indian_71', 'falafel_1215']",45,969,199,0
+Marthas Delicious Burgers,lieferando,346,3.8,Mehringdamm 40,14199,Berlin,52.4926816,13.3870561,"['burgers_541', 'vegetarian_391', 'falafel_1215']",45,864,199,0
+Molinari & Ko,lieferando,548,4.3,Riemannstraße 13,14199,Berlin,52.49044,13.39202,"['italian-pizza_271', 'vegetarian_391', 'italian_21']",45,1026,199,0
+Abirams Berlin,lieferando,29,4.7,Zossener Strasse 12,14199,Berlin,52.4922794,13.3943531,"['indian_71', 'falafel_1215', 'chicken_521']",45,0,199,0
+H2 - Be Veggie,lieferando,637,4.1,Möckernstraße 48,14199,Berlin,52.4930738,13.3793401,"['vegetarian_391', 'falafel_1215', 'asian_1864']",45,966,199,0
+Tsukushiya,lieferando,44,4.5,Dresdener Straße 16,14199,Berlin,52.5011915,13.4170473,"['japanese_551', 'falafel_1215']",50,1079,199,0
+Ben & Jerry's und Magnum,lieferando,46,4.0,Yorckstraße 89a,14199,Berlin,52.4928094,13.3864706,"['desserts_954', 'snacks_201', 'ice-cream_1194']",40,1302,199,0
+Sombrero,lieferando,120,4.1,Wrangelstraße 11-12,14199,Berlin,52.45557,13.31752,"['burgers_541', 'mexican_221', 'spanish-and-tapas_11']",35,1174,299,1000
+Habibi - Falafel & Schawarma,lieferando,239,4.2,Goltzstraße 24,14199,Berlin,52.4966805,13.3536971,"['vegetarian_391', 'falafel_1256', 'arab_1246']",45,915,199,0
+Pasam Baklava,lieferando,13,4.8,Goebenstraße 12a,14199,Berlin,52.4933302,13.3659291,"['turkish_31', 'desserts_954', 'cake_251']",40,2357,199,0
+Hanoi Gourmet,lieferando,9,3.7,Leipziger Platz 12,14199,Berlin,52.5104461,13.3800834,"['sushi_51', 'asian_1864', 'vietnamese_261']",40,0,199,0
+Ming Dynastie,lieferando,483,4.3,Brückenstraße 6,14199,Berlin,52.5134234,13.4181172,"['chinese_41', 'asian_1864', 'dumplings_1814']",40,2694,199,0
+Barcomi's,lieferando,66,4.9,Bergmannstraße 21,14199,Berlin,52.4890051,13.3933534,"['desserts_954', 'sandwiches_671']",45,988,199,0
+Swera - Restaurant & Cocktailbar,lieferando,70,4.3,Bergmannstraße 103,14199,Berlin,52.4899929,13.3891891,"['vegetarian_391', 'indian_71']",45,1263,199,0
+Sesam,lieferando,34,4.6,Gneisenaustraße 22,14199,Berlin,52.4913159,13.3941017,"['100-halal_921', 'falafel_1256', 'arab_1246']",45,0,199,0
+Balkaymak Simit Evi,lieferando,52,3.8,Gneisenaustrasse 3,14199,Berlin,52.49243,13.38851,"['pasta_1614', 'turkish_31', 'breakfast_361']",45,968,199,0
+Habibi,lieferando,337,4.5,Akazienstraße 9,14199,Berlin,52.488145,13.3544435,"['vegetarian_391', 'sandwiches_671', 'falafel_1256']",45,915,199,0
+Dunkin' Donuts,lieferando,72,3.5,Rathausstraße 5,14199,Berlin,52.5188741,13.4109173,"['desserts_954', 'cake_251']",40,1540,199,0
+Tandoori Nächte,lieferando,6,3.7,Bornimer Straße 4,14199,Berlin,52.4962467,13.2858841,['indian_71'],45,0,199,1000
+Noodle Plus,lieferando,23,3.8,Hannah-Arendt-Straße 1,14199,Berlin,52.5136773,13.3814525,"['chinese_41', 'vegetarian_391', 'asian_1864']",50,0,199,0
+Akito Sushi Bar,lieferando,6,4.7,Reinhardtstraße 6,14199,Berlin,52.5239124,13.3867527,"['sushi_51', 'asian_1864', 'poke-bowl_2318']",45,0,199,0
+India,lieferando,147,4.3,Bergmannstraße 100,14199,Berlin,52.489844,13.3899312,"['vegetarian_391', 'indian_71', 'falafel_1215']",45,1425,199,0
+Cedar,lieferando,41,4.4,Skalitzer Straße 102,14199,Berlin,52.4994654,13.4279591,"['falafel_1256', 'arab_1246', 'lebanese_491']",50,714,199,0
+Habibi Berlin,lieferando,4,4.1,Körtestraße 35,14199,Berlin,52.4893909,13.4084665,"['vegetarian_391', '100-halal_921', 'falafel_1256']",50,0,199,0
+Florya's Burger House,lieferando,110,4.1,Potsdamer Straße 69,14199,Berlin,52.503222,13.3662007,"['burgers_541', 'american_381', 'hot-dog_1824']",45,819,199,0
+Stay Green - Bowls Salad Pasta,lieferando,16,4.7,Leipziger Straße 51,14199,Berlin,52.5107206,13.4016645,"['pasta_1614', 'salads_1456', 'poke-bowl_2318']",50,0,199,0
+Madang Restaurant,lieferando,74,3.9,Gneisenaustraße 8,14199,Berlin,52.49211,13.39017,"['asian_1864', 'korean_1114', 'chicken_521']",45,1270,199,0
+Tucano Coffee,lieferando,18,4.7,Rahel-Hirsch-Straße 10,14199,Berlin,52.5228096,13.3680145,"['salads_1456', 'sandwiches_671', 'cake_251']",40,756,199,0
+Huy Hoang Asia Imbiss,lieferando,62,4.1,Adalbertstraße 98,14199,Berlin,52.499886,13.4175015,"['chinese_41', 'thai_61', 'vietnamese_261']",50,0,199,0
+Gogi Boss,lieferando,51,3.7,Mehringdamm 38,14199,Berlin,52.4933416,13.3875471,"['vegetarian_391', 'asian_1864', 'korean_1114']",45,0,199,0
+Kamiko - Berlin,lieferando,294,4.4,Bergmannstrasse 89,14199,Berlin,52.4893834,13.3931962,"['sushi_51', 'asian_1864', 'vietnamese_261']",45,1041,199,0
+Good Morning Vietnam,lieferando,629,4.1,Bergmannstraße 102-103,14199,Berlin,52.4899666,13.3894178,"['vegetarian_391', 'falafel_1215', 'vietnamese_261']",45,1000,199,0
+Steinofen Pizzeria,lieferando,71,4.4,Goltzstraße 15,14199,Berlin,52.4931327,13.3538677,"['italian-pizza_271', 'vegetarian_391']",45,917,199,0
+Meyan Berlin,lieferando,63,4.7,Goltzstraße 36/rechts,14199,Berlin,52.4937462,13.3535133,"['salads_1456', 'turkish_31', 'sandwiches_671']",45,0,199,0
+Restaurant Neffes,lieferando,76,3.9,Potsdamer Str. 131,14199,Berlin,52.4972491,13.3622005,"['indian_71', 'german_431', 'homemade_451']",40,1218,199,0
+Dunkin' Donuts,lieferando,80,4.1,Alexanderplatz 16,14199,Berlin,52.5212352,13.4146338,"['desserts_954', 'cafe_2134', 'cake_251']",45,1540,199,0
+Orient Esspress,lieferando,62,4.5,Zossener Straße 26,14199,Berlin,52.4894943,13.3935227,"['doener_821', 'turkish_31', 'falafel_1256']",45,0,199,0
+Little Green Rabbit,lieferando,27,4.7,Unter den Linden 21,14199,Berlin,52.5166207,13.3897757,"['vegetarian_391', 'salads_1456', 'poke-bowl_2318']",45,917,199,0
+Pagode Thai Kitchen,lieferando,673,4.0,Bergmannstraße 88,14199,Berlin,52.489343,13.3935502,"['vegetarian_391', 'asian_1864', 'thai_61']",45,985,199,0
+Thanh Nho,lieferando,39,4.3,Potsdamer Straße 133,14199,Berlin,52.4970148,13.3620248,"['asian_1864', 'vietnamese_261']",40,0,199,0
+NORDSEE,lieferando,240,4.2,Spandauer Straße 4,14199,Berlin,52.52095,13.40434,"['burgers_541', 'pasta_1614', 'fish_421']",40,949,0,0
+Pizzeria Trattoria Café LuNa,lieferando,301,3.8,Gotenstraße 18,14199,Berlin,52.48114,13.35995,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,1017,199,0
+Die kleene Aubergine,lieferando,68,4.6,Marheinekeplatz/Markthalle EG Markthalle,14199,Berlin,52.48933,13.394788,"['vegetarian_391', 'falafel_1215', 'salads_1456']",45,1188,199,0
+Olgas Feinkost Imbiss Agora,lieferando,97,4.5,Marheinekeplatz 15,14199,Berlin,52.4892582,13.3953724,"['vegetarian_391', 'greek_91', 'salads_1456']",45,902,199,0
+Öz Inegöl Köfteci,lieferando,17,4.3,Potsdamer Straße 146,14199,Berlin,52.4973008,13.3613806,['chicken_521'],40,0,199,0
+Hello Charge,lieferando,28,4.5,Potsdamer Str. 148,14199,Berlin,52.4971072,13.361379,"['vegetarian_391', 'falafel_1215', 'asian_1864']",40,0,199,0
+Steinofen Pizza Fresh,lieferando,55,4.4,Potsdamer Straße 148,14199,Berlin,52.4971072,13.361379,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,838,199,0
+Dolden Mädel Braugasthaus,lieferando,315,4.2,Mehringdamm 80,14199,Berlin,52.4894618,13.3858374,"['burgers_541', 'german_431', 'steak_401']",45,1754,199,0
+Sancak Döner,lieferando,93,3.6,Gneisenaustrasse 4,14199,Berlin,52.4923547,13.3887523,"['doener_821', 'turkish_31', '100-halal_921']",45,833,199,0
+Kardesler Grill,lieferando,11,4.2,Potsdamer Straße 110,14199,Berlin,52.5006823,13.363277,"['vegetarian_391', 'doener_821']",45,0,199,0
+Sahara Imbiss,lieferando,46,4.4,Hauptstraße 159,14199,Berlin,52.4898083,13.3601656,"['vegetarian_391', 'falafel_1256', 'african_771']",40,0,199,0
+Refueat Soulfood,lieferando,47,4.2,Bautzener Straße 40,14199,Berlin,52.4921019,13.3712615,"['100-halal_921', 'arab_1246']",40,889,199,0
+Sahara Imbiss,lieferando,171,4.2,Bergmannstraße 94,14199,Berlin,52.4896209,13.3918612,"['vegetarian_391', 'falafel_1215', 'falafel_1256']",45,776,199,0
+Köfteci Fresh Food,lieferando,256,4.5,Potsdamer Straße 168,14199,Berlin,52.49531,13.36069,"['turkish_31', '100-halal_921', 'falafel_1256']",45,1228,199,0
+Prometeo,lieferando,707,3.8,Goebenstraße 3,14199,Berlin,52.49392,13.3621168,"['italian-pizza_271', 'italian_21', 'salads_1456']",45,1099,199,0
+In Cibus,lieferando,64,4.5,Monumentenstraße 26,14199,Berlin,52.487961,13.3751469,"['italian-pizza_271', 'italian_21', 'pasta_1614']",45,990,199,0
+Tibet Haus,lieferando,28,4.1,Zossener Straße 19,14199,Berlin,52.49067,13.39391,"['asian_1864', 'thai_61']",45,0,199,0
+Häagen-Dazs Shop,lieferando,11,3.0,Potsdamer Platz 5,14199,Berlin,52.510509,13.3761878,['ice-cream_1194'],45,1026,199,0
+Veganland Cigköfte,lieferando,29,4.5,Potsdamer Straße 172,14199,Berlin,52.49501,13.36077,"['vegetarian_391', 'falafel_1215', 'turkish_31']",45,0,199,0
+Alzad Crispy Chicken,lieferando,140,4.2,Potsdamer Straße 138,14199,Berlin,52.4984052,13.3618956,"['american_381', 'fries_1734', 'chicken_521']",40,1256,199,0
+Wrapublic Berlin-Kreuzberg,lieferando,62,4.4,Oranienplatz 2,14199,Berlin,52.5023121,13.414558,"['falafel_1215', '100-halal_921', 'wrap_1416']",50,746,199,0
+Saigon Com Nieu,lieferando,47,4.7,Bülowstraße 9,14199,Berlin,52.4985591,13.35726,"['vegetarian_391', 'asian_1864', 'vietnamese_261']",45,1014,199,0
+Taverna Mastiha,lieferando,12,4.1,Arndtstraße 12,14199,Berlin,52.488552,13.3928872,"['greek_91', 'gyros_1356']",45,0,199,0
+Loui's Burgers,lieferando,116,4.2,Zossener Straße 25,14199,Berlin,52.4895746,13.3935623,"['burgers_541', 'falafel_1215', 'fish_421']",40,748,199,0
+AnCom Kitchen,lieferando,388,4.6,Gneisenaustraße 62,14199,Berlin,52.4901803,13.4034317,"['chinese_41', 'asian_1864', 'vietnamese_261']",40,823,199,0
+Cana Restaurant & Catering,lieferando,209,4.3,Neue Roßstraße 11-12,14199,Berlin,52.5120785,13.4086173,"['vegetarian_391', 'falafel_1215', 'arab_1246']",40,1262,199,0
+mama trattoria,lieferando,86,4.0,Pariser Platz 6a,14199,Berlin,52.5168953,13.3778308,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",45,1053,199,0
+Shezan - Indisches Restaurant,lieferando,949,4.3,Neue Roßstraße 13,14199,Berlin,52.5121025,13.4082589,"['vegetarian_391', 'indian_71', 'asian_1864']",40,1237,199,0
+Erdinger am Gendarmenmarkt,lieferando,38,3.6,Jägerstraße 56,14199,Berlin,52.5142325,13.393535,"['german_431', 'schnitzel_1654', 'german_441']",40,0,199,0
+Parlamento Degli Angeli,lieferando,360,3.6,Bergmannstrasse 109,14199,Berlin,52.4901244,13.3880458,"['italian_21', 'pasta_1614', 'salads_1456']",45,1061,199,0
+Vietnam Restaurant & Sushi Bar,lieferando,18,4.0,Unter den Linden 12,14199,Berlin,52.5174559,13.3901561,"['sushi_51', 'asian_1864', 'vietnamese_261']",45,1373,199,0
+Mmaah Korean BBQ Express,lieferando,1547,4.4,Nollendorfstraße 31,14199,Berlin,52.4977557,13.3525434,"['vegetarian_391', 'asian_1864', 'korean_1114']",40,831,199,0
+Pizzeria Pesaro,lieferando,47,3.9,Marheinekeplatz 15,14199,Berlin,52.4892582,13.3953724,"['italian-pizza_271', 'pasta_1614']",45,1198,199,0
+Bella Vita,lieferando,16,3.8,Mittelstraße 62,14199,Berlin,52.5179452,13.389358,"['italian-pizza_271', 'italian_21', 'pasta_1614']",45,1288,199,0
+Subway,lieferando,99,3.4,Behrenstraße 47,14199,Berlin,52.5159943,13.3897682,"['salads_1456', 'sandwiches_671']",45,756,199,0
+Pastarium,lieferando,94,3.8,Willibald-Alexis-Straße 27,14199,Berlin,52.4875041,13.3912847,"['italian-pizza_271', 'italian_21']",45,992,199,0
+Fadi Food,lieferando,106,3.5,Potsdamer Str. 117-119,14199,Berlin,52.49889,13.3628099,"['vegetarian_391', 'falafel_1256', 'arab_1246']",40,600,199,0
+Henne - Alt-Berliner Wirtshaus,lieferando,70,4.9,Leuschnerdamm 25,14199,Berlin,52.50426,13.41792,['german_431'],45,980,199,0
+Planet Bowl Berlin,lieferando,152,4.3,Adalbertstraße 7,14199,Berlin,52.5004761,13.4189519,"['vegetarian_391', 'falafel_1215', 'poke-bowl_2318']",55,893,199,0
+Royal Donuts,lieferando,36,4.6,Hauptstraße 20,14199,Berlin,52.4865523,13.3563353,"['falafel_1215', 'desserts_954', 'cake_251']",40,0,199,0
+Mon Vegetarian Eatery & Bar,lieferando,43,4.4,Oranienplatz 5,14199,Berlin,52.50325,13.41459,"['falafel_1215', 'asian_1864', 'curry_731']",50,925,199,0
+Cancún Restaurant Alexanderplatz,lieferando,14,3.6,Rathausstraße 5-13,14199,Berlin,52.5191327,13.410718,"['mexican_221', 'american_381', 'steak_401']",40,1312,199,0
+Kiez Keb Up,lieferando,11,3.4,Bergmannstraße 5,14199,Berlin,52.4890266,13.3889243,"['doener_821', 'turkish_31']",45,0,199,0
+Turtle Pizza - Berlin,lieferando,77,4.3,Kottbusser Damm 88,14199,Berlin,52.4928508,13.422613,"['italian-pizza_271', 'italian_21']",50,1055,199,0
+Guru,lieferando,972,4.5,Körtestr. 30,14199,Berlin,52.4902044,13.4084321,"['indian_71', 'curry_731', 'chicken_521']",55,947,199,0
+Restaurant Ambrosius,lieferando,60,4.4,Karl-Heinrich-Ulrichs-Straße 14,14199,Berlin,52.5024382,13.3534265,['german_431'],45,1616,199,0
+Veganaa,lieferando,71,4.8,Grunewaldstraße 88,14199,Berlin,52.4898469,13.3564525,"['falafel_1215', 'dumplings_1814']",40,1740,199,0
+Cupcakeladen,lieferando,92,4.9,Frankenstraße 15,14199,Berlin,52.4932629,13.3527297,"['desserts_954', 'cake_251']",45,3372,199,0
+Baklavaci Antepliogullari,lieferando,36,4.9,Skalitzer Straße 134,14199,Berlin,52.4993725,13.4187919,"['turkish_31', 'desserts_954']",55,0,199,0
+Konak Grill (Izmir Köftecisi),lieferando,227,4.3,Reichenberger Straße 10,14199,Berlin,52.4994251,13.4166479,"['vegetarian_391', 'turkish_31', '100-halal_921']",55,1141,199,0
+Cielo di Berlino,lieferando,113,4.0,Monumentenstraße 31,14199,Berlin,52.48829,13.36983,"['italian-pizza_271', 'pasta_1614', 'gluten-free_1556']",40,1244,199,0
+Kinnaree Thai,lieferando,91,4.7,Südstern 14,14199,Berlin,52.4886366,13.4071974,"['vegetarian_391', 'thai_61']",40,0,199,0
+Roll Inc. Berlin,lieferando,24,4.4,Körtestraße 30,14199,Berlin,52.49025,13.4082931,"['burgers_541', 'indian_71', 'wrap_1416']",55,0,199,0
+Masti Indian Food,lieferando,3,2.2,Leipziger Platz 12,14199,Berlin,52.5104461,13.3800834,"['vegetarian_391', 'indian_71', 'curry_731']",40,887,199,0
+Prisma Pavillon,lieferando,96,4.2,Fraenkelufer 2,14199,Berlin,52.4962907,13.4191902,"['italian-pizza_271', 'pasta_1614', 'homemade_451']",50,793,199,0
+Hachiko Japanese Cuisine,lieferando,16,5.0,Grunewaldstraße 83,14199,Berlin,52.4899479,13.3552295,"['sushi_51', 'vegetarian_391', 'japanese_551']",40,0,199,0
+Imren,lieferando,112,4.6,Hauptstraße 156,14199,Berlin,52.4893994,13.3596628,"['vegetarian_391', 'turkish_31', '100-halal_921']",40,0,199,0
+Eden - Vietnamesisches Restaurant,lieferando,43,4.3,Rosenstraße 19,14199,Berlin,52.5216976,13.4049481,"['falafel_1215', 'asian_1864', 'vietnamese_261']",40,0,199,0
+Persepolis Restaurant,lieferando,245,4.3,Kurfürstenstraße 127,14199,Berlin,52.5024196,13.3517047,"['salads_1456', 'fish_421', 'iranian_2324']",45,1382,199,0
+Chupenga Burritos,lieferando,63,3.9,Georgenstraße 200,14199,Berlin,52.5199177,13.3896258,"['mexican_221', 'salads_1456', 'lunch_351']",40,944,199,0
+Burgerwood,lieferando,21,4.3,Reinhardtstraße 47,14199,Berlin,52.5222342,13.3782894,"['burgers_541', 'salads_1456', 'wrap_1416']",45,779,199,0
+Adana Grillhaus,lieferando,66,3.9,Skalitzer Straße 105,14199,Berlin,52.4994513,13.4273898,"['turkish_31', 'veal_1744', 'chicken_521']",50,1808,199,0
+AmmAmma Berlin,lieferando,143,4.5,Urbanstraße 28a,14199,Berlin,52.49188,13.41165,['indian_71'],50,1029,199,0
+Sushi Miyabi Mitte,lieferando,147,4.2,Georgenstraße 195,14199,Berlin,52.5201146,13.3905763,"['sushi_51', 'asian_1864', 'thai_61']",40,1133,199,0
+Rosengarten Am Engelbecken,lieferando,181,4.5,Legiendamm / Heinrich-Heine-Platz 13 2,14199,Berlin,52.5063522,13.4169618,"['italian-pizza_271', 'german_431', 'schnitzel_1654']",45,989,199,0
+Fresh'n Fast Hot Dog,lieferando,22,4.3,Motzstraße 1,14199,Berlin,52.4989519,13.3521409,"['american_381', 'snacks_201', 'hot-dog_1824']",40,0,199,0
+Siaburger,lieferando,22,4.6,Reichenberger Straße 176,14199,Berlin,52.4997045,13.4170335,"['burgers_541', 'vegetarian_391', '100-halal_921']",40,0,199,0
+Taverna Notos,lieferando,71,4.9,Vorbergstraße 10,14199,Berlin,52.489174,13.3543455,"['greek_91', 'snacks_201', 'fish_421']",40,1331,0,0
+Mały Książę,lieferando,83,4.5,Lilienthalstraße 6,14199,Berlin,52.488072,13.4075433,"['vegetarian_391', 'polish_1216', 'soup_1406']",40,669,199,0
+Kordofan Berlin,lieferando,6,3.9,Bülowstraße 1-3,14199,Berlin,52.4989241,13.3553525,['chicken_231'],40,0,199,0
+Burgers Berlin,lieferando,473,4.2,Goltzstraße 33,14199,Berlin,52.4942687,13.3535825,"['burgers_541', 'vegetarian_391', 'falafel_1215']",40,807,199,0
+Asia Snack,lieferando,195,4.8,Motzstr. 28,14199,Berlin,52.4978395,13.3478019,"['sushi_51', 'asian_1864', 'vietnamese_261']",45,705,199,0
+Qilin Kitchen by Sushi Club,lieferando,28,3.8,Hauptstraße 163,14199,Berlin,52.4909615,13.3611619,"['sushi_51', 'asian_1864']",45,1149,199,0
+Pitaya Restaurant,lieferando,251,3.8,Hauptstraße 159,14199,Berlin,52.4898083,13.3601656,"['sushi_51', 'thai_61', 'vietnamese_261']",40,995,199,0
+Pizzeria Verdura,lieferando,3,4.0,Karl-Heinrich-Ulrichs-Straße 2,14199,Berlin,52.500281,13.3543754,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",45,0,199,0
+Schäfer's,lieferando,5,4.5,Luisenstraße 46,14199,Berlin,52.5234098,13.3798674,"['snacks_201', 'baked-goods_2468', 'breakfast_361']",45,0,199,0
+San Marco Berlin,lieferando,16,4.4,Kleiststraße 36,14199,Berlin,52.5000359,13.3498896,"['italian-pizza_271', 'italian_21', 'pasta_1614']",45,0,199,0
+Tehran Grill,lieferando,39,4.2,Nollendorfplatz 7,14199,Berlin,52.4988142,13.3537308,"['falafel_1215', 'salads_1456', 'iranian_2324']",40,1278,199,0
+Pizzeria Marienkäfer,lieferando,782,3.9,Marienstr. 18,14199,Berlin,52.5223585,13.3840483,"['italian-pizza_271', 'italian_21', 'pasta_1614']",50,1465,199,0
+Hasir,lieferando,38,3.8,Maaßenstraße 10,14199,Berlin,52.4976581,13.3538268,"['doener_821', 'turkish_31', 'turkish-pizza_291']",40,0,199,0
+Mother's Heart,lieferando,309,4.0,Körtestraße 33,14199,Berlin,52.4896419,13.4086811,"['vegetarian_391', 'asian_1864', 'vietnamese_261']",50,1695,199,0
+ZamZam,lieferando,101,4.5,Hauptstraße 15,14199,Berlin,52.4876472,13.3573262,"['indian_71', '100-halal_921', 'pakistani_1804']",45,0,199,0
+Da Dante,lieferando,346,4.4,Hauptstraße 14,14199,Berlin,52.4878622,13.3575,"['italian-pizza_271', 'italian_21', '100-halal_921']",45,1400,199,0
+Mammam Mitte,lieferando,80,4.1,Inselstraße 8,14199,Berlin,52.5126262,13.4117522,"['falafel_1215', 'asian_1864', 'thai_61']",40,700,199,0
+Ferrarino Pizza Delivery,lieferando,24,4.4,Garnisonkirchplatz 2,14199,Berlin,52.52183,13.40174,"['italian-pizza_271', 'falafel_1215', 'seafood_1476']",45,0,199,0
+Defne,lieferando,12,4.4,Planufer 92C,14199,Berlin,52.4952941,13.4177449,"['pasta_1614', 'turkish_31']",55,0,199,0
+Restaurant Aposto,lieferando,124,4.3,Monbijouplatz 12,14199,Berlin,52.52256,13.39942,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",45,1339,199,0
+Di Sopra,lieferando,5,3.1,Marheinekeplatz 15,14199,Berlin,52.4892582,13.3953724,"['italian-pizza_271', 'pasta_1614', 'desserts_954']",50,0,199,0
+Galetterie Café,lieferando,23,3.9,Inselstraße 13,14199,Berlin,52.5115641,13.4131333,"['salads_1456', 'sandwiches_671', 'french_321']",40,983,199,0
+Aki Tatsu,lieferando,213,4.3,Torstraße 176,14199,Berlin,52.52854,13.3946,"['sushi_51', 'asian_1864', 'vietnamese_261']",45,1191,199,0
+Gokan,lieferando,182,4.3,Leberstraße 9,14199,Berlin,52.4851706,13.361755,"['gluten-free_1556', 'korean_1114']",40,1081,199,0
+Maharadscha,lieferando,68,4.8,Fuggerstraße 21,14199,Berlin,52.4987304,13.3450252,"['vegetarian_391', 'indian_71', 'curry_731']",45,1467,199,0
+Restaurant Potemkin,lieferando,52,4.2,Viktoria-Luise-Platz 5,14199,Berlin,52.4961528,13.3414806,"['italian_21', 'german_431', 'russian_781']",45,1371,199,0
+Cafe Sevo,lieferando,5,4.7,Eisenacher Straße 11-13,14199,Berlin,52.4973867,13.349313,"['falafel_1215', 'salads_1456', 'turkish_31']",40,952,199,0
+Trattoria Fellini,lieferando,69,4.3,Crellestraße 46,14199,Berlin,52.4872796,13.3582807,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",45,1284,199,0
+Restaurant Shayan,lieferando,25,4.2,Goltzstraße 23,14199,Berlin,52.4944427,13.3541255,['iranian_2324'],40,0,199,0
+Saigon Alley,lieferando,95,4.6,Leberstraße 6,14199,Berlin,52.4854435,13.3612251,"['asian_1864', 'curry_731']",40,0,199,0
+Café Taubenschlag,lieferando,22,4.5,Leberstraße 1-3,14199,Berlin,52.4855472,13.3617132,"['pasta_1614', 'salads_1456', 'sandwiches_671']",40,1283,199,0
+Jugnooo,lieferando,6,4.0,Viktoria-Luise-Platz 5,14199,Berlin,52.4961528,13.3414806,"['vegetarian_391', 'indian_71', 'falafel_1215']",45,0,199,0
+Indisches Restaurant Mela,lieferando,315,4.5,Crellestraße 46,14199,Berlin,52.4872596,13.3583119,"['indian_71', 'falafel_1215', 'fish_421']",45,1325,199,0
+CouCou Café & Deli,lieferando,27,4.1,Reinhardtstr. 37,14199,Berlin,52.5225168,13.3802741,"['vegetarian_391', 'salads_1456', 'gluten-free_1556']",40,650,199,0
+Viettonic2,lieferando,73,4.5,Kottbusser Straße 19 links,14199,Berlin,52.4974418,13.4195128,"['sushi_51', 'falafel_1215', 'vietnamese_261']",40,0,199,0
+Mamas Banh Schöneberg,lieferando,132,4.3,Grunewaldstraße 81,14199,Berlin,52.4897651,13.354391,"['asian_1864', 'vietnamese_261']",40,965,199,0
+Kiraku,lieferando,23,4.5,Litfaßplatz 1,14199,Berlin,52.5219449,13.4036132,"['sushi_51', 'japanese_551']",45,0,199,0
+Butterbrot,lieferando,36,4.2,Oranienstraße 168,14199,Berlin,52.5017144,13.4174003,"['pasta_1614', 'salads_1456', 'breakfast_361']",50,1116,199,0
+Ristorante DaVinci,lieferando,88,3.6,Georgenstraße 192,14199,Berlin,52.5201661,13.391311,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,1207,199,0
+Sala7,lieferando,81,4.1,Grimmstraße 7,14199,Berlin,52.4938972,13.4136821,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",50,1057,199,0
+Cơm Á,lieferando,367,4.4,Oranienstraße 191,14199,Berlin,52.50025,13.4223001,"['sushi_51', 'vegetarian_391', 'asian_1864']",45,1766,199,0
+Maharaja,lieferando,267,4.1,Goltzstraße 20,14199,Berlin,52.4939386,13.3540524,"['vegetarian_391', 'indian_71', 'curry_731']",45,1045,199,0
+Manju,lieferando,0,0.0,Wilmersdorfer Straße 46,14199,Berlin,52.509249,13.304609,"['indian_71', 'asian_1864', 'chicken_231']",30,933,299,1000
+Ben & Jerry's und Magnum,lieferando,51,3.2,Winterfeldtstraße 6,14199,Berlin,52.4961991,13.3604462,"['desserts_954', 'snacks_201', 'ice-cream_1194']",45,1302,199,0
+One And Only,lieferando,118,4.2,Goltzstraße 35,14199,Berlin,52.4939376,13.3535379,"['sushi_51', 'asian_1864', 'vietnamese_261']",45,922,199,0
+Restaurant Rani,lieferando,57,4.2,Goltzstraße 32,14199,Berlin,52.4945096,13.3537009,"['vegetarian_391', 'indian_71', 'falafel_1215']",40,885,199,0
+KOMAGENE CHEE KÖFTE,lieferando,15,4.6,Kolonnenstraße 66,14199,Berlin,52.4866161,13.3584148,"['falafel_1215', 'turkish_31', 'falafel_1256']",45,1687,199,0
+Basmah,lieferando,107,4.5,Reichenberger Straße 26,14199,Berlin,52.49802,13.42111,"['vegetarian_391', 'falafel_1215', 'falafel_1256']",55,633,199,0
+Lasan Restaurant,lieferando,12,4.0,Adalbertstraße 96,14199,Berlin,52.5001055,13.4178492,"['vegetarian_391', 'falafel_1215', 'chicken_521']",50,0,199,0
+Vegan Living Quy Nguyen,lieferando,15,4.3,Oranienburger Straße 7,14199,Berlin,52.5237438,13.4004558,"['vegetarian_391', 'falafel_1215', 'asian_1864']",45,0,199,0
+Safran Oranienstraße,lieferando,32,3.9,Oranienstraße 172,14199,Berlin,52.5014585,13.41811,"['vegetarian_391', 'seafood_1476', 'iranian_2324']",50,1379,199,0
+Tiger Club,lieferando,261,4.9,Deitmerstrasse 13,14199,Berlin,52.4596176,13.3244247,"['vegetarian_391', 'asian_1864', 'vietnamese_261']",35,1124,299,1000
+Efsane Grillhaus,lieferando,147,4.4,Kolonnenstraße 1,14199,Berlin,52.4864476,13.3578564,"['falafel_1215', 'turkish_31', '100-halal_921']",45,833,199,0
+La Santa Lucha,lieferando,11,3.2,Holzmarktstraße 10,14199,Berlin,52.5142564,13.4210671,"['vegetarian_391', 'mexican_221', 'poke-bowl_2318']",50,0,0,0
+Cafe Mutter,lieferando,187,4.1,Hohenstaufenstraße 4,14199,Berlin,52.494985,13.3525307,"['italian-pizza_271', 'asian_1864', 'thai_61']",40,1517,199,0
+Starbucks,lieferando,35,4.5,Neue Promenade 3,14199,Berlin,52.52329,13.40217,"['cafe_2134', 'cake_251', 'drinks-and-snacks_661']",45,599,0,0
+Orient Falafel,lieferando,35,4.5,Graefestr. 65 A,14199,Berlin,52.4911331,13.4166852,"['burgers_541', 'falafel_1256', 'arab_1246']",50,954,199,0
+Baltas Coffee Shop,lieferando,8,3.8,Goltzstraße 17,14199,Berlin,52.4934437,13.3539298,"['salads_1456', 'sandwiches_671', 'cake_251']",40,0,199,0
+TATAS,lieferando,75,4.8,Maybachufer 11,14199,Berlin,52.4946898,13.4238604,"['falafel_1215', 'desserts_954', 'ice-cream_1194']",55,683,199,0
+Bep Thoc - Vietnamese Sandwiches and More,lieferando,20,4.4,Kottbusser Damm 1,14199,Berlin,52.4953595,13.4200989,"['vegetarian_391', 'sandwiches_671', 'vietnamese_261']",50,700,199,0
+Schüsseldienst,lieferando,130,4.5,Akazienstraße 7,14199,Berlin,52.487469,13.3549866,"['vegetarian_391', 'salads_1456', 'french_321']",45,1220,199,0
+Kebapzade Restaurant Berlin,lieferando,35,3.5,Maaßenstr. 9,14199,Berlin,52.4977904,13.3547069,"['vegetarian_391', 'salads_1456', 'turkish_31']",40,1584,199,0
+PHO - Noodlebar,lieferando,594,4.1,Adalbertstraße 9,14199,Berlin,52.5007692,13.4190997,"['asian_1864', 'vietnamese_261', 'soup_1406']",55,892,199,0
+Lee - Original Vietnamese Kitchen,lieferando,18,4.5,Große Hamburger Straße 21,14199,Berlin,52.524181,13.3992844,"['sushi_51', 'asian_1864', 'vietnamese_261']",45,0,199,0
+Mawal Restaurant,lieferando,58,3.8,Oranienstraße 30,14199,Berlin,52.5015025,13.4190701,"['arab_1246', 'lebanese_491', 'syrian_2438']",50,815,199,0
+Gasthaus Figl,lieferando,223,4.3,Urbanstraße 47,14199,Berlin,52.4904009,13.4175136,"['italian-pizza_271', 'salads_1456', 'bio_621']",50,1436,199,0
+Aki Tatsu Sushi & More,lieferando,47,4.1,Adalbertstraße 90,14199,Berlin,52.5015631,13.4192157,"['sushi_51', 'asian_1864', 'soup_1406']",50,0,199,0
+Choice - Vietnamese Food,lieferando,7,4.7,Akazienstraße 9,14199,Berlin,52.488145,13.3544435,"['vegetarian_391', 'asian_1864', 'vietnamese_261']",40,921,199,0
+Chickpeas,lieferando,36,4.4,Oranienstraße 19,14199,Berlin,52.5005741,13.4225198,"['vegetarian_391', 'falafel_1215', 'falafel_1256']",50,923,199,0
+Kiezburger,lieferando,180,4.0,Oranienstraße 178,14199,Berlin,52.5010649,13.4196334,"['burgers_541', 'fries_1734', 'beef_1426']",50,809,199,0
+goodies Berlin,lieferando,97,4.3,Akazienstrasse 28,14199,Berlin,52.4867146,13.3550612,"['vegetarian_391', 'falafel_1215']",40,697,199,0
+Restaurant Berliner Hof,lieferando,335,4.5,Hildegardstraße 14,14199,Berlin,52.481978,13.3224419,"['vegetarian_391', 'german_431', 'schnitzel_1654']",40,1370,299,1000
+Tangs Kantine,lieferando,206,3.8,Dieffenbachstraße 18,14199,Berlin,52.492468,13.4163305,"['chinese_41', 'falafel_1215', 'asian_1864']",50,1317,199,0
+Restaurant Has Mevlana,lieferando,293,3.8,Hauptstraße 148,14199,Berlin,52.4876201,13.3581271,"['doener_821', 'turkish_31', 'fries_1734']",40,790,199,0
+Eat Culture,lieferando,46,4.5,Dircksenstraße 2,14199,Berlin,52.5165549,13.4168142,"['vegetarian_391', 'mexican_221', 'falafel_1215']",45,831,199,0
+Olivio Pizza Pasta Bar,lieferando,463,4.7,Schönleinstraße 29,14199,Berlin,52.4919848,13.4212593,"['italian-pizza_271', 'italian_21', 'pasta_1614']",50,776,199,0
+Coffee & Bagel House,lieferando,5,4.6,Belziger Straße 21,14199,Berlin,52.4869837,13.3543785,"['pasta_1614', 'falafel_1215', 'salads_1456']",35,0,199,0
+Stadtgarten Steglitz,lieferando,60,4.8,Hubertusstraße 14,14199,Berlin,52.4604189,13.3250492,"['falafel_1215', 'salads_1456']",35,847,299,1000
+W-Der Imbiss 2,lieferando,7,4.4,Fuggerstraße 20,14199,Berlin,52.4991553,13.3448925,"['indian_71', 'falafel_1215', 'wrap_1416']",40,0,199,0
+Mercan,lieferando,67,4.8,Wiener Straße 10,14199,Berlin,52.4985422,13.4278199,"['vegetarian_391', 'turkish_31']",45,0,199,0
+AMRIT - Berlin Kreuzberg,lieferando,531,4.6,Oranienstrasse 202,14199,Berlin,52.499763,13.4243623,"['indian_71', 'falafel_1215', 'curry_731']",50,1071,199,0
+Restaurant Zitrone,lieferando,156,4.0,Dieffenbachstraße 56,14199,Berlin,52.4926354,13.4169872,"['german_431', 'german_441']",50,1213,199,0
+Mogg,lieferando,39,4.3,Auguststraße 11-13,14199,Berlin,52.52649,13.39444,"['american_381', 'salads_1456', 'sandwiches_671']",40,1425,199,0
+Ho Lo,lieferando,478,4.1,Schwäbische Straße 16,14199,Berlin,52.49024,13.35226,"['asian_1864', 'thai_61', 'vietnamese_261']",40,1025,199,0
+Pizza Peppino,lieferando,8,4.1,Tucholskystraße 13,14199,Berlin,52.5245208,13.3923952,"['italian-pizza_271', 'burgers_541', 'pasta_1614']",45,0,199,0
+Italofritzen,lieferando,101,3.4,Friedrichstr. 105,14199,Berlin,52.5227282,13.3881445,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",45,1111,199,0
+Datscha,lieferando,74,4.0,Graefestraße 83,14199,Berlin,52.4939652,13.4187303,"['vegetarian_391', 'falafel_1215', 'russian_781']",50,1220,199,0
+Arata- Sushi & More,lieferando,372,4.3,Torstr. 223,14199,Berlin,52.5276848,13.3883396,"['sushi_51', 'japanese_551', 'salads_1456']",40,1379,199,0
+MA'LOA - Poké Bowl,lieferando,578,4.0,Oranienburger Straße 7,14199,Berlin,52.5237438,13.4004558,"['sushi_51', 'asian_1864', 'poke-bowl_2318']",45,1042,199,0
+Doyuran Köfteci,lieferando,42,3.3,Oranienstraße 168,14199,Berlin,52.5017144,13.4174003,"['turkish_31', 'turkish-pizza_291', 'falafel_1256']",50,921,199,0
+TSU TSU,lieferando,35,3.8,Graefestraße 2,14199,Berlin,52.4952967,13.4192085,"['japanese_551', 'falafel_1215', 'chicken_521']",55,0,199,0
+Kamala,lieferando,29,4.0,Oranienburger Straße 69,14199,Berlin,52.5248421,13.3925536,"['vegetarian_391', 'falafel_1215', 'thai_61']",45,1289,199,0
+Trattoria a' Muntagnola,lieferando,57,4.6,Fuggerstraße 27,14199,Berlin,52.4987782,13.344104,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",45,1223,199,0
+Bar Tolucci,lieferando,37,4.6,Eisenacher Straße 38,14199,Berlin,52.4902119,13.3488152,['italian_21'],45,0,199,0
+Gaststätte Sophieneck,lieferando,73,4.4,Große Hamburger Straße 37,14199,Berlin,52.526368,13.3986636,"['german_431', 'schnitzel_1654', 'german_441']",45,1375,199,0
+Cô Linh,lieferando,127,4.2,Crellestrasse 48,14199,Berlin,52.4869412,13.3577095,"['sushi_51', 'vegetarian_391', 'vietnamese_261']",45,914,199,0
+Peter Pane,lieferando,217,4.0,Neue Promenade 4,14199,Berlin,52.52315,13.40178,"['burgers_541', 'falafel_1215', 'salads_1456']",45,1194,199,0
+MIRCHI,lieferando,8,4.6,Oranienstraße 204 links,14199,Berlin,52.4995721,13.4249836,"['indian_71', 'asian_1864']",50,0,199,0
+Umami Sushi,lieferando,280,4.2,Brückenstrasse 5a,14199,Berlin,52.5132373,13.4177761,"['sushi_51', 'japanese_551']",40,1061,199,0
+Namu Sushi Lounge,lieferando,103,4.1,Oranienburger Straße 17,14199,Berlin,52.5241316,13.3975132,"['sushi_51', 'asian_1864', 'vietnamese_261']",45,1088,199,0
+Hà Anh Quán,lieferando,66,4.1,Goltzstr. 51,14199,Berlin,52.49025,13.3529,"['sushi_51', 'vegetarian_391', 'vietnamese_261']",45,1011,199,0
+Chopstix,lieferando,5,4.5,Dircksenstr. 35,14199,Berlin,52.5228184,13.4095516,"['sushi_51', 'asian_1864', 'vietnamese_261']",45,1280,199,0
+Ustam Döner,lieferando,43,3.8,Kottbusser damm 1,14199,Berlin,52.4953595,13.4200989,"['doener_821', 'turkish_31', 'falafel_1256']",55,0,199,0
+Suksan,lieferando,25,4.4,Ansbacher Straße 4,14199,Berlin,52.5042882,13.3424363,"['vegetarian_391', 'asian_1864', 'thai_61']",40,1419,199,0
+Restaurant Elefant,lieferando,420,4.2,Fuggerstraße 18,14199,Berlin,52.4990266,13.3453486,"['falafel_1215', 'german_431', 'schnitzel_1654']",45,1355,199,0
+PHO - Noodlebar,lieferando,783,4.0,Linienstraße 134,14199,Berlin,52.5264349,13.387848,"['asian_1864', 'vietnamese_261', 'homemade_451']",45,905,199,0
+Viet Village,lieferando,74,4.3,Rosenthaler Straße 50,14199,Berlin,52.5253433,13.4036946,"['vegetarian_391', 'asian_1864', 'vietnamese_261']",45,709,199,0
+Bibi Mix,lieferando,54,4.6,Rosa-Luxemburg-Straße 5,14199,Berlin,52.523219,13.408921,"['burgers_541', 'asian_1864', 'chicken_521']",40,878,199,0
+BBQ Kitchen,lieferando,10,4.0,Am Zwirngraben 5,14199,Berlin,52.5228928,13.4030367,"['burgers_541', 'fries_1734']",45,0,199,0
+Maroush,lieferando,83,3.5,Adalbertstraße 93,14199,Berlin,52.5009339,13.4186987,"['arab_1246', 'lebanese_491']",50,0,199,0
+Esra Falafel,lieferando,184,4.1,Rosa-Luxemburg-Str. 5,14199,Berlin,52.523637,13.409156,"['turkish_31', 'falafel_1256', 'arab_1246']",40,792,199,0
+Pulcinella,lieferando,40,3.9,Große Hamburger Str. 21,14199,Berlin,52.524181,13.3992844,"['italian-pizza_271', 'vegetarian_391', 'italian_21']",45,1292,199,0
+7 Days finest fresh food,lieferando,44,3.9,Hauptstraße 21,14199,Berlin,52.4864318,13.356276,"['burgers_541', 'doener_821', 'turkish_31']",45,0,199,0
+Yogi-Haus Indisches Restaurant,lieferando,535,4.4,Belziger Straße 42,14199,Berlin,52.48631,13.35055,"['indian_71', 'asian_1864', '100-halal_921']",45,1592,199,0
+Carlos Tapas Bar,lieferando,43,4.5,Eisenacher Str. 69,14199,Berlin,52.4862102,13.3515818,"['spanish-and-tapas_11', 'fish_421', 'beef_1426']",45,1046,199,0
+Sangam,lieferando,53,4.2,Akazienstrasse 19,14199,Berlin,52.48854,13.353605,"['indian_71', 'veal_1744', 'chicken_521']",45,1123,199,0
+Wiesenstein,lieferando,195,4.1,Viktoria-Luise-Platz 12a,14199,Berlin,52.49554,13.34315,"['vegetarian_391', 'german_431', 'schnitzel_1654']",45,1560,199,0
+Goldies,lieferando,176,3.8,Oranienstraße 6 rechts,14199,Berlin,52.4998607,13.4250679,"['american_381', 'fries_1734', 'chicken_521']",50,1029,199,0
+Kebab Baba,lieferando,167,4.1,Linienstraße 133,14199,Berlin,52.5265051,13.3878453,"['doener_821', 'turkish_31', 'fries_1734']",45,700,199,0
+Pizzeria Da Lucia,lieferando,273,4.3,Welserstr. 25,14199,Berlin,52.4989,13.3419,"['italian-pizza_271', 'italian_21', 'pasta_1614']",45,1061,199,0
+Restaurant Graf,lieferando,85,4.2,Martin-Luther-Straße 6-10,14199,Berlin,52.49923,13.3455,['russian_781'],45,958,199,0
+Com Viet,lieferando,21,4.3,Münzstraße 3,14199,Berlin,52.5239938,13.408986,"['asian_1864', 'vietnamese_261', 'soup_1406']",45,772,199,0
+Mangia E Bevi,lieferando,64,4.5,Wartburgstraße 8,14199,Berlin,52.4874145,13.3493499,"['italian-pizza_271', 'italian_21', 'pasta_1614']",45,1782,199,0
+Papaya Restaurant,lieferando,5,3.7,Luisenstraße 49,14199,Berlin,52.524083,13.3795816,"['sushi_51', 'vegetarian_391', 'asian_1864']",40,0,199,0
+Tenur - Kurdische Küche,lieferando,10,4.5,Reichenberger Straße 147,14199,Berlin,52.4971324,13.4258939,"['salads_1456', 'turkish-pizza_291', 'arab_1246']",55,1575,199,0
+Subway,lieferando,283,4.2,Friedrichstraße 114,14199,Berlin,52.5265278,13.3874635,"['sandwiches_671', 'wrap_1416']",45,777,199,0
+Peter Pane,lieferando,898,3.6,Invalidenstraße 53,14199,Berlin,52.5243924,13.3694417,"['burgers_541', 'falafel_1215', 'salads_1456']",40,1189,199,0
+Funk You,lieferando,7,4.5,Rosenthaler Straße 23,14199,Berlin,52.5263827,13.403329,"['salads_1456', 'wrap_1416', 'poke-bowl_2318']",45,803,199,0
+Minty's Fresh Food Bar,lieferando,7,4.3,Torstraße 178,14199,Berlin,52.5284428,13.3944515,"['salads_1456', 'lunch_351', 'drinks-and-snacks_661']",45,754,199,0
+Döner Inn,lieferando,19,4.4,Alexanderplatz 8,14199,Berlin,52.5229508,13.4127606,"['italian-pizza_271', 'doener_821', 'turkish-pizza_291']",40,0,199,0
+Ristorante Pizzeria Roma,lieferando,443,3.4,Friedrichstraße 129,14199,Berlin,52.5251229,13.3871339,"['italian-pizza_271', 'italian_21', 'pasta_1614']",45,1200,199,0
+KUCHI Mitte,lieferando,846,4.1,Gipsstr. 3,14199,Berlin (Mitte),52.5271845,13.3993081,"['sushi_51', 'asian_1864', 'salads_1456']",45,1310,199,0
+momos - organic veggie dumplings,lieferando,371,3.9,Chausseestrasse 2,14199,Berlin,52.5276015,13.3870146,"['vegetarian_391', 'falafel_1215', 'dumplings_1814']",40,1315,199,0
+Indian Village Berlin,lieferando,13,4.2,Dircksenstraße 94,14199,Berlin,52.5181633,13.4153644,"['vegetarian_391', 'indian_71', 'falafel_1215']",40,0,199,0
+LuuKhanh Vietnamese Food & Sushi,lieferando,48,4.7,Grunewaldstraße 35,14199,Berlin,52.4893348,13.3463161,"['sushi_51', 'falafel_1215', 'vietnamese_261']",45,0,199,0
+Freshdays Berlin,lieferando,130,4.4,Skalitzer Straße 103,14199,Berlin,52.4994787,13.4279238,"['vegetarian_391', 'asian_1864', 'vietnamese_261']",50,873,199,0
+Mozzarella Bar & Bottega,lieferando,54,4.4,Auguststr. 34,14199,Berlin,52.5276355,13.4009231,"['italian_21', 'pasta_1614', 'salads_1456']",45,1593,199,0
+Reva,lieferando,15,4.1,Bayreuther Straße 3,14199,Berlin,52.5036738,13.3439492,"['vegetarian_391', 'doener_821', '100-halal_921']",45,0,199,0
+Das Pizzatrium,lieferando,7,3.0,Körtestraße 8,14199,Berlin,52.4913137,13.4112576,"['italian-pizza_271', 'vegetarian_391', 'pasta_1614']",50,0,199,0
+Antique Kebab Haus,lieferando,19,4.3,Walther-Schreiber-Platz 1,14199,Berlin,52.4665727,13.328289,"['vegetarian_391', 'doener_821', 'falafel_1256']",35,0,299,1000
+Vichin Gourmet Restaurant,lieferando,92,4.4,Walther-Schreiber-Platz 1,14199,Berlin,52.4652889,13.3278349,"['chinese_41', 'vegetarian_391', 'asian_1864']",35,780,199,1000
+Subway,lieferando,46,2.9,Spandauer Straße 3,14199,Berlin,52.5200252,13.4037884,"['salads_1456', 'sandwiches_671', 'wrap_1416']",40,0,199,0
+Frühstück / Breakfast,lieferando,6,4.1,Torstraße 205,14199,Berlin,52.52798,13.39013,"['baked-goods_2468', 'cake_251']",40,0,199,0
+Mizu Ramen,lieferando,113,3.4,Friedrichstr. 115,14199,Berlin,52.5268053,13.3874491,['japanese_551'],45,0,199,0
+Creasian,lieferando,39,3.6,Große Hamburger Straße 20,14199,Berlin,52.5243139,13.3992116,"['falafel_1215', 'asian_1864', 'soup_1406']",45,926,199,0
+La Piadina,lieferando,267,4.1,Mariannenplatz 23,14199,Berlin,52.5041963,13.4266277,"['italian-pizza_271', 'italian_21', 'desserts_954']",50,1188,199,0
+Sehraya,lieferando,0,0.0,Großbeerenstraße 79,14199,Berlin,52.4972055,13.384918,"['burgers_541', 'arab_1246', 'drinks-and-snacks_661']",45,0,199,0
+7 Dumpling,lieferando,11,4.2,Ansbacher Straße 29,14199,Berlin,52.500796,13.3417993,"['chinese_41', 'vegetarian_391', 'asian_1864']",40,0,199,0
+Five Guys,lieferando,338,3.6,Alexanderplatz 2,14199,Berlin,52.5207838,13.4137908,"['burgers_541', 'american_381', 'fries_1734']",45,805,199,0
+Espresso House,lieferando,85,4.0,Albrechtstraße 131,14199,Berlin,52.4570056,13.3220651,"['cafe_2134', 'baked-goods_2468', 'breakfast_361']",35,940,299,1000
+Slemani Grill,lieferando,10,3.6,Kottbusser Damm 98,14199,Berlin,52.49456,13.42151,"['sandwiches_671', 'arab_1246', 'chicken_521']",55,0,199,0
+Buddha Indische Spezialitäten,lieferando,33,3.1,Johannisstr. 9,14199,Berlin,52.5243178,13.3915981,"['vegetarian_391', 'indian_71', 'chicken_521']",45,997,199,0
+Coréen,lieferando,107,4.0,Torstraße 179,14199,Berlin,52.52879,13.39407,"['vegetarian_391', 'asian_1864', 'korean_1114']",45,1691,199,0
+Carambar,lieferando,5,3.7,Rathausstraße 1,14199,Berlin,52.5202511,13.4121323,"['burgers_541', 'pasta_1614', 'steak_401']",45,854,199,0
+Due Fratelli,lieferando,24,3.6,Chausseestraße 131A,14199,Berlin,52.5273175,13.3865372,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,0,199,0
+La Femme,lieferando,79,4.1,Kottbusser Damm 77,14199,Berlin,52.49096,13.42375,"['salads_1456', 'turkish_31', 'other_101']",50,797,199,0
+MA'LOA - Poké Bowl,lieferando,384,3.0,Oranienstraße 187,14199,Berlin,52.5003802,13.4214782,"['sushi_51', 'asian_1864', 'poke-bowl_2318']",50,1018,199,0
+Nuovo Antica Roma,lieferando,218,3.4,Wittenbergplatz 5-6,14199,Berlin,52.5017886,13.3438852,"['italian-pizza_271', 'italian_21', 'pasta_1614']",45,1249,199,0
+goodies deli,lieferando,13,4.2,Schloßstraße 20,14199,Berlin,52.4607996,13.3237589,"['falafel_1215', 'salads_1456', 'desserts_954']",35,710,199,1000
+Zola Neapolitan Pizza,lieferando,842,3.1,Paul-Lincke-Ufer 39,14199,Berlin,52.4961292,13.4222048,"['italian-pizza_271', 'vegetarian_391', 'italian_21']",55,1083,199,0
+Seven Days Finest Fresh Food,lieferando,73,3.7,Hauptstraße 30,14199,Berlin,52.4851178,13.353709,"['burgers_541', 'vegetarian_391', 'doener_821']",45,861,199,0
+Sausalitos,lieferando,21,3.2,Oranienburger Straße 50,14199,Berlin,52.5261772,13.3886292,"['burgers_541', 'mexican_221', 'american_381']",45,1240,199,0
+Fatih Servet,lieferando,0,0.0,Leipziger Platz 12 / Mall of Be,14199,Berlin,52.5105802,13.3812721,"['vegetarian_391', 'doener_821', 'arab_1246']",40,703,199,0
+La Galleria Italiana,lieferando,27,3.3,Torstraße 182,14199,Berlin,52.5282535,13.3935637,"['vegetarian_391', 'italian_21', 'pasta_1614']",45,1396,199,0
+Streuselbar,lieferando,0,0.0,Leipziger Platz 12,14199,Berlin,52.5102817,13.3792042,['drinks-and-snacks_661'],50,0,199,0
+BAO BUN BURGER,lieferando,68,4.0,Stuttgarter Platz 2,14199,Berlin,52.5058354,13.3057562,"['burgers_541', 'asian_1864', 'poke-bowl_2318']",40,1279,299,1000
+KooksKochen,lieferando,153,4.7,Wexstraße 29,14199,Berlin,52.478883,13.3299761,"['asian_1864', 'poke-bowl_2318', 'korean_1114']",40,1078,299,1000
+Espresso House,lieferando,0,0.0,Potsdamer Platz 5,14199,Berlin,52.510509,13.3761878,"['cafe_2134', 'baked-goods_2468', 'breakfast_361']",50,0,199,0
+Döner Time,lieferando,61,4.2,Bayerischer Platz 9,14199,Berlin,52.4881375,13.3406209,"['burgers_541', 'doener_821']",45,0,299,1000
+Xia Tea,lieferando,41,4.8,Trautenaustraße 19,14199,Berlin,52.4928059,13.3291696,"['asian_1864', 'cafe_2134', 'ice-cream_1194']",40,590,299,1000
+Hanoi Deli,lieferando,187,4.2,Kurfürstendamm 161-162,14199,Berlin,52.499561,13.3057467,"['japanese_551', 'asian_1864', 'vietnamese_261']",45,1042,299,1000
+San Marino Ristorante,lieferando,6,4.3,Prager Platz 1-3,14199,Berlin,52.4933981,13.332398,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",40,0,299,1000
+Caffe Bar Italia,lieferando,0,0.0,Wilhelmstraße 86,14199,Berlin,52.5134142,13.3819273,"['italian-pizza_271', 'italian_21', 'pasta_1614']",50,1134,199,0
+BERLINER KAFFEERÖSTEREI GIEST & COMPAGNON GMBH & CO. KG,lieferando,20,4.9,Uhlandstr. 173-174,14199,Berlin,52.5013377,13.325563,"['desserts_954', 'homemade_451']",45,0,299,1000
+Mr. Gyros,lieferando,297,4.2,Grunewaldstraße 54,14199,Berlin,52.4881688,13.3377084,"['greek_91', 'gyros_1356']",45,1125,299,1000
+Bonjour Ha Noi,lieferando,3,2.7,Sophienstraße 10,14199,Berlin,52.5250866,13.4025245,"['sushi_51', 'vietnamese_261']",45,0,199,0
+Café Bistro Shaniu,lieferando,18,4.3,Pariser Straße 56,14199,Berlin,52.4960978,13.3278272,"['asian_1864', 'dumplings_1814', 'korean_1114']",45,0,299,1000
+green tree,lieferando,115,4.8,Pfalzburgerstraße 83,14199,Berlin,52.4988567,13.3231234,"['vegetarian_391', 'falafel_1215', 'poke-bowl_2318']",45,1095,299,1000
+Go!Fish,lieferando,0,0.0,Spandauer Straße 4,14199,Berlin,52.5206084,13.404795,"['burgers_541', 'salads_1456', 'fish_421']",45,0,0,0
+Little Green Rabbit Gendarmenmarkt,lieferando,0,0.0,Jägerstraße 27,14199,Berlin,52.5139595,13.3956565,"['vegetarian_391', 'salads_1456', 'soup_1406']",40,917,199,0
+El Chilenito,lieferando,0,0.0,Bergmannstraße 102,14199,Berlin,52.4899666,13.3894178,"['vegetarian_391', 'desserts_954', 'steak_401']",45,1057,199,0
+Nepomuk,lieferando,27,4.3,Rothenburgstr.36/Grunewaldstraße 6 36/6,14199,Berlin,52.45813,13.31847,"['italian-pizza_271', 'italian_21', 'pasta_1614']",35,0,299,1000
+Tian Fu Uhlandstraße,lieferando,234,4.6,Uhlandstrasse 142,14199,Berlin,52.4949189,13.3242146,"['chinese_41', 'vegetarian_391']",45,0,299,1000
+Viet Bowl Charlottenburg,lieferando,313,4.3,Uhlandstraße 156,14199,Berlin,52.4983891,13.3247217,"['vegetarian_391', 'asian_1864', 'vietnamese_261']",45,1123,299,1000
+I-Ke-Su Kaiten Sushi,lieferando,108,4.4,Uhlandstraße 157,14199,Berlin,52.4985568,13.3248688,"['sushi_51', 'japanese_551', 'asian_1864']",45,1768,299,1000
+Taverna Hellas,lieferando,222,4.5,Güntzelstraße 19-20,14199,Berlin,52.49151,13.32609,"['greek_91', 'gyros_1356', 'lunch_351']",45,1435,299,1000
+Russische Feinkost Avantgarde,lieferando,138,4.7,Uhlandstraße 42,14199,Berlin,52.4989805,13.3243244,"['fish_421', 'russian_781', 'chicken_521']",45,1398,299,1000
+Windburger,lieferando,2444,3.8,Windscheidstraße 26,14199,Berlin,52.5062301,13.2997112,"['burgers_541', 'fries_1734', 'snacks_201']",40,690,299,1000
+Namaste,lieferando,483,4.1,Pariser Str. 56,14199,Berlin,52.49611,13.32754,"['indian_71', 'curry_731', 'lunch_351']",45,1214,299,1000
+La Cantina Rosso,lieferando,27,4.7,Lietzenburger Straße 83,14199,Berlin,52.4997003,13.3231648,['italian_21'],45,1365,299,1000
+Black & White Istanbul,lieferando,37,4.0,Uhlandstraße 171/172,14199,Berlin,52.5012436,13.325671,"['turkish_31', 'steak_401', 'soup_1406']",45,1548,299,1000
+Subway,lieferando,141,3.8,Walther-Schreiber-Platz 1,14199,Berlin,52.4653028,13.3277625,"['sandwiches_671', 'wrap_1416', 'chicken_521']",35,1039,299,1000
+Meet You,lieferando,78,4.1,Fasanenstraße 41,14199,Berlin,52.4980606,13.3264764,"['chinese_41', 'vegetarian_391', 'asian_1864']",45,1275,299,1000
+Tasty Cuisine,lieferando,35,3.7,Prager Platz 4,14199,Berlin,52.4929991,13.3323817,"['asian_1864', 'vietnamese_261']",40,1167,299,1000
+Tian Fu Berliner Straße,lieferando,323,4.0,Berliner Straße 15,14199,Berlin,52.4872745,13.3295282,"['chinese_41', 'vegetarian_391', 'asian_1864']",45,1199,299,1000
+Marjellchen,lieferando,82,4.1,Mommsenstraße 9,14199,Berlin,52.5032005,13.3173424,"['vegetarian_391', 'german_431', 'schnitzel_1654']",45,0,299,1000
+Go!Fish,lieferando,14,4.0,Schloßstr. 23,14199,Berlin,52.460094,13.3234431,"['burgers_541', 'salads_1456', 'fish_421']",35,0,0,1000
+MARDIA Lahmacun & Pide House,lieferando,15,4.2,Uhlandstraße 153,14199,Berlin,52.4976405,13.3247382,"['100-halal_921', 'turkish-pizza_291', 'soup_1406']",45,0,299,1000
+Ben & Jerry's und Magnum,lieferando,37,3.8,Uhlandstraße 43,14199,Berlin,52.4987687,13.3243087,"['desserts_954', 'snacks_201', 'ice-cream_1194']",45,1302,299,1000
+Parkcafe Pusteblume,lieferando,16,4.2,Durlacher Straße 2,14199,Berlin,52.480226,13.3364532,"['burgers_541', 'italian_21', 'asian_1864']",45,981,299,1000
+Indisches Restaurant Calcutta,lieferando,19,4.7,Bleibtreustraße 17,14199,Berlin,52.5031823,13.3194442,"['indian_71', 'falafel_1215', 'curry_731']",40,1535,299,1000
+Restaurant Samrat,lieferando,42,4.1,Güntzelstr. 19,14199,Berlin,52.49151,13.32609,"['indian_71', 'curry_731', 'chicken_521']",45,1142,299,1000
+Trattoria Casa Lucariello,lieferando,20,4.7,Emser Str. 42,14199,Berlin,52.4971824,13.3198867,"['italian_21', 'pasta_1614', 'salads_1456']",45,1176,299,1000
+Leo's,lieferando,42,4.3,Johann-Georg-Straße 10,14199,Berlin,52.4970911,13.2976913,['german_431'],40,1363,299,1000
+Boujee,lieferando,7,4.6,Pariser Straße 18A,14199,Berlin,52.4983,13.31914,"['italian-pizza_271', 'italian_21', 'pasta_1614']",45,1090,299,1000
+Monsun,lieferando,4,4.3,Pariser Straße 42,14199,Berlin,52.4979029,13.3189054,"['vegetarian_391', 'asian_1864', 'steak_401']",45,0,299,1000
+Restaurant Cafe Bar SIDNEY,lieferando,61,4.5,Pariser Straße 19,14199,Berlin,52.4984818,13.3182274,"['burgers_541', 'vegetarian_391', 'schnitzel_1654']",45,0,299,1000
+Capponcella,lieferando,7,4.1,Kurfürstendamm 202,14199,Berlin,52.5016349,13.3215227,"['italian-pizza_271', 'italian_21', 'pasta_1614']",45,708,299,1000
+Damla Market Grill - Imbiss,lieferando,0,0.0,Karl-Heinrich-Ulrichs-Straße 4,14199,Berlin,52.5005141,13.354299,"['doener_821', 'turkish_31', 'desserts_954']",45,0,199,0
+Café OLIVIA,lieferando,86,4.7,Kurfürstendamm 102,14199,Berlin,52.4981994,13.29552,"['italian_21', 'german_431', 'russian_781']",40,828,299,1000
+Die Gute Stube,lieferando,58,4.1,Pfalzburger Straße 24,14199,Berlin,52.493525,13.3215868,"['german_431', 'schnitzel_1654']",45,1749,299,1000
+Veloce Pizza e Pasta,lieferando,57,4.4,Berliner Straße 132,14199,Berlin,52.48617,13.32084,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,688,299,1000
+NORDSEE,lieferando,201,3.2,Schloßstraße 23,14199,Berlin,52.460094,13.3234431,"['burgers_541', 'pasta_1614', 'fish_421']",35,979,0,1000
+Miu Lunch,lieferando,0,0.0,Reinhardtstraße 47a,14199,Berlin,52.5221767,13.3781882,"['asian_1864', 'drinks-and-snacks_661', 'poke-bowl_2318']",45,0,199,0
+Bier's Kudamm 195,lieferando,58,4.1,Kurfürstendamm 195,14199,Berlin,52.5011319,13.3184725,"['german_431', 'fries_1734', 'snacks_201']",45,2500,299,1000
+Ben & Jerry's und Magnum,lieferando,8,5.0,Breite Straße 1,14199,Berlin,52.47348,13.29919,"['desserts_954', 'snacks_201', 'ice-cream_1194']",40,1202,199,1000
+Panzerotto Italian easy food,lieferando,42,4.8,Stuttgarter Platz 1,14199,Berlin,52.50593,13.3065,"['italian_21', 'snacks_201']",40,0,299,1000
+CousCous Schale,lieferando,127,4.9,Dahlmannstr. 17,14199,Berlin,52.49963,13.30347,"['arab_1246', 'wrap_1416', 'moroccan_341']",45,840,299,1000
+Gohan Tokyo to go,lieferando,37,4.9,Wilmersdorfer Straße 70,14199,Berlin,52.5042318,13.3071309,"['vegetarian_391', 'japanese_551', 'falafel_1215']",40,950,299,1000
+La Pizza di Russillo,lieferando,24,4.3,walther schreiber platz 1,14199,Berlin,52.4662196,13.3283264,"['italian-pizza_271', 'salads_1456']",35,979,299,1000
+DALUMA,lieferando,118,4.2,Schlüterstraße 38,14199,Berlin,52.5020226,13.3165845,"['salads_1456', 'gluten-free_1556', 'poke-bowl_2318']",45,822,299,1000
+Wex Cafe,lieferando,13,4.2,Wexstraße 29,14199,Berlin,52.478883,13.3299761,"['vegetarian_391', 'turkish_31', 'lunch_351']",40,700,299,1000
+Lychee,lieferando,55,4.6,Bayerische Straße 9,14199,Berlin,52.4969759,13.3134729,"['chinese_41', 'vegetarian_391', 'asian_1864']",45,0,299,1000
+OLLA,lieferando,0,0.0,James-Simon-Park / Monbijoupark 154 / 155,14199,Berlin,52.5217395,13.3992109,"['italian-pizza_271', 'italian_21', 'pasta_1614']",40,1015,199,0
+C'yah,lieferando,235,4.4,Kantstraße 83,14199,Berlin,52.5070142,13.2963254,"['asian_1864', 'vietnamese_261', 'homemade_451']",40,970,299,1000
+TTP Sushi,lieferando,189,4.2,Olivaer Platz 5,14199,Berlin,52.4988336,13.3148961,"['sushi_51', 'vegetarian_391', 'asian_1864']",45,1306,299,1000
+India Express,lieferando,777,4.4,Kantstraße 74,14199,Berlin,52.5069519,13.2993544,['indian_71'],40,769,299,1000
+Udagawa,lieferando,109,4.6,Kantstraße 118,14199,Berlin,52.50635,13.3094001,"['japanese_551', 'asian_1864']",40,838,299,1000
+Falafelkantstraße,lieferando,96,4.6,Kantstraße 56a,14199,Berlin,52.50693,13.30712,"['falafel_1256', 'arab_1246']",40,830,299,1000
+China Restaurant Do De Li,lieferando,108,4.7,Kantstraße 120,14199,Berlin,52.50613,13.30988,"['chinese_41', 'asian_1864']",40,1310,299,1000
+Café Kredenz,lieferando,92,4.6,Kantstraße 81,14199,Berlin,52.50727,13.29686,"['desserts_954', 'cafe_2134', 'cake_251']",40,0,299,1000
+Aftab Persische Safranreis Bowl,lieferando,270,4.7,Mecklenburgische Straße 89,14199,Berlin,52.4822877,13.3182506,"['vegetarian_391', 'falafel_1215', 'iranian_2324']",40,927,199,1000
+Sagano,lieferando,257,4.2,Kurfürstendamm 182,14199,Berlin,52.50031,13.31358,"['sushi_51', 'asian_1864', 'vietnamese_261']",45,1084,299,1000
+Sayuri,lieferando,100,4.4,Kurfürstendamm 137,14199,Berlin,52.4974867,13.2952617,"['sushi_51', 'japanese_551', 'asian_1864']",40,1232,299,1000
+Viet'S,lieferando,128,4.6,Wilmersdorfer Straße 105,14199,Berlin,52.5042002,13.3077419,"['asian_1864', 'vietnamese_261']",40,908,299,1000
+Alma Mia,lieferando,29,4.6,Giesebrechtstraße 19,14199,Berlin,52.5029236,13.3093234,"['italian_21', 'pasta_1614', 'noodles_2258']",45,1336,299,1000
+Café 6 Spoons,lieferando,42,4.4,Waitzstraße 11,14199,Berlin,52.5009125,13.3053328,"['desserts_954', 'polish_1216', 'russian_781']",40,650,299,1000
+Salhino Georgisches Restaurant,lieferando,64,4.5,Waitzstraße 1,14199,Berlin,52.5033455,13.3054309,"['beef_1426', 'other_101', 'chicken_521']",40,2161,299,1000
+Café Reporter,lieferando,16,4.5,Suarezstraße 20,14199,Berlin,52.5062509,13.2941435,"['vegetarian_391', 'desserts_954', 'tarte_2424']",40,0,299,1000
+Pizza Como,lieferando,12,3.6,Schlüterstr. 24a,14199,Berlin,52.5050386,13.3170758,"['italian-pizza_271', 'vegetarian_391', 'pasta_1614']",40,861,299,1000
+MA'LOA - Poké Bowl,lieferando,608,4.0,Kantstraße 48,14199,Berlin,52.50672,13.31057,"['sushi_51', 'asian_1864', 'poke-bowl_2318']",45,1031,299,1000
+Dada Falafel,lieferando,0,0.0,Linienstraße 132 links,14199,Berlin,52.5264652,13.3879951,"['vegetarian_391', 'falafel_1256']",45,0,199,0
+Pinocchio,lieferando,0,0.0,Alexanderplatz 2,14199,Berlin,52.5207838,13.4137908,"['italian-pizza_271', 'vegetarian_391', 'italian_21']",45,804,199,0
+Buongiorno,lieferando,14,4.0,Kantstraße 57,14199,Berlin,52.5069657,13.3058197,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",40,0,299,1000
+Hanok Restaurant,lieferando,44,4.0,Kurfürstendamm 134,14199,Berlin,52.4972443,13.2934842,"['asian_1864', 'lunch_351', 'korean_1114']",40,2038,299,1000
+BACK-FACTORY,lieferando,28,4.1,Wilmersdorfer Straße 66,14199,Berlin,52.5058494,13.306501,"['lunch_351', 'snacks_201', 'cake_251']",40,0,299,1000
+San Giorgio,lieferando,51,4.2,Mommsenstraße 36,14199,Berlin,52.50384,13.30502,"['italian_21', 'salads_1456', 'noodles_2258']",40,1485,299,1000
+Crispy Döner,lieferando,10,4.2,Richard-Wagner-Straße 1-3,14199,Berlin,52.5120532,13.3072877,"['falafel_1215', 'doener_821', 'salads_1456']",45,0,199,1000
+Moono,lieferando,19,4.1,Windscheidstraße 19,14199,Berlin,52.5054681,13.2993072,"['chinese_41', 'desserts_954', 'ice-cream_1194']",40,600,299,1000
+Currywurst Express,lieferando,0,0.0,Dircksenstraße 1,14199,Berlin,52.5212772,13.4118745,"['german_431', 'drinks-and-snacks_661', 'hot-dog_1824']",45,0,199,0
+Restaurant Loggia,lieferando,0,0.0,Ansbacher Straße 11,14199,Berlin,52.5036297,13.3431764,"['italian-pizza_271', 'pasta_1614', 'salads_1456']",50,0,199,0
+Son Kitchen,lieferando,764,3.5,Kantstraße 46,14199,Berlin,52.5066182,13.3118041,"['burgers_541', 'asian_1864', 'korean_1114']",45,796,299,1000
+Subway,lieferando,486,3.4,Kurfürstendamm 180,14199,Berlin,52.5001908,13.3119169,"['sandwiches_671', 'wrap_1416', 'chicken_521']",45,1117,299,1000
+Manju,lieferando,0,0.0,Grunerstraße 20,14199,Berlin,52.5199703,13.4147251,"['indian_71', 'asian_1864', 'chicken_521']",45,930,199,0
+Salis Ramen,lieferando,0,0.0,Hohenstaufenplatz nn,14199,Berlin,52.4913778,13.4219266,"['japanese_551', 'noodles_2258', 'chicken_521']",40,0,199,0
+Kamps Bäckerei mit Backstube,lieferando,0,0.0,Alexanderplatz -,14199,Berlin,52.5219814,13.413306,"['italian-pizza_271', 'sandwiches_671', 'breakfast_361']",45,0,199,0
+Adana Grillhaus,lieferando,98,3.5,Brandenburgische Str. 32,14199,Berlin,52.49926,13.3075,"['turkish_31', 'veal_1744', 'chicken_521']",45,1312,299,1000
+Pizza Hood Berlin,lieferando,0,0.0,Manteuffelstraße 88,14199,Berlin,52.4998321,13.4271859,"['italian-pizza_271', 'vegetarian_391', '100-halal_921']",40,0,199,0
+Hussel,lieferando,0,0.0,Schlossstraße 112,14199,Berlin,52.4616758,13.3257101,['desserts_954'],35,732,299,1000
+Happy Gale Feinkost,lieferando,0,0.0,Walther-Schreiber-Platz 1,14199,Berlin,52.4653028,13.3277625,"['vegetarian_391', 'falafel_1215', 'salads_1456']",35,0,299,1000
+Naardoun Restaurant Berlin,lieferando,0,0.0,Windscheidstraße 27,14199,Berlin,52.5063196,13.2995776,"['vegetarian_391', 'poke-bowl_2318', 'iranian_2324']",40,0,299,1000
