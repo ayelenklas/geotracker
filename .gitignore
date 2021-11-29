@@ -3,6 +3,9 @@
 .ipynb_checkpoints
 .DS_Store
 raw_data/
+jsondumps/
+csv/
+tests/
 *.json
 **/__pycache__/
 key.txt
