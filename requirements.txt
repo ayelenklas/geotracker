@@ -8,6 +8,12 @@ wheel>=0.29
 numpy
 pandas
 scikit-learn
+fuzzywuzzy
+fuzzymatcher
+
+#data viz
+matplotlib
+seaborn
 
 # tests/linter
 black
@@ -15,6 +21,9 @@ coverage
 flake8
 pytest
 yapf
+
+# scraping
+bs4
 
 # API
 gcsfs
