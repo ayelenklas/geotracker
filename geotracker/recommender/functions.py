@@ -1,31 +1,32 @@
 import numpy as np
 import pandas as pd
-from geotracker.utils import Utils
 
-
-def get_circle_centers_radius(
-    spacing,
-    top_left=(52.635010, 13.198130),
-    bottom_right=(52.39405827510934, 13.596147274545292),
-) -> tuple:
+def get_circlegrid_list(topleft, bottomright, kmradius, overlap) -> list:
     """
-    Wrapper around the utils function get_circlegrid_list.
-    Has Berlins top_left and bottom_right coordinates already coded in
-
-    Returns a list of center coordinates and one radius in meters and one in
-    degrees in order to allow us to check for whether coordinates are in the
-    circle.
-    Meters = for showing to users, because easy to interpret
-    Degrees = necessary for calculations
+    Takes as an input the topleft and bottomright coordinates of a square, as
+    well as a user defined radius for the circle that we wish to draw in the square
+    and then divides the square into evenly spaced circles of radius kmradius
+    which overlap to the degree specified in overlap (1.2 = 20% overlap, roughly)
     """
-    # Top left and bottom right of a square covering the entiretty of Berlin
 
-    #  get a number of cirlces with the specified spacing.
-    center_coords, mradius, degradius = Utils().get_circlegrid_list(
-        top_left, bottom_right, spacing, 1.2
-    )
+    spacing_lat = abs((1/110_574) * kmradius)
+    spacing_lon = abs((1/(111_320 * np.cos(topleft[0]))) * kmradius)
 
-    return center_coords, mradius, degradius
+    lats = np.arange(bottomright[0], topleft[0], spacing_lat)
+    lons = np.arange(topleft[1], bottomright[1], spacing_lon)
+
+    import ipdb; ipdb.set_trace()
+
+    points = []
+    for lat in lats:
+        for lon in lons:
+            points.append((lat, lon))
+
+    side_lenght = bottomright[0] - topleft[0]
+    degradius = (side_lenght / (2 * (spacing_lat - 1))) * overlap
+    #mradius = abs(1000 * (degradius * (40075 * np.cos(topleft[1]) / 360)))
+
+    return points, degradius
 
 
 def is_restaurant_in_circle(observation, center_lat, center_lon, degradius) -> bool:
@@ -64,8 +65,6 @@ def restaurants_meeting_criteria(
 
     TODO: implement functions that reduce size of restaurants based on other features
     """
-    if len(restaurants_df) == 0:
-        return 0
 
     # Filtering out only good restaurants
     good_restaurants = restaurants_df[
@@ -79,4 +78,4 @@ def restaurants_meeting_criteria(
     if avoid_wolt:
         pass
 
-    return len(good_restaurants)
+    return good_restaurants
