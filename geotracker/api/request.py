@@ -2,6 +2,7 @@ import requests
 import os
 import json
 from geotracker.params import URL, PARAMS
+from geotracker.HERE_transformer import Transformer
 
 
 class Requester:
@@ -26,3 +27,11 @@ if __name__ == "__main__":
     for i, param in enumerate(params):
         requester = Requester(url, param)
         requester.fetch_data(i)
+    t = Transformer("../../csv", "../../jsondumps")
+    t.json_to_df()
+    t.csv_merger()
+    c = Cleaner("../../csv")
+    c.clean()
+
+
+

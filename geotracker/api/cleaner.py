@@ -1,77 +1,84 @@
 import re
 import pandas as pd
 import string
+from geotracker.HERE_transformer import Transformer
 
-def address_splitterDE(column):
-    
-    try:
-        df.insert(7, "Street", "")
-        df.insert(8, "Bezirk", "")
-        df.insert(9, "PLZ", "")
-    except ValueError:
-        pass
+class Cleaner():
 
-    for i in range(len(column)):
+    def __init__(self, csv_folder):
+        self.csv_folder = csv_folder
 
-        text = column[i]
-
-        try:
-            df["Street"][i] = re.match(r'^(\w*\s)*(?=\w+\s\d{5})', text)[0].strip(" ")
-        except TypeError:
-            continue
-        try:
-            df["Bezirk"][i] = re.search(r'(?<=(\d|\w))\s\w+\s(?=\d{5})', text)[0].strip(" ")
-        except TypeError:
-            continue
-        try:
-            df["PLZ"][i] = re.search(r'\d{5}', text)[0]
-        except TypeError:
-            continue
-
-def punctuation(x):
-    
-    string.punctuation
-    for punctuation in string.punctuation:
-        x = x.replace(punctuation, '')
+    def address_splitterDE(self, df):
         
-    return x
+        try:
+            df.insert(7, "Street", "")
+            df.insert(8, "Bezirk", "")
+            df.insert(9, "PLZ", "")
+        except ValueError:
+            pass
 
-def remove_br(x):
-    
-    x = x.replace("<br/>", " ")
-    
-    return x
+        for i in range(len(df.Address)):
 
-df = pd.read_csv("../csv/combined_csv.csv")\
-    .drop(columns=["Coordinates", "Name",
-                      "Category", "Address", 
-                      "Opening Hours", "Cuisine_1", 
-                      "Cuisine_2", "Cuisine_3"], axis=1)
-                    
-for i in range(2, 11):
-    df = df.drop(columns=f"tag_{i}")
+            text = df.Address[i]
 
-df = df.drop_duplicates(subset=("position", "title"))
+            try:
+                df["Street"][i] = re.match(r'^(\w*\s)*(?=\w+\s\d{5})', text)[0].strip(" ")
+            except TypeError:
+                continue
+            try:
+                df["Bezirk"][i] = re.search(r'(?<=(\d|\w))\s\w+\s(?=\d{5})', text)[0].strip(" ")
+            except TypeError:
+                continue
+            try:
+                df["PLZ"][i] = re.search(r'\d{5}', text)[0]
+            except TypeError:
+                continue
 
-df["openingHours/text"] = df["openingHours/text"]\
-    .mask(df["openingHours/text"].isnull(), "")\
-        .apply(lambda x: remove_br(x))
+    def punctuation(self, x):
+        
+        string.punctuation
+        for punctuation in string.punctuation:
+            x = x.replace(punctuation, '')
+            
+        return x
 
-df["vicinity"] = df["vicinity"].mask(df["vicinity"].isnull(), "")\
-    .apply(lambda x: remove_br(x))\
-        .apply(lambda x: punctuation(x))
+    def remove_br(self, x):
+        
+        x = x.replace("<br/>", " ")
+        
+        return x
 
-df = df.rename(columns={
-    "position":"Coordinates",
-    "title":"Name",
-    "category/title":"Type",
-    "vicinity":"Address",
-    "openingHours/text":"Opening Hours",
-    "tag_0":"Cuisine_1",
-    "tag_1":"Cuisine_2"
-}).reset_index().drop(columns="index")
+    def clean(self):
 
-address_splitterDE(df.Address)
+        df = pd.read_csv(f"{self.csv_folder}combined_csv.csv")\
+            .drop(columns=["Coordinates", "Name",
+                            "Category", "Address", 
+                            "Opening Hours", "Cuisine_1", 
+                            "Cuisine_2", "Cuisine_3"], axis=1)
+                            
+        for i in range(2, 11):
+            df = df.drop(columns=f"tag_{i}")
 
-df.to_csv("final.csv", index=False, header=True ,encoding='utf-8-sig')
+        df = df.drop_duplicates(subset=("position", "title"))
 
+        df["openingHours/text"] = df["openingHours/text"]\
+            .mask(df["openingHours/text"].isnull(), "")\
+                .apply(lambda x: remove_br(x))
+
+        df["vicinity"] = df["vicinity"].mask(df["vicinity"].isnull(), "")\
+            .apply(lambda x: remove_br(x))\
+                .apply(lambda x: punctuation(x))
+
+        df = df.rename(columns={
+            "position":"Coordinates",
+            "title":"Name",
+            "category/title":"Type",
+            "vicinity":"Address",
+            "openingHours/text":"Opening Hours",
+            "tag_0":"Cuisine_1",
+            "tag_1":"Cuisine_2"
+        }).reset_index().drop(columns="index")
+
+        address_splitterDE(df)
+
+        df.to_csv("final.csv", index=False, header=True ,encoding='utf-8-sig')

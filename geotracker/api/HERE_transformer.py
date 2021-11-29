@@ -7,7 +7,7 @@ FIELDS = ["position", "title",
                     "category/title", "vicinity", 
                     "tags", "openingHours/text"]
 
-class Transformer(self):
+class Transformer():
 
     def __init__(self, csvfolder, jsonfolder):
         self.csvfolder = csvfolder
@@ -61,12 +61,12 @@ class Transformer(self):
                 # append split dataframe to original datafram            
                 df_full = pd.concat([df_new, appiled_df], axis=1)\
                 .drop(columns=["tags"])
-                
-        #         print(df_full)
-                #dump
+
+                # dump
                 df_full.to_csv(f"{self.csvfolder}/data_{i}.csv", index=False, header=True, errors="ignore")
 
     def csv_merger(self, extension):
+        
         os.chdir(self.csvfolder)
         all_filenames = [e for e in glob.glob('*.{}'.format(extension))]
 
