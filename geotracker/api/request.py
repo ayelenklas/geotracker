@@ -1,8 +1,9 @@
 import requests
 import os
 import json
-from geotracker.params import URL, PARAMS
-from geotracker.HERE_transformer import Transformer
+from geotracker.api.params import URL, PARAMS
+from geotracker.api.HERE_transformer import Transformer
+from geotracker.api.cleaner import Cleaner
 
 
 class Requester:

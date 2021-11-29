@@ -1,4 +1,4 @@
-from geotracker.utils import Utils
+from geotracker.api.utils import Utils
 
 URL = 'https://places.ls.hereapi.com/places/v1/discover/search'
 
