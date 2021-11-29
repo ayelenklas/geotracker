@@ -53,8 +53,8 @@ class Transformer():
                 try:
                     df_new = df[FIELDS]
                 except KeyError:
-                    tmp = FIELDS.remove("openingHours/text")
-                    df_new = df[tmp] # TODO REMOVE HARDCODING
+                    FIELDS.remove("openingHours/text")
+                    df_new = df[FIELDS] # TODO REMOVE HARDCODING
                     
                 appiled_df = df_new[['tags']].apply(split_title_tags, axis=1, result_type='expand')
 
@@ -69,7 +69,8 @@ class Transformer():
         
         os.chdir(self.csvfolder)
         all_filenames = [e for e in glob.glob('*.{}'.format(extension))]
-
+        combined_csv = pd.DataFrame()
+        
         for filez in all_filenames:
             
             temp_csv = pd.read_csv(filez)

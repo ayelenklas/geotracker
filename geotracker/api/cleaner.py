@@ -9,7 +9,7 @@ class Cleaner():
 
     def clean(self):
 
-        def address_splitterDE(self, df):
+        def address_splitterDE(df):
         
             try:
                 df.insert(7, "Street", "")
@@ -35,7 +35,7 @@ class Cleaner():
                 except TypeError:
                     continue
 
-        def punctuation(self, x):
+        def punctuation(x):
             
             string.punctuation
             for punctuation in string.punctuation:
@@ -43,13 +43,13 @@ class Cleaner():
                 
             return x
 
-        def remove_br(self, x):
-            
+        def remove_br(x):
+
             x = x.replace("<br/>", " ")
             
             return x
 
-        df = pd.read_csv(f"{self.csv_folder}combined_csv.csv")\
+        df = pd.read_csv(f"../{self.csv_folder}/combined_csv.csv")\
             .drop(columns=["Coordinates", "Name",
                             "Category", "Address", 
                             "Opening Hours", "Cuisine_1", 
@@ -79,5 +79,5 @@ class Cleaner():
         }).reset_index().drop(columns="index")
 
         address_splitterDE(df)
-
-        df.to_csv("../data/final.csv", index=False, header=True ,encoding='utf-8-sig')
+        # import os; print(os.getcwd())
+        df.to_csv("../geotracker/data/final.csv", index=False, header=True ,encoding='utf-8-sig')
