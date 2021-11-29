@@ -1,7 +1,9 @@
 import requests
 import os
 import json
-from geotracker.params import URL, PARAMS
+from geotracker.api.params import URL, PARAMS
+from geotracker.api.HERE_transformer import Transformer
+from geotracker.api.cleaner import Cleaner
 
 
 class Requester:
@@ -23,6 +25,15 @@ class Requester:
 if __name__ == "__main__":
     url = URL
     params = PARAMS
-    for i, param in enumerate(params):
-        requester = Requester(url, param)
-        requester.fetch_data(i)
+    # for i, param in enumerate(params):
+    #     requester = Requester(url, param) # uncomment if 1st request (check jsondump folder)
+    #     requester.fetch_data(i)
+    print(os.curdir)
+    t = Transformer("csv", "jsondumps")
+    t.json_to_df()
+    t.csv_merger("csv")
+    c = Cleaner("csv")
+    c.clean()
+
+
+
