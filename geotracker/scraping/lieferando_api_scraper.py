@@ -24,20 +24,18 @@ def main():
     'sec-fetch-site': 'cross-site',
     'sec-fetch-mode': 'cors',
     'sec-fetch-dest': 'empty',
-    'Cookie': '__cf_bm=ZJ4ig0EH9aWvHX9ljNvsdiS68p4HS3GXv7qZViANi04-1638119453-0-AYi7B/IzoaMAuId89+hXvD4zSNTUzcxbNFrhHe2yFGz9f9PgGSBdKn2ya84vJnTd6kU7Xx3fJbZaSJZhNoXWgN8Jt7RQY/v1K02uPTAd9Iti'
     }
 
 
     base_url = "https://cw-api.takeaway.com/api/v28/restaurants"
 
     # Main Program Loop
-
+    restaurant_list = []
     for index, zip_code in enumerate(zip_codes):
         print(f"scraping ZIP code:{zip_code}---------- {index+1}/{len(zip_codes)}")
         params = {"postalCode": zip_code, "limit": 0}
         response = requests.get(base_url, headers=headers, params=params).json()
 
-        restaurant_list = []
         for restaurant in response["restaurants"]:
             restaurant_dict = dict(
                 restaurant_name = response["restaurants"][restaurant]["brand"]["name"],
@@ -57,7 +55,7 @@ def main():
             )
             restaurant_list.append(restaurant_dict)
 
-        time.sleep(randint(3, 6))
+        time.sleep(randint(1,3))
 
     output_df = pd.DataFrame(restaurant_list)
     output_df.to_csv("../data/lieferando_restaurants_from_api.csv", index=False)
