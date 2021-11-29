@@ -41,7 +41,7 @@ class Transformer():
             if filename.endswith(".json"):
                 
                 #open file
-                with open(f"../jsondumps/{filename}") as f:
+                with open(f"{self.jsonfolder}/{filename}") as f:
                     j = json.load(f)
                     
                 if len(j["results"]["items"]) == 0:
@@ -49,7 +49,7 @@ class Transformer():
                     
                 #process
                 df = pd.json_normalize(j["results"]["items"], errors="ignore", sep="/")
-                    
+                
                 try:
                     df_new = df[FIELDS]
                 except KeyError:

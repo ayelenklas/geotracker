@@ -25,13 +25,14 @@ class Requester:
 if __name__ == "__main__":
     url = URL
     params = PARAMS
-    for i, param in enumerate(params):
-        requester = Requester(url, param)
-        requester.fetch_data(i)
-    t = Transformer("../../csv", "../../jsondumps")
+    # for i, param in enumerate(params):
+    #     requester = Requester(url, param)
+    #     requester.fetch_data(i)
+    print(os.curdir)
+    t = Transformer("csv", "jsondumps")
     t.json_to_df()
     t.csv_merger()
-    c = Cleaner("../../csv")
+    c = Cleaner("csv")
     c.clean()
 
 
