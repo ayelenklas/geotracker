@@ -16,9 +16,9 @@
 14,Domino's Pizza,Restaurant,italian,Puchanstraße 22 Köpenick 12555 Berlin,Puchanstraße 22,12555,Köpenick,"52.45415, 13.57784",52.45415,13.57784,Mon-Sun: 11:00 - 23:00,here_maps
 15,Hippokrates,Restaurant,mediterranean,Mahlsdorfer Straße 106 Köpenick 12555 Berlin,Mahlsdorfer Straße 106,12555,Köpenick,"52.45991, 13.58036",52.45991,13.58036,"Mon-Thu, Sun: 12:00 - 23:00 Fri, Sat: 12:00 - 00:00",here_maps
 16,Burgerburo,Restaurant,fastfood,Bahnhofstraße Köpenick 12555 Berlin,Bahnhofstraße,12555,Köpenick,"52.45736, 13.57798",52.45736,13.57798,Mon-Sun: 10:00 - 22:00,here_maps
-17,Mykonos,Restaurant,mediterranean,Wendenschloßstraße 43 Köpenick 12559 Berlin,Wendenschloßstraße 43,12559,Köpenick,"52.44434, 13.58531",52.44434,13.58531,Mon-Sun: 12:00 - 23:59,here_maps
+17,Mykonos,Restaurant,greek,Wendenschloßstraße 43 Köpenick 12559 Berlin,Wendenschloßstraße 43,12559,Köpenick,"52.44434, 13.58531",52.44434,13.58531,Mon-Sun: 12:00 - 23:59,here_maps
 18,Viet Duc,Restaurant,asian,Bahnhofstraße 1 Köpenick 12555 Berlin,Bahnhofstraße 1,12555,Köpenick,"52.45302, 13.57486",52.45302,13.57486,Tue-Sun: 11:00 - 22:00,here_maps
-19,Tandoori Mahal,Restaurant,middle eastern,Amtsstraße 5 Köpenick 12555 Berlin,Amtsstraße 5,12555,Köpenick,"52.4441, 13.57957",52.4441,13.57957,Mon-Sun: 11:30 - 23:00,here_maps
+19,Tandoori Mahal,Restaurant,,Amtsstraße 5 Köpenick 12555 Berlin,Amtsstraße 5,12555,Köpenick,"52.4441, 13.57957",52.4441,13.57957,Mon-Sun: 11:30 - 23:00,here_maps
 20,Nordsee,Restaurant,seafood,Bahnhofstraße 33 Köpenick 12555 Berlin,Bahnhofstraße 33,12555,Köpenick,"52.45846, 13.57895",52.45846,13.57895,,here_maps
 21,Cafeteria im Krankenhaus Köpenick,Restaurant,,SalvadorAllendeStraße Köpenick 12559 Berlin,SalvadorAllendeStraße,12559,Köpenick,"52.44002, 13.59428",52.44002,13.59428,,here_maps
 22,Amtsfeld,Restaurant,,PabloNerudaStraße 3 Köpenick 12559 Berlin,PabloNerudaStraße 3,12559,Köpenick,"52.4413, 13.58743",52.4413,13.58743,,here_maps
@@ -61,7 +61,7 @@
 59,Asia-Thai Bistro,Restaurant,asian,PabloNerudaStraße 4 Köpenick 12559 Berlin,PabloNerudaStraße 4,12559,Köpenick,"52.44129, 13.58795",52.44129,13.58795,Mon-Sat: 10:00 - 20:00,here_maps
 60,Sonnenkind,Restaurant,,Jägerstraße 4 Köpenick 12555 Berlin,Jägerstraße 4,12555,Köpenick,"52.44588, 13.57787",52.44588,13.57787,"Mon, Tue, Thu, Fri: 11:00 - 18:00 Sat: 10:00 - 14:00",here_maps
 61,Hotel-Pension Mendau,Restaurant,mediterranean,Stillerzeile 42 Friedrichshagen 12587 Berlin,Stillerzeile 42,12587,Friedrichshagen,"52.45616, 13.61154",52.45616,13.61154,"Wed-Fri: 18:00 - 22:00 Sat, Sun: 12:00 - 22:00",here_maps
-62,Yammas,Snacks/Fast food,mediterranean,Bahnhofstraße 39 Köpenick 12555 Berlin,Bahnhofstraße 39,12555,Köpenick,"52.45717, 13.57787",52.45717,13.57787,,here_maps
+62,Yammas,Snacks/Fast food,greek,Bahnhofstraße 39 Köpenick 12555 Berlin,Bahnhofstraße 39,12555,Köpenick,"52.45717, 13.57787",52.45717,13.57787,,here_maps
 63,Ventelino Focacceria,Restaurant,,Bahnhofstraße 5 Köpenick 12555 Berlin,Bahnhofstraße 5,12555,Köpenick,"52.45425, 13.57621",52.45425,13.57621,,here_maps
 64,Kebaphaus 49,Snacks/Fast food,middle eastern,Bahnhofstraße 49 Köpenick 12555 Berlin,Bahnhofstraße 49,12555,Köpenick,"52.45538, 13.57661",52.45538,13.57661,,here_maps
 65,Pizzeria Castello,Restaurant,,Seelenbinderstraße 23 Köpenick 12555 Berlin,Seelenbinderstraße 23,12555,Köpenick,"52.45579, 13.5784",52.45579,13.5784,Mon-Sun: 11:00 - 23:30,here_maps
@@ -175,7 +175,7 @@
 173,Bistro Narli,Snacks/Fast food,middle eastern,Schnellerstraße 1 Niederschöneweide 12439 Berlin,Schnellerstraße 1,12439,Niederschöneweide,"52.46395, 13.49838",52.46395,13.49838,,here_maps
 174,Leckerburger,Snacks/Fast food,fastfood,Wilhelminenhofstraße Oberschöneweide 12459 Berlin,Wilhelminenhofstraße,12459,Oberschöneweide,"52.461527, 13.517207",52.461527,13.517207,"Mon-Fri: 11:30 - 22:00 Sat, Sun: 12:00 - 22:00",here_maps
 175,Hoa Lan,Restaurant,asian,Baumschulenstraße 21 Baumschulenweg 12437 Berlin,Baumschulenstraße 21,12437,Baumschulenweg,"52.4653, 13.48704",52.4653,13.48704,,here_maps
-176,Zamzam,Restaurant,middle eastern,Hainstraße 15 Niederschöneweide 12439 Berlin,Hainstraße 15,12439,Niederschöneweide,"52.45621, 13.51947",52.45621,13.51947,Mon-Sun: 12:00 - 23:59,here_maps
+176,Zamzam,Restaurant,,Hainstraße 15 Niederschöneweide 12439 Berlin,Hainstraße 15,12439,Niederschöneweide,"52.45621, 13.51947",52.45621,13.51947,Mon-Sun: 12:00 - 23:59,here_maps
 177,Pointoo Mexikanische Spezialitäten,Restaurant,mexican,Heideweg Johannisthal 12487 Berlin,Heideweg,12487,Johannisthal,"52.444935, 13.481515",52.444935,13.481515,Mon-Fri: 16:00 - 22:30,here_maps
 178,Petersen Restaurant und Cafe,Restaurant,european,Kiefholzstraße 191 Baumschulenweg 12437 Berlin,Kiefholzstraße 191,12437,Baumschulenweg,"52.46425, 13.48854",52.46425,13.48854,,here_maps
 179,Ristorante Romantica,Restaurant,european,Siemensstraße 18 Oberschöneweide 12459 Berlin,Siemensstraße 18,12459,Oberschöneweide,"52.46463, 13.51304",52.46463,13.51304,,here_maps
@@ -189,7 +189,7 @@
 187,Glücksstern,Restaurant,asian,Wilhelminenhofstraße 17 Oberschöneweide 12459 Berlin,Wilhelminenhofstraße 17,12459,Oberschöneweide,"52.46241, 13.51474",52.46241,13.51474,Mon-Sun: 11:30 - 23:00,here_maps
 188,Anima E Curore,Restaurant,italian,Brückenstraße 14 Niederschöneweide 12439 Berlin,Brückenstraße 14,12439,Niederschöneweide,"52.4588, 13.51248",52.4588,13.51248,Mon-Sun: 11:00 - 23:00,here_maps
 189,Cafe Diadem,Restaurant,european,Dorfstraße 28 Nieder Neuendorf 16761 Hennigsdorf,Dorfstraße 28 Nieder,16761,Neuendorf,"52.60926, 13.20013",52.60926,13.20013,Mon-Sun: 11:00 - 20:00,here_maps
-190,Athos,Restaurant,mediterranean,Dorfstraße 48 Nieder Neuendorf 16761 Hennigsdorf,Dorfstraße 48 Nieder,16761,Neuendorf,"52.60774, 13.19831",52.60774,13.19831,Mon-Sun: 11:30 - 23:59,here_maps
+190,Athos,Restaurant,greek,Dorfstraße 48 Nieder Neuendorf 16761 Hennigsdorf,Dorfstraße 48 Nieder,16761,Neuendorf,"52.60774, 13.19831",52.60774,13.19831,Mon-Sun: 11:30 - 23:59,here_maps
 191,Zum Blockhaus,Restaurant,european,Am Oberjägerweg 5 Nieder Neuendorf 16761 Hennigsdorf,Am Oberjägerweg 5 Nieder,16761,Neuendorf,"52.60439, 13.19756",52.60439,13.19756,,here_maps
 192,Die Buhne,Restaurant,european,Dorfstraße 26 Nieder Neuendorf 16761 Hennigsdorf,Dorfstraße 26 Nieder,16761,Neuendorf,"52.60948, 13.20041",52.60948,13.20041,Tue-Fri: 17:00 - 22:00 Sat: 12:00 - 22:00 Sun: 09:30 - 22:00,here_maps
 193,Restaurant Haus Dannenberg,Restaurant,,AltHeiligensee Heiligensee 13503 Berlin,AltHeiligensee,13503,Heiligensee,"52.6081, 13.21187",52.6081,13.21187,,here_maps
@@ -203,7 +203,7 @@
 201,Mai.88 Vietnamese Kitchen,Restaurant,asian,Riemeisterstraße Zehlendorf 14169 Berlin,Riemeisterstraße,14169,Zehlendorf,"52.45022, 13.2543",52.45022,13.2543,,here_maps
 202,Cafe Rodelhutte,Restaurant,european,OnkelTomStraße 167 Dahlem 14169 Berlin,OnkelTomStraße 167,14169,Dahlem,"52.45556, 13.25051",52.45556,13.25051,Mon-Sun: 09:00 - 20:00,here_maps
 203,Capriole,Restaurant,mediterranean,OnkelTomStraße 172 Zehlendorf 14169 Berlin,OnkelTomStraße 172,14169,Zehlendorf,"52.4543, 13.2493",52.4543,13.2493,Mon: 15:00 - 22:00 Tue-Sun: 10:00 - 23:00,here_maps
-204,Messã³Jios,Restaurant,mediterranean,Riemeisterstraße 129 Zehlendorf 14169 Berlin,Riemeisterstraße 129,14169,Zehlendorf,"52.45012, 13.25507",52.45012,13.25507,,here_maps
+204,Messã³Jios,Restaurant,greek,Riemeisterstraße 129 Zehlendorf 14169 Berlin,Riemeisterstraße 129,14169,Zehlendorf,"52.45012, 13.25507",52.45012,13.25507,,here_maps
 205,Mediterraneo,Restaurant,mediterranean,OnkelTomStraße 66 Zehlendorf 14169 Berlin,OnkelTomStraße 66,14169,Zehlendorf,"52.44786, 13.25193",52.44786,13.25193,Mon-Sun: 11:00 - 21:00,here_maps
 206,Gourmet Sud,Restaurant,breakfast/dessert,Selmaplatz 1 Zehlendorf 14163 Berlin,Selmaplatz 1,14163,Zehlendorf,"52.44579, 13.24285",52.44579,13.24285,Mon-Sun: 08:00 - 12:00,here_maps
 207,Wu's China Restaurant,Restaurant,asian,Teschener Weg 5 Zehlendorf 14163 Berlin,Teschener Weg 5,14163,Zehlendorf,"52.4467, 13.24322",52.4467,13.24322,Mon: 17:00 - 22:30 Tue-Sun: 12:00 - 22:30,here_maps
@@ -335,7 +335,7 @@
 333,Commerzbank AG Filiale,Restaurant,,KonradWolfStraße 104 AltHohenschönhausen 13055 Berlin,KonradWolfStraße 104,13055,AltHohenschönhausen,"52.54254, 13.48994",52.54254,13.48994,,here_maps
 334,Silverado Steakhaus,Restaurant,steak,KonradWolfStraße 28 AltHohenschönhausen 13055 Berlin,KonradWolfStraße 28,13055,AltHohenschönhausen,"52.54308, 13.49011",52.54308,13.49011,Mon-Sun: 11:00 - 22:00,here_maps
 335,La Pica de Deli Mel,Restaurant,south american,Freienwalder Straße 14A AltHohenschönhausen 13055 Berlin,Freienwalder Straße 14A,13055,AltHohenschönhausen,"52.54204, 13.49922",52.54204,13.49922,"Tue-Fri: 10:00 - 18:00 Sat, Sun: 12:00 - 18:00",here_maps
-336,Le Marrakesh,Restaurant,middle eastern,Gärtnerstraße 2 AltHohenschönhausen 13055 Berlin,Gärtnerstraße 2,13055,AltHohenschönhausen,"52.54737, 13.49995",52.54737,13.49995,,here_maps
+336,Le Marrakesh,Restaurant,african,Gärtnerstraße 2 AltHohenschönhausen 13055 Berlin,Gärtnerstraße 2,13055,AltHohenschönhausen,"52.54737, 13.49995",52.54737,13.49995,,here_maps
 337,Trattoria Aversa,Restaurant,italian,Bahnhofstraße 7 AltHohenschönhausen 13055 Berlin,Bahnhofstraße 7,13055,AltHohenschönhausen,"52.54385, 13.49982",52.54385,13.49982,,here_maps
 338,Pietschmanns,Restaurant,european,KonradWolfStraße 113 AltHohenschönhausen 13055 Berlin,KonradWolfStraße 113,13055,AltHohenschönhausen,"52.54372, 13.49219",52.54372,13.49219,Mon-Sun: 12:00 - 21:30,here_maps
 339,Konrad Imbis,Restaurant,,KonradWolfStraße 140 AltHohenschönhausen 13055 Berlin,KonradWolfStraße 140,13055,AltHohenschönhausen,"52.54731, 13.49931",52.54731,13.49931,,here_maps
@@ -360,9 +360,9 @@
 358,Cocomo,Restaurant,european,Gehrenseestraße 6A AltHohenschönhausen 13053 Berlin,Gehrenseestraße 6A,13053,AltHohenschönhausen,"52.550861, 13.512895",52.550861,13.512895,,here_maps
 359,Long Food,Restaurant,asian,Landsberger Allee 277 AltHohenschönhausen 13055 Berlin,Landsberger Allee 277,13055,AltHohenschönhausen,"52.53471, 13.49595",52.53471,13.49595,,here_maps
 360,Steakhouse Asino,Restaurant,middle eastern,KonradWolfStraße 68 AltHohenschönhausen 13055 Berlin,KonradWolfStraße 68,13055,AltHohenschönhausen,"52.53765, 13.47886",52.53765,13.47886,Mon-Sun: 11:00 - 23:00,here_maps
-361,Restaurant Aphrodite,Restaurant,mediterranean,KonradWolfStraße 72 AltHohenschönhausen 13055 Berlin,KonradWolfStraße 72,13055,AltHohenschönhausen,"52.53812, 13.48019",52.53812,13.48019,Tue-Sun: 12:00 - 23:59,here_maps
+361,Restaurant Aphrodite,Restaurant,greek,KonradWolfStraße 72 AltHohenschönhausen 13055 Berlin,KonradWolfStraße 72,13055,AltHohenschönhausen,"52.53812, 13.48019",52.53812,13.48019,Tue-Sun: 12:00 - 23:59,here_maps
 362,Gourmet Grill,Restaurant,,Hansastraße 188 Weißensee 13088 Berlin,Hansastraße 188,13088,Weißensee,"52.55627, 13.48704",52.55627,13.48704,,here_maps
-363,Restaurant Olympia,Restaurant,mediterranean,Malchower Weg 45 AltHohenschönhausen 13053 Berlin,Malchower Weg 45,13053,AltHohenschönhausen,"52.55379, 13.50281",52.55379,13.50281,Mon-Sun: 12:00 - 23:00,here_maps
+363,Restaurant Olympia,Restaurant,greek,Malchower Weg 45 AltHohenschönhausen 13053 Berlin,Malchower Weg 45,13053,AltHohenschönhausen,"52.55379, 13.50281",52.55379,13.50281,Mon-Sun: 12:00 - 23:00,here_maps
 364,Wellis Sportsbar & Restaurant,Restaurant,,KonradWolfStraße 53 AltHohenschönhausen 13055 Berlin,KonradWolfStraße 53,13055,AltHohenschönhausen,"52.54115, 13.48121",52.54115,13.48121,,here_maps
 365,My Keng,Restaurant,asian,Drossener Straße 48 AltHohenschönhausen 13053 Berlin,Drossener Straße 48,13053,AltHohenschönhausen,"52.55887, 13.49793",52.55887,13.49793,,here_maps
 366,Suppe und Stulle Berlin,Restaurant,breakfast/dessert,KonradWolfStraße 74 AltHohenschönhausen 13055 Berlin,KonradWolfStraße 74,13055,AltHohenschönhausen,"52.53839, 13.48095",52.53839,13.48095,Mon-Fri: 11:00 - 18:00,here_maps
@@ -398,12 +398,12 @@
 396,Eis Fedora Cafe,Food & Drink,,Nehringstraße 23 Charlottenburg 14059 Berlin,Nehringstraße 23,14059,Charlottenburg,"52.51485, 13.29441",52.51485,13.29441,Mon-Sun: 12:00 - 22:00,here_maps
 397,Die Eselin von a.,Restaurant,european,Schloßstraße 61 Charlottenburg 14059 Berlin,Schloßstraße 61,14059,Charlottenburg,"52.51709, 13.29691",52.51709,13.29691,,here_maps
 398,Co Miu,Restaurant,asian,Seelingstraße 36 Charlottenburg 14059 Berlin,Seelingstraße 36,14059,Charlottenburg,"52.51553, 13.29152",52.51553,13.29152,Mon-Sat: 11:30 - 23:00 Sun: 12:00 - 23:00,here_maps
-399,Karagiosis,Restaurant,mediterranean,Klausenerplatz 4 Charlottenburg 14059 Berlin,Klausenerplatz 4,14059,Charlottenburg,"52.51836, 13.29273",52.51836,13.29273,Mon-Sun: 12:30 - 23:59,here_maps
+399,Karagiosis,Restaurant,greek,Klausenerplatz 4 Charlottenburg 14059 Berlin,Klausenerplatz 4,14059,Charlottenburg,"52.51836, 13.29273",52.51836,13.29273,Mon-Sun: 12:30 - 23:59,here_maps
 400,Goldesel,Bar/Pub,european,Seelingstraße 7 Charlottenburg 14059 Berlin,Seelingstraße 7,14059,Charlottenburg,"52.51547, 13.29509",52.51547,13.29509,Mon-Sat: 16:00 - 23:59,here_maps
 401,Aba Kebap,Restaurant,middle eastern,Danckelmannstraße 13 Charlottenburg 14059 Berlin,Danckelmannstraße 13,14059,Charlottenburg,"52.51496, 13.29063",52.51496,13.29063,,here_maps
 402,12 Oz,Restaurant,,Bismarckstraße 67 Charlottenburg 10627 Berlin,Bismarckstraße 67,10627,Charlottenburg,"52.51133, 13.29781",52.51133,13.29781,,here_maps
-403,Amoag Sudaniesch Spezialitaeten,Restaurant,middle eastern,Wilmersdorfer Straße 152A Charlottenburg 10585 Berlin,Wilmersdorfer Straße 152A,10585,Charlottenburg,"52.51458, 13.30502",52.51458,13.30502,Mon-Thu: 11:00 - 11:30 Fri: 11:00 - 12:00 Sat: 11:30 - 23:00 Sun: 12:00 - 23:00,here_maps
-404,Tembo African Restaurant and Bar,Restaurant,middle eastern,Danckelmannstraße 20 Charlottenburg 14059 Berlin,Danckelmannstraße 20,14059,Charlottenburg,"52.51372, 13.29087",52.51372,13.29087,,here_maps
+403,Amoag Sudaniesch Spezialitaeten,Restaurant,african,Wilmersdorfer Straße 152A Charlottenburg 10585 Berlin,Wilmersdorfer Straße 152A,10585,Charlottenburg,"52.51458, 13.30502",52.51458,13.30502,Mon-Thu: 11:00 - 11:30 Fri: 11:00 - 12:00 Sat: 11:30 - 23:00 Sun: 12:00 - 23:00,here_maps
+404,Tembo African Restaurant and Bar,Restaurant,african,Danckelmannstraße 20 Charlottenburg 14059 Berlin,Danckelmannstraße 20,14059,Charlottenburg,"52.51372, 13.29087",52.51372,13.29087,,here_maps
 405,Tex Mex,Restaurant,american,KaiserFriedrichStraße 34 Charlottenburg 10627 Berlin,KaiserFriedrichStraße 34,10627,Charlottenburg,"52.51068, 13.30134",52.51068,13.30134,Mon-Sun: 12:00 - 23:00,here_maps
 406,Da Peppino,Restaurant,mediterranean,Wundtstraße 17 Charlottenburg 14059 Berlin,Wundtstraße 17,14059,Charlottenburg,"52.51162, 13.29349",52.51162,13.29349,Mon-Sun: 12:00 - 23:59,here_maps
 407,Dio's Musik-Café,Restaurant,european,Schillerstraße 44 Charlottenburg 10627 Berlin,Schillerstraße 44,10627,Charlottenburg,"52.51006, 13.30467",52.51006,13.30467,,here_maps
@@ -463,14 +463,14 @@
 461,Röstwerk Kaffeerösterei,Restaurant,,Seelingstraße 32 Charlottenburg 14059 Berlin,Seelingstraße 32,14059,Charlottenburg,"52.51556, 13.29199",52.51556,13.29199,"Mon-Fri: 08:30 - 19:00 Sat, Sun: 10:00 - 19:00",here_maps
 462,Sushi & Vietnam Kitchen,Restaurant,asian,Wilmersdorfer Straße 29 Charlottenburg 10585 Berlin,Wilmersdorfer Straße 29,10585,Charlottenburg,"52.5133, 13.30474",52.5133,13.30474,,here_maps
 463,Thuy Tien Sushi Bar,Restaurant,asian,Klausenerplatz 14 Charlottenburg 14059 Berlin,Klausenerplatz 14,14059,Charlottenburg,"52.51769, 13.29098",52.51769,13.29098,,here_maps
-464,Restaurant Kriti,Restaurant,mediterranean,Knobelsdorffstraße 38 Charlottenburg 14059 Berlin,Knobelsdorffstraße 38,14059,Charlottenburg,"52.51333, 13.29081",52.51333,13.29081,"Mon: 12:00 - 23:00 Tue-Sat: 05:00 - 11:00, 12:00 - 23:00 Sun: 13:00 - 23:00",here_maps
+464,Restaurant Kriti,Restaurant,greek,Knobelsdorffstraße 38 Charlottenburg 14059 Berlin,Knobelsdorffstraße 38,14059,Charlottenburg,"52.51333, 13.29081",52.51333,13.29081,"Mon: 12:00 - 23:00 Tue-Sat: 05:00 - 11:00, 12:00 - 23:00 Sun: 13:00 - 23:00",here_maps
 465,Laisla Cafe&Restaurant,Restaurant,european,Wilmersdorfer Straße 152A Charlottenburg 10585 Berlin,Wilmersdorfer Straße 152A,10585,Charlottenburg,"52.51458, 13.30502",52.51458,13.30502,,here_maps
 466,Asia-Sushi Time,Restaurant,asian,Klausenerplatz 14 Charlottenburg 14059 Berlin,Klausenerplatz 14,14059,Charlottenburg,"52.51769, 13.29098",52.51769,13.29098,Mon-Fri: 11:00 - 21:00 Sun: 12:00 - 21:00,here_maps
 467,Berliner Eismanufaktur,Food & Drink,breakfast/dessert,Seelingstraße 38 Charlottenburg 14059 Berlin,Seelingstraße 38,14059,Charlottenburg,"52.51551, 13.29116",52.51551,13.29116,Mon-Sun: 13:00 - 19:00,here_maps
 468,Salumeria Tommaso,Restaurant,italian,Wilmersdorfer Straße 15 Charlottenburg 10585 Berlin,Wilmersdorfer Straße 15,10585,Charlottenburg,"52.51596, 13.30448",52.51596,13.30448,Mon-Fri: 10:00 - 18:00 Sat: 10:00 - 14:00,here_maps
 469,Dittmanns Drogerie,Restaurant,,Kablower Weg 87 Bohnsdorf 12526 Berlin,Kablower Weg 87,12526,Bohnsdorf,"52.40302, 13.58579",52.40302,13.58579,Mon-Sun: 06:00 - 23:00,here_maps
 470,Hanffs Ruh,Restaurant,european,RabindranathTagoreStraße 25 Grünau 12527 Berlin,RabindranathTagoreStraße 25,12527,Grünau,"52.4078, 13.59907",52.4078,13.59907,"Mon, Wed-Sun: 11:00 - 21:00",here_maps
-471,Griechische Spezialitäten,Restaurant,mediterranean,Waltersdorfer Straße 38 Bohnsdorf 12526 Berlin,Waltersdorfer Straße 38,12526,Bohnsdorf,"52.39568, 13.57372",52.39568,13.57372,,here_maps
+471,Griechische Spezialitäten,Restaurant,greek,Waltersdorfer Straße 38 Bohnsdorf 12526 Berlin,Waltersdorfer Straße 38,12526,Bohnsdorf,"52.39568, 13.57372",52.39568,13.57372,,here_maps
 472,Duo Restaurant,Restaurant,mediterranean,Steglitzer Damm 29 Steglitz 12169 Berlin,Steglitzer Damm 29,12169,Steglitz,"52.45096, 13.34087",52.45096,13.34087,Mon-Sat: 12:00 - 23:00 Sun: 11:00 - 23:00,here_maps
 473,Mamma Rosa,Restaurant,italian,Steglitzer Damm 40 Steglitz 12169 Berlin,Steglitzer Damm 40,12169,Steglitz,"52.45039, 13.34214",52.45039,13.34214,,here_maps
 474,Restaurant Zagreb,Restaurant,international,Steglitzer Damm 54 Steglitz 12169 Berlin,Steglitzer Damm 54,12169,Steglitz,"52.45001, 13.34533",52.45001,13.34533,Mon-Sat: 11:30 - 23:30 Sun: 11:30 - 23:00,here_maps
@@ -542,7 +542,7 @@
 540,Zum Borstel,Bar/Pub,,Birkbuschstraße 62 Steglitz 12167 Berlin,Birkbuschstraße 62,12167,Steglitz,"52.44675, 13.32784",52.44675,13.32784,,here_maps
 541,Miséria & Nobilta,Restaurant,european,Beckerstraße 12 Schöneberg 12157 Berlin,Beckerstraße 12,12157,Schöneberg,"52.46702, 13.33871",52.46702,13.33871,,here_maps
 542,Pizzeria la Mama,Restaurant,italian,Albrechtstraße 119 Steglitz 12167 Berlin,Albrechtstraße 119,12167,Steglitz,"52.45536, 13.32616",52.45536,13.32616,Mon-Sat: 11:00 - 22:00 Sun: 12:00 - 22:00,here_maps
-543,Gyros Grill,Restaurant,mediterranean,Feuerbachstraße 34 Steglitz 12163 Berlin,Feuerbachstraße 34,12163,Steglitz,"52.46369, 13.33229",52.46369,13.33229,Mon-Sun: 10:00 - 00:00,here_maps
+543,Gyros Grill,Restaurant,greek,Feuerbachstraße 34 Steglitz 12163 Berlin,Feuerbachstraße 34,12163,Steglitz,"52.46369, 13.33229",52.46369,13.33229,Mon-Sun: 10:00 - 00:00,here_maps
 544,Manhattan Pizza,Restaurant,italian,Albrechtstraße 114 Steglitz 12167 Berlin,Albrechtstraße 114,12167,Steglitz,"52.45485, 13.32744",52.45485,13.32744,Tue-Sun: 11:00 - 22:45,here_maps
 545,Frohsinn,Restaurant,international,Cranachstraße 39 Schöneberg 12157 Berlin,Cranachstraße 39,12157,Schöneberg,"52.46438, 13.34283",52.46438,13.34283,"Mon: 16:00 - 12:00 Tue, Wed: 16:00 - 12:00, 16:00 - 23:45 Thu: 16:00 - 13:00, 16:00 - 23:45 Fri: 12:00 - 13:30, 16:00 - 01:00, 16:00 - 23:45 Sat: 12:00 - 01:00, 12:00 - 23:45 Sun: 12:00 - 23:00",here_maps
 546,Cafe-Kneipe Sedan,Restaurant,,Sedanstraße 25 Steglitz 12167 Berlin,Sedanstraße 25,12167,Steglitz,"52.44557, 13.33043",52.44557,13.33043,Mon-Sun: 09:00 - 23:00,here_maps
@@ -616,7 +616,7 @@
 614,KFC Berlin Grenzallee,Restaurant,snacks,Grenzallee 37 Neukölln 12057 Berlin,Grenzallee 37,12057,Neukölln,"52.465206, 13.455132",52.465206,13.455132,Mon-Sun: 11:00 - 23:00,here_maps
 615,Balmi Lachsräucherei,Restaurant,american,Lahnstraße 56 Neukölln 12055 Berlin,Lahnstraße 56,12055,Neukölln,"52.46824, 13.44592",52.46824,13.44592,Mon-Fri: 07:00 - 15:30,here_maps
 616,Huy Long Sushi,Restaurant,asian,FritzReuterAllee Britz 12359 Berlin,FritzReuterAllee,12359,Britz,"52.44408, 13.44961",52.44408,13.44961,,here_maps
-617,Gyros Express,Restaurant,mediterranean,Rudower Straße 13 Buckow 12351 Berlin,Rudower Straße 13,12351,Buckow,"52.44205, 13.45759",52.44205,13.45759,,here_maps
+617,Gyros Express,Restaurant,greek,Rudower Straße 13 Buckow 12351 Berlin,Rudower Straße 13,12351,Buckow,"52.44205, 13.45759",52.44205,13.45759,,here_maps
 618,Marcello,Restaurant,italian,Grenzallee 22 Neukölln 12057 Berlin,Grenzallee 22,12057,Neukölln,"52.46652, 13.45736",52.46652,13.45736,Mon-Thu: 12:00 - 21:30,here_maps
 619,Atila's Kebabhaus,Snacks/Fast food,middle eastern,Parchimer Allee 33 Britz 12359 Berlin,Parchimer Allee 33,12359,Britz,"52.44521, 13.45448",52.44521,13.45448,"Mon-Sun: 11:00 - 00:00, 12:00 - 23:00",here_maps
 620,Ristorante Venezia,Restaurant,italian,Rudower Straße 12 Buckow 12351 Berlin,Rudower Straße 12,12351,Buckow,"52.44176, 13.4568",52.44176,13.4568,Mon-Sun: 12:00 - 23:00,here_maps
@@ -648,11 +648,11 @@
 646,Fook Lam Mun,Restaurant,asian,Alte Potsdamer Landstraße 43 14532 Stahnsdorf,Alte Potsdamer Landstraße,14532,43,"52.39272, 13.20148",52.39272,13.20148,Mon-Sun: 11:30 - 22:30,here_maps
 647,Restaurant Tick-Tack,Restaurant,european,Bahnhofstraße 25 14532 Stahnsdorf,Bahnhofstraße,14532,25,"52.387853, 13.190356",52.387853,13.190356,"Sat, Sun: 12:00 - 18:00",here_maps
 648,Kaiserpagode,Restaurant,asian,Potsdamer Allee 119 14532 Stahnsdorf,Potsdamer Allee,14532,119,"52.38518, 13.19603",52.38518,13.19603,Mon-Sun: 11:30 - 23:30,here_maps
-649,Griechisches Restaurant Korfu Stahnsdorf,Restaurant,mediterranean,Bäkepromenade 1 14532 Stahnsdorf,Bäkepromenade,14532,1,"52.394477, 13.208188",52.394477,13.208188,Mon-Sat: 11:30 - 23:30 Sun: 11:30 - 22:00,here_maps
+649,Griechisches Restaurant Korfu Stahnsdorf,Restaurant,greek,Bäkepromenade 1 14532 Stahnsdorf,Bäkepromenade,14532,1,"52.394477, 13.208188",52.394477,13.208188,Mon-Sat: 11:30 - 23:30 Sun: 11:30 - 22:00,here_maps
 650,Taj Mahal,Restaurant,asian,Potsdamer Allee 109 14532 Stahnsdorf,Potsdamer Allee,14532,109,"52.38588, 13.19847",52.38588,13.19847,Mon-Sun: 11:00 - 23:00,here_maps
 651,Restaurant Schleusengarten,Restaurant,international,Schleusenweg 4 14532 Stahnsdorf,Schleusenweg,14532,4,"52.39281, 13.21045",52.39281,13.21045,Mon-Sat: 11:30 - 23:00 Sun: 11:30 - 22:00,here_maps
 652,Bapu Restaurant,Restaurant,asian,Stahnsdorfer Damm 19 14532 Kleinmachnow,Stahnsdorfer Damm,14532,19,"52.39665, 13.20738",52.39665,13.20738,,here_maps
-653,Meteora,Restaurant,mediterranean,AugustBebelPlatz 4 14532 Kleinmachnow,AugustBebelPlatz,14532,4,"52.40423, 13.21472",52.40423,13.21472,Tue-Sun: 12:00 - 00:00,here_maps
+653,Meteora,Restaurant,greek,AugustBebelPlatz 4 14532 Kleinmachnow,AugustBebelPlatz,14532,4,"52.40423, 13.21472",52.40423,13.21472,Tue-Sun: 12:00 - 00:00,here_maps
 654,Castagno,Restaurant,mediterranean,Wannseestraße 4 14532 Stahnsdorf,Wannseestraße,14532,4,"52.39369, 13.21338",52.39369,13.21338,Mon-Sun: 11:30 - 23:30,here_maps
 655,Eiscafe Castagno,Food & Drink,breakfast/dessert,WilhelmKülzStraße 44 14532 Stahnsdorf,WilhelmKülzStraße,14532,44,"52.39212, 13.22144",52.39212,13.22144,Mon-Sun: 09:00 - 21:00,here_maps
 656,Ebay Kantine,Restaurant,,Marktplatz 14532 Kleinmachnow,,,,"52.406669, 13.186924",52.406669,13.186924,,here_maps
@@ -696,14 +696,14 @@
 694,Restaurant Fließtal Reithalle,Restaurant,,ZabelKrügerDamm 229 Lübars 13469 Berlin,ZabelKrügerDamm 229,13469,Lübars,"52.61774, 13.35322",52.61774,13.35322,,here_maps
 695,Restaurant & Pizzeria Malibu,Restaurant,european,ZabelKrügerDamm 23 Waidmannslust 13469 Berlin,ZabelKrügerDamm 23,13469,Waidmannslust,"52.60936, 13.32845",52.60936,13.32845,,here_maps
 696,BURGER KING,Snacks/Fast food,fastfood,Oraniendamm 6 Waidmannslust 13469 Berlin,Oraniendamm 6,13469,Waidmannslust,"52.60759, 13.32619",52.60759,13.32619,"Mon-Thu: 09:00 - 01:00 Fri, Sat: 09:00 - 03:00 Sun: 10:00 - 01:00",here_maps
-697,Dionysos,Restaurant,mediterranean,ZabelKrügerDamm 35 Waidmannslust 13469 Berlin,ZabelKrügerDamm 35,13469,Waidmannslust,"52.61, 13.3304",52.61,13.3304,Mon-Sat: 12:00 - 23:30 Sun: 12:00 - 23:00,here_maps
+697,Dionysos,Restaurant,greek,ZabelKrügerDamm 35 Waidmannslust 13469 Berlin,ZabelKrügerDamm 35,13469,Waidmannslust,"52.61, 13.3304",52.61,13.3304,Mon-Sat: 12:00 - 23:30 Sun: 12:00 - 23:00,here_maps
 698,Eisdiele Angelina,Food & Drink,breakfast/dessert,AltLübars 36 Lübars 13469 Berlin,AltLübars 36,13469,Lübars,"52.61784, 13.35454",52.61784,13.35454,Mon-Sun: 11:00 - 21:00,here_maps
 699,Dalmacija,Restaurant,steak,Schorfheidestraße 23 Märkisches Viertel 13439 Berlin,Schorfheidestraße 23 Märkisches,13439,Viertel,"52.59395, 13.34739",52.59395,13.34739,Mon-Sat: 12:00 - 23:00 Sun: 12:00 - 22:00,here_maps
 700,Krystal Restaurant,Restaurant,,Teschendorfer Weg 6 Märkisches Viertel 13439 Berlin,Teschendorfer Weg 6 Märkisches,13439,Viertel,"52.5937, 13.35699",52.5937,13.35699,,here_maps
 701,Restaurant First Service,Restaurant,asian,Göschenstraße 7 Wittenau 13437 Berlin,Göschenstraße 7,13437,Wittenau,"52.597155, 13.330543",52.597155,13.330543,,here_maps
 702,Frank Laskowski,Restaurant,european,Wilhelmsruher Damm 231 Wittenau 13435 Berlin,Wilhelmsruher Damm 231,13435,Wittenau,"52.59542, 13.33524",52.59542,13.33524,,here_maps
 703,Kinh Do,Restaurant,asian,Oranienburger Straße 200 Wittenau 13437 Berlin,Oranienburger Straße 200,13437,Wittenau,"52.59445, 13.33291",52.59445,13.33291,Mon-Fri: 11:00 - 22:00 Sun: 12:00 - 21:45,here_maps
-704,Taverna Orakel Berlin,Restaurant,mediterranean,Dannenwalder Weg 70 Märkisches Viertel 13439 Berlin,Dannenwalder Weg 70 Märkisches,13439,Viertel,"52.59082, 13.34785",52.59082,13.34785,Mon-Sun: 12:00 - 23:00,here_maps
+704,Taverna Orakel Berlin,Restaurant,greek,Dannenwalder Weg 70 Märkisches Viertel 13439 Berlin,Dannenwalder Weg 70 Märkisches,13439,Viertel,"52.59082, 13.34785",52.59082,13.34785,Mon-Sun: 12:00 - 23:00,here_maps
 705,Cavallino,Restaurant,italian,Roedernallee 89 Wittenau 13437 Berlin,Roedernallee 89,13437,Wittenau,"52.59388, 13.33405",52.59388,13.33405,Mon-Sat: 12:00 - 23:00 Sun: 12:00 - 22:00,here_maps
 706,Pizza Friends,Restaurant,italian,Oranienburger Straße 196 Wittenau 13437 Berlin,Oranienburger Straße 196,13437,Wittenau,"52.59508, 13.33276",52.59508,13.33276,"Mon-Thu, Sun: 11:00 - 23:00 Fri, Sat: 11:00 - 00:00",here_maps
 707,Curry Corner,Restaurant,european,Wilhelmsruher Damm 231 Wittenau 13435 Berlin,Wilhelmsruher Damm 231,13435,Wittenau,"52.59542, 13.33524",52.59542,13.33524,,here_maps
@@ -774,7 +774,7 @@
 772,Zehlendorfer Hof,Restaurant,european,Potsdamer Straße 25 Zehlendorf 14163 Berlin,Potsdamer Straße 25,14163,Zehlendorf,"52.43412, 13.24702",52.43412,13.24702,Mon-Sun: 12:00 - 23:00,here_maps
 773,Shamrock Pub,Bar/Pub,european,Potsdamer Straße 3 Zehlendorf 14163 Berlin,Potsdamer Straße 3,14163,Zehlendorf,"52.43577, 13.2578",52.43577,13.2578,"Mon-Fri: 17:00 - 15:00 Sat, Sun: 15:00 - 15:00",here_maps
 774,Shanling,Restaurant,asian,Berliner Straße 1 Zehlendorf 14169 Berlin,Berliner Straße 1,14169,Zehlendorf,"52.43523, 13.26131",52.43523,13.26131,,here_maps
-775,Royal Greek,Restaurant,mediterranean,Teltower Damm Zehlendorf 14167 Berlin,Teltower Damm,14167,Zehlendorf,"52.416628, 13.265448",52.416628,13.265448,,here_maps
+775,Royal Greek,Restaurant,greek,Teltower Damm Zehlendorf 14167 Berlin,Teltower Damm,14167,Zehlendorf,"52.416628, 13.265448",52.416628,13.265448,,here_maps
 776,Brotzeit-Bistro,Restaurant,european,Potsdamer Straße 34 Zehlendorf 14163 Berlin,Potsdamer Straße 34,14163,Zehlendorf,"52.43454, 13.24979",52.43454,13.24979,,here_maps
 777,Rossopiena,Restaurant,european,Potsdamer Chaussee 15A Zehlendorf 14163 Berlin,Potsdamer Chaussee 15A,14163,Zehlendorf,"52.43148, 13.23102",52.43148,13.23102,Mon-Sun: 12:00 - 00:00,here_maps
 778,Gedicht 161,Restaurant,mediterranean,Teltower Damm 161 Zehlendorf 14167 Berlin,Teltower Damm 161,14167,Zehlendorf,"52.41935, 13.26525",52.41935,13.26525,"Tue-Sat: 17:00 - 00:00, 17:00 - 00:00 Sun: 12:00 - 23:00",here_maps
@@ -858,8 +858,8 @@
 856,Uni Burger,Snacks/Fast food,fastfood,Torfstraße 17 Wedding 13353 Berlin,Torfstraße 17,13353,Wedding,"52.54167, 13.34976",52.54167,13.34976,,here_maps
 857,Pizza Miranda,Restaurant,,Müllerstraße 142 Wedding 13353 Berlin,Müllerstraße 142,13353,Wedding,"52.54878, 13.35445",52.54878,13.35445,,here_maps
 858,Köfteci Musti,Restaurant,middle eastern,Brüsseler Straße 51 Wedding 13353 Berlin,Brüsseler Straße 51,13353,Wedding,"52.54856, 13.35302",52.54856,13.35302,Mon-Sun: 10:00 - 00:00,here_maps
-859,Salone Market,Coffee/Tea,middle eastern,Genter Straße 66 Wedding 13353 Berlin,Genter Straße 66,13353,Wedding,"52.54891, 13.35174",52.54891,13.35174,,here_maps
-860,Taverna Korfu,Restaurant,mediterranean,Seestraße 13 Wedding 13353 Berlin,Seestraße 13,13353,Wedding,"52.54509, 13.34276",52.54509,13.34276,,here_maps
+859,Salone Market,Coffee/Tea,african,Genter Straße 66 Wedding 13353 Berlin,Genter Straße 66,13353,Wedding,"52.54891, 13.35174",52.54891,13.35174,,here_maps
+860,Taverna Korfu,Restaurant,greek,Seestraße 13 Wedding 13353 Berlin,Seestraße 13,13353,Wedding,"52.54509, 13.34276",52.54509,13.34276,,here_maps
 861,Bio Company,Food & Drink,,Müllerstraße 141 Wedding 13353 Berlin,Müllerstraße 141,13353,Wedding,"52.549, 13.35407",52.549,13.35407,,here_maps
 862,Spinner und Weber,Restaurant,,Brüsseler Straße 37 Wedding 13353 Berlin,Brüsseler Straße 37,13353,Wedding,"52.54618, 13.34887",52.54618,13.34887,,here_maps
 863,Pizza la Rosa,Restaurant,italian,Müllerstraße 141 Wedding 13353 Berlin,Müllerstraße 141,13353,Wedding,"52.549, 13.35407",52.549,13.35407,Mon-Sun: 08:00 - 12:00,here_maps
@@ -872,7 +872,7 @@
 870,Lebuffet,Restaurant,international,Müllerstraße 25 Wedding 13353 Berlin,Müllerstraße 25,13353,Wedding,"52.54613, 13.3601",52.54613,13.3601,Mon-Sat: 10:00 - 20:00,here_maps
 871,BURGER KING,Snacks/Fast food,fastfood,Müllerstraße 153 Wedding 13353 Berlin,Müllerstraße 153,13353,Wedding,"52.54596, 13.35945",52.54596,13.35945,,here_maps
 872,Saray Restaurant,Restaurant,middle eastern,Seestraße 45 Wedding 13347 Berlin,Seestraße 45,13347,Wedding,"52.55037, 13.35265",52.55037,13.35265,Mon-Sun: 09:00 - 12:00,here_maps
-873,Aman,Restaurant,mediterranean,Sprengelstraße 39 Wedding 13353 Berlin,Sprengelstraße 39,13353,Wedding,"52.54186, 13.35601",52.54186,13.35601,,here_maps
+873,Aman,Restaurant,greek,Sprengelstraße 39 Wedding 13353 Berlin,Sprengelstraße 39,13353,Wedding,"52.54186, 13.35601",52.54186,13.35601,,here_maps
 874,Chotto Asian,Snacks/Fast food,asian,Müllerstraße 40B Wedding 13353 Berlin,Müllerstraße 40B,13353,Wedding,"52.55018, 13.35294",52.55018,13.35294,,here_maps
 875,Pamfilya,Restaurant,mediterranean,Luxemburger Straße 1 Wedding 13353 Berlin,Luxemburger Straße 1,13353,Wedding,"52.54629, 13.3586",52.54629,13.3586,Mon-Sun: 09:00 - 23:30,here_maps
 876,Lei's Küche,Snacks/Fast food,asian,Seestraße 41 Wedding 13353 Berlin,Seestraße 41,13353,Wedding,"52.54966, 13.35133",52.54966,13.35133,,here_maps
@@ -998,7 +998,7 @@
 996,My Daddy's Gelateria,Food & Drink,european,Grüntaler Straße 13 Gesundbrunnen 13357 Berlin,Grüntaler Straße 13,13357,Gesundbrunnen,"52.55239, 13.38737",52.55239,13.38737,Mon-Sun: 12:00 - 22:00,here_maps
 997,Der Neue Weltempfaenger,Accommodation,,Anklamer Straße 27 Mitte 10115 Berlin,Anklamer Straße 27,10115,Mitte,"52.53655, 13.40074",52.53655,13.40074,Tue-Fri: 08:00 - 00:00 Sat: 08:00 - 17:00 Sun: 08:00 - 18:00,here_maps
 998,Cookies and Cream,Coffee/Tea,breakfast/dessert,Kremmener Straße 8 Mitte 10435 Berlin,Kremmener Straße 8,10435,Mitte,"52.53939, 13.40251",52.53939,13.40251,"Tue-Fri: 15:00 - 19:00 Sat, Sun: 12:00 - 19:00",here_maps
-999,Vedis,Restaurant,middle eastern,Schönhauser Allee 142 Prenzlauer Berg 10437 Berlin,Schönhauser Allee 142 Prenzlauer,10437,Berg,"52.54172, 13.41178",52.54172,13.41178,"Mon-Thu, Sun: 12:00 - 00:00, 12:00 - 00:00, 12:00 - 00:00, 12:00 - 00:00, 12:00 - 00:00, 12:00 - 23:59 Fri, Sat: 12:00 - 02:00, 12:00 - 02:00, 12:00 - 02:00, 12:00 - 02:00, 12:00 - 02:00, 12:00 - 02:00",here_maps
+999,Vedis,Restaurant,indian,Schönhauser Allee 142 Prenzlauer Berg 10437 Berlin,Schönhauser Allee 142 Prenzlauer,10437,Berg,"52.54172, 13.41178",52.54172,13.41178,"Mon-Thu, Sun: 12:00 - 00:00, 12:00 - 00:00, 12:00 - 00:00, 12:00 - 00:00, 12:00 - 00:00, 12:00 - 23:59 Fri, Sat: 12:00 - 02:00, 12:00 - 02:00, 12:00 - 02:00, 12:00 - 02:00, 12:00 - 02:00, 12:00 - 02:00",here_maps
 1000,Kyo Japanese Grill,Restaurant,asian,Kastanienallee 23 Prenzlauer Berg 10435 Berlin,Kastanienallee 23 Prenzlauer,10435,Berg,"52.53783, 13.40865",52.53783,13.40865,"Mon-Fri: 12:00 - 23:00 Sat, Sun: 14:00 - 23:00",here_maps
 1001,Studio 8 Bar Gallery,Bar/Pub,,Grüntaler Straße 8 Gesundbrunnen 13357 Berlin,Grüntaler Straße 8,13357,Gesundbrunnen,"52.55177, 13.38653",52.55177,13.38653,"Mon-Wed, Sun: 19:00 - 08:00, 19:00 - 06:00 Thu-Sat: 18:00 - 08:00, 19:00 - 06:00",here_maps
 1002,Tbilisi,Restaurant,european,Schönfließer Straße 15 Prenzlauer Berg 10439 Berlin,Schönfließer Straße 15 Prenzlauer,10439,Berg,"52.55188, 13.4081",52.55188,13.4081,"Mon, Tue: 17:00 - 00:00 Wed-Fri: 17:00 - 00:00, 17:00 - 21:30 Sat: 16:00 - 00:00, 17:00 - 21:30 Sun: 12:00 - 21:30",here_maps
@@ -1023,7 +1023,7 @@
 1021,Taco Love,Restaurant,american,Eberswalder Straße Prenzlauer Berg 10437 Berlin,Eberswalder Straße Prenzlauer,10437,Berg,"52.54124, 13.41168",52.54124,13.41168,Mon-Fri: 12:00 - 21:30 Sat: 12:00 - 21:00,here_maps
 1022,Naschpunkt,Restaurant,breakfast/dessert,Schivelbeiner Straße 10 Prenzlauer Berg 10439 Berlin,Schivelbeiner Straße 10 Prenzlauer,10439,Berg,"52.55106, 13.41085",52.55106,13.41085,Mon-Sun: 09:00 - 18:00,here_maps
 1023,Wonderwaffel,Restaurant,breakfast/dessert,Grüntaler Straße 88 Gesundbrunnen 13357 Berlin,Grüntaler Straße 88,13357,Gesundbrunnen,"52.551, 13.38473",52.551,13.38473,"Mon-Thu, Sun: 11:30 - 23:00 Fri, Sat: 11:30 - 00:00",here_maps
-1024,Shalimar,Restaurant,middle eastern,Bellermannstraße 17 Gesundbrunnen 13357 Berlin,Bellermannstraße 17,13357,Gesundbrunnen,"52.55232, 13.38759",52.55232,13.38759,"Mon-Sat: 17:00 - 23:00, 23:59 - 23:59 Sun: 17:00 - 23:00, 23:59 - 16:00",here_maps
+1024,Shalimar,Restaurant,,Bellermannstraße 17 Gesundbrunnen 13357 Berlin,Bellermannstraße 17,13357,Gesundbrunnen,"52.55232, 13.38759",52.55232,13.38759,"Mon-Sat: 17:00 - 23:00, 23:59 - 23:59 Sun: 17:00 - 23:00, 23:59 - 16:00",here_maps
 1025,"Cafe Haferkater, Mauerpark",Coffee/Tea,breakfast/dessert,Eberswalder Straße 26 Prenzlauer Berg 10437 Berlin,Eberswalder Straße 26 Prenzlauer,10437,Berg,"52.54126, 13.41134",52.54126,13.41134,"Mon-Fri: 07:00 - 17:00 Sat, Sun: 08:00 - 17:00",here_maps
 1026,Aceto Lokanta,Restaurant,mediterranean,Kastanienallee 4 Prenzlauer Berg 10435 Berlin,Kastanienallee 4 Prenzlauer,10435,Berg,"52.54027, 13.41123",52.54027,13.41123,Mon-Sat: 11:00 - 23:59 Sun: 11:00 - 04:00,here_maps
 1027,Domino's Pizza,Restaurant,italian,Stralsunder Straße 61 Gesundbrunnen 13355 Berlin,Stralsunder Straße 61,13355,Gesundbrunnen,"52.53962, 13.39574",52.53962,13.39574,"Mon-Thu, Sun: 11:00 - 23:00 Fri, Sat: 11:00 - 00:00",here_maps
@@ -1044,10 +1044,10 @@
 1042,Eismännchen,Food & Drink,breakfast/dessert,Iserstraße 8 14513 Teltow,Iserstraße,14513,8,"52.39362, 13.24453",52.39362,13.24453,,here_maps
 1043,Shi Shan China Restaurant,Restaurant,asian,Potsdamer Straße 10 14513 Teltow,Potsdamer Straße,14513,10,"52.39817, 13.24492",52.39817,13.24492,Tue-Thu: 12:00 - 22:00 Fri-Sun: 12:00 - 23:00,here_maps
 1044,Trattoria Toscana,Restaurant,italian,Iserstraße 8 14513 Teltow,Iserstraße,14513,8,"52.39362, 13.24453",52.39362,13.24453,Mon-Sun: 11:30 - 00:00,here_maps
-1045,Athos,Restaurant,mediterranean,Iserstraße 10 14513 Teltow,Iserstraße,14513,10,"52.39336, 13.2446",52.39336,13.2446,Mon-Sat: 17:30 - 23:30 Sun: 12:00 - 14:00,here_maps
+1045,Athos,Restaurant,greek,Iserstraße 10 14513 Teltow,Iserstraße,14513,10,"52.39336, 13.2446",52.39336,13.2446,Mon-Sat: 17:30 - 23:30 Sun: 12:00 - 14:00,here_maps
 1046,Trattoria Vino E Cucina,Restaurant,mediterranean,Oderstraße 45 14513 Teltow,Oderstraße,14513,45,"52.40067, 13.24446",52.40067,13.24446,Mon-Sun: 11:30 - 23:30,here_maps
 1047,Ristorante Casa Mia,Restaurant,mediterranean,Potsdamer Straße 41 14513 Teltow,Potsdamer Straße,14513,41,"52.40132, 13.25445",52.40132,13.25445,Mon-Sun: 11:30 - 23:59,here_maps
-1048,Taverna Samos,Restaurant,mediterranean,Potsdamer Straße 68 14513 Teltow,Potsdamer Straße,14513,68,"52.40129, 13.26146",52.40129,13.26146,"Tue-Fri: 16:00 - 00:00 Sat, Sun: 12:00 - 00:00",here_maps
+1048,Taverna Samos,Restaurant,greek,Potsdamer Straße 68 14513 Teltow,Potsdamer Straße,14513,68,"52.40129, 13.26146",52.40129,13.26146,"Tue-Fri: 16:00 - 00:00 Sat, Sun: 12:00 - 00:00",here_maps
 1049,Nuova Italia Ristorante,Restaurant,italian,Rheinstraße 7A 14513 Teltow,Rheinstraße,14513,7A,"52.40012, 13.24683",52.40012,13.24683,"Mon-Fri, Sun: 11:00 - 23:00 Sat: 17:00 - 12:00",here_maps
 1050,Domino's Pizza,Restaurant,italian,Potsdamer Straße 53 14513 Teltow,Potsdamer Straße,14513,53,"52.40172, 13.25931",52.40172,13.25931,Mon-Sun: 11:00 - 23:00,here_maps
 1051,Clubrestaurant in Sportpark,Sport Facility/Venue,,Fontanestraße 31 14532 Kleinmachnow,Fontanestraße,14532,31,"52.40179, 13.23578",52.40179,13.23578,,here_maps
@@ -1069,7 +1069,7 @@
 1067,Chopsticks,Restaurant,asian,Ruhlsdorfer Straße 95 14532 Stahnsdorf,Ruhlsdorfer Straße,14532,95,"52.38283, 13.24329",52.38283,13.24329,Mon-Fri: 09:00 - 20:00 Sat: 10:00 - 20:00,here_maps
 1068,Kleinmachnower Grillhaus,Restaurant,,Zehlendorfer Damm 120 14532 Kleinmachnow,Zehlendorfer Damm,14532,120,"52.40551, 13.23481",52.40551,13.23481,"Mon-Fri: 10:00 - 23:00 Sat, Sun: 11:00 - 23:00",here_maps
 1069,Inos Griechische Feinkost,Restaurant,,Oderstraße 29 14513 Teltow,Oderstraße,14513,29,"52.40367, 13.25243",52.40367,13.25243,Mon-Fri: 08:00 - 14:00,here_maps
-1070,Restaurant Hellas,Restaurant,mediterranean,Ruhlsdorfer Straße 89 14513 Teltow,Ruhlsdorfer Straße,14513,89,"52.386235, 13.263543",52.386235,13.263543,Mon-Sun: 12:00 - 23:00,here_maps
+1070,Restaurant Hellas,Restaurant,greek,Ruhlsdorfer Straße 89 14513 Teltow,Ruhlsdorfer Straße,14513,89,"52.386235, 13.263543",52.386235,13.263543,Mon-Sun: 12:00 - 23:00,here_maps
 1071,Kalidasa,Restaurant,asian,Bäckerstraße 4 14513 Teltow,Bäckerstraße,14513,4,"52.40145, 13.26324",52.40145,13.26324,Mon: 16:30 - 23:00 Tue-Sun: 11:30 - 23:00,here_maps
 1072,Osteria Ballerino,Restaurant,breakfast/dessert,Ruhlsdorfer Straße 14 14532 Stahnsdorf,Ruhlsdorfer Straße,14532,14,"52.39107, 13.22564",52.39107,13.22564,Mon-Sun: 10:00 - 22:00,here_maps
 1073,Dolci,Food & Drink,breakfast/dessert,KanadaAllee 10 14513 Teltow,KanadaAllee,14513,10,"52.39311, 13.27086",52.39311,13.27086,"Mon-Fri: 15:00 - 18:00 Sat, Sun: 14:00 - 18:00",here_maps
@@ -1079,7 +1079,7 @@
 1077,Weinwirtschaft in der Akademie der Künste,Restaurant,breakfast/dessert,Hanseatenweg 10 Hansaviertel 10557 Berlin,Hanseatenweg 10,10557,Hansaviertel,"52.51822, 13.34641",52.51822,13.34641,Mon: 10:00 - 17:00 Tue-Sun: 10:00 - 19:00,here_maps
 1078,Hansa-Kebab & Grillhaus,Snacks/Fast food,middle eastern,Altonaer Straße 18 Hansaviertel 10557 Berlin,Altonaer Straße 18,10557,Hansaviertel,"52.5188, 13.34198",52.5188,13.34198,,here_maps
 1079,Schleusenkrug,Restaurant,european,MüllerBreslauStraße 14B Charlottenburg 10623 Berlin,MüllerBreslauStraße 14B,10623,Charlottenburg,"52.51145, 13.335195",52.51145,13.335195,"Mon-Fri: 11:00 - 00:00, 11:00 - 18:00 Sat, Sun: 10:00 - 00:00",here_maps
-1080,Curry 36,Snacks/Fast food,middle eastern,Hardenbergplatz 9 Charlottenburg 10623 Berlin,Hardenbergplatz 9,10623,Charlottenburg,"52.50804, 13.33331",52.50804,13.33331,"Mon-Sat: 08:00 - 05:00, 08:00 - 23:59 Sun: 08:00 - 05:00, 08:00 - 05:00",here_maps
+1080,Curry 36,Snacks/Fast food,indian,Hardenbergplatz 9 Charlottenburg 10623 Berlin,Hardenbergplatz 9,10623,Charlottenburg,"52.50804, 13.33331",52.50804,13.33331,"Mon-Sat: 08:00 - 05:00, 08:00 - 23:59 Sun: 08:00 - 05:00, 08:00 - 05:00",here_maps
 1081,Hugos Restaurant,Restaurant,european,Budapester Straße 2 Tiergarten 10787 Berlin,Budapester Straße 2,10787,Tiergarten,"52.50696, 13.3455",52.50696,13.3455,"Tue-Sat: 18:30 - 00:00, 18:30 - 22:30",here_maps
 1082,Eisbox,Restaurant,breakfast/dessert,Elberfelder Straße 27 Moabit 10555 Berlin,Elberfelder Straße 27,10555,Moabit,"52.52218, 13.33619",52.52218,13.33619,Mon-Sun: 14:00 - 19:00,here_maps
 1083,Buchkantine,Restaurant,european,Dortmunder Straße 1 Moabit 10555 Berlin,Dortmunder Straße 1,10555,Moabit,"52.52141, 13.33799",52.52141,13.33799,"Mon-Fri: 10:00 - 22:00 Sat, Sun: 10:00 - 20:00",here_maps
@@ -1292,7 +1292,7 @@
 1290,I Due Emigranti,Restaurant,mediterranean,Belziger Straße 38 Schöneberg 10823 Berlin,Belziger Straße 38,10823,Schöneberg,"52.48656, 13.35161",52.48656,13.35161,Mon-Sat: 16:00 - 12:00 Sun: 11:00 - 12:00,here_maps
 1291,Masaledar,Restaurant,asian,Feurigstraße 38 Schöneberg 10827 Berlin,Feurigstraße 38,10827,Schöneberg,"52.48158, 13.35034",52.48158,13.35034,Mon-Sun: 12:00 - 23:00,here_maps
 1292,Cashcode Entertainment,Theme Park,,Hauptstraße 54 Schöneberg 10827 Berlin,Hauptstraße 54,10827,Schöneberg,"52.48122, 13.34726",52.48122,13.34726,,here_maps
-1293,Tadka,Restaurant,middle eastern,Feurigstraße 38 Schöneberg 10827 Berlin,Feurigstraße 38,10827,Schöneberg,"52.48158, 13.35034",52.48158,13.35034,Mon-Sun: 12:00 - 23:00,here_maps
+1293,Tadka,Restaurant,indian,Feurigstraße 38 Schöneberg 10827 Berlin,Feurigstraße 38,10827,Schöneberg,"52.48158, 13.35034",52.48158,13.35034,Mon-Sun: 12:00 - 23:00,here_maps
 1294,Le Couscous,Restaurant,middle eastern,Eisenacher Straße 79 Schöneberg 10823 Berlin,Eisenacher Straße 79,10823,Schöneberg,"52.48873, 13.34945",52.48873,13.34945,"Mon-Fri: 12:00 - 22:00 Sat, Sun: 13:00 - 22:00",here_maps
 1295,Mensa Schonenerg,Restaurant,italian,Hauptstraße 27 Schöneberg 10827 Berlin,Hauptstraße 27,10827,Schöneberg,"52.48556, 13.35463",52.48556,13.35463,Mon-Fri: 12:00 - 23:00 Sat: 17:00 - 23:00,here_maps
 1296,L'Antica Pizzeria da Michele,Restaurant,italian,FritzReuterStraße 7 Schöneberg 10827 Berlin,FritzReuterStraße 7,10827,Schöneberg,"52.48026, 13.34761",52.48026,13.34761,Mon: 16:00 - 17:00 Tue-Fri: 16:30 - 23:00 Sat: 11:30 - 23:00 Sun: 11:00 - 23:00,here_maps
@@ -1392,7 +1392,7 @@
 1390,Babuschka,Restaurant,international,Behaimstraße 32 Weißensee 13086 Berlin,Behaimstraße 32,13086,Weißensee,"52.55054, 13.44704",52.55054,13.44704,"Mon-Fri: 09:00 - 18:00 Sat, Sun: 10:00 - 16:00",here_maps
 1391,Mandelbaum,Restaurant,,Smetanastraße 9 Weißensee 13088 Berlin,Smetanastraße 9,13088,Weißensee,"52.54917, 13.45907",52.54917,13.45907,Tue-Sun: 10:00 - 18:00,here_maps
 1392,Confettibrause,Snacks/Fast food,european,Pistoriusstraße 16 Weißensee 13086 Berlin,Pistoriusstraße 16,13086,Weißensee,"52.55176, 13.45355",52.55176,13.45355,"Wed, Thu: 11:00 - 20:30 Fri, Sat: 10:00 - 22:00 Sun: 11:30 - 16:00",here_maps
-1393,Platon Restaurant,Restaurant,mediterranean,Pistoriusstraße 31 Weißensee 13086 Berlin,Pistoriusstraße 31,13086,Weißensee,"52.55317, 13.44832",52.55317,13.44832,Mon-Sun: 11:30 - 23:30,here_maps
+1393,Platon Restaurant,Restaurant,greek,Pistoriusstraße 31 Weißensee 13086 Berlin,Pistoriusstraße 31,13086,Weißensee,"52.55317, 13.44832",52.55317,13.44832,Mon-Sun: 11:30 - 23:30,here_maps
 1394,Zur Haxe,Restaurant,european,ErichWeinertStraße 128 Prenzlauer Berg 10409 Berlin,ErichWeinertStraße 128 Prenzlauer,10409,Berg,"52.54477, 13.43699",52.54477,13.43699,"Mon-Fri: 16:00 - 12:00 Sat, Sun: 12:00 - 12:00",here_maps
 1395,Willy Bresch,Bar/Pub,european,Danziger Straße 120 Prenzlauer Berg 10407 Berlin,Danziger Straße 120 Prenzlauer,10407,Berg,"52.53575, 13.43324",52.53575,13.43324,Mon-Sun: 09:00 - 23:59,here_maps
 1396,Merry Guten Appetit,Restaurant,asian,HerbertBaumStraße 3 Weißensee 13088 Berlin,HerbertBaumStraße 3,13088,Weißensee,"52.54905, 13.45607",52.54905,13.45607,,here_maps
@@ -1512,7 +1512,7 @@
 1510,Eiscafé Russillo,Restaurant,european,Johannisthaler Chaussee 297 Gropiusstadt 12351 Berlin,Johannisthaler Chaussee 297,12351,Gropiusstadt,"52.42941, 13.45733",52.42941,13.45733,,here_maps
 1511,Wurst & Würstchen,Restaurant,,Johannisthaler Chaussee Gropiusstadt 12351 Berlin,Johannisthaler Chaussee,12351,Gropiusstadt,"52.429186, 13.455206",52.429186,13.455206,,here_maps
 1512,Chidoba Mexican Grill,Restaurant,mexican,Johannisthaler Chaussee 317 Gropiusstadt 12351 Berlin,Johannisthaler Chaussee 317,12351,Gropiusstadt,"52.42933, 13.45527",52.42933,13.45527,,here_maps
-1513,Pan,Restaurant,mediterranean,Johannisthaler Chaussee 317 Gropiusstadt 12351 Berlin,Johannisthaler Chaussee 317,12351,Gropiusstadt,"52.42933, 13.45527",52.42933,13.45527,Mon-Fri: 10:00 - 20:00 Sat: 10:00 - 22:00,here_maps
+1513,Pan,Restaurant,greek,Johannisthaler Chaussee 317 Gropiusstadt 12351 Berlin,Johannisthaler Chaussee 317,12351,Gropiusstadt,"52.42933, 13.45527",52.42933,13.45527,Mon-Fri: 10:00 - 20:00 Sat: 10:00 - 22:00,here_maps
 1514,KFC,Restaurant,snacks,Johannisthaler Chaussee Gropiusstadt 12351 Berlin,Johannisthaler Chaussee,12351,Gropiusstadt,"52.42996, 13.45607",52.42996,13.45607,"Mon-Thu, Sun: 10:00 - 22:00 Fri, Sat: 10:00 - 22:30",here_maps
 1515,Hue Snack,Snacks/Fast food,asian,Johannisthaler Chaussee 307 Gropiusstadt 12351 Berlin,Johannisthaler Chaussee 307,12351,Gropiusstadt,"52.42982, 13.45495",52.42982,13.45495,,here_maps
 1516,Pizza Hut,Restaurant,italian,Johannisthaler Chaussee 295 Gropiusstadt 12351 Berlin,Johannisthaler Chaussee 295,12351,Gropiusstadt,"52.43026, 13.45597",52.43026,13.45597,,here_maps
@@ -1632,7 +1632,7 @@
 1630,Urban's Kaffeestube,Restaurant,,Westphalweg 24 Mariendorf 12109 Berlin,Westphalweg 24,12109,Mariendorf,"52.44578, 13.39056",52.44578,13.39056,,here_maps
 1631,Pausini,Coffee/Tea,european,KaiserinAugustaStraße 78 Tempelhof 12103 Berlin,KaiserinAugustaStraße 78,12103,Tempelhof,"52.45923, 13.38391",52.45923,13.38391,Mon-Fri: 08:00 - 19:00 Sat: 10:00 - 18:00 Sun: 11:00 - 18:00,here_maps
 1632,Ristobar Lopez,Restaurant,european,Mariendorfer Damm 82 Mariendorf 12109 Berlin,Mariendorfer Damm 82,12109,Mariendorf,"52.44534, 13.38559",52.44534,13.38559,,here_maps
-1633,Piro Espressobar,Restaurant,middle eastern,FriedrichKarlStraße 7 Tempelhof 12103 Berlin,FriedrichKarlStraße 7,12103,Tempelhof,"52.45573, 13.3824",52.45573,13.3824,Mon-Sat: 09:30 - 18:00,here_maps
+1633,Piro Espressobar,Restaurant,american,FriedrichKarlStraße 7 Tempelhof 12103 Berlin,FriedrichKarlStraße 7,12103,Tempelhof,"52.45573, 13.3824",52.45573,13.3824,Mon-Sat: 09:30 - 18:00,here_maps
 1634,Mix,Restaurant,breakfast/dessert,Tempelhof 12099 Berlin,,,,"52.462201, 13.391903",52.462201,13.391903,,here_maps
 1635,Sempre,Restaurant,italian,Wenckebachstraße 15 Tempelhof 12099 Berlin,Wenckebachstraße 15,12099,Tempelhof,"52.45702, 13.38673",52.45702,13.38673,Tue-Thu: 10:00 - 19:00 Fri: 10:30 - 19:00 Sat: 10:00 - 17:00,here_maps
 1636,Maximilian Hafenimbiss,Snacks/Fast food,american,Tempelhofer Damm 227 Tempelhof 12099 Berlin,Tempelhofer Damm 227,12099,Tempelhof,"52.454726, 13.384517",52.454726,13.384517,"Mon-Thu: 10:00 - 13:00 Fri, Sat: 10:00 - 14:00 Sun: 12:00 - 22:00",here_maps
@@ -1679,7 +1679,7 @@
 1677,Trattoria Geppetto,Eat & Drink,italian,Bacharacher Straße 31 Tempelhof 12099 Berlin,Bacharacher Straße 31,12099,Tempelhof,"52.46249, 13.41634",52.46249,13.41634,"Mon-Thu, Sun: 17:00 - 22:30 Fri, Sat: 17:00 - 23:30",here_maps
 1678,Kneipe Wallenstein,Restaurant,european,Prühßstraße 31 Mariendorf 12105 Berlin,Prühßstraße 31,12105,Mariendorf,"52.4432, 13.38335",52.4432,13.38335,,here_maps
 1679,Balli Döner,Restaurant,middle eastern,B96 146 Tempelhof 12099 Berlin,B96 146,12099,Tempelhof,"52.465947, 13.385266",52.465947,13.385266,Mon-Sun: 08:00 - 23:00,here_maps
-1680,Aristoteles,Restaurant,mediterranean,Königstraße 44 Mariendorf 12105 Berlin,Königstraße 44,12105,Mariendorf,"52.44657, 13.37878",52.44657,13.37878,"Mon-Fri: 15:00 - 23:59 Sat, Sun: 12:00 - 23:59",here_maps
+1680,Aristoteles,Restaurant,greek,Königstraße 44 Mariendorf 12105 Berlin,Königstraße 44,12105,Mariendorf,"52.44657, 13.37878",52.44657,13.37878,"Mon-Fri: 15:00 - 23:59 Sat, Sun: 12:00 - 23:59",here_maps
 1681,Balli Burger,Snacks/Fast food,fastfood,Tempelhofer Damm 143 Tempelhof 12099 Berlin,Tempelhofer Damm 143,12099,Tempelhof,"52.46639, 13.386",52.46639,13.386,Mon-Sun: 08:00 - 23:00,here_maps
 1682,Mariannes Imbiss 2.0,Restaurant,european,Mariendorfer Damm 94 Mariendorf 12109 Berlin,Mariendorfer Damm 94,12109,Mariendorf,"52.44432, 13.38576",52.44432,13.38576,,here_maps
 1683,Romeo's Insel,Restaurant,,Manteuffelstraße 42 Tempelhof 12103 Berlin,Manteuffelstraße 42,12103,Tempelhof,"52.45816, 13.37636",52.45816,13.37636,,here_maps
@@ -1711,7 +1711,7 @@
 1709,Rangla Punjab,Restaurant,asian,Köpenicker Straße 36 Altglienicke 12524 Berlin,Köpenicker Straße 36,12524,Altglienicke,"52.42007, 13.5387",52.42007,13.5387,Mon-Sun: 11:30 - 22:00,here_maps
 1710,Schulz,Restaurant,,Köpenicker Straße 16 Altglienicke 12524 Berlin,Köpenicker Straße 16,12524,Altglienicke,"52.4211, 13.53901",52.4211,13.53901,,here_maps
 1711,Geco Tapas Bar,Restaurant,mediterranean,Grünauer Straße 46 Altglienicke 12524 Berlin,Grünauer Straße 46,12524,Altglienicke,"52.41894, 13.54599",52.41894,13.54599,Wed-Sat: 17:00 - 12:00 Sun: 17:00 - 23:59,here_maps
-1712,Olympia Greek-Food,Restaurant,mediterranean,Rudower Chaussee Adlershof 12489 Berlin,Rudower Chaussee,12489,Adlershof,"52.43387, 13.53825",52.43387,13.53825,"Mon-Fri: 11:30 - 22:00 Sat, Sun: 12:00 - 22:00",here_maps
+1712,Olympia Greek-Food,Restaurant,greek,Rudower Chaussee Adlershof 12489 Berlin,Rudower Chaussee,12489,Adlershof,"52.43387, 13.53825",52.43387,13.53825,"Mon-Fri: 11:30 - 22:00 Sat, Sun: 12:00 - 22:00",here_maps
 1713,Rosticceria San Leone,Restaurant,italian,Wassermannstraße 97 Adlershof 12489 Berlin,Wassermannstraße 97,12489,Adlershof,"52.43755, 13.55496",52.43755,13.55496,,here_maps
 1714,Ristorante Villa Romana Berlin,Restaurant,european,Radickestraße 46 Adlershof 12489 Berlin,Radickestraße 46,12489,Adlershof,"52.43575, 13.54824",52.43575,13.54824,,here_maps
 1715,Venezia,Food & Drink,international,FlorianGeyerStraße 109 Adlershof 12489 Berlin,FlorianGeyerStraße 109,12489,Adlershof,"52.43727, 13.54482",52.43727,13.54482,Mon-Sun: 00:00 - 24:00,here_maps
@@ -1719,7 +1719,7 @@
 1717,Suppenkasper,Restaurant,european,FlorianGeyerStraße 109 Adlershof 12489 Berlin,FlorianGeyerStraße 109,12489,Adlershof,"52.43727, 13.54482",52.43727,13.54482,Mon-Fri: 07:00 - 19:00 Sun: 08:00 - 14:00,here_maps
 1718,Currywurst Nr 1,Restaurant,european,Dörpfeldstraße 1 Adlershof 12489 Berlin,Dörpfeldstraße 1,12489,Adlershof,"52.43555, 13.54199",52.43555,13.54199,Mon-Fri: 10:00 - 19:00,here_maps
 1719,China-Restaurant Palast,Restaurant,asian,Dörpfeldstraße 7 Adlershof 12489 Berlin,Dörpfeldstraße 7,12489,Adlershof,"52.43608, 13.54341",52.43608,13.54341,,here_maps
-1720,Athen,Restaurant,mediterranean,Radickestraße 57 Adlershof 12489 Berlin,Radickestraße 57,12489,Adlershof,"52.43494, 13.54694",52.43494,13.54694,Tue-Sun: 12:00 - 23:30,here_maps
+1720,Athen,Restaurant,greek,Radickestraße 57 Adlershof 12489 Berlin,Radickestraße 57,12489,Adlershof,"52.43494, 13.54694",52.43494,13.54694,Tue-Sun: 12:00 - 23:30,here_maps
 1721,Ristorante Il Porto,Restaurant,italian,Semmelweisstraße 104 Altglienicke 12524 Berlin,Semmelweisstraße 104,12524,Altglienicke,"52.42515, 13.52782",52.42515,13.52782,Tue-Sun: 11:30 - 23:00,here_maps
 1722,Eat Green,Restaurant,healthy,Rudower Chaussee 5B Adlershof 12489 Berlin,Rudower Chaussee 5B,12489,Adlershof,"52.43387, 13.53825",52.43387,13.53825,Mon-Fri: 08:00 - 17:00,here_maps
 1723,Maharadscha,Restaurant,,Radickestraße 44 Adlershof 12489 Berlin,Radickestraße 44,12489,Adlershof,"52.43584, 13.54845",52.43584,13.54845,Mon-Sun: 11:00 - 23:00,here_maps
@@ -1849,7 +1849,7 @@
 1847,Nordsee,Restaurant,seafood,Märkische Allee Marzahn 12679 Berlin,Märkische Allee,12679,Marzahn,"52.54356, 13.54238",52.54356,13.54238,Mon-Fri: 10:00 - 20:00 Sat: 10:00 - 21:00,here_maps
 1848,Eiscafe Promenade,Restaurant,breakfast/dessert,B158 1a Marzahn 12681 Berlin,B158 1a,12681,Marzahn,"52.54356, 13.54238",52.54356,13.54238,Mon-Sat: 10:00 - 20:00 Sun: 00:00 - 00:00,here_maps
 1849,Eiscafe Promenade,Restaurant,,Märkische Allee Marzahn 12679 Berlin,Märkische Allee,12679,Marzahn,"52.544101, 13.546136",52.544101,13.546136,,here_maps
-1850,Syrtaki,Restaurant,mediterranean,Märkische Allee 210 Marzahn 12679 Berlin,Märkische Allee 210,12679,Marzahn,"52.54835, 13.54777",52.54835,13.54777,"Mon-Fri: 11:30 - 14:30 Sat, Sun: 11:30 - 23:59",here_maps
+1850,Syrtaki,Restaurant,greek,Märkische Allee 210 Marzahn 12679 Berlin,Märkische Allee 210,12679,Marzahn,"52.54835, 13.54777",52.54835,13.54777,"Mon-Fri: 11:30 - 14:30 Sat, Sun: 11:30 - 23:59",here_maps
 1851,Cocos,Restaurant,asian,Marzahner Promenade Marzahn 12679 Berlin,Marzahner Promenade,12679,Marzahn,"52.54289, 13.54383",52.54289,13.54383,"Mon-Thu: 10:00 - 20:00 Fri, Sat: 10:00 - 21:00",here_maps
 1852,Diego’S Damn Near Delicious Diner,Restaurant,,Marzahner Promenade Marzahn 12679 Berlin,Marzahner Promenade,12679,Marzahn,"52.54212, 13.5439",52.54212,13.5439,,here_maps
 1853,American Bowl,Restaurant,american,Märkische Allee 176 Marzahn 12681 Berlin,Märkische Allee 176,12681,Marzahn,"52.5419, 13.54172",52.5419,13.54172,Mon-Sat: 10:00 - 12:00 Sun: 09:00 - 12:00,here_maps
@@ -1948,7 +1948,7 @@
 1946,Restaurant Split,Restaurant,mediterranean,Veitstraße 4B Tegel 13507 Berlin,Veitstraße 4B,13507,Tegel,"52.58637, 13.28729",52.58637,13.28729,Tue-Sun: 12:00 - 22:00,here_maps
 1947,Viet Express,Restaurant,asian,Am Borsigturm 2 Tegel 13507 Berlin,Am Borsigturm 2,13507,Tegel,"52.58394, 13.28675",52.58394,13.28675,Mon-Sat: 10:00 - 20:00,here_maps
 1948,Dos Pescados,Restaurant,mediterranean,Am Borsigturm 2 Tegel 13507 Berlin,Am Borsigturm 2,13507,Tegel,"52.58394, 13.28675",52.58394,13.28675,"Mon-Thu, Sun: 10:00 - 12:00 Fri, Sat: 10:00 - 14:30",here_maps
-1949,Ganges Eichborndamm 80,Restaurant,middle eastern,Eichborndamm 80 Reinickendorf 13403 Berlin,Eichborndamm 80,13403,Reinickendorf,"52.57529, 13.31486",52.57529,13.31486,Mon-Sun: 12:00 - 22:00,here_maps
+1949,Ganges Eichborndamm 80,Restaurant,,Eichborndamm 80 Reinickendorf 13403 Berlin,Eichborndamm 80,13403,Reinickendorf,"52.57529, 13.31486",52.57529,13.31486,Mon-Sun: 12:00 - 22:00,here_maps
 1950,Ristorante Pizzeria Casamaßima,Restaurant,european,Scharnweberstraße 91 Reinickendorf 13405 Berlin,Scharnweberstraße 91,13405,Reinickendorf,"52.56705, 13.31496",52.56705,13.31496,,here_maps
 1951,Asia Snack,Restaurant,asian,Am Borsigturm 2 Tegel 13507 Berlin,Am Borsigturm 2,13507,Tegel,"52.58394, 13.28675",52.58394,13.28675,Mon-Sat: 10:00 - 20:00,here_maps
 1952,Ristorante Giannini,Restaurant,european,Am Borsigturm 2 Tegel 13507 Berlin,Am Borsigturm 2,13507,Tegel,"52.58394, 13.28675",52.58394,13.28675,,here_maps
@@ -1976,7 +1976,7 @@
 1974,Alte Forno Sonnenallee,Restaurant,italian,Sonnenallee Adlershof 12489 Berlin,Sonnenallee,12489,Adlershof,"52.44283, 13.53544",52.44283,13.53544,,here_maps
 1975,Yezda's Diner,Restaurant,middle eastern,Lindenstraße 15 Köpenick 12555 Berlin,Lindenstraße 15,12555,Köpenick,"52.45421, 13.56839",52.45421,13.56839,Mon-Sat: 11:00 - 21:00,here_maps
 1976,Masala,Restaurant,asian,Rathenaustraße 26 Oberschöneweide 12459 Berlin,Rathenaustraße 26,12459,Oberschöneweide,"52.45993, 13.52966",52.45993,13.52966,Mon-Sun: 12:00 - 23:00,here_maps
-1977,Artemis,Restaurant,mediterranean,Schnellerstraße 97 Niederschöneweide 12439 Berlin,Schnellerstraße 97,12439,Niederschöneweide,"52.45312, 13.52453",52.45312,13.52453,Tue-Sun: 12:00 - 23:59,here_maps
+1977,Artemis,Restaurant,greek,Schnellerstraße 97 Niederschöneweide 12439 Berlin,Schnellerstraße 97,12439,Niederschöneweide,"52.45312, 13.52453",52.45312,13.52453,Tue-Sun: 12:00 - 23:59,here_maps
 1978,Cuccis,Restaurant,,Adlergestell Niederschöneweide 12439 Berlin,Adlergestell,12439,Niederschöneweide,"52.44413, 13.53079",52.44413,13.53079,,here_maps
 1979,Manifattura del Gusto,Restaurant,mediterranean,Rathenaustraße 23 Oberschöneweide 12459 Berlin,Rathenaustraße 23,12459,Oberschöneweide,"52.45998, 13.52914",52.45998,13.52914,Tue-Sun: 12:00 - 22:00,here_maps
 1980,Kranhaus Cafe,Restaurant,european,PaulTroppStraße 11 Oberschöneweide 12459 Berlin,PaulTroppStraße 11,12459,Oberschöneweide,"52.45426, 13.52878",52.45426,13.52878,Mon: 00:00 - 00:00 Tue-Sun: 10:00 - 20:00,here_maps
@@ -2018,7 +2018,7 @@
 2016,Vietnam Today,Restaurant,asian,Hönower Straße 89 Mahlsdorf 12623 Berlin,Hönower Straße 89,12623,Mahlsdorf,"52.51284, 13.61205",52.51284,13.61205,,here_maps
 2017,Bierstube Feldrain,Restaurant,european,Feldberger Ring 5 Hellersdorf 12619 Berlin,Feldberger Ring 5,12619,Hellersdorf,"52.52769, 13.58785",52.52769,13.58785,,here_maps
 2018,Olympia Eck,Restaurant,european,Flatowallee 28 Westend 14053 Berlin,Flatowallee 28,14053,Westend,"52.51191, 13.24077",52.51191,13.24077,Mon-Fri: 10:00 - 18:00,here_maps
-2019,Restaurant Epavlis,Restaurant,mediterranean,Olympische Straße 30 Westend 14052 Berlin,Olympische Straße 30,14052,Westend,"52.51623, 13.25449",52.51623,13.25449,Tue-Sat: 16:00 - 23:00 Sun: 12:00 - 22:00,here_maps
+2019,Restaurant Epavlis,Restaurant,greek,Olympische Straße 30 Westend 14052 Berlin,Olympische Straße 30,14052,Westend,"52.51623, 13.25449",52.51623,13.25449,Tue-Sat: 16:00 - 23:00 Sun: 12:00 - 22:00,here_maps
 2020,Beef Grill Club,Snacks/Fast food,american,Olympischer Platz Westend 14053 Berlin,Olympischer Platz,14053,Westend,"52.51599, 13.24791",52.51599,13.24791,,here_maps
 2021,Eis Emporio,Food & Drink,breakfast/dessert,Koburgallee 3 Westend 14052 Berlin,Koburgallee 3,14052,Westend,"52.52085, 13.25569",52.52085,13.25569,Mon-Sat: 10:00 - 18:00 Sun: 11:00 - 18:00,here_maps
 2022,Westend Grill,Restaurant,european,Reichsstraße 81 Westend 14052 Berlin,Reichsstraße 81,14052,Westend,"52.51593, 13.26065",52.51593,13.26065,Mon-Sat: 09:00 - 23:59 Sun: 11:00 - 23:00,here_maps
@@ -2142,7 +2142,7 @@
 2140,Rioalba Steak House,Restaurant,steak,Lintruper Straße 1 Lichtenrade 12305 Berlin,Lintruper Straße 1,12305,Lichtenrade,"52.414, 13.3999",52.414,13.3999,,here_maps
 2141,Il Ponte,Restaurant,mediterranean,Großbeerenstraße 198 Marienfelde 12277 Berlin,Großbeerenstraße 198,12277,Marienfelde,"52.42654, 13.37381",52.42654,13.37381,"Mon, Tue, Thu-Sun: 12:00 - 23:00",here_maps
 2142,Restaurant Pußta Grill,Restaurant,steak,Großbeerenstraße 198 Marienfelde 12277 Berlin,Großbeerenstraße 198,12277,Marienfelde,"52.42654, 13.37381",52.42654,13.37381,,here_maps
-2143,Meteora,Restaurant,mediterranean,Lichtenrader Damm 26 Lichtenrade 12305 Berlin,Lichtenrader Damm 26,12305,Lichtenrade,"52.41155, 13.4025",52.41155,13.4025,Mon-Sun: 12:00 - 23:00,here_maps
+2143,Meteora,Restaurant,greek,Lichtenrader Damm 26 Lichtenrade 12305 Berlin,Lichtenrader Damm 26,12305,Lichtenrade,"52.41155, 13.4025",52.41155,13.4025,Mon-Sun: 12:00 - 23:00,here_maps
 2144,Il Forno,Eat & Drink,italian,Buckower Chaussee 162 Lichtenrade 12305 Berlin,Buckower Chaussee 162,12305,Lichtenrade,"52.41423, 13.4008",52.41423,13.4008,Mon-Sun: 11:00 - 23:00,here_maps
 2145,Lamira Mexikanisches Steakhaus,Restaurant,steak,Lintruper Straße 1 Lichtenrade 12305 Berlin,Lintruper Straße 1,12305,Lichtenrade,"52.414, 13.3999",52.414,13.3999,Mon-Thu: 15:00 - 23:00 Sun: 09:00 - 23:00,here_maps
 2146,Kotti Dang,Restaurant,asian,Lenaustraße 28 Lichtenrade 12305 Berlin,Lenaustraße 28,12305,Lichtenrade,"52.412705, 13.395439",52.412705,13.395439,Mon-Sun: 11:30 - 23:30,here_maps
@@ -2154,7 +2154,7 @@
 2152,Zur Jägerklause,Restaurant,european,Triftstraße 27 Blankenburg 13129 Berlin,Triftstraße 27,13129,Blankenburg,"52.59704, 13.45353",52.59704,13.45353,,here_maps
 2153,Zum Eisernen Gustav,Restaurant,european,Hauptstraße 59A Französisch Buchholz 13127 Berlin,Hauptstraße 59A Französisch,13127,Buchholz,"52.60776, 13.43454",52.60776,13.43454,Mon-Sat: 12:00 - 23:59 Sun: 12:00 - 22:00,here_maps
 2154,Burger Savanna,Restaurant,italian,Berliner Straße 16 Französisch Buchholz 13127 Berlin,Berliner Straße 16 Französisch,13127,Buchholz,"52.59956, 13.43216",52.59956,13.43216,,here_maps
-2155,Restaurant Syrtaki,Restaurant,mediterranean,AltBlankenburg 22 Blankenburg 13129 Berlin,AltBlankenburg 22,13129,Blankenburg,"52.59265, 13.45461",52.59265,13.45461,"Mon-Sun: 12:00 - 12:00, 23:59 - 23:59",here_maps
+2155,Restaurant Syrtaki,Restaurant,greek,AltBlankenburg 22 Blankenburg 13129 Berlin,AltBlankenburg 22,13129,Blankenburg,"52.59265, 13.45461",52.59265,13.45461,"Mon-Sun: 12:00 - 12:00, 23:59 - 23:59",here_maps
 2156,Kaffeehaus Blankenburg,Coffee/Tea,breakfast/dessert,AltBlankenburg 44 Blankenburg 13129 Berlin,AltBlankenburg 44,13129,Blankenburg,"52.59294, 13.45719",52.59294,13.45719,Mon-Sun: 10:00 - 19:00,here_maps
 2157,Kantine Kleine Auszeit,Restaurant,,AltBlankenburg 5 Blankenburg 13129 Berlin,AltBlankenburg 5,13129,Blankenburg,"52.59339, 13.45155",52.59339,13.45155,Mon-Fri: 07:00 - 15:00,here_maps
 2158,Fu Duo,Restaurant,asian,Triftstraße 33 Französisch Buchholz 13127 Berlin,Triftstraße 33 Französisch,13127,Buchholz,"52.61276, 13.43067",52.61276,13.43067,"Mon, Wed-Sun: 11:30 - 22:00",here_maps
@@ -2163,7 +2163,7 @@
 2161,Eisbussi Diele Französisch Buchholz,Restaurant,breakfast/dessert,Cunistraße 9 Französisch Buchholz 13127 Berlin,Cunistraße 9 Französisch,13127,Buchholz,"52.6078, 13.4256",52.6078,13.4256,,here_maps
 2162,67 Sixtyseven,Restaurant,asian,Rosenthaler Straße Französisch Buchholz 13127 Berlin,Rosenthaler Straße Französisch,13127,Buchholz,"52.59746, 13.43028",52.59746,13.43028,,here_maps
 2163,Eisspatz,Food & Drink,breakfast/dessert,Hauptstraße 11 Französisch Buchholz 13127 Berlin,Hauptstraße 11 Französisch,13127,Buchholz,"52.60427, 13.43187",52.60427,13.43187,,here_maps
-2164,Herkules,Restaurant,mediterranean,Rosenthaler Weg 62 Französisch Buchholz 13127 Berlin,Rosenthaler Weg 62 Französisch,13127,Buchholz,"52.6073, 13.42571",52.6073,13.42571,,here_maps
+2164,Herkules,Restaurant,greek,Rosenthaler Weg 62 Französisch Buchholz 13127 Berlin,Rosenthaler Weg 62 Französisch,13127,Buchholz,"52.6073, 13.42571",52.6073,13.42571,,here_maps
 2165,Prime Kebab,Snacks/Fast food,middle eastern,AltBlankenburg 15 Blankenburg 13129 Berlin,AltBlankenburg 15,13129,Blankenburg,"52.59346, 13.45305",52.59346,13.45305,,here_maps
 2166,Appartementvermietung Ebel,Restaurant,european,Berliner Platz 3 Blumberg 16356 Ahrensfelde,Berliner Platz 3,16356,Blumberg,"52.6023, 13.61722",52.6023,13.61722,,here_maps
 2167,Gaststatte Landhaus Elise,Restaurant,european,Breite Straße 3 Schildow 16552 Mühlenbecker Land,Breite Straße 3,16552,Schildow,"52.63536, 13.37734",52.63536,13.37734,,here_maps
@@ -2194,7 +2194,7 @@
 2192,Café Tayas,Coffee/Tea,,PrinzFriedrichLeopoldStraße 6 Nikolassee 14129 Berlin,PrinzFriedrichLeopoldStraße 6,14129,Nikolassee,"52.43011, 13.19569",52.43011,13.19569,Mon-Sun: 12:00 - 18:00,here_maps
 2193,Linh Anh,Restaurant,asian,Potsdamer Chaussee 35 Nikolassee 14129 Berlin,Potsdamer Chaussee 35,14129,Nikolassee,"52.42686, 13.21071",52.42686,13.21071,,here_maps
 2194,Easy Rider,Snacks/Fast food,european,Rosemeyerweg Nikolassee 14129 Berlin,Rosemeyerweg,14129,Nikolassee,"52.432889, 13.19095",52.432889,13.19095,,here_maps
-2195,Spice Club,Restaurant,middle eastern,Wasgenstraße 55 Nikolassee 14129 Berlin,Wasgenstraße 55,14129,Nikolassee,"52.43037, 13.21352",52.43037,13.21352,Mon-Sun: 12:00 - 21:00,here_maps
+2195,Spice Club,Restaurant,,Wasgenstraße 55 Nikolassee 14129 Berlin,Wasgenstraße 55,14129,Nikolassee,"52.43037, 13.21352",52.43037,13.21352,Mon-Sun: 12:00 - 21:00,here_maps
 2196,Clubrestaurant am Wannsee,Restaurant,european,Scabellstraße 11 Wannsee 14109 Berlin,Scabellstraße 11,14109,Wannsee,"52.4288, 13.18258",52.4288,13.18258,"Wed-Fri: 15:00 - 18:00 Sat, Sun: 11:00 - 15:00",here_maps
 2197,Lorettas Almhuette,Restaurant,european,Kronprinzessinnenweg 260 Wannsee 14109 Berlin,Kronprinzessinnenweg 260,14109,Wannsee,"52.41999, 13.17589",52.41999,13.17589,"Wed-Sat: 16:00 - 22:00 Sun: 00:00 - 01:00, 13:00 - 21:00",here_maps
 2198,Rasam Indian Restaurant,Restaurant,asian,Wasgenstraße 55 Nikolassee 14129 Berlin,Wasgenstraße 55,14129,Nikolassee,"52.43037, 13.21352",52.43037,13.21352,Mon-Sun: 12:00 - 12:00,here_maps
@@ -2218,7 +2218,7 @@
 2216,Restaurant Stara Kuca,Restaurant,european,AltPichelsdorf 30 Wilhelmstadt 13595 Berlin,AltPichelsdorf 30,13595,Wilhelmstadt,"52.51194, 13.19795",52.51194,13.19795,Tue-Sun: 12:00 - 23:00,here_maps
 2217,Kleines Café Spandau,Restaurant,,Pichelsdorfer Straße 25 Wilhelmstadt 13595 Berlin,Pichelsdorfer Straße 25,13595,Wilhelmstadt,"52.51581, 13.19711",52.51581,13.19711,,here_maps
 2218,Gaststatte G7,Restaurant,breakfast/dessert,Gatower Straße 7 Wilhelmstadt 13595 Berlin,Gatower Straße 7,13595,Wilhelmstadt,"52.52025, 13.18785",52.52025,13.18785,Tue-Sun: 08:00 - 22:00,here_maps
-2219,Die Kichererbse,Restaurant,middle eastern,Adamstraße 4 Wilhelmstadt 13595 Berlin,Adamstraße 4,13595,Wilhelmstadt,"52.52118, 13.19665",52.52118,13.19665,"Mon, Tue, Thu-Sat: 08:00 - 20:00 Wed: 09:00 - 20:00 Sun: 09:00 - 17:00",here_maps
+2219,Die Kichererbse,Restaurant,american,Adamstraße 4 Wilhelmstadt 13595 Berlin,Adamstraße 4,13595,Wilhelmstadt,"52.52118, 13.19665",52.52118,13.19665,"Mon, Tue, Thu-Sat: 08:00 - 20:00 Wed: 09:00 - 20:00 Sun: 09:00 - 17:00",here_maps
 2220,Asia-Haus,Restaurant,asian,Weißenburger Straße 46 Wilhelmstadt 13595 Berlin,Weißenburger Straße 46,13595,Wilhelmstadt,"52.52314, 13.19809",52.52314,13.19809,Tue-Sun: 12:00 - 23:00,here_maps
 2221,Jan's Gelateria,Restaurant,breakfast/dessert,Adamstraße 13 Wilhelmstadt 13595 Berlin,Adamstraße 13,13595,Wilhelmstadt,"52.52113, 13.19338",52.52113,13.19338,,here_maps
 2222,Violett Lounge,Going Out,,Adamstraße 48 Wilhelmstadt 13595 Berlin,Adamstraße 48,13595,Wilhelmstadt,"52.52092, 13.19704",52.52092,13.19704,,here_maps
@@ -2327,7 +2327,7 @@
 2325,Mia Gelateria Lichterfelde,Restaurant,,Kranoldplatz 4 Lichterfelde 12209 Berlin,Kranoldplatz 4,12209,Lichterfelde,"52.42847, 13.32736",52.42847,13.32736,Mon-Sun: 11:00 - 19:00,here_maps
 2326,Bahnhofswirtschaft,Restaurant,european,Jungfernstieg 4 Lichterfelde 12207 Berlin,Jungfernstieg 4,12207,Lichterfelde,"52.42941, 13.32677",52.42941,13.32677,Mon-Sat: 09:00 - 23:00,here_maps
 2327,Kebe-Living,Restaurant,,Lorenzstraße 58 Lichterfelde 12209 Berlin,Lorenzstraße 58,12209,Lichterfelde,"52.42638, 13.33183",52.42638,13.33183,,here_maps
-2328,Nostos,Restaurant,mediterranean,Oberhofer Platz 9 Lichterfelde 12209 Berlin,Oberhofer Platz 9,12209,Lichterfelde,"52.42477, 13.32892",52.42477,13.32892,"Mon, Wed-Sun: 12:00 - 23:00",here_maps
+2328,Nostos,Restaurant,greek,Oberhofer Platz 9 Lichterfelde 12209 Berlin,Oberhofer Platz 9,12209,Lichterfelde,"52.42477, 13.32892",52.42477,13.32892,"Mon, Wed-Sun: 12:00 - 23:00",here_maps
 2329,Restaurant Kastanie,Restaurant,european,Ferdinandstraße 15 Lichterfelde 12209 Berlin,Ferdinandstraße 15,12209,Lichterfelde,"52.42404, 13.33062",52.42404,13.33062,Tue-Sat: 17:00 - 23:59,here_maps
 2330,Tai-Lee,Restaurant,asian,Hildburghauser Straße 29 Marienfelde 12279 Berlin,Hildburghauser Straße 29,12279,Marienfelde,"52.41317, 13.35371",52.41317,13.35371,Mon-Sun: 11:30 - 22:30,here_maps
 2331,Zum Hufeisen,Restaurant,,Lichterfelder Ring 102 Marienfelde 12279 Berlin,Lichterfelder Ring 102,12279,Marienfelde,"52.41212, 13.34646",52.41212,13.34646,,here_maps
@@ -2378,7 +2378,7 @@
 2376,Eis Zeit,Restaurant,,KöniginLuiseStraße 41A Dahlem 14195 Berlin,KöniginLuiseStraße 41A,14195,Dahlem,"52.45828, 13.29135",52.45828,13.29135,,here_maps
 2377,Botanischer Garten,Recreation,european,Unter den Eichen 5 Lichterfelde 12203 Berlin,Unter den Eichen 5,12203,Lichterfelde,"52.45192, 13.31035",52.45192,13.31035,,here_maps
 2378,Loch Ness Scottish Pub & Whisky Bar,Bar/Pub,european,Roonstraße 31 Lichterfelde 12203 Berlin,Roonstraße 31,12203,Lichterfelde,"52.44681, 13.31116",52.44681,13.31116,"Tue-Thu: 17:00 - 00:00 Fri, Sat: 17:00 - 01:00",here_maps
-2379,Taverna Kretamos,Restaurant,mediterranean,Gardeschützenweg 68 Lichterfelde 12203 Berlin,Gardeschützenweg 68,12203,Lichterfelde,"52.44678, 13.30632",52.44678,13.30632,Tue-Sat: 12:00 - 22:00,here_maps
+2379,Taverna Kretamos,Restaurant,greek,Gardeschützenweg 68 Lichterfelde 12203 Berlin,Gardeschützenweg 68,12203,Lichterfelde,"52.44678, 13.30632",52.44678,13.30632,Tue-Sat: 12:00 - 22:00,here_maps
 2380,Alter Krug,Restaurant,mediterranean,KöniginLuiseStraße 52 Dahlem 14195 Berlin,KöniginLuiseStraße 52,14195,Dahlem,"52.45789, 13.28818",52.45789,13.28818,Mon-Sun: 10:00 - 23:00,here_maps
 2381,Englers Restaurant,Restaurant,european,Englerallee 42 Dahlem 14195 Berlin,Englerallee 42,14195,Dahlem,"52.45911, 13.30442",52.45911,13.30442,Mon-Sun: 09:00 - 00:00,here_maps
 2382,Pesetas,Restaurant,mediterranean,Unter den Eichen 112 Lichterfelde 12203 Berlin,Unter den Eichen 112,12203,Lichterfelde,"52.44886, 13.30329",52.44886,13.30329,Mon-Sat: 17:00 - 00:00,here_maps
@@ -2505,7 +2505,7 @@
 2503,Eis Kaffee,Coffee/Tea,breakfast/dessert,Margaretenstraße 26 Rummelsburg 10317 Berlin,Margaretenstraße 26,10317,Rummelsburg,"52.50792, 13.49773",52.50792,13.49773,Tue-Fri: 09:00 - 19:00 Sat: 11:00 - 19:00,here_maps
 2504,Salsarestaurant,Restaurant,mexican,Weitlingstraße 34 Rummelsburg 10317 Berlin,Weitlingstraße 34,10317,Rummelsburg,"52.50812, 13.49696",52.50812,13.49696,,here_maps
 2505,Salsa,Restaurant,mexican,Weitlingstraße 34 Rummelsburg 10317 Berlin,Weitlingstraße 34,10317,Rummelsburg,"52.50812, 13.49696",52.50812,13.49696,Mon-Sun: 12:00 - 00:00,here_maps
-2506,Epirus,Restaurant,mediterranean,Ruschestraße 70 Lichtenberg 10365 Berlin,Ruschestraße 70,10365,Lichtenberg,"52.52146, 13.48692",52.52146,13.48692,Mon-Sun: 11:30 - 23:00,here_maps
+2506,Epirus,Restaurant,greek,Ruschestraße 70 Lichtenberg 10365 Berlin,Ruschestraße 70,10365,Lichtenberg,"52.52146, 13.48692",52.52146,13.48692,Mon-Sun: 11:30 - 23:00,here_maps
 2507,Avci Döner,Restaurant,middle eastern,Weitlingstraße 57 Rummelsburg 10317 Berlin,Weitlingstraße 57,10317,Rummelsburg,"52.50611, 13.49619",52.50611,13.49619,,here_maps
 2508,SUBWAY,Restaurant,fastfood,Frankfurter Allee 113 Friedrichshain 10365 Berlin,Frankfurter Allee 113,10365,Friedrichshain,"52.51385, 13.47547",52.51385,13.47547,Mon-Fri: 08:00 - 21:15 Sat: 09:00 - 21:15,here_maps
 2509,Steak House Giovanni 1978,Restaurant,steak,AltFriedrichsfelde 87 Friedrichsfelde 10315 Berlin,AltFriedrichsfelde 87,10315,Friedrichsfelde,"52.510015, 13.517908",52.510015,13.517908,Mon-Sun: 12:00 - 23:00,here_maps
@@ -2552,7 +2552,7 @@
 2550,Bánh Mì Patê,Food & Drink,asian,Herzbergstraße 128 Lichtenberg 10367 Berlin,Herzbergstraße 128,10367,Lichtenberg,"52.52674, 13.48951",52.52674,13.48951,,here_maps
 2551,Viet Pho,Restaurant,asian,Herzbergstraße 128 Lichtenberg 10367 Berlin,Herzbergstraße 128,10367,Lichtenberg,"52.52674, 13.48951",52.52674,13.48951,"Mon, Wed-Sun: 09:00 - 22:00",here_maps
 2552,Center Grill,Restaurant,,Frankfurter Allee 98 Friedrichshain 10247 Berlin,Frankfurter Allee 98,10247,Friedrichshain,"52.51369, 13.47271",52.51369,13.47271,,here_maps
-2553,India Spice,Restaurant,middle eastern,Kaskelstraße 43 Rummelsburg 10317 Berlin,Kaskelstraße 43,10317,Rummelsburg,"52.50398, 13.4812",52.50398,13.4812,Mon-Sun: 12:00 - 23:00,here_maps
+2553,India Spice,Restaurant,,Kaskelstraße 43 Rummelsburg 10317 Berlin,Kaskelstraße 43,10317,Rummelsburg,"52.50398, 13.4812",52.50398,13.4812,Mon-Sun: 12:00 - 23:00,here_maps
 2554,Riga's Pizza Box,Restaurant,fastfood,Rigaer Straße 55 Friedrichshain 10247 Berlin,Rigaer Straße 55,10247,Friedrichshain,"52.51455, 13.47411",52.51455,13.47411,Mon-Sun: 10:00 - 12:00,here_maps
 2555,Pizza Toscana,Restaurant,,Lückstraße 45 Rummelsburg 10317 Berlin,Lückstraße 45,10317,Rummelsburg,"52.5009, 13.49406",52.5009,13.49406,Mon-Sat: 15:00 - 23:30 Sun: 13:00 - 23:00,here_maps
 2556,Vitale Großstadtmäuse,Restaurant,,Rummelsburger Straße 61 Friedrichsfelde 10315 Berlin,Rummelsburger Straße 61,10315,Friedrichsfelde,"52.50177, 13.50249",52.50177,13.50249,Mon-Fri: 10:00 - 18:00,here_maps
@@ -2573,7 +2573,7 @@
 2571,Piazza Italiana,Restaurant,italian,Oranienburger Chaussee 2 16548 GlienickeNordbahn,Oranienburger Chaussee,16548,2,"52.628751, 13.311136",52.628751,13.311136,Mon-Sun: 11:30 - 23:30,here_maps
 2572,Kaffeehaus Zeltinger,Restaurant,european,Zeltinger Platz 1 Frohnau 13465 Berlin,Zeltinger Platz 1,13465,Frohnau,"52.63349, 13.29005",52.63349,13.29005,"Mon-Fri: 08:30 - 18:30 Sat, Sun: 09:00 - 18:30",here_maps
 2573,Da Michelino,Restaurant,european,Schönfließer Straße 80 16548 GlienickeNordbahn,Schönfließer Straße,16548,80,"52.63229, 13.31085",52.63229,13.31085,Mon-Sat: 16:00 - 21:00 Sun: 12:00 - 21:00,here_maps
-2574,Mandagoras,Restaurant,mediterranean,Frohnauer Straße 106 Hermsdorf 13465 Berlin,Frohnauer Straße 106,13465,Hermsdorf,"52.625964, 13.29158",52.625964,13.29158,,here_maps
+2574,Mandagoras,Restaurant,greek,Frohnauer Straße 106 Hermsdorf 13465 Berlin,Frohnauer Straße 106,13465,Hermsdorf,"52.625964, 13.29158",52.625964,13.29158,,here_maps
 2575,Greenhouse California,Restaurant,fastfood,Oranienburger Chaussee 10 16548 GlienickeNordbahn,Oranienburger Chaussee,16548,10,"52.63084, 13.31045",52.63084,13.31045,Mon-Sat: 15:00 - 23:59 Sun: 11:00 - 22:00,here_maps
 2576,King's Snack,Restaurant,european,Ludolfingerplatz Frohnau 13465 Berlin,Ludolfingerplatz,13465,Frohnau,"52.6326, 13.2889",52.6326,13.2889,Mon-Sun: 09:00 - 18:00,here_maps
 2577,Franco Faldon Speiseeis,Restaurant,breakfast/dessert,Welfenallee 3 Frohnau 13465 Berlin,Welfenallee 3,13465,Frohnau,"52.632, 13.28972",52.632,13.28972,,here_maps
@@ -2633,7 +2633,7 @@
 2631,Mmaah,Restaurant,asian,Kiehlufer 75 Neukölln 12059 Berlin,Kiehlufer 75,12059,Neukölln,"52.48385, 13.44758",52.48385,13.44758,"Mon-Fri: 12:00 - 22:00 Sat, Sun: 13:00 - 22:00",here_maps
 2632,Das Tier,Bar/Pub,european,Weserstraße 42 Neukölln 12045 Berlin,Weserstraße 42,12045,Neukölln,"52.48483, 13.43766",52.48483,13.43766,"Mon, Tue: 19:00 - 02:00, 19:00 - 02:00 Wed, Thu: 19:00 - 02:00, 19:00 - 03:00 Fri, Sat: 19:00 - 02:00, 19:00 - 04:00 Sun: 19:00 - 02:00, 19:00 - 01:00",here_maps
 2633,Il Kino,Cinema,,Nansenstraße 22 Neukölln 12047 Berlin,Nansenstraße 22,12047,Neukölln,"52.49163, 13.43303",52.49163,13.43303,"Mon-Thu: 15:00 - 13:00, 15:30 - 13:00, 17:30 - 02:00 Fri: 15:00 - 15:00, 15:30 - 15:00, 17:30 - 02:00 Sat: 11:00 - 15:00, 15:30 - 03:00 Sun: 11:00 - 13:00, 15:30 - 03:00",here_maps
-2634,Babu Restaurant,Restaurant,middle eastern,Treptower Straße 95 Neukölln 12059 Berlin,Treptower Straße 95,12059,Neukölln,"52.47821, 13.44806",52.47821,13.44806,Mon-Sun: 11:30 - 23:00,here_maps
+2634,Babu Restaurant,Restaurant,,Treptower Straße 95 Neukölln 12059 Berlin,Treptower Straße 95,12059,Neukölln,"52.47821, 13.44806",52.47821,13.44806,Mon-Sun: 11:30 - 23:00,here_maps
 2635,Restaurant Cafe Rix,Restaurant,breakfast/dessert,KarlMarxStraße 141 Neukölln 12043 Berlin,KarlMarxStraße 141,12043,Neukölln,"52.47698, 13.43921",52.47698,13.43921,"Mon-Fri: 10:00 - 00:00 Sat, Sun: 10:00 - 01:00",here_maps
 2636,Capperi,Restaurant,european,Pannierstraße 32 Neukölln 12047 Berlin,Pannierstraße 32,12047,Neukölln,"52.49099, 13.43529",52.49099,13.43529,Mon-Sat: 17:00 - 23:00 Sun: 11:00 - 23:00,here_maps
 2637,Restaurant Enzo,Restaurant,italian,Erkstraße 10 Neukölln 12043 Berlin,Erkstraße 10,12043,Neukölln,"52.48129, 13.43892",52.48129,13.43892,Mon-Sat: 12:00 - 23:59 Sun: 00:00 - 00:00,here_maps
@@ -2706,7 +2706,7 @@
 2704,Chipi Chipi Bombon - Ice Cream,Restaurant,breakfast/dessert,Warschauer Straße 12 Friedrichshain 10243 Berlin,Warschauer Straße 12,10243,Friedrichshain,"52.51326, 13.45254",52.51326,13.45254,"Mon-Thu, Sun: 13:00 - 23:00 Fri, Sat: 13:00 - 00:00",here_maps
 2705,Cafe Kala,Coffee/Tea,breakfast/dessert,Warschauer Straße 71 Friedrichshain 10243 Berlin,Warschauer Straße 71,10243,Friedrichshain,"52.51189, 13.45277",52.51189,13.45277,,here_maps
 2706,Akkawy,Restaurant,middle eastern,Kopernikusstraße 8 Friedrichshain 10245 Berlin,Kopernikusstraße 8,10245,Friedrichshain,"52.51042, 13.45281",52.51042,13.45281,Tue-Sun: 11:00 - 23:00,here_maps
-2707,Muday - Athiopisches Restaurant,Restaurant,middle eastern,Grünberger Straße 33 Friedrichshain 10245 Berlin,Grünberger Straße 33,10245,Friedrichshain,"52.51238, 13.45383",52.51238,13.45383,Mon-Sun: 16:00 - 23:00,here_maps
+2707,Muday - Athiopisches Restaurant,Restaurant,african,Grünberger Straße 33 Friedrichshain 10245 Berlin,Grünberger Straße 33,10245,Friedrichshain,"52.51238, 13.45383",52.51238,13.45383,Mon-Sun: 16:00 - 23:00,here_maps
 2708,Cafe Creperie Melt,Restaurant,european,Grünberger Straße 40 Friedrichshain 10245 Berlin,Grünberger Straße 40,10245,Friedrichshain,"52.5121, 13.45392",52.5121,13.45392,"Mon-Thu: 09:00 - 22:00 Fri: 09:00 - 20:00 Sat, Sun: 09:00 - 19:00",here_maps
 2709,Saigon Dragon Restaurant,Restaurant,asian,Grünberger Straße 35 Friedrichshain 10245 Berlin,Grünberger Straße 35,10245,Friedrichshain,"52.51236, 13.45398",52.51236,13.45398,Mon-Sat: 11:30 - 23:30 Sun: 12:00 - 23:30,here_maps
 2710,Cantina an der Weberwiese,Restaurant,mediterranean,Straße der Pariser Kommune 35 Friedrichshain 10243 Berlin,Straße der Pariser Kommune 35,10243,Friedrichshain,"52.51604, 13.44007",52.51604,13.44007,Mon-Fri: 09:00 - 16:00,here_maps
@@ -2728,8 +2728,8 @@
 2726,San Diego,Restaurant,steak,KarlMarxAllee 141 Friedrichshain 10243 Berlin,KarlMarxAllee 141,10243,Friedrichshain,"52.51657, 13.45214",52.51657,13.45214,Mon-Sun: 11:00 - 00:00,here_maps
 2727,Kiezkuche Friedrichshain,Restaurant,breakfast/dessert,Bersarinplatz 4 Friedrichshain 10249 Berlin,Bersarinplatz 4,10249,Friedrichshain,"52.51867, 13.45422",52.51867,13.45422,Mon-Fri: 07:00 - 15:00,here_maps
 2728,Bread-A-Porter,Restaurant,breakfast/dessert,KarlMarxAllee 140 Friedrichshain 10243 Berlin,KarlMarxAllee 140,10243,Friedrichshain,"52.5157, 13.45225",52.5157,13.45225,Mon-Fri: 11:00 - 19:00,here_maps
-2729,Prager Hopfenstube,Restaurant,,KarlMarxAllee 127 Friedrichshain 10243 Berlin,KarlMarxAllee 127,10243,Friedrichshain,"52.51692, 13.44854",52.51692,13.44854,Mon-Sun: 11:00 - 23:59,here_maps
-2730,Kos House,Restaurant,mediterranean,KarlMarxAllee 129 Friedrichshain 10243 Berlin,KarlMarxAllee 129,10243,Friedrichshain,"52.5169, 13.44871",52.5169,13.44871,Mon-Sun: 12:00 - 12:00,here_maps
+2729,Prager Hopfenstube,Restaurant,european,KarlMarxAllee 127 Friedrichshain 10243 Berlin,KarlMarxAllee 127,10243,Friedrichshain,"52.51692, 13.44854",52.51692,13.44854,Mon-Sun: 11:00 - 23:59,here_maps
+2730,Kos House,Restaurant,greek,KarlMarxAllee 129 Friedrichshain 10243 Berlin,KarlMarxAllee 129,10243,Friedrichshain,"52.5169, 13.44871",52.5169,13.44871,Mon-Sun: 12:00 - 12:00,here_maps
 2731,Pizzeria Meyman,Restaurant,mediterranean,Warschauer Straße 80 Friedrichshain 10243 Berlin,Warschauer Straße 80,10243,Friedrichshain,"52.51364, 13.45355",52.51364,13.45355,"Mon-Fri: 10:00 - 23:59 Sat, Sun: 00:00 - 00:00",here_maps
 2732,Aus Liebe zum Kiez,Restaurant,,Torellstraße 6 Friedrichshain 10243 Berlin,Torellstraße 6,10243,Friedrichshain,"52.51115, 13.44853",52.51115,13.44853,,here_maps
 2733,Abécédaire,Restaurant,,Warschauer Straße 69 Friedrichshain 10243 Berlin,Warschauer Straße 69,10243,Friedrichshain,"52.51154, 13.45261",52.51154,13.45261,,here_maps
@@ -2815,7 +2815,7 @@
 2813,Bica Billard & Cafe,Going Out,american,Stendaler Straße 29 Hellersdorf 12627 Berlin,Stendaler Straße 29,12627,Hellersdorf,"52.53935, 13.60329",52.53935,13.60329,"Mon-Thu, Sun: 11:00 - 03:00 Fri, Sat: 11:00 - 04:00",here_maps
 2814,LOTUS Buffet,Restaurant,asian,Stendaler Straße 25 Hellersdorf 12627 Berlin,Stendaler Straße 25,12627,Hellersdorf,"52.53821, 13.6041",52.53821,13.6041,Mon-Sun: 11:30 - 22:30,here_maps
 2815,Die Kiste,Cinema,,Heidenauer Straße 10 Hellersdorf 12627 Berlin,Heidenauer Straße 10,12627,Hellersdorf,"52.5361, 13.60956",52.5361,13.60956,Mon-Sun: 14:00 - 21:30,here_maps
-2816,Syrtaki,Restaurant,mediterranean,FritzLangStraße 5 Hellersdorf 12627 Berlin,FritzLangStraße 5,12627,Hellersdorf,"52.53709, 13.60282",52.53709,13.60282,Mon-Sun: 11:00 - 23:59,here_maps
+2816,Syrtaki,Restaurant,greek,FritzLangStraße 5 Hellersdorf 12627 Berlin,FritzLangStraße 5,12627,Hellersdorf,"52.53709, 13.60282",52.53709,13.60282,Mon-Sun: 11:00 - 23:59,here_maps
 2817,Citygrill Hellersdorf,Restaurant,,Hellersdorfer Promenade 1A Hellersdorf 12627 Berlin,Hellersdorfer Promenade 1A,12627,Hellersdorf,"52.53967, 13.60663",52.53967,13.60663,,here_maps
 2818,Helle Bistro,Bar/Pub,,LyonelFeiningerStraße 1 Hellersdorf 12627 Berlin,LyonelFeiningerStraße 1,12627,Hellersdorf,"52.5372, 13.60728",52.5372,13.60728,,here_maps
 2819,Yogi-Haus,Restaurant,asian,LyonelFeiningerStraße 1 Hellersdorf 12627 Berlin,LyonelFeiningerStraße 1,12627,Hellersdorf,"52.5372, 13.60728",52.5372,13.60728,Mon-Sun: 12:00 - 22:00,here_maps
@@ -2851,7 +2851,7 @@
 2849,B‘Steck,Restaurant,breakfast/dessert,Dönhoffstraße 7 Karlshorst 10318 Berlin,Dönhoffstraße 7,10318,Karlshorst,"52.48344, 13.52283",52.48344,13.52283,Tue-Thu: 11:00 - 18:00 Fri: 11:00 - 22:00 Sat: 14:00 - 23:00 Sun: 10:00 - 15:00,here_maps
 2850,India Haus,Restaurant,asian,Hönower Straße 11 Karlshorst 10318 Berlin,Hönower Straße 11,10318,Karlshorst,"52.48897, 13.52508",52.48897,13.52508,Mon-Sun: 12:00 - 23:00,here_maps
 2851,Fatih Servet,Restaurant,middle eastern,Treskowallee 113 Karlshorst 10318 Berlin,Treskowallee 113,10318,Karlshorst,"52.48156, 13.52564",52.48156,13.52564,,here_maps
-2852,Syrtaki Karlshorst,Restaurant,mediterranean,Wandlitzstraße 10 Karlshorst 10318 Berlin,Wandlitzstraße 10,10318,Karlshorst,"52.48101, 13.52366",52.48101,13.52366,"Mon-Fri: 17:00 - 23:59 Sat, Sun: 11:30 - 23:59",here_maps
+2852,Syrtaki Karlshorst,Restaurant,greek,Wandlitzstraße 10 Karlshorst 10318 Berlin,Wandlitzstraße 10,10318,Karlshorst,"52.48101, 13.52366",52.48101,13.52366,"Mon-Fri: 17:00 - 23:59 Sat, Sun: 11:30 - 23:59",here_maps
 2853,Havanna Bar,Restaurant,international,Treskowallee 111 Karlshorst 10318 Berlin,Treskowallee 111,10318,Karlshorst,"52.48178, 13.52574",52.48178,13.52574,Mon-Sun: 12:00 - 16:00,here_maps
 2854,Albers - das Sportrestaurant,Restaurant,european,Treskowallee 129 Karlshorst 10318 Berlin,Treskowallee 129,10318,Karlshorst,"52.47843, 13.52492",52.47843,13.52492,Mon-Thu: 12:00 - 23:00 Fri: 12:00 - 22:30 Sat: 10:30 - 23:00 Sun: 10:30 - 21:00,here_maps
 2855,Kawi,Restaurant,breakfast/dessert,Wandlitzstraße 3 Karlshorst 10318 Berlin,Wandlitzstraße 3,10318,Karlshorst,"52.48036, 13.52442",52.48036,13.52442,Mon-Sat: 09:00 - 20:00 Sun: 10:00 - 20:00,here_maps
@@ -2909,7 +2909,7 @@
 2907,Pizza Coach,Restaurant,italian,Aroser Allee 67 Reinickendorf 13407 Berlin,Aroser Allee 67,13407,Reinickendorf,"52.56271, 13.35315",52.56271,13.35315,,here_maps
 2908,Ristorante Tornero,Restaurant,,Aroser Allee 63 Reinickendorf 13407 Berlin,Aroser Allee 63,13407,Reinickendorf,"52.56237, 13.35331",52.56237,13.35331,Mon-Sun: 11:00 - 23:00,here_maps
 2909,Buona Fortuna,Restaurant,european,Birkholzer Straße 128 Kolonie Gehrenberge 16341 Panketal,Birkholzer Straße 128 Kolonie,16341,Gehrenberge,"52.64303, 13.55871",52.64303,13.55871,,here_maps
-2910,Akropolis,Restaurant,mediterranean,Dorfstraße 12 Schwanebeck 16341 Panketal,Dorfstraße 12,16341,Schwanebeck,"52.62739, 13.54419",52.62739,13.54419,Mon-Sun: 11:30 - 23:00,here_maps
+2910,Akropolis,Restaurant,greek,Dorfstraße 12 Schwanebeck 16341 Panketal,Dorfstraße 12,16341,Schwanebeck,"52.62739, 13.54419",52.62739,13.54419,Mon-Sun: 11:30 - 23:00,here_maps
 2911,Ristorante Don Giovanni,Restaurant,european,Bernauer Chaussee 27 16341 Panketal,Bernauer Chaussee,16341,27,"52.63843, 13.56029",52.63843,13.56029,Mon: 09:00 - 22:00 Tue-Thu: 12:00 - 22:00 Fri-Sun: 11:00 - 23:00,here_maps
 2912,Ristorante Don Giovanni,Restaurant,european,Oldenburger Ring 16341 Panketal,Oldenburger,16341,Ring,"52.64199, 13.53669",52.64199,13.53669,,here_maps
 2913,Hansjoachim Hohlfeld,Restaurant,,Goslarer Straße 8 Zepernick 16341 Panketal,Goslarer Straße 8,16341,Zepernick,"52.64875, 13.55067",52.64875,13.55067,,here_maps
@@ -2935,7 +2935,7 @@
 2933,Marci's Hubertus,Restaurant,,Forststraße 37 16761 Hennigsdorf,Forststraße,16761,37,"52.64109, 13.19648",52.64109,13.19648,,here_maps
 2934,Fisch Eck,Restaurant,,Hafenstraße 2 16761 Hennigsdorf,Hafenstraße,16761,2,"52.63523, 13.20926",52.63523,13.20926,Mon-Fri: 08:00 - 18:00 Sat: 08:00 - 15:00,here_maps
 2935,Restaurant Pizzeria Bu,Restaurant,,Neuendorfstraße 5 16761 Hennigsdorf,Neuendorfstraße,16761,5,"52.63458, 13.20657",52.63458,13.20657,,here_maps
-2936,Restaurant Syrtaki,Restaurant,mediterranean,Neuendorfstraße 21 16761 Hennigsdorf,Neuendorfstraße,16761,21,"52.634135, 13.20745",52.634135,13.20745,"Mon-Fri: 17:30 - 23:00 Sat, Sun: 11:00 - 23:59",here_maps
+2936,Restaurant Syrtaki,Restaurant,greek,Neuendorfstraße 21 16761 Hennigsdorf,Neuendorfstraße,16761,21,"52.634135, 13.20745",52.634135,13.20745,"Mon-Fri: 17:30 - 23:00 Sat, Sun: 11:00 - 23:59",here_maps
 2937,Cafe-Restaurant Fair-Play,Restaurant,european,Fontanestraße 170 16761 Hennigsdorf,Fontanestraße,16761,170,"52.62929, 13.20103",52.62929,13.20103,Mon-Fri: 15:00 - 23:59 Sat: 11:00 - 23:00 Sun: 11:00 - 22:00,here_maps
 2938,Bistro & Partyservice Thiel,Snacks/Fast food,,Neuendorfstraße 5 16761 Hennigsdorf,Neuendorfstraße,16761,5,"52.63458, 13.20657",52.63458,13.20657,,here_maps
 2939,Domino's Pizza Hennigsdorf,Restaurant,italian,Feldstraße 2 16761 Hennigsdorf,Feldstraße,16761,2,"52.64073, 13.20659",52.64073,13.20659,Mon-Sun: 11:00 - 23:00,here_maps
@@ -2975,7 +2975,7 @@
 2973,Grillakademie Berlin,Restaurant,american,Haltoner Straße Biesdorf 12683 Berlin,Haltoner Straße,12683,Biesdorf,"52.504891, 13.557994",52.504891,13.557994,,here_maps
 2974,Kantine Lebenslust,Food & Drink,,AltFriedrichsfelde 67 Friedrichsfelde 10315 Berlin,AltFriedrichsfelde 67,10315,Friedrichsfelde,"52.51148, 13.52988",52.51148,13.52988,,here_maps
 2975,Cafeteria,Restaurant,,Warener Straße 7 Biesdorf 12683 Berlin,Warener Straße 7,12683,Biesdorf,"52.51937, 13.56698",52.51937,13.56698,"Mon-Fri: 07:00 - 20:00 Sat, Sun: 08:00 - 19:00",here_maps
-2976,Akropolis,Restaurant,mediterranean,HeleneWeigelPlatz 7 Biesdorf 12681 Berlin,HeleneWeigelPlatz 7,12681,Biesdorf,"52.52822, 13.5401",52.52822,13.5401,,here_maps
+2976,Akropolis,Restaurant,greek,HeleneWeigelPlatz 7 Biesdorf 12681 Berlin,HeleneWeigelPlatz 7,12681,Biesdorf,"52.52822, 13.5401",52.52822,13.5401,,here_maps
 2977,Schweizer Viertel,Snacks/Fast food,middle eastern,Lausanner Straße Lichterfelde 12205 Berlin,Lausanner Straße,12205,Lichterfelde,"52.42691, 13.30337",52.42691,13.30337,Mon-Sat: 10:00 - 21:00,here_maps
 2978,Pizzapastaphone,Eat & Drink,italian,Lausanner Straße 79 Lichterfelde 12205 Berlin,Lausanner Straße 79,12205,Lichterfelde,"52.42694, 13.30257",52.42694,13.30257,,here_maps
 2979,Chi Dang Restaurant,Restaurant,asian,Lausanner Straße 79 Lichterfelde 12205 Berlin,Lausanner Straße 79,12205,Lichterfelde,"52.42694, 13.30257",52.42694,13.30257,Mon-Sat: 11:00 - 22:00 Sun: 12:00 - 00:00,here_maps
@@ -2985,10 +2985,10 @@
 2983,Ristorante Vesuvio II,Restaurant,european,Goerzallee 119 Lichterfelde 12207 Berlin,Goerzallee 119,12207,Lichterfelde,"52.42107, 13.29756",52.42107,13.29756,,here_maps
 2984,Hot Grill,Restaurant,middle eastern,Lausanner Straße 81 Lichterfelde 12205 Berlin,Lausanner Straße 81,12205,Lichterfelde,"52.42691, 13.30337",52.42691,13.30337,Mon-Sat: 10:00 - 21:00,here_maps
 2985,Domino's Pizza,Restaurant,middle eastern,Hindenburgdamm 3 Lichterfelde 12203 Berlin,Hindenburgdamm 3,12203,Lichterfelde,"52.43224, 13.31103",52.43224,13.31103,Mon-Sun: 11:00 - 23:00,here_maps
-2986,Restaurant Zeus,Restaurant,mediterranean,Finckensteinallee 62 Lichterfelde 12205 Berlin,Finckensteinallee 62,12205,Lichterfelde,"52.43261, 13.29964",52.43261,13.29964,Mon-Sat: 16:00 - 00:00 Sun: 12:00 - 00:00,here_maps
+2986,Restaurant Zeus,Restaurant,greek,Finckensteinallee 62 Lichterfelde 12205 Berlin,Finckensteinallee 62,12205,Lichterfelde,"52.43261, 13.29964",52.43261,13.29964,Mon-Sat: 16:00 - 00:00 Sun: 12:00 - 00:00,here_maps
 2987,Kantine Kolonie Abendruh,Restaurant,,Kleingartenanlage Abendruh Lichterfelde 14167 Berlin,Kleingartenanlage Abendruh,14167,Lichterfelde,"52.426318, 13.286412",52.426318,13.286412,,here_maps
 2988,Osteria 33,Restaurant,european,Goerzallee 33 Lichterfelde 12207 Berlin,Goerzallee 33,12207,Lichterfelde,"52.42831, 13.30655",52.42831,13.30655,"Tue-Thu: 14:00 - 22:30 Fri, Sat: 14:00 - 23:00 Sun: 12:00 - 22:30",here_maps
-2989,Die Aubergine,Restaurant,mediterranean,Goerzallee sn Lichterfelde 12207 Berlin,Goerzallee sn,12207,Lichterfelde,"52.4284, 13.30628",52.4284,13.30628,,here_maps
+2989,Die Aubergine,Restaurant,greek,Goerzallee sn Lichterfelde 12207 Berlin,Goerzallee sn,12207,Lichterfelde,"52.4284, 13.30628",52.4284,13.30628,,here_maps
 2990,Essbar ! by M&M,Restaurant,european,Goerzallee Lichterfelde 14167 Berlin,Goerzallee,14167,Lichterfelde,"52.418319, 13.28875",52.418319,13.28875,,here_maps
 2991,Karadeniz Grill,Restaurant,middle eastern,Ostpreußendamm 79 Lichterfelde 12207 Berlin,Ostpreußendamm 79,12207,Lichterfelde,"52.4184, 13.30518",52.4184,13.30518,,here_maps
 2992,Kolonie Schweizerland,Restaurant,european,Osteweg Lichterfelde 14167 Berlin,Osteweg,14167,Lichterfelde,"52.42281, 13.287597",52.42281,13.287597,,here_maps
@@ -3013,7 +3013,7 @@
 3011,Yam Yam,Restaurant,european,Dürerstraße 23 Lichterfelde 12203 Berlin,Dürerstraße 23,12203,Lichterfelde,"52.43691, 13.30398",52.43691,13.30398,,here_maps
 3012,China Restaurant Sichuan-Gourmet,Restaurant,asian,Osdorfer Straße 124 Lichterfelde 12207 Berlin,Osdorfer Straße 124,12207,Lichterfelde,"52.4189, 13.3135",52.4189,13.3135,Mon-Sun: 12:00 - 23:00,here_maps
 3013,Mai Linh's,Snacks/Fast food,asian,Osdorfer Straße 19 Lichterfelde 12207 Berlin,Osdorfer Straße 19,12207,Lichterfelde,"52.41711, 13.31418",52.41711,13.31418,,here_maps
-3014,Pathos Berlin,Restaurant,mediterranean,Hultschiner Damm 82 Mahlsdorf 12623 Berlin,Hultschiner Damm 82,12623,Mahlsdorf,"52.48238, 13.60211",52.48238,13.60211,,here_maps
+3014,Pathos Berlin,Restaurant,greek,Hultschiner Damm 82 Mahlsdorf 12623 Berlin,Hultschiner Damm 82,12623,Mahlsdorf,"52.48238, 13.60211",52.48238,13.60211,,here_maps
 3015,Das Kleine Eiswerk,Restaurant,breakfast/dessert,Hultschiner Damm 76 Mahlsdorf 12623 Berlin,Hultschiner Damm 76,12623,Mahlsdorf,"52.482, 13.60157",52.482,13.60157,"Mon, Tue, Thu, Fri, Sun: 12:00 - 18:00",here_maps
 3016,Sushi Paris,Restaurant,asian,Pariser Straße 44 Mahlsdorf 12623 Berlin,Pariser Straße 44,12623,Mahlsdorf,"52.48856, 13.59631",52.48856,13.59631,,here_maps
 3017,Restaurant Ginseng,Restaurant,asian,Hultschiner Damm 118 Mahlsdorf 12623 Berlin,Hultschiner Damm 118,12623,Mahlsdorf,"52.48517, 13.60378",52.48517,13.60378,Mon-Sun: 12:00 - 23:00,here_maps
@@ -3034,7 +3034,7 @@
 3032,Cafe Rosarot,Restaurant,,Hermsdorfer Straße 6 Schildow 16552 Mühlenbecker Land,Hermsdorfer Straße 6,16552,Schildow,"52.62916, 13.36491",52.62916,13.36491,Fri: 15:00 - 18:00 Sat: 14:00 - 18:00 Sun: 13:00 - 18:00,here_maps
 3033,York Imbiss,Restaurant,,Yorckstraße 16548 GlienickeNordbahn,,,,"52.62756, 13.32897",52.62756,13.32897,,here_maps
 3034,Amici Amici,Restaurant,european,Yorckstraße 16548 GlienickeNordbahn,,,,"52.62756, 13.32897",52.62756,13.32897,,here_maps
-3035,Gaststaette Birkenwaeldchen,Restaurant,,KarlLiebknechtStraße 209 16548 GlienickeNordbahn,KarlLiebknechtStraße,16548,209,"52.63018, 13.32864",52.63018,13.32864,Tue-Fri: 15:00 - 22:00 Sat: 12:00 - 22:00 Sun: 12:00 - 20:00,here_maps
+3035,Gaststaette Birkenwaeldchen,Restaurant,european,KarlLiebknechtStraße 209 16548 GlienickeNordbahn,KarlLiebknechtStraße,16548,209,"52.63018, 13.32864",52.63018,13.32864,Tue-Fri: 15:00 - 22:00 Sat: 12:00 - 22:00 Sun: 12:00 - 20:00,here_maps
 3036,Rheden,Restaurant,european,Elisabethstraße 1 16548 GlienickeNordbahn,Elisabethstraße,16548,1,"52.63037, 13.33103",52.63037,13.33103,,here_maps
 3037,Neu Delhi,Restaurant,asian,Schönholzer Straße 8 Pankow 13187 Berlin,Schönholzer Straße 8,13187,Pankow,"52.57038, 13.39895",52.57038,13.39895,Mon-Sun: 12:00 - 23:00,here_maps
 3038,Tschaikowski-Eck,Bar/Pub,,Grabbeallee 55 Niederschönhausen 13156 Berlin,Grabbeallee 55,13156,Niederschönhausen,"52.57703, 13.39807",52.57703,13.39807,Mon-Sat: 17:00 - 23:59,here_maps
@@ -3051,7 +3051,7 @@
 3049,Restaurante Esmeralda,Restaurant,mediterranean,Wollankstraße 133 Pankow 13187 Berlin,Wollankstraße 133,13187,Pankow,"52.56893, 13.40062",52.56893,13.40062,Tue-Sat: 17:00 - 00:00 Sun: 17:00 - 22:00,here_maps
 3050,Cafe Mirabelle,Restaurant,european,Schulzestraße 21 Pankow 13187 Berlin,Schulzestraße 21,13187,Pankow,"52.56758, 13.39074",52.56758,13.39074,"Mon, Fri: 12:00 - 22:00 Tue-Thu: 12:00 - 21:00 Sat: 10:00 - 22:00 Sun: 10:00 - 21:00",here_maps
 3051,Kaffee Kolumbien,Restaurant,,Breite Straße 17 Pankow 13187 Berlin,Breite Straße 17,13187,Pankow,"52.570103, 13.405161",52.570103,13.405161,,here_maps
-3052,Auszeit,Restaurant,mediterranean,HermannHesseStraße 15 Niederschönhausen 13156 Berlin,HermannHesseStraße 15,13156,Niederschönhausen,"52.5803, 13.401",52.5803,13.401,Mon-Sun: 09:00 - 00:00,here_maps
+3052,Auszeit,Restaurant,greek,HermannHesseStraße 15 Niederschönhausen 13156 Berlin,HermannHesseStraße 15,13156,Niederschönhausen,"52.5803, 13.401",52.5803,13.401,Mon-Sun: 09:00 - 00:00,here_maps
 3053,Hey Cheuk Lau,Restaurant,,Breite Strasse 2 Pankow 13187 Berlin,Breite Strasse 2,13187,Pankow,"52.57245, 13.40796",52.57245,13.40796,Mon-Sun: 11:30 - 23:00,here_maps
 3054,Nina,Restaurant,asian,Breite Straße 20 Pankow 13187 Berlin,Breite Straße 20,13187,Pankow,"52.56984, 13.40409",52.56984,13.40409,Mon-Sat: 09:30 - 21:30 Sun: 12:00 - 21:00,here_maps
 3055,Berliner Currywurst,Snacks/Fast food,european,Berliner Straße 11 Pankow 13187 Berlin,Berliner Straße 11,13187,Pankow,"52.56868, 13.41142",52.56868,13.41142,Mon-Fri: 09:00 - 19:00 Sat: 10:00 - 16:00,here_maps
@@ -3068,7 +3068,7 @@
 3066,Flora Klause,Restaurant,,Florastraße 62 Pankow 13187 Berlin,Florastraße 62,13187,Pankow,"52.56628, 13.40864",52.56628,13.40864,,here_maps
 3067,Center Grill,Restaurant,middle eastern,Breite Straße 20 Pankow 13187 Berlin,Breite Straße 20,13187,Pankow,"52.56984, 13.40409",52.56984,13.40409,Mon-Sat: 09:30 - 20:00,here_maps
 3068,M€ Asia,Restaurant,asian,Schulstraße 27 Pankow 13187 Berlin,Schulstraße 27,13187,Pankow,"52.56882, 13.40844",52.56882,13.40844,Mon-Sun: 11:00 - 22:00,here_maps
-3069,Olivenbaum,Restaurant,mediterranean,Breite Straße 33 Pankow 13187 Berlin,Breite Straße 33,13187,Pankow,"52.56972, 13.40625",52.56972,13.40625,Mon-Sun: 10:00 - 00:00,here_maps
+3069,Olivenbaum,Restaurant,greek,Breite Straße 33 Pankow 13187 Berlin,Breite Straße 33,13187,Pankow,"52.56972, 13.40625",52.56972,13.40625,Mon-Sun: 10:00 - 00:00,here_maps
 3070,Cafe Rosenrot,Coffee/Tea,,Ossietzkystraße 2A Pankow 13187 Berlin,Ossietzkystraße 2A,13187,Pankow,"52.57142, 13.40903",52.57142,13.40903,"Mon-Fri: 08:30 - 18:00 Sat, Sun: 09:00 - 18:00",here_maps
 3071,Wurstdealer,Restaurant,european,Breite Straße 36 Pankow 13187 Berlin,Breite Straße 36,13187,Pankow,"52.570167, 13.408153",52.570167,13.408153,"Tue, Fri: 09:00 - 14:00 Wed: 09:00 - 17:00",here_maps
 3072,Grinders,Restaurant,fastfood,Breite Straße 5 Pankow 13187 Berlin,Breite Straße 5,13187,Pankow,"52.5715, 13.41106",52.5715,13.41106,,here_maps
@@ -3097,7 +3097,7 @@
 3095,Liebes Bisschen,Restaurant,european,Berliner Straße 6 Pankow 13187 Berlin,Berliner Straße 6,13187,Pankow,"52.5697, 13.41087",52.5697,13.41087,"Mon-Fri: 08:00 - 18:00 Sat, Sun: 10:00 - 18:00",here_maps
 3096,Wollankstraße 127,Restaurant,,Wollankstraße 127 Pankow 13187 Berlin,Wollankstraße 127,13187,Pankow,"52.56809, 13.39928",52.56809,13.39928,,here_maps
 3097,Bistro Princess,Restaurant,,Berliner Straße 10 Pankow 13187 Berlin,Berliner Straße 10,13187,Pankow,"52.56882, 13.41135",52.56882,13.41135,,here_maps
-3098,Athos,Restaurant,mediterranean,HermannHesseStraße 27 Niederschönhausen 13156 Berlin,HermannHesseStraße 27,13156,Niederschönhausen,"52.57988, 13.39897",52.57988,13.39897,Mon-Sun: 17:30 - 23:30,here_maps
+3098,Athos,Restaurant,greek,HermannHesseStraße 27 Niederschönhausen 13156 Berlin,HermannHesseStraße 27,13156,Niederschönhausen,"52.57988, 13.39897",52.57988,13.39897,Mon-Sun: 17:30 - 23:30,here_maps
 3099,Cafe Bistro Genial,Restaurant,,HermannHesseStraße 12 Niederschönhausen 13156 Berlin,HermannHesseStraße 12,13156,Niederschönhausen,"52.58064, 13.40131",52.58064,13.40131,,here_maps
 3100,Cafe Schoen & Gut,Restaurant,,Neue Schönholzer Straße 2 Pankow 13187 Berlin,Neue Schönholzer Straße 2,13187,Pankow,"52.56871, 13.40151",52.56871,13.40151,Mon-Fri: 09:00 - 19:00 Sat: 10:00 - 19:00 Sun: 10:00 - 17:00,here_maps
 3101,Hua Li du,Restaurant,asian,Dietzgenstraße 11A Niederschönhausen 13156 Berlin,Dietzgenstraße 11A,13156,Niederschönhausen,"52.58078, 13.40367",52.58078,13.40367,"Mon-Thu: 12:00 - 12:00 Fri, Sat: 12:00 - 13:00 Sun: 12:00 - 23:59",here_maps
@@ -3124,7 +3124,7 @@
 3122,Call A Pizza,Restaurant,italian,Damerowstraße 60 Pankow 13187 Berlin,Damerowstraße 60,13187,Pankow,"52.57258, 13.41774",52.57258,13.41774,Mon-Sun: 11:00 - 22:30,here_maps
 3123,Souterrain 29,Restaurant,european,Waldowstraße 29 Niederschönhausen 13156 Berlin,Waldowstraße 29,13156,Niederschönhausen,"52.58598, 13.40709",52.58598,13.40709,"Mon: 17:00 - 23:59 Tue-Fri, Sun: 00:00 - 01:00 Sat: 18:00 - 23:59",here_maps
 3124,Trattoria Roma-Fathi Yahia,Restaurant,european,Breite Straße 4 Pankow 13187 Berlin,Breite Straße 4,13187,Pankow,"52.57182, 13.41228",52.57182,13.41228,,here_maps
-3125,Estiatorio Lindos,Restaurant,mediterranean,Breite Straße 50 Pankow 13187 Berlin,Breite Straße 50,13187,Pankow,"52.57206, 13.41479",52.57206,13.41479,Tue-Sat: 16:00 - 23:59 Sun: 12:00 - 23:59,here_maps
+3125,Estiatorio Lindos,Restaurant,greek,Breite Straße 50 Pankow 13187 Berlin,Breite Straße 50,13187,Pankow,"52.57206, 13.41479",52.57206,13.41479,Tue-Sat: 16:00 - 23:59 Sun: 12:00 - 23:59,here_maps
 3126,Ciao Amigo,Eat & Drink,european,Florastraße 32 Pankow 13187 Berlin,Florastraße 32,13187,Pankow,"52.5653, 13.4049",52.5653,13.4049,Mon-Sun: 11:00 - 23:00,here_maps
 3127,Cafe Schon-Hausen,Restaurant,,Florastraße 27 Pankow 13187 Berlin,Florastraße 27,13187,Pankow,"52.56535, 13.40391",52.56535,13.40391,Mon-Sun: 10:00 - 18:00,here_maps
 3128,Alt Berliner Eck,Bar/Pub,,Kattegatstraße 2 Gesundbrunnen 13359 Berlin,Kattegatstraße 2,13359,Gesundbrunnen,"52.56411, 13.39187",52.56411,13.39187,,here_maps
@@ -3151,7 +3151,7 @@
 3149,Café Stil,Restaurant,breakfast/dessert,Prinzessinnenstraße 2 Lichtenrade 12307 Berlin,Prinzessinnenstraße 2,12307,Lichtenrade,"52.38683, 13.39564",52.38683,13.39564,Mon-Fri: 05:30 - 18:30 Sat: 06:30 - 18:30 Sun: 07:30 - 18:30,here_maps
 3150,La Vado Pizzeria,Snacks/Fast food,italian,Wünsdorfer Straße 107 Lichtenrade 12307 Berlin,Wünsdorfer Straße 107,12307,Lichtenrade,"52.3886, 13.3946",52.3886,13.3946,Mon-Sun: 11:00 - 23:00,here_maps
 3151,Döner Xl,Restaurant,middle eastern,Bahnhofstraße 23 Lichtenrade 12305 Berlin,Bahnhofstraße 23,12305,Lichtenrade,"52.38689, 13.40042",52.38689,13.40042,,here_maps
-3152,Yammas Tavernaki,Restaurant,mediterranean,Bahnhofstraße 39 Lichtenrade 12305 Berlin,Bahnhofstraße 39,12305,Lichtenrade,"52.38652, 13.39944",52.38652,13.39944,,here_maps
+3152,Yammas Tavernaki,Restaurant,greek,Bahnhofstraße 39 Lichtenrade 12305 Berlin,Bahnhofstraße 39,12305,Lichtenrade,"52.38652, 13.39944",52.38652,13.39944,,here_maps
 3153,Bauernstübchen,Bar/Pub,,Bahnhofstraße 39 Lichtenrade 12305 Berlin,Bahnhofstraße 39,12305,Lichtenrade,"52.38652, 13.39944",52.38652,13.39944,Mon-Sun: 09:00 - 00:00,here_maps
 3154,Ko Chang,Restaurant,asian,Bahnhofstraße 60 Lichtenrade 12305 Berlin,Bahnhofstraße 60,12305,Lichtenrade,"52.38653, 13.40674",52.38653,13.40674,Mon-Sun: 12:00 - 22:00,here_maps
 3155,Mary's Curry-Point,Restaurant,european,Lichtenrader Damm 216 Lichtenrade 12305 Berlin,Lichtenrader Damm 216,12305,Lichtenrade,"52.39352, 13.40593",52.39352,13.40593,Mon-Fri: 09:00 - 19:30,here_maps
@@ -3207,7 +3207,7 @@
 3206,Neki Sushi Wilmersdorf,Restaurant,asian,Gieselerstraße 17 Wilmersdorf 10713 Berlin,Gieselerstraße 17,10713,Wilmersdorf,"52.49134, 13.31812",52.49134,13.31812,,here_maps
 3207,Tulum,Restaurant,mediterranean,Am Volkspark 85 Wilmersdorf 10715 Berlin,Am Volkspark 85,10715,Wilmersdorf,"52.48295, 13.32072",52.48295,13.32072,Mon-Sun: 12:00 - 22:00,here_maps
 3208,Golden Phoenix,Restaurant,asian,Brandenburgische Straße 21 Wilmersdorf 10707 Berlin,Brandenburgische Straße 21,10707,Wilmersdorf,"52.49576, 13.30871",52.49576,13.30871,Tue-Sat: 18:30 - 23:00,here_maps
-3209,Ach! Niko Ach!,Restaurant,mediterranean,Kurfürstendamm 97 Halensee 10709 Berlin,Kurfürstendamm 97,10709,Halensee,"52.49862, 13.29825",52.49862,13.29825,Mon-Sun: 12:00 - 23:59,here_maps
+3209,Ach! Niko Ach!,Restaurant,greek,Kurfürstendamm 97 Halensee 10709 Berlin,Kurfürstendamm 97,10709,Halensee,"52.49862, 13.29825",52.49862,13.29825,Mon-Sun: 12:00 - 23:59,here_maps
 3210,Parkcafe Berlin,Restaurant,international,Fehrbelliner Platz 8 Wilmersdorf 10707 Berlin,Fehrbelliner Platz 8,10707,Wilmersdorf,"52.49123, 13.31426",52.49123,13.31426,"Mon-Sat: 08:30 - 01:00, 08:30 - 01:00 Sun: 08:30 - 00:00, 08:30 - 00:00",here_maps
 3211,Ku'Damm Beach,Restaurant,italian,Koenigsallee 5 Grunewald 14193 Berlin,Koenigsallee 5,14193,Grunewald,"52.494, 13.28309",52.494,13.28309,"Mon, Tue: 09:00 - 23:59 Wed-Sun: 08:00 - 00:00, 09:00 - 23:59",here_maps
 3212,Biergarten am Herthasee,Restaurant,european,Bismarckallee 23 Grunewald 14193 Berlin,Bismarckallee 23,14193,Grunewald,"52.48832, 13.27732",52.48832,13.27732,Mon-Sun: 12:00 - 22:00,here_maps
@@ -3267,7 +3267,7 @@
 3266,MD Rose Events,Restaurant,,Bornimer Straße 4 Halensee 10711 Berlin,Bornimer Straße 4,10711,Halensee,"52.49615, 13.28586",52.49615,13.28586,,here_maps
 3267,Cumulus Kneipe,Bar/Pub,,JoachimFriedrichStraße 18 Halensee 10711 Berlin,JoachimFriedrichStraße 18,10711,Halensee,"52.49887, 13.29663",52.49887,13.29663,,here_maps
 3268,I Due,Restaurant,italian,Westfälische Straße 37 Halensee 10711 Berlin,Westfälische Straße 37,10711,Halensee,"52.49623, 13.29529",52.49623,13.29529,,here_maps
-3269,Optimus I,Food & Drink,mediterranean,Nalepastraße 16 Oberschöneweide 12459 Berlin,Nalepastraße 16,12459,Oberschöneweide,"52.48061, 13.50093",52.48061,13.50093,,here_maps
+3269,Optimus I,Food & Drink,greek,Nalepastraße 16 Oberschöneweide 12459 Berlin,Nalepastraße 16,12459,Oberschöneweide,"52.48061, 13.50093",52.48061,13.50093,,here_maps
 3270,Milchbar im Funkhaus,Restaurant,european,Nalepastraße 18 Oberschöneweide 12459 Berlin,Nalepastraße 18,12459,Oberschöneweide,"52.47951, 13.50047",52.47951,13.50047,Mon-Fri: 10:00 - 18:00 Sat: 10:00 - 16:00 Sun: 11:00 - 19:00,here_maps
 3271,Klipper,Restaurant,international,Bulgarische Straße sn Plänterwald 12435 Berlin,Bulgarische Straße sn,12435,Plänterwald,"52.48582, 13.48198",52.48582,13.48198,Mon-Sun: 10:00 - 13:00,here_maps
 3272,Spreeküche,Business/Industry,,GustavHolzmannStraße Rummelsburg 10317 Berlin,GustavHolzmannStraße,10317,Rummelsburg,"52.49242, 13.48757",52.49242,13.48757,Mon-Fri: 09:00 - 17:00,here_maps
