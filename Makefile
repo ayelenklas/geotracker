@@ -67,8 +67,6 @@ streamlit:
 # ----------------------------------
 #         HEROKU COMMANDS
 # ----------------------------------
-streamlit:
-	-@streamlit run geotracker/website/app.py
 heroku_login:
 	-@heroku login
 heroku_create_app:
@@ -79,6 +77,7 @@ deploy_heroku:
 # ----------------------------------
 #    LOCAL INSTALL COMMANDS
 # ----------------------------------
+
 clean:
     #@rm -fr */__pycache__
 	@rm -fr __init__.py

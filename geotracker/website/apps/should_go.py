@@ -24,9 +24,9 @@ def app():
         score = st.slider('Choose the minimum reviews score:', max_value=10, step=1)
 
     #get input filters from csv data
-    params = []
+    #params = []
 
-    df = pd.read_csv('')
+    #df = pd.read_csv('')
 
 
 
@@ -34,12 +34,7 @@ def app():
     '''Map part'''
     if st.button('Predict'):
         st.map() #data
-        # data = inputs above can be transformed in a np.array to call the information from our API/data
-        #this map is the simple version, I can make it prettier and colorful etc if we want and have the time
-        # (also space in heroku hehe oops, the package is called folium)
 
-
-        #do we want to write or display something other than the map?
         '''Expand part'''
         with st.expander('See info of the restaurants displayed'):
-            st.write()#list of restaurants and the infos selected in the filter)
+            st.write() #list of restaurants and the infos selected in the filter
