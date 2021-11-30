@@ -1,6 +1,34 @@
 import streamlit as st
 
-def home():
-    print('home')
-    #explain the project as we plan to on demo day
-    #just writing stuff pretty
+''' HOME '''
+
+
+def app():
+    st.title('GeoCompetitor Tracker')
+    st.caption('Le Wagon Data Science - Batch 735')
+    st.markdown('''
+    :heavy_exclamation_mark::heavy_exclamation_mark:Problem found:\n
+    \n
+    Food Delivery apps struggle to have visibility over their competitors,
+    therefore they lose focus on where to expand/adapt their strategy geographically.\n
+    \n
+    :white_check_mark: Proposed solution:\n
+    \n
+    We provide an insight-tracker tool to make business decisions,
+    such as where to focus or how to adapt the business model/strategy by
+    scraping data from the main delivery apps and comparing their main KPIs in Berlin.\n
+    \n
+    ''')
+    st.subheader('Usage instructions')
+    st.markdown('''The **Search** page will give you an overall analysis on the restaurants,
+    as a total and filtered by delivery company. There, you'll enter the Zipcode desired to obtain the informations
+    on that location.''')
+    st.markdown(
+        ''':sleuth_or_spy:Choose the filters accordingly to your preference and search the location!'''
+    )
+    st.markdown('''The **Predict** page will provide a prediction on the best location to
+    expand a delivery business in the city of Berlin.''')
+    st.markdown(
+        ''':sleuth_or_spy:Again, choose the filters accordingly to your preference and predict the location!'''
+    )
+    st.subheader('Have a nice tracking!')
