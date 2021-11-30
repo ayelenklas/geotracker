@@ -39,21 +39,22 @@ def create_circles_csv(kmradius, overlap_percent,
     restaurants_df = pd.read_csv("geotracker/data/deliveries_data.csv")
 
     # Convert overlap in percent from UI tu usable overlap for functions
-    overlap = overlap_percent/100 + 1
+    overlap_factor = 1 - overlap_percent/100
 
     # Instatiate empty lists for export later
     circle_list = []
     restaurant_list = []
     # get center coords for circles and their radius in degrees
 
-    center_coords, degradius = get_circlegrid_list(top_left, bottom_right,
-                                                   kmradius, overlap)
+    center_coords = get_circlegrid_list(top_left, bottom_right,
+                                                   kmradius,
+                                                   overlap_factor)
 
     # MAIN LOOP: Loop over each center for each circle
     for index, center_coord in enumerate(center_coords):
         # Get all restaurants in the circle
         restaurants_in_circle_df = restaurants_in_circle(
-            restaurants_df, center_coord[0], center_coord[1], degradius
+            restaurants_df, center_coord, kmradius
         )
 
         # Add circle index to restaurants_in_circle and save to list of dfs
@@ -72,11 +73,14 @@ def create_circles_csv(kmradius, overlap_percent,
         circle_dict = dict(
             circle_id=index,
             kmradius=kmradius,
+            overlap = overlap_percent,
             center_lat=center_coord[0],
             center_lon=center_coord[1],
-            degradius=degradius,
             circle_weight=len(matched_restaurants),
         )
+
+        #import ipdb; ipdb.set_trace()
+
         circle_list.append(circle_dict)
 
     # Write DF of circles to disk
@@ -95,5 +99,5 @@ def create_circles_csv(kmradius, overlap_percent,
 
 if __name__ == "__main__":
     create_circles_csv(kmradius=2, overlap_percent=20,
-                      good_review_threshold=7,
-                      avoid_lieferando=False, avoid_wolt=False)
+                      good_review_threshold=5,
+                      avoid_competitor=None)
