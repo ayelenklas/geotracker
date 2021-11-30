@@ -5,6 +5,7 @@ import streamlit as st
 
 def app():
     st.title('GeoCompetitor Tracker')
+    st.image("https://images.unsplash.com/photo-1526367790999-0150786686a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVsaXZlcnklMjBzZXJ2aWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80")
     st.caption('Le Wagon Data Science - Batch 735')
     st.markdown('''
     :heavy_exclamation_mark::heavy_exclamation_mark:Problem found:\n

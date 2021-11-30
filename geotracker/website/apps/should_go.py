@@ -12,7 +12,7 @@ def app():
         address = st.text_input('Insert the adress to search by:')
         range = st.slider('Choose the lenght of the radius:',
                           help='Shown in kilometers.',
-                          min_value=0.5,
+                          min_value=0.0,
                           max_value=5.0,
                           step=0.1)
     with col2:
