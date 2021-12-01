@@ -477,7 +477,7 @@ def app():
                 # 52.520008, 13.404954
                 a = folium.Map(
                     location=[lat, lon],
-                    zoom_start=10,
+                    zoom_start=13,
                     prefer_canvas=True,)
                 with open("geotracker/website/data/geojson.json") as f:
                     file = json.load(f)
@@ -491,7 +491,7 @@ def app():
             if alw == 'Lieferando':
                 l = folium.Map(
                     location=[lat, lon],
-                    zoom_start=10,
+                    zoom_start=13,
                     prefer_canvas=True,
                 )
                 with open("geotracker/website/data/geojson.json") as f:
@@ -507,7 +507,7 @@ def app():
             if alw == 'Wolt':
                 w = folium.Map(
                     location=[lat, lon],
-                    zoom_start=10,
+                    zoom_start=13,
                     prefer_canvas=True,
                 )
                 with open("geotracker/website/data/geojson.json") as f:
