@@ -13,13 +13,15 @@ import matplotlib.pyplot as plt
 
 ''' SEARCH '''
 
+# st.set_option('deprecation.showPyplotGlobalUse', False)
+
 cuisine_options = ['African', 'American', 'Asian', 'Vegetarian or Vegan', 'Steak',
                   'South American', 'Snacks', 'Seafood', 'Russian', 'Poke', 'Middle Eastern',
                   'Mexican', 'Mediterranean', 'Italian', 'International', 'Indian', 'Healthy',
                   'Greek', 'Fastfood', 'European', 'Cafes', 'Breakfast/Dessert', 'Bars']
 
 def app():
-    st.write('sredzkistrasse 43, 10435, Berlin')
+    # st.write('sredzkistrasse 43, 10435, Berlin')
     st.title('Restaurants Analysis')
 
 
@@ -88,7 +90,45 @@ def app():
             st.subheader(num_restos_lieferando)
 
             '''# types of cuisine'''
+        # select from df
+            cuisine_lieferando = all_data[(all_data.database == "lieferando")
+                                    & search_limits].groupby(
+                                        by="type_of_cuisine").count()[[
+                                            "restaurant_name"
+                                        ]].sort_values(by="restaurant_name",
+                                                    ascending=False)
 
+            # top n
+            # try:
+            n = 10
+            cuisine_lieferando_top10 = cuisine_lieferando[:n].copy()
+
+            # others
+            others_lieferando = pd.DataFrame(
+                data={'type_of_cuisine': ['others'],
+                    'value': [cuisine_lieferando['restaurant_name'][n:].sum()]})
+
+            # combining data
+            
+            cuisine_bkdwn_lieferando = pd.concat([cuisine_lieferando_top10,
+                                                others_lieferando])["restaurant_name"]
+            # except ValueError:
+    
+
+            # Pie chart, where the slices will be ordered and plotted counter-clockwise:
+            labels = cuisine_bkdwn_lieferando.index
+            sizes = cuisine_bkdwn_lieferando
+            cuisine_bkdwn_lieferando.plot(kind='pie',
+                                    autopct=autopct,
+                                    cmap=cmap,
+                                    fontsize=fontsize)
+            plt.title("Wolt - Breakdown by type of cuisine", fontsize=15)
+            plt.ylabel(" ")
+            plt.xlabel(" ")
+            try:
+                st.pyplot()
+            except ValueError:
+                st.write(f"No restaurants affiliated \nwith Lieferando in the area")
 
         with wolt:
 
@@ -110,7 +150,8 @@ def app():
                                                     ascending=False)
 
             # top n
-            n = 8
+            # try:
+            n = 10
             cuisine_wolt_top10 = cuisine_wolt[:n].copy()
 
             # others
@@ -118,9 +159,9 @@ def app():
                 data={'type_of_cuisine': ['others'],
                     'value': [cuisine_wolt['restaurant_name'][n:].sum()]})
 
-            # combining data
+            # combining data            
             cuisine_bkdwn_wolt = pd.concat([cuisine_wolt_top10,
-                                            others_wolt])["restaurant_name"]
+                                                others_wolt])["restaurant_name"]    
 
             # Pie chart, where the slices will be ordered and plotted counter-clockwise:
             labels = cuisine_bkdwn_wolt.index
@@ -129,10 +170,15 @@ def app():
                                     autopct=autopct,
                                     cmap=cmap,
                                     fontsize=fontsize)
+
             plt.title("Wolt - Breakdown by type of cuisine", fontsize=15)
             plt.ylabel(" ")
             plt.xlabel(" ")
-            st.pyplot()
+
+            try:
+                st.pyplot()
+            except ValueError:
+                st.write(f"No restaurants affiliated \nwith Wolt in the area")
 
 
         with allrestos:
@@ -146,6 +192,44 @@ def app():
             st.subheader(num_restos_maps)
 
             # types of cuisine
+            # select from df
+            cuisine_restos_maps = all_data[(all_data.database == "here_maps")
+                                    & search_limits].groupby(
+                                        by="type_of_cuisine").count()[[
+                                            "restaurant_name"
+                                        ]].sort_values(by="restaurant_name",
+                                                    ascending=False)
+
+            # top n
+            # try:
+            n = 10
+            cuisine_restos_maps_top10 = cuisine_wolt[:n].copy()
+
+            # others
+            others_restos_maps = pd.DataFrame(
+                data={'type_of_cuisine': ['others'],
+                    'value': [cuisine_restos_maps['restaurant_name'][n:].sum()]})
+
+            # combining data            
+            cuisine_bkdwn_restos_maps = pd.concat([cuisine_restos_maps_top10,
+                                                others_restos_maps])["restaurant_name"]    
+
+            # Pie chart, where the slices will be ordered and plotted counter-clockwise:
+            labels = cuisine_bkdwn_restos_maps.index
+            sizes = cuisine_bkdwn_restos_maps
+            cuisine_bkdwn_restos_maps.plot(kind='pie',
+                                    autopct=autopct,
+                                    cmap=cmap,
+                                    fontsize=fontsize)
+
+            plt.title("Wolt - Breakdown by type of cuisine", fontsize=15)
+            plt.ylabel(" ")
+            plt.xlabel(" ")
+
+            try:
+                st.pyplot()
+            except ValueError:
+                st.write(f"No data available on \nrestaurants in the area")
 
 
 
@@ -155,6 +239,7 @@ def app():
 
     with colchoose:
         alw = st.radio('Choose a delivery company:', options=['All restaurants','Lieferando','Wolt'])
+
     with colmap:
         if alw == 'All restaurants':
             a = folium.Map(
@@ -170,6 +255,7 @@ def app():
             a.add_child(FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
 
             folium_static(a)
+
         if alw == 'Lieferando':
             l = folium.Map(
                 location=[52.520008, 13.404954],
@@ -186,6 +272,7 @@ def app():
                 FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
 
             folium_static(l)
+
         if alw == 'Wolt':
             w = folium.Map(
                 location=[52.520008, 13.404954],
