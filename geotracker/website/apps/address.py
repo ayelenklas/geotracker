@@ -466,57 +466,57 @@ def app():
 
 
 
-    ''' mapa '''
-    st.header('Take a look at all restaurants:')
-    colchoose, colmap = st.columns([1,5])
+        ''' mapa '''
+        st.header('Take a look at all restaurants:')
+        colchoose, colmap = st.columns([1,5])
 
-    with colchoose:
-        alw = st.radio('Choose a delivery company:', options=['All restaurants','Lieferando','Wolt'])
-    with colmap:
-        if alw == 'All restaurants':
-            a = folium.Map(
-                location=[52.520008, 13.404954],
-                zoom_start=10,
-                prefer_canvas=True,)
-            with open("geotracker/website/data/geojson.json") as f:
-                file = json.load(f)
+        with colchoose:
+            alw = st.radio('Choose a delivery company:', options=['All restaurants','Lieferando','Wolt'])
+        with colmap:
+            if alw == 'All restaurants':
+                a = folium.Map(
+                    location=[52.520008, 13.404954],
+                    zoom_start=10,
+                    prefer_canvas=True,)
+                with open("geotracker/website/data/geojson.json") as f:
+                    file = json.load(f)
 
-            folium.GeoJson(file, name="geojson.json").add_to(a)
+                folium.GeoJson(file, name="geojson.json").add_to(a)
 
-            samples = pd.read_csv("geotracker/website/data/r4map.csv")
-            a.add_child(FastMarkerCluster(samples[['lat', 'lon']].values.tolist())) 
+                samples = pd.read_csv("geotracker/website/data/r4map.csv")
+                a.add_child(FastMarkerCluster(samples[['lat', 'lon']].values.tolist())) 
 
-            folium_static(a)
-        if alw == 'Lieferando':
-            l = folium.Map(
-                location=[52.520008, 13.404954],
-                zoom_start=10,
-                prefer_canvas=True,
-            )
-            with open("geotracker/website/data/geojson.json") as f:
-                file = json.load(f)
+                folium_static(a)
+            if alw == 'Lieferando':
+                l = folium.Map(
+                    location=[52.520008, 13.404954],
+                    zoom_start=10,
+                    prefer_canvas=True,
+                )
+                with open("geotracker/website/data/geojson.json") as f:
+                    file = json.load(f)
 
-            folium.GeoJson(file, name="geojson.json").add_to(l)
+                folium.GeoJson(file, name="geojson.json").add_to(l)
 
-            samples = pd.read_csv("geotracker/website/data/r4map_lieferando.csv")
-            l.add_child(
-                FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
+                samples = pd.read_csv("geotracker/website/data/r4map_lieferando.csv")
+                l.add_child(
+                    FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
 
-            folium_static(l)
-        if alw == 'Wolt':
-            w = folium.Map(
-                location=[52.520008, 13.404954],
-                zoom_start=10,
-                prefer_canvas=True,
-            )
-            with open("geotracker/website/data/geojson.json") as f:
-                file = json.load(f)
+                folium_static(l)
+            if alw == 'Wolt':
+                w = folium.Map(
+                    location=[52.520008, 13.404954],
+                    zoom_start=10,
+                    prefer_canvas=True,
+                )
+                with open("geotracker/website/data/geojson.json") as f:
+                    file = json.load(f)
 
-            folium.GeoJson(file, name="geojson.json").add_to(w)
+                folium.GeoJson(file, name="geojson.json").add_to(w)
 
-            samples = pd.read_csv("geotracker/website/data/r4map_wolt.csv")
-            w.add_child(
-                FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
+                samples = pd.read_csv("geotracker/website/data/r4map_wolt.csv")
+                w.add_child(
+                    FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
 
-            folium_static(w)
+                folium_static(w)
     # printall()
