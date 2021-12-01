@@ -14,6 +14,7 @@ scikit-learn
 #data viz
 matplotlib
 seaborn
+folium
 
 # tests/linter
 black
