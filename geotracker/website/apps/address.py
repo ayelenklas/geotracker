@@ -112,6 +112,7 @@ def app():
         cui_lief, cui_wolt, cui_all = st.columns(3)
 
         with cui_lief:
+            st.subheader('Lieferando')
             # select from df
             cuisine_lief = all_data[(all_data.database == "lieferando")
                                     & search_limits].groupby(
@@ -144,6 +145,7 @@ def app():
             st.pyplot()
 
         with cui_wolt:
+            st.subheader('Wolt')
             # select from df
             cuisine_wolt = all_data[(all_data.database == "wolt")
                                     & search_limits].groupby(
@@ -175,6 +177,7 @@ def app():
             st.pyplot()
 
         with cui_all:
+            st.subheader('All restaurants')
             # select from df
             cuisine_wolt = all_data[(all_data.database == "here_maps")
                                     & search_limits].groupby(
@@ -211,6 +214,7 @@ def app():
         qual_lief, qual_wolt, qual_all = st.columns(3)
         st.subheader('Breakdown by restaurant quality:')
         with qual_lief:
+            st.subheader('Lieferando')
             # select from df
             good_restos_liefe = all_data[
                 (all_data.database == "lieferando")
@@ -249,6 +253,7 @@ def app():
             st.pyplot()
 
         with qual_wolt:
+            st.subheader('Wolt')
             # select from df
             good_restos_wolt = all_data[
                 (all_data.database == "wolt")
@@ -287,6 +292,7 @@ def app():
             st.pyplot()
 
         with qual_all:
+            st.subheader('All')
             st.caption('Not available')
 
 
@@ -295,6 +301,7 @@ def app():
         top_lief, top_wolt, top_all = st.columns(3)
         st.subheader('Top ranked categories:')
         with top_lief:
+            st.subheader('Lieferando')
             top_n = 10
             top10cats_liefe = all_data[(all_data.database == "lieferando")
                            & search_limits].groupby(
@@ -319,27 +326,111 @@ def app():
             ax.spines['right'].set_visible(False)
             st.pyplot()
 
+        with top_wolt:
+            st.subheader('Wolt')
+            top_n = 10
+            top10cats_wolt = all_data[(all_data.database == "wolt")
+                                    & search_limits].groupby(
+                                        by=["type_of_cuisine"
+                                            ]).mean()["avg_review_score"].sort_values(
+                                                ascending=True)[-top_n:]
+            top10cats_wolt = top10cats_wolt.reset_index()
+
+            # creating plot
+            fig, ax = plt.subplots()
+
+            labels = top10cats_wolt.avg_review_score.tolist()
+            figure = ax.barh(top10cats_wolt.type_of_cuisine.tolist(),
+                    labels,
+                    # xerr=error,
+                    align='center', color = hex_colors);
+
+            ax.bar_label(figure, fmt='%.2f', fontsize=12, fontweight='bold')
+            ax.set_xlim(right=10);
+            plt.title("Wolt - Top 10 ranked categories", fontsize=15);
+            ax.spines['top'].set_visible(False);
+            ax.spines['right'].set_visible(False);
+            st.pyplot()
+
+        with top_all:
+            st.subheader('All')
+            st.caption('Not available')
 
 
 
+        ''' Breakdown by budget-type restaurants '''
+        st.subheader('Breakdown by budget-type restaurants:')
+        bud_lief, bud_wolt, bud_all = st.columns(3)
+        with bud_lief:
+            st.subheader('Lieferando')
+            price_2_limit = 1.5
+            price_3_limit = 2.5
+            price_4_limit = 3.5
 
+            na_values = all_data[(all_data.database == "lieferando") & search_limits &
+                    (all_data.pricyness == 0)]["restaurant_name"].count()
 
+            pricyness_1 = all_data[(all_data.database == "lieferando") & search_limits &
+                    (all_data.pricyness > 0) &
+                    (all_data.pricyness < price_2_limit)].count()['restaurant_name']
 
+            pricyness_2 = all_data[(all_data.database == "lieferando") & search_limits &
+                                (all_data.pricyness >= price_2_limit) &
+                                (all_data.pricyness <
+                                    price_3_limit)].count()['restaurant_name']
 
+            pricyness_3 = all_data[(all_data.database == "lieferando") & search_limits &
+                                (all_data.pricyness >= price_3_limit) &
+                                (all_data.pricyness <
+                                    price_4_limit)].count()['restaurant_name']
 
+            pricyness_4 = all_data[(all_data.database == "lieferando") & search_limits &
+                                (all_data.pricyness >= price_4_limit)].count()['restaurant_name']
 
+            # Pie chart, where the slices will be ordered and plotted counter-clockwise, only for categories >0
+            info = [("n.a.", na_values), ("€", pricyness_1), ("€€", pricyness_2),
+                    ("€€€", pricyness_3), ("€€€€", pricyness_4)]
 
+            labels = [x[0] for x in info if x[1]>0]
+            sizes = [x[1] for x in info if x[1] > 0]
 
+            fig1, ax1 = plt.subplots()
+            ax1.pie(sizes,
+                    autopct=autopct,
+                    labels=labels,
+                    colors=[
+                        "#bed3e8"
+                        ,"#64bb63",
+                        "#5a9dcd",
+                        "#ec772f",
+                        "#8b8ab8",
+                        "#9ecd8e",
+                    ])
+            #plt.title("Lieferando - Breakdown by pricyness", fontsize=15)
+            plt.ylabel(" ")
+            # plt.legend(labels)
+            plt.xlabel(" ")
+            st.pyplot()
 
+        with bud_wolt:
+            st.subheader('Wolt')
+            bkdn_byprice_wolt = all_data[(all_data.database == "wolt") & search_limits].groupby(
+                by="pricyness").count()['restaurant_name']
+            # Pie chart, where the slices will be ordered and plotted counter-clockwise:
+            labels = ["€","€€","€€€","€€€€"]
+            sizes = bkdn_byprice_wolt.tolist()
+            bkdn_byprice_wolt.plot(kind='pie',
+                                autopct=autopct,
+                                labels=labels,
+                                colors=["#3182bd", "#fd8d3c", "#a1d99b", "#dadaeb"])
+            #plt.title("Wolt - Breakdown by pricyness", fontsize=15)
+            plt.ylabel(" ")
+            plt.xlabel(" ")
+            st.pyplot()
 
-
-
-
-
-
-
-
-
+        with bud_all:
+            st.subheader('All')
+            st.caption('Not available')
 
 
 
