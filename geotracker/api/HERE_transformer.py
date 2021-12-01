@@ -7,7 +7,7 @@ FIELDS = ["position", "title",
                     "category/title", "vicinity", 
                     "tags", "openingHours/text"]
 
-class Transformer(self):
+class Transformer():
 
     def __init__(self, csvfolder, jsonfolder):
         self.csvfolder = csvfolder
@@ -41,7 +41,7 @@ class Transformer(self):
             if filename.endswith(".json"):
                 
                 #open file
-                with open(f"../jsondumps/{filename}") as f:
+                with open(f"{self.jsonfolder}/{filename}") as f:
                     j = json.load(f)
                     
                 if len(j["results"]["items"]) == 0:
@@ -49,27 +49,28 @@ class Transformer(self):
                     
                 #process
                 df = pd.json_normalize(j["results"]["items"], errors="ignore", sep="/")
-                    
+                
                 try:
                     df_new = df[FIELDS]
                 except KeyError:
-                    tmp = FIELDS.remove("openingHours/text")
-                    df_new = df[tmp] # TODO REMOVE HARDCODING
+                    FIELDS.remove("openingHours/text")
+                    df_new = df[FIELDS] # TODO REMOVE HARDCODING
                     
                 appiled_df = df_new[['tags']].apply(split_title_tags, axis=1, result_type='expand')
 
                 # append split dataframe to original datafram            
                 df_full = pd.concat([df_new, appiled_df], axis=1)\
                 .drop(columns=["tags"])
-                
-        #         print(df_full)
-                #dump
+
+                # dump
                 df_full.to_csv(f"{self.csvfolder}/data_{i}.csv", index=False, header=True, errors="ignore")
 
     def csv_merger(self, extension):
+        
         os.chdir(self.csvfolder)
         all_filenames = [e for e in glob.glob('*.{}'.format(extension))]
-
+        combined_csv = pd.DataFrame()
+        
         for filez in all_filenames:
             
             temp_csv = pd.read_csv(filez)

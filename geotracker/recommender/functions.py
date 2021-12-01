@@ -1,14 +1,20 @@
 import numpy as np
 import pandas as pd
+<<<<<<< HEAD
 from geopy import distance
 
 def get_circlegrid_list(topleft, bottomright, kmradius, overlap_factor) -> list:
+=======
+
+def get_circlegrid_list(topleft, bottomright, kmradius, overlap) -> list:
+>>>>>>> master
     """
     Takes as an input the topleft and bottomright coordinates of a square, as
     well as a user defined radius for the circle that we wish to draw in the square
     and then divides the square into evenly spaced circles of radius kmradius
     which overlap to the degree specified in overlap (1.2 = 20% overlap, roughly)
     """
+<<<<<<< HEAD
     spacing_lat = ((1/110.574) * kmradius*2) * overlap_factor
     spacing_lon = (abs((1/(111.320 * np.cos(topleft[0]))) * kmradius*2)) * overlap_factor
 
@@ -19,6 +25,27 @@ def get_circlegrid_list(topleft, bottomright, kmradius, overlap_factor) -> list:
     for lat in lats:
         for lon in lons:
             points.append((lat, lon))
+=======
+
+    spacing_lat = abs((1/110_574) * kmradius)
+    spacing_lon = abs((1/(111_320 * np.cos(topleft[0]))) * kmradius)
+
+    lats = np.arange(bottomright[0], topleft[0], spacing_lat)
+    lons = np.arange(topleft[1], bottomright[1], spacing_lon)
+
+
+
+    points = []
+    for lat in lats:
+        for lon in lons:
+            points.append((lat, lon))
+
+    side_lenght = bottomright[0] - topleft[0]
+    degradius = (side_lenght / (2 * (spacing_lat - 1))) * overlap
+    #mradius = abs(1000 * (degradius * (40075 * np.cos(topleft[1]) / 360)))
+
+    return points, degradius
+>>>>>>> master
 
     return points
 
