@@ -7,8 +7,6 @@ wheel>=0.29
 streamlit
 numpy
 pandas
-json
-math
 requests
 folium
 streamlit_folium
