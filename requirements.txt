@@ -8,8 +8,8 @@ wheel>=0.29
 numpy
 pandas
 scikit-learn
-fuzzywuzzy
-fuzzymatcher
+# fuzzywuzzy
+# fuzzymatcher
 
 #data viz
 matplotlib
@@ -26,10 +26,10 @@ yapf
 bs4
 
 # API
-gcsfs
-google-cloud-storage
-mlflow
-s3fs
+# gcsfs
+# google-cloud-storage
+# mlflow
+# s3fs
 
 # utilities
 six>=1.14
@@ -42,3 +42,6 @@ termcolor
 requests
 selenium
 bs4
+
+#web deployment
+streamlit
