@@ -5,7 +5,8 @@ import streamlit as st
 
 def app():
     st.title('GeoCompetitor Tracker')
-    st.subheader('Le Wagon Data Science - Batch 735')
+    st.subheader('By Ayelen Klas, Edmondo Castoldi, Malte Berneaud-Kötz and Nicole C. Dressler')
+    st.caption('Le Wagon Data Science - Batch 735')
     st.image("https://images.unsplash.com/photo-1526367790999-0150786686a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVsaXZlcnklMjBzZXJ2aWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80")
     st.markdown('''
     :heavy_exclamation_mark::heavy_exclamation_mark:Problem found:\n
@@ -27,7 +28,7 @@ def app():
     st.markdown(
         ''':sleuth_or_spy:Choose the filters accordingly to your preference and search the location!'''
     )
-    st.markdown('''The **Predict** page will provide a prediction on the best location to
+    st.markdown('''The **Recommend** page will provide a prediction on the best location to
     expand a delivery business in the city of Berlin.''')
     st.markdown(
         ''':sleuth_or_spy:Again, choose the filters accordingly to your preference and predict the location!'''
