@@ -12,3 +12,4 @@ key.txt
 .env
 geckodriver.log
 credentials.properties
+*.Identifier
