@@ -18,12 +18,12 @@ def app():
     \n
     We provide an insight-tracker tool to make business decisions,
     such as where to focus or how to adapt the business model/strategy by
-    scraping data from the main delivery apps and comparing their main KPIs in Berlin.\n
+    collecting data from the main delivery apps and HERE Api and comparing their main KPIs in Berlin.\n
     \n
     ''')
     st.subheader('Usage instructions')
     st.markdown('''The **Search** page will give you an overall analysis on the restaurants,
-    as a total and filtered by delivery company. There, you'll enter the Zipcode desired to obtain the informations
+    as a total and filtered by delivery company. There, you'll enter the desired Berlin address to obtain the informations
     on that location.''')
     st.markdown(
         ''':sleuth_or_spy:Choose the filters accordingly to your preference and search the location!'''
