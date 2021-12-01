@@ -11,5 +11,5 @@ requests
 folium
 streamlit_folium
 matplotlib
-pstats
+# pstats
 geopy
