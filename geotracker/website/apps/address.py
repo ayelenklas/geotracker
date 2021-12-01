@@ -367,10 +367,14 @@ def app():
             #plt.title("Wolt - Top 10 ranked categories", fontsize=15);
             ax.spines['top'].set_visible(False);
             ax.spines['right'].set_visible(False);
-            try:
-                st.pyplot()
-            except ValueError:
-                st.write("No data available on restaurants in the area")
+
+            if top10cats_wolt.size != 0:
+                try:
+                    st.pyplot()
+                except ValueError:
+                    st.write("No data available on restaurants in the area")
+            else:
+                pass
 
         with top_all:
             st.subheader('All')
