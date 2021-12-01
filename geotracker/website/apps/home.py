@@ -28,7 +28,7 @@ def app():
     st.markdown(
         ''':sleuth_or_spy:Choose the filters accordingly to your preference and search the location!'''
     )
-    st.markdown('''The **Predict** page will provide a prediction on the best location to
+    st.markdown('''The **Recommend** page will provide a prediction on the best location to
     expand a delivery business in the city of Berlin.''')
     st.markdown(
         ''':sleuth_or_spy:Again, choose the filters accordingly to your preference and predict the location!'''
