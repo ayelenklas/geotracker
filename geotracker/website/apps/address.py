@@ -474,8 +474,9 @@ def app():
             alw = st.radio('Choose a delivery company:', options=['All restaurants','Lieferando','Wolt'])
         with colmap:
             if alw == 'All restaurants':
+                # 52.520008, 13.404954
                 a = folium.Map(
-                    location=[52.520008, 13.404954],
+                    location=[lat, lon],
                     zoom_start=10,
                     prefer_canvas=True,)
                 with open("geotracker/website/data/geojson.json") as f:
@@ -489,7 +490,7 @@ def app():
                 folium_static(a)
             if alw == 'Lieferando':
                 l = folium.Map(
-                    location=[52.520008, 13.404954],
+                    location=[lat, lon],
                     zoom_start=10,
                     prefer_canvas=True,
                 )
@@ -505,7 +506,7 @@ def app():
                 folium_static(l)
             if alw == 'Wolt':
                 w = folium.Map(
-                    location=[52.520008, 13.404954],
+                    location=[lat, lon],
                     zoom_start=10,
                     prefer_canvas=True,
                 )
