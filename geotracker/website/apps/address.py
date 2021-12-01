@@ -19,6 +19,7 @@ cuisine_options = ['African', 'American', 'Asian', 'Vegetarian or Vegan', 'Steak
                   'Greek', 'Fastfood', 'European', 'Cafes', 'Breakfast/Dessert', 'Bars']
 
 def app():
+    st.write('Test')
     st.write('sredzkistrasse 43, 10435, Berlin')
     st.title('Restaurants Analysis')
 
