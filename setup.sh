@@ -1,8 +1,5 @@
 mkdir -p ~/.streamlit/
 
-HEROKU_EMAIL_ADDRESS=edmondo.castoldi@protonmail.com
-PORT=69420
-
 echo "\
 [general]\n\
 email = \"${HEROKU_EMAIL_ADDRESS}\"\n\
