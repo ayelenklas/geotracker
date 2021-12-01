@@ -19,8 +19,7 @@ cuisine_options = ['African', 'American', 'Asian', 'Vegetarian or Vegan', 'Steak
                   'Greek', 'Fastfood', 'European', 'Cafes', 'Breakfast/Dessert', 'Bars']
 
 def app():
-    st.write('Test')
-    st.write('sredzkistrasse 43, 10435, Berlin')
+    #st.write('sredzkistrasse 43, 10435, Berlin')
     st.title('Restaurants Analysis')
 
 
@@ -143,7 +142,10 @@ def app():
             #plt.title("Lieferando - Breakdown by type of cuisine", fontsize=15)
             plt.ylabel(" ")
             plt.xlabel(" ")
-            st.pyplot()
+            try:
+                st.pyplot()
+            except ValueError:
+                st.write("No data available on restaurants in the area")
 
         with cui_wolt:
             st.subheader('Wolt')
@@ -175,10 +177,13 @@ def app():
             #st.subheader('Breakdown by type of cuisine')
             plt.ylabel(" ")
             plt.xlabel(" ")
-            st.pyplot()
+            try:
+                st.pyplot()
+            except ValueError:
+                st.write("No data available on restaurants in the area")
 
         with cui_all:
-            st.subheader('All restaurants')
+            st.subheader('All')
             # select from df
             cuisine_wolt = all_data[(all_data.database == "here_maps")
                                     & search_limits].groupby(
@@ -208,12 +213,15 @@ def app():
             #plt.title("All Restaurants - Breakdown by type of cuisine", fontsize=15)
             plt.ylabel(" ")
             plt.xlabel(" ")
-            st.pyplot()
+            try:
+                st.pyplot()
+            except ValueError:
+                st.write("No data available on restaurants in the area")
 
 
         ''' Breakdown by restaurant quality '''
-        qual_lief, qual_wolt, qual_all = st.columns(3)
         st.subheader('Breakdown by restaurant quality:')
+        qual_lief, qual_wolt, qual_all = st.columns(3)
         with qual_lief:
             st.subheader('Lieferando')
             # select from df
@@ -246,12 +254,15 @@ def app():
                     autopct=autopct,
                     labels=labels,
                     colors=["#64bb63","#5a9dcd", "#ec772f"]
-                    );
+                    )
             #plt.title("Lieferando - Breakdown by restaurant quality", fontsize=15)
             plt.ylabel(" ")
             # plt.legend(labels);
             plt.xlabel(" ")
-            st.pyplot()
+            try:
+                st.pyplot()
+            except ValueError:
+                st.write("No data available on restaurants in the area")
 
         with qual_wolt:
             st.subheader('Wolt')
@@ -260,7 +271,6 @@ def app():
                 (all_data.database == "wolt")
                 & search_limits & (all_data.avg_review_score >=
                                 good_restos_rankingbase)].count()["restaurant_name"]
-
 
             regular_restos_wolt = all_data[
                 (all_data.database == "wolt")
@@ -280,7 +290,6 @@ def app():
             labels = [x[0] for x in info if x[1]>0]
             sizes = [x[1] for x in info if x[1] > 0]
 
-
             fig1, ax1 = plt.subplots()
             ax1.pie(sizes,
                     autopct=autopct,
@@ -290,7 +299,10 @@ def app():
             plt.ylabel(" ")
             # plt.legend(labels)
             plt.xlabel(" ")
-            st.pyplot()
+            try:
+                st.pyplot()
+            except ValueError:
+                st.write("No data available on restaurants in the area")
 
         with qual_all:
             st.subheader('All')
@@ -299,8 +311,8 @@ def app():
 
 
         ''' Top ranked categories '''
-        top_lief, top_wolt, top_all = st.columns(3)
         st.subheader('Top ranked categories:')
+        top_lief, top_wolt, top_all = st.columns(3)
         with top_lief:
             st.subheader('Lieferando')
             top_n = 10
@@ -325,7 +337,11 @@ def app():
             #plt.title("Lieferando - Top 10 ranked categories", fontsize=15)
             ax.spines['top'].set_visible(False)
             ax.spines['right'].set_visible(False)
-            st.pyplot()
+            try:
+                st.pyplot()
+            except ValueError:
+                st.write("No data available on restaurants in the area")
+
 
         with top_wolt:
             st.subheader('Wolt')
@@ -348,10 +364,13 @@ def app():
 
             ax.bar_label(figure, fmt='%.2f', fontsize=12, fontweight='bold')
             ax.set_xlim(right=10);
-            plt.title("Wolt - Top 10 ranked categories", fontsize=15);
+            #plt.title("Wolt - Top 10 ranked categories", fontsize=15);
             ax.spines['top'].set_visible(False);
             ax.spines['right'].set_visible(False);
-            st.pyplot()
+            try:
+                st.pyplot()
+            except ValueError:
+                st.write("No data available on restaurants in the area")
 
         with top_all:
             st.subheader('All')
@@ -411,7 +430,10 @@ def app():
             plt.ylabel(" ")
             # plt.legend(labels)
             plt.xlabel(" ")
-            st.pyplot()
+            try:
+                st.pyplot()
+            except ValueError:
+                st.write("No data available on restaurants in the area")
 
         with bud_wolt:
             st.subheader('Wolt')
@@ -427,7 +449,10 @@ def app():
             #plt.title("Wolt - Breakdown by pricyness", fontsize=15)
             plt.ylabel(" ")
             plt.xlabel(" ")
-            st.pyplot()
+            try:
+                st.pyplot()
+            except ValueError:
+                st.write("No data available on restaurants in the area")
 
         with bud_all:
             st.subheader('All')
