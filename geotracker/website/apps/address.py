@@ -36,6 +36,7 @@ def app():
 
 
     ''' filters input '''
+
     if st.button('Search'):
         all_data = pd.read_csv("geotracker/data/all_data.csv").iloc[:, 1:]
 
@@ -65,63 +66,71 @@ def app():
 
         search_limits = (all_data.latitude >= min_lat) & (all_data.latitude <= max_lat) & (all_data.longitude >= min_lon) & (all_data.longitude <= max_lon)
 
-        '''' Breakdown by Type of Cuisine '''
+        '''' Infos needed for the columns '''
 
         cmap = "tab20c"
         hex_colors = ["#3182bd","#fd8d3c", "#a1d99b","#dadaeb", "#d9d9d9"]
         autopct = lambda p: '{:.1f}%'.format(round(p)) if p > 0 else ''
         fontsize = 10
 
+        wolt_num_restos = pd.read_csv('geotracker/data/wolt_restaurants_from_api_2.csv')
+
+        good_restos_rankingbase = 7.5
+        regular_restos_rankingbase = 5
+
+        st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
         ''' graphs '''
-        lieferando, wolt, allrestos = st.columns(3)
 
-        with lieferando:
-
-            '''# number of restaurants'''
-            #st.image('https://www.lieferkassen.de/wp-content/uploads/2018/08/logo-thuisbezorgd.jpg', width=100)
-            st.subheader('Lieferando')
+        ''' number of restaurants '''
+        num_lief, num_wolt, num_all = st.columns(3)
+        with num_lief:
+            st.header('Lieferando')
             num_restos_lieferando = all_data[
                 (all_data.database == "lieferando")
                 & search_limits].shape[0]
-            st.subheader(num_restos_lieferando)
+            st.metric('Total of restaurants', value=num_restos_lieferando)
+        with num_wolt:
+            st.header('Wolt')
+            num_restos_wolt = wolt_num_restos[
+                search_limits & (wolt_num_restos.street != 'This is a virtual venue')].shape[0]
+            st.metric('Total of restaurants', value=num_restos_wolt)
+        with num_all:
+            st.header('All')
+            num_restos_maps = all_data[(all_data.database == "here_maps")
+                                       & search_limits].shape[0]
+            # fixing num of restos for maps: there can't be more restos in a delivery platform than in the maps
+            num_restos_maps = max(num_restos_wolt, num_restos_lieferando,
+                                  num_restos_maps)
+            st.metric('Total of restaurants', value=num_restos_maps)
 
-            '''# types of cuisine'''
 
 
-        with wolt:
+        ''' Breakdown by type of cuisine '''
+        st.subheader('Breakdown by type of cuisine:')
+        cui_lief, cui_wolt, cui_all = st.columns(3)
 
-            '''# number of restaurants'''
-            #st.image('https://cdn.freelogovectors.net/wp-content/uploads/2020/11/wolt_logo.png',width=80)
-            st.subheader('Wolt')
-            num_restos_wolt = all_data[(all_data.database == "wolt") & search_limits & (
-                all_data.street != "This is a virtual venue")].shape[0]
-            st.subheader(num_restos_wolt)
-
-
-            '''# types of cuisine'''
+        with cui_lief:
             # select from df
-            cuisine_wolt = all_data[(all_data.database == "wolt")
+            cuisine_lief = all_data[(all_data.database == "lieferando")
                                     & search_limits].groupby(
                                         by="type_of_cuisine").count()[[
                                             "restaurant_name"
                                         ]].sort_values(by="restaurant_name",
                                                     ascending=False)
-
             # top n
-            n = 8
-            cuisine_wolt_top10 = cuisine_wolt[:n].copy()
-
+            n = 7
+            cuisine_lief_top10 = cuisine_lief[:n].copy()
             # others
-            others_wolt = pd.DataFrame(
-                data={'type_of_cuisine': ['others'],
-                    'value': [cuisine_wolt['restaurant_name'][n:].sum()]})
-
+            others_lief = pd.DataFrame(
+                data={
+                    'type_of_cuisine': ['others'],
+                    'value': [cuisine_lief['restaurant_name'][n:].sum()]
+                })
             # combining data
-            cuisine_bkdwn_wolt = pd.concat([cuisine_wolt_top10,
-                                            others_wolt])["restaurant_name"]
-
+            cuisine_bkdwn_wolt = pd.concat([cuisine_lief_top10,
+                                            others_lief])["restaurant_name"]
             # Pie chart, where the slices will be ordered and plotted counter-clockwise:
             labels = cuisine_bkdwn_wolt.index
             sizes = cuisine_bkdwn_wolt
@@ -129,23 +138,209 @@ def app():
                                     autopct=autopct,
                                     cmap=cmap,
                                     fontsize=fontsize)
-            plt.title("Wolt - Breakdown by type of cuisine", fontsize=15)
+            #plt.title("Lieferando - Breakdown by type of cuisine", fontsize=15)
+            plt.ylabel(" ")
+            plt.xlabel(" ")
+            st.pyplot()
+
+        with cui_wolt:
+            # select from df
+            cuisine_wolt = all_data[(all_data.database == "wolt")
+                                    & search_limits].groupby(
+                                        by="type_of_cuisine").count()[[
+                                            "restaurant_name"
+                                        ]].sort_values(by="restaurant_name",
+                                                    ascending=False)
+            # top n
+            n = 8
+            cuisine_wolt_top10 = cuisine_wolt[:n].copy()
+            # others
+            others_wolt = pd.DataFrame(
+                data={'type_of_cuisine': ['others'],
+                    'value': [cuisine_wolt['restaurant_name'][n:].sum()]})
+            # combining data
+            cuisine_bkdwn_wolt = pd.concat([cuisine_wolt_top10,
+                                            others_wolt])["restaurant_name"]
+            # Pie chart, where the slices will be ordered and plotted counter-clockwise:
+            labels = cuisine_bkdwn_wolt.index
+            sizes = cuisine_bkdwn_wolt
+            cuisine_bkdwn_wolt.plot(kind='pie',
+                                    autopct=autopct,
+                                    cmap=cmap,
+                                    fontsize=fontsize)
+            #plt.title("Wolt - Breakdown by type of cuisine", fontsize=15)
+            #st.subheader('Breakdown by type of cuisine')
+            plt.ylabel(" ")
+            plt.xlabel(" ")
+            st.pyplot()
+
+        with cui_all:
+            # select from df
+            cuisine_wolt = all_data[(all_data.database == "here_maps")
+                                    & search_limits].groupby(
+                                        by="type_of_cuisine").count()[[
+                                            "restaurant_name"
+                                        ]].sort_values(by="restaurant_name",
+                                                    ascending=False)
+            # top n
+            n = 7
+            cuisine_wolt_top10 = cuisine_wolt[:n].copy()
+            # others
+            others_wolt = pd.DataFrame(
+                data={
+                    'type_of_cuisine': ['others'],
+                    'value': [cuisine_wolt['restaurant_name'][n:].sum()]
+                })
+            # combining data
+            cuisine_bkdwn_wolt = pd.concat([cuisine_wolt_top10,
+                                            others_wolt])["restaurant_name"]
+            # Pie chart, where the slices will be ordered and plotted counter-clockwise:
+            labels = cuisine_bkdwn_wolt.index
+            sizes = cuisine_bkdwn_wolt
+            cuisine_bkdwn_wolt.plot(kind='pie',
+                                    autopct=autopct,
+                                    cmap=cmap,
+                                    fontsize=fontsize)
+            #plt.title("All Restaurants - Breakdown by type of cuisine", fontsize=15)
             plt.ylabel(" ")
             plt.xlabel(" ")
             st.pyplot()
 
 
-        with allrestos:
+        ''' Breakdown by restaurant quality '''
+        qual_lief, qual_wolt, qual_all = st.columns(3)
+        st.subheader('Breakdown by restaurant quality:')
+        with qual_lief:
+            # select from df
+            good_restos_liefe = all_data[
+                (all_data.database == "lieferando")
+                & search_limits & (all_data.avg_review_score >=
+                                good_restos_rankingbase)].count()["restaurant_name"]
 
-            # number of restaurants
-            st.subheader('All')
-            num_restos_maps = all_data[(all_data.database == "here_maps")
-                           & search_limits].shape[0]
-            # fixing num of restos for maps: there can't be more restos in a delivery platform than in the maps
-            num_restos_maps = max(num_restos_wolt, num_restos_lieferando, num_restos_maps)
-            st.subheader(num_restos_maps)
+            regular_restos_liefe = all_data[
+                (all_data.database == "lieferando")
+                & search_limits & (all_data.avg_review_score >= regular_restos_rankingbase)
+                & (all_data.avg_review_score <
+                good_restos_rankingbase)].count()["restaurant_name"]
 
-            # types of cuisine
+            bad_restos_liefe = all_data[
+                (all_data.database == "lieferando")
+                & search_limits & (all_data.avg_review_score <
+                                regular_restos_rankingbase)].count()["restaurant_name"]
+
+
+            # Pie chart, where the slices will be ordered and plotted counter-clockwise, only for categories >0
+            info = [("good", good_restos_liefe), ("regular", regular_restos_liefe),
+                    ("bad", bad_restos_liefe)]
+
+            labels = [x[0] for x in info if x[1] > 0]
+            sizes = [x[1] for x in info if x[1] > 0]
+
+            fig1, ax1 = plt.subplots()
+            ax1.pie(sizes,
+                    autopct=autopct,
+                    labels=labels,
+                    colors=["#64bb63","#5a9dcd", "#ec772f"]
+                    );
+            #plt.title("Lieferando - Breakdown by restaurant quality", fontsize=15)
+            plt.ylabel(" ")
+            # plt.legend(labels);
+            plt.xlabel(" ")
+            st.pyplot()
+
+        with qual_wolt:
+            # select from df
+            good_restos_wolt = all_data[
+                (all_data.database == "wolt")
+                & search_limits & (all_data.avg_review_score >=
+                                good_restos_rankingbase)].count()["restaurant_name"]
+
+
+            regular_restos_wolt = all_data[
+                (all_data.database == "wolt")
+                & search_limits & (all_data.avg_review_score >= regular_restos_rankingbase)
+                & (all_data.avg_review_score <
+                good_restos_rankingbase)].count()["restaurant_name"]
+
+            bad_restos_wolt = all_data[
+                (all_data.database == "wolt")
+                & search_limits & (all_data.avg_review_score <
+                                regular_restos_rankingbase)].count()["restaurant_name"]
+
+            # Pie chart, where the slices will be ordered and plotted counter-clockwise, only for categories >0
+            info = [("good", good_restos_wolt), ("regular", regular_restos_wolt),
+                    ("bad", bad_restos_wolt)]
+
+            labels = [x[0] for x in info if x[1]>0]
+            sizes = [x[1] for x in info if x[1] > 0]
+
+
+            fig1, ax1 = plt.subplots()
+            ax1.pie(sizes,
+                    autopct=autopct,
+                    labels=labels,
+                    colors=["#64bb63", "#5a9dcd", "#ec772f"])
+            #plt.title("Wolt - Breakdown by restaurant quality" , fontsize=15)
+            plt.ylabel(" ")
+            # plt.legend(labels)
+            plt.xlabel(" ")
+            st.pyplot()
+
+        with qual_all:
+            st.caption('Not available')
+
+
+
+        ''' Top ranked categories '''
+        top_lief, top_wolt, top_all = st.columns(3)
+        st.subheader('Top ranked categories:')
+        with top_lief:
+            top_n = 10
+            top10cats_liefe = all_data[(all_data.database == "lieferando")
+                           & search_limits].groupby(
+                               by=["type_of_cuisine"
+                                   ]).mean()["avg_review_score"].sort_values(
+                                       ascending=True)[-top_n:]
+            top10cats_liefe = top10cats_liefe.reset_index()
+            # creating plot
+            fig, ax = plt.subplots()
+
+            labels = top10cats_liefe.avg_review_score.tolist()
+            figure = ax.barh(
+                top10cats_liefe.type_of_cuisine.tolist(),
+                labels,
+                align='center',
+                color=hex_colors)
+
+            ax.bar_label(figure, fmt='%.2f', fontsize=12, fontweight='bold')
+            ax.set_xlim(right=10)
+            #plt.title("Lieferando - Top 10 ranked categories", fontsize=15)
+            ax.spines['top'].set_visible(False)
+            ax.spines['right'].set_visible(False)
+            st.pyplot()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
