@@ -484,7 +484,7 @@ def app():
             folium.GeoJson(file, name="geojson.json").add_to(a)
 
             samples = pd.read_csv("geotracker/website/data/r4map.csv")
-            a.add_child(FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
+            a.add_child(FastMarkerCluster(samples[['lat', 'lon']].values.tolist())) 
 
             folium_static(a)
         if alw == 'Lieferando':
