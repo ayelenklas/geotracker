@@ -6,7 +6,6 @@ raw_data/
 jsondumps/
 csv/
 tests/
-*.json
 **/__pycache__/
 key.txt
 .env
