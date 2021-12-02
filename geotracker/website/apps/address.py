@@ -39,6 +39,7 @@ def app():
 
     lat = None
     ''' filters input '''
+
     if st.checkbox('Search'):
         # @st.cache(suppress_st_warning=True, allow_output_mutation=True)
         # def printall():
@@ -104,6 +105,7 @@ def app():
         with num_all:
             st.header('All')
             num_restos_maps = all_data[(all_data.database == "here_maps")
+
                                     & search_limits].shape[0]
             # fixing num of restos for maps: there can't be more restos in a delivery platform than in the maps
             num_restos_maps = max(num_restos_wolt, num_restos_lieferando,
@@ -246,6 +248,26 @@ def app():
                 & search_limits & (all_data.avg_review_score <
                                 regular_restos_rankingbase)].count()["restaurant_name"]
 
+            
+            regular_restos_liefe = all_data[
+                (all_data.database == "lieferando")
+                & search_limits & (all_data.avg_review_score >= regular_restos_rankingbase)
+                & (all_data.avg_review_score <
+                good_restos_rankingbase)].count()["restaurant_name"]
+
+            bad_restos_liefe = all_data[
+                (all_data.database == "lieferando")
+                & search_limits & (all_data.avg_review_score <
+                                regular_restos_rankingbase)].count()["restaurant_name"]
+
+
+            # Pie chart, where the slices will be ordered and plotted counter-clockwise, only for categories >0
+            info = [("good", good_restos_liefe), ("regular", regular_restos_liefe),
+                    ("bad", bad_restos_liefe)]
+
+            labels = [x[0] for x in info if x[1] > 0]
+            sizes = [x[1] for x in info if x[1] > 0]
+
 
             # Pie chart, where the slices will be ordered and plotted counter-clockwise, only for categories >0
             info = [("good", good_restos_liefe), ("regular", regular_restos_liefe),
@@ -322,6 +344,7 @@ def app():
             st.subheader('Lieferando')
             top_n = 10
             top10cats_liefe = all_data[(all_data.database == "lieferando")
+
                         & search_limits].groupby(
                             by=["type_of_cuisine"
                                 ]).mean()["avg_review_score"].sort_values(

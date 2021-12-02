@@ -67,8 +67,8 @@ def restaurants_meeting_criteria(
     """
 
     # Filtering out only good restaurants
-    good_restaurants = restaurants_df[
-        restaurants_df.avg_review_score > good_review_threshold]
+    # good_restaurants = restaurants_df[
+    #     restaurants_df.avg_review_score > good_review_threshold]
 
     # avoid restaurants already serviced by one of the two competitors
     # If you want to specify both competitors, you cannot supply a review
@@ -79,4 +79,4 @@ def restaurants_meeting_criteria(
     if include_cuisines:
         pass
 
-    return good_restaurants
+    return restaurants_df

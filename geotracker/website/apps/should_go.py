@@ -28,93 +28,159 @@ def app():
 
     st.markdown("### Select parameters")
 
-    col1, col2 = st.columns(2)
-    with col1:
-        kmradius = st.slider('Choose the radius of your operations area in kilometers:',
+    kmradius = st.slider('Choose the radius of your operations area in kilometers:',
                           help='The ',
                           min_value=1,
                           max_value=5,
                           step=1)
-    with col2:
-        overlap_percent = st.slider(
-            'Choose the overlap amount in percentage:',
-            help='The more they overlap, more accurate the prediction will be.',
-            min_value=0,
-            max_value=50,
-            step=10 )
+
+    cuisines = st.multiselect("Choose which cuisines you want to include",
+                              options= ['All', 'Seafood', 'Asian', 'International', 'European', 'Greek',
+                                        'Breakfast/dessert', 'Mediterranean', 'Fastfood', 'Italian',
+                                        'Middle eastern', 'Steak', 'American', 'Bars', 'Mexican',
+                                        'Healthy', 'Snacks', 'Russian', 'Vegetarian or vegan',
+                                        'South american', 'African', 'Indian'],
+                              default="All")
 
 
 #### Functions to read and filter data
 
     def read_circle_data():
+        """Wrapper function to read the circle data"""
         return pd.read_csv("geotracker/data/precalculated_recommendations/precalc_circle_weights.csv")
 
     @st.cache
-    def filter_circle_data(kmradius, overlap_percent):
+    def filter_circle_data(kmradius):
+        """
+        Reads circle data and filters it down to the correct radius
+        """
         df = read_circle_data()
 
         # filter down to criteria
         df = df[df["kmradius"] == kmradius]
-        df = df[df["overlap"] == overlap_percent]
-
-        # Select the circle with the highest weight
-        df = df[df["circle_weight"] == df["circle_weight"].max()].head(1)
-        circle_id = df["circle_id"].values
-
-        return df, int(circle_id)
 
 
+        return df
 
 
     def read_circle_restaurants():
+        """Wrapper function to read the circle data"""
         return pd.read_csv("geotracker/data/precalculated_recommendations/precalc_matched_restaurants_by_circle.csv")
 
     @st.cache
-    def filter_circle_restaurants(circle_id):
+    def filter_circle_restaurants(kmradius, cuisines):
+        """
+        Reads restaurant data and filters it down to the correct kmradius
+        and
+        """
         df = read_circle_restaurants()
 
-        df = df[df["circle_id"] == circle_id]
-        df = df[["restaurant_name", "address","type_of_cuisine"]]
+        # Filter down to restaurants for specific radius and for selected cuisines
+        df = df[df["kmradius"] == kmradius]
+        if "All" not in cuisines:
+            df = df[df["type_of_cuisine"].isin(cuisines)]
+
+
+        return df
+
+    @st.cache
+    def determine_best_circle(circle_df, restaurant_df):
+        """
+        Takes the two dfs and returns the circle df and the restaurant df for
+        the circle with the highest restaurant count
+        """
+        # group restaurant_df by circle_id and count the rows
+        circle_ranks = restaurant_df.groupby("circle_id", as_index=False).agg(
+            number_of_restaurants = ("circle_id", pd.Series.count))
+
+        # Extract the best circle and the number of restaurants from it
+        selected_circle = circle_ranks[circle_ranks["number_of_restaurants"] == circle_ranks.number_of_restaurants.max()].head(1)
+
+        # Filter the restaurant df to only include restaurants from best circle
+        restaurant_df = restaurant_df[restaurant_df["circle_id"] == selected_circle.circle_id.values[0]]
+
+        best_circle = circle_df[circle_df["circle_id"] == selected_circle.circle_id.values[0]]
+
+        return best_circle, restaurant_df
+
+
+
+
+    @st.cache
+    def clean_restaurant_df_for_output(restaurant_df):
+        """
+        Cleans the restaurant df given for output so that it can be displayed in a
+        table that looks nice.
+        """
+        # Cleaning output for display
+        df = restaurant_df[["restaurant_name", "address","type_of_cuisine"]]
         df["address"] = df["address"].str.replace("\.0", "")
         df = df.assign(hack='').set_index('hack')
         df.columns = ["Name", "Address", "Type of Cuisine"]
 
         return df
 
-    df, circle_id = filter_circle_data(kmradius, overlap_percent)
-    center_coord = (df["center_lat"].values[0], df["center_lon"].values[0])
-
-    '''Map part'''
-
-    st.markdown(f"""
-                #### We suggest you open your operations at the blue pin below.
 
 
-                This way, your platform will be able to deliver from **{int(df['circle_weight'])}**
-                restaurants.
-                """)
-#if st.button('Recommend'):
+    @st.cache
+    def convert_df(df):
+    # IMPORTANT: Cache the conversion to prevent computation on every rerun
+        return df.to_csv(index=False).encode('utf-8')
 
-    m = folium.Map(location=[52.513001, 13.393947], zoom_start=12)
-    folium.Circle(
-        location=center_coord,
-        radius=kmradius * 1000,
-        popup=f"Ideal location: {int(df['circle_weight'])} restaurants in range",
-        color="#3186cc",
-        fill=True,
-        fill_color="#3186cc",
-    ).add_to(m)
+    if st.button('Show me the ideal location'):
 
-    folium.Marker(
-    location=center_coord,
-    popup=f"Geographical center: {center_coord}",
-    tooltip="Center of recommended delivery area"
-    ).add_to(m)
+        try:
 
-    # Render map on Streamlit
-    folium_static(m)
+            circle_df = filter_circle_data(kmradius)
 
-    '''Expand part'''
-    with st.expander('See info on the restaurants in the suggested area'):
-        circle_restaurants = filter_circle_restaurants(circle_id)
-        st.write(circle_restaurants) #list of restaurants and the infos selected in the filter
+            restaurant_df = filter_circle_restaurants(kmradius, cuisines)
+
+            best_circle, restaurant_df = determine_best_circle(circle_df, restaurant_df)
+
+            display_df = clean_restaurant_df_for_output(restaurant_df)
+
+            center_coord = (best_circle["center_lat"].values[0], best_circle["center_lon"].values[0])
+
+            '''Map part'''
+
+
+            st.markdown(f"""
+                #### We suggest you open your operations in the highlighted area.
+
+
+                This way, your platform will be able to deliver from **{len(display_df)}**
+                restaurants.""")
+
+            m = folium.Map(location=[52.513001, 13.393947], zoom_start=12)
+            folium.Circle(
+                location=center_coord,
+                radius=kmradius * 1000,
+                popup=f"Ideal location: {len(display_df)} restaurants in range",
+                color="#e95952",
+                fill=True,
+                fill_color="#e95952",
+            ).add_to(m)
+
+            # folium.Marker(
+            # location=center_coord,
+            # popup=f"Geographical center: {center_coord}",
+            # tooltip="Center of recommended delivery area"
+            # ).add_to(m)
+
+            # Render map on Streamlit
+            folium_static(m)
+
+            '''Expand part'''
+            with st.expander('See info on the restaurants in the suggested area'):
+                st.write(display_df) #list of restaurants and the infos selected in the filter
+                csv = convert_df(display_df)
+
+                st.download_button(
+                            label="Download data as CSV",
+                            data=csv,
+                            file_name='restaurants.csv',
+                            mime='text/csv',
+                        )
+
+        except:
+            st.markdown("## Your search didn't return any restaurants. Try again with different parameters.")

@@ -39,7 +39,7 @@ def precalc_circles(top_left=(52.635010, 13.198130),
 
 
 
-    restaurants_df = pd.read_csv("geotracker/data/deliveries_data.csv")
+    restaurants_df = pd.read_csv("geotracker/data/maps_clean_data.csv")
     circle_list = []
     restaurant_list = []
     kmradius_range = range(1, 6)
