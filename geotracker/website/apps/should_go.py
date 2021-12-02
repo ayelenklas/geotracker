@@ -120,53 +120,67 @@ def app():
 
         return df
 
-    try:
-
-        circle_df = filter_circle_data(kmradius)
-
-        restaurant_df = filter_circle_restaurants(kmradius, cuisines)
-
-        best_circle, restaurant_df = determine_best_circle(circle_df, restaurant_df)
-
-        display_df = clean_restaurant_df_for_output(restaurant_df)
-
-        center_coord = (best_circle["center_lat"].values[0], best_circle["center_lon"].values[0])
-
-        '''Map part'''
 
 
-
-    except:
-        st.markdown("## Please enter valid radius and select a cuisine")
+    @st.cache
+    def convert_df(df):
+    # IMPORTANT: Cache the conversion to prevent computation on every rerun
+        return df.to_csv(index=False).encode('utf-8')
 
     if st.button('Show me the ideal location'):
 
-        st.markdown(f"""
-            #### We suggest you open your operations at the blue pin below.
+        try:
+
+            circle_df = filter_circle_data(kmradius)
+
+            restaurant_df = filter_circle_restaurants(kmradius, cuisines)
+
+            best_circle, restaurant_df = determine_best_circle(circle_df, restaurant_df)
+
+            display_df = clean_restaurant_df_for_output(restaurant_df)
+
+            center_coord = (best_circle["center_lat"].values[0], best_circle["center_lon"].values[0])
+
+            '''Map part'''
 
 
-            This way, your platform will be able to deliver from **{len(display_df)}**
-            restaurants.""")
+            st.markdown(f"""
+                #### We suggest you open your operations in the highlighted area.
 
-        m = folium.Map(location=[52.513001, 13.393947], zoom_start=12)
-        folium.Circle(
-            location=center_coord,
-            radius=kmradius * 1000,
-            popup=f"Ideal location: {len(display_df)} restaurants in range",
-            color="#3186cc",
-            fill=True,
-            fill_color="#3186cc",
-        ).add_to(m)
 
-        folium.Marker(
-        location=center_coord,
-        popup=f"Geographical center: {center_coord}",
-        tooltip="Center of recommended delivery area"
-        ).add_to(m)
+                This way, your platform will be able to deliver from **{len(display_df)}**
+                restaurants.""")
 
-        # Render map on Streamlit
-        folium_static(m)
+            m = folium.Map(location=[52.513001, 13.393947], zoom_start=12)
+            folium.Circle(
+                location=center_coord,
+                radius=kmradius * 1000,
+                popup=f"Ideal location: {len(display_df)} restaurants in range",
+                color="#e95952",
+                fill=True,
+                fill_color="#e95952",
+            ).add_to(m)
 
-        '''Expand part'''
-        with st.expander('See info on the restaurants in the suggested area'):
-            st.write(display_df) #list of restaurants and the infos selected in the filter
+            # folium.Marker(
+            # location=center_coord,
+            # popup=f"Geographical center: {center_coord}",
+            # tooltip="Center of recommended delivery area"
+            # ).add_to(m)
+
+            # Render map on Streamlit
+            folium_static(m)
+
+            '''Expand part'''
+            with st.expander('See info on the restaurants in the suggested area'):
+                st.write(display_df) #list of restaurants and the infos selected in the filter
+                csv = convert_df(display_df)
+
+                st.download_button(
+                            label="Download data as CSV",
+                            data=csv,
+                            file_name='restaurants.csv',
+                            mime='text/csv',
+                        )
+
+        except:
+            st.markdown("## Your search didn't return any restaurants. Try again with different parameters.")
