@@ -18,15 +18,18 @@ cuisine_options = ['African', 'American', 'Asian', 'Vegetarian or Vegan', 'Steak
                   'Mexican', 'Mediterranean', 'Italian', 'International', 'Indian', 'Healthy',
                   'Greek', 'Fastfood', 'European', 'Cafes', 'Breakfast/Dessert', 'Bars']
 
+# @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def app():
     #st.write('sredzkistrasse 43, 10435, Berlin')
     st.title('Restaurants Analysis')
 
-
+    
     ''' filters '''
     col1, col2 = st.columns(2)
+
     with col1:
         adr = st.text_input('Insert the adress to search by:')
+        
     with col2:
         rkm = st.slider('Choose the lenght of the radius:',
                           help='Shown in kilometers.',
@@ -34,12 +37,13 @@ def app():
                           max_value=5.0,
                           step=0.1)
 
-
+    lat = None
     ''' filters input '''
 
-    if st.button('Search'):
-        all_data = pd.read_csv("geotracker/data/all_data.csv").iloc[:, 1:]
-
+    if st.checkbox('Search'):
+        # @st.cache(suppress_st_warning=True, allow_output_mutation=True)
+        # def printall():
+        all_data = pd.read_csv("geotracker/data/all_data_1.csv").iloc[:, 1:]
         # range in km
         range = rkm
         address_searched = adr
@@ -54,6 +58,7 @@ def app():
         # lat lon from address searched
         lat = float(geocode(address_searched)[0])
         lon = float(geocode(address_searched)[1])
+        zoom_start=14
 
         # radius limits - converting kms into coordinates and calculating boundaries
         distance_lat_degrees = (1/110.574) * range
@@ -80,7 +85,8 @@ def app():
 
         st.set_option('deprecation.showPyplotGlobalUse', False)
 
-
+        # @st.cache
+        # def graphs():
         ''' graphs '''
 
         ''' number of restaurants '''
@@ -99,10 +105,11 @@ def app():
         with num_all:
             st.header('All')
             num_restos_maps = all_data[(all_data.database == "here_maps")
-                                       & search_limits].shape[0]
+
+                                    & search_limits].shape[0]
             # fixing num of restos for maps: there can't be more restos in a delivery platform than in the maps
             num_restos_maps = max(num_restos_wolt, num_restos_lieferando,
-                                  num_restos_maps)
+                                num_restos_maps)
             st.metric('Total of restaurants', value=num_restos_maps)
 
 
@@ -241,6 +248,26 @@ def app():
                 & search_limits & (all_data.avg_review_score <
                                 regular_restos_rankingbase)].count()["restaurant_name"]
 
+            
+            regular_restos_liefe = all_data[
+                (all_data.database == "lieferando")
+                & search_limits & (all_data.avg_review_score >= regular_restos_rankingbase)
+                & (all_data.avg_review_score <
+                good_restos_rankingbase)].count()["restaurant_name"]
+
+            bad_restos_liefe = all_data[
+                (all_data.database == "lieferando")
+                & search_limits & (all_data.avg_review_score <
+                                regular_restos_rankingbase)].count()["restaurant_name"]
+
+
+            # Pie chart, where the slices will be ordered and plotted counter-clockwise, only for categories >0
+            info = [("good", good_restos_liefe), ("regular", regular_restos_liefe),
+                    ("bad", bad_restos_liefe)]
+
+            labels = [x[0] for x in info if x[1] > 0]
+            sizes = [x[1] for x in info if x[1] > 0]
+
 
             # Pie chart, where the slices will be ordered and plotted counter-clockwise, only for categories >0
             info = [("good", good_restos_liefe), ("regular", regular_restos_liefe),
@@ -317,10 +344,11 @@ def app():
             st.subheader('Lieferando')
             top_n = 10
             top10cats_liefe = all_data[(all_data.database == "lieferando")
-                           & search_limits].groupby(
-                               by=["type_of_cuisine"
-                                   ]).mean()["avg_review_score"].sort_values(
-                                       ascending=True)[-top_n:]
+
+                        & search_limits].groupby(
+                            by=["type_of_cuisine"
+                                ]).mean()["avg_review_score"].sort_values(
+                                    ascending=True)[-top_n:]
             top10cats_liefe = top10cats_liefe.reset_index()
             # creating plot
             fig, ax = plt.subplots()
@@ -462,34 +490,46 @@ def app():
             st.subheader('All')
             st.caption('Not available')
 
-
-
-
     ''' mapa '''
-    st.header('Take a look at all restaurants:')
     colchoose, colmap = st.columns([1,5])
 
     with colchoose:
         alw = st.radio('Choose a delivery company:', options=['All restaurants','Lieferando','Wolt'])
     with colmap:
+    
+        if lat is None:
+            lat = 52.520008
+            lon = 13.404954
+            zoom_start = 11
+
         if alw == 'All restaurants':
+            st.header('Take a look at all restaurants:')
+            # 52.520008, 13.404954
+
             a = folium.Map(
-                location=[52.520008, 13.404954],
-                zoom_start=10,
-                prefer_canvas=True,)
+                location=[lat, lon],
+                zoom_start=zoom_start,
+                prefer_canvas=True
+            )
+
             with open("geotracker/website/data/geojson.json") as f:
                 file = json.load(f)
 
             folium.GeoJson(file, name="geojson.json").add_to(a)
 
             samples = pd.read_csv("geotracker/website/data/r4map.csv")
-            a.add_child(FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
+
+            a.add_child(FastMarkerCluster(samples[['lat', 'lon']].values.tolist())) 
 
             folium_static(a)
+
         if alw == 'Lieferando':
+            
+            st.header('Take a look at Lieferando\'s restaurants:')
+
             l = folium.Map(
-                location=[52.520008, 13.404954],
-                zoom_start=10,
+                location=[lat, lon],
+                zoom_start=zoom_start,
                 prefer_canvas=True,
             )
             with open("geotracker/website/data/geojson.json") as f:
@@ -498,23 +538,32 @@ def app():
             folium.GeoJson(file, name="geojson.json").add_to(l)
 
             samples = pd.read_csv("geotracker/website/data/r4map_lieferando.csv")
-            l.add_child(
-                FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
+
+            l.add_child(FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
 
             folium_static(l)
+
         if alw == 'Wolt':
+
+            st.header('Take a look at Wolt\'s restaurants:')
+
             w = folium.Map(
-                location=[52.520008, 13.404954],
-                zoom_start=10,
-                prefer_canvas=True,
+                location=[lat, lon],
+                zoom_start=zoom_start,
+                prefer_canvas=True
             )
+
             with open("geotracker/website/data/geojson.json") as f:
                 file = json.load(f)
 
             folium.GeoJson(file, name="geojson.json").add_to(w)
 
             samples = pd.read_csv("geotracker/website/data/r4map_wolt.csv")
-            w.add_child(
-                FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
+
+            w.add_child(FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
 
             folium_static(w)
+
+    # graphs()
+    # maps()
+    # printall()
