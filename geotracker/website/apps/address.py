@@ -18,15 +18,18 @@ cuisine_options = ['African', 'American', 'Asian', 'Vegetarian or Vegan', 'Steak
                   'Mexican', 'Mediterranean', 'Italian', 'International', 'Indian', 'Healthy',
                   'Greek', 'Fastfood', 'European', 'Cafes', 'Breakfast/Dessert', 'Bars']
 
+# @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def app():
     #st.write('sredzkistrasse 43, 10435, Berlin')
     st.title('Restaurants Analysis')
 
-
+    
     ''' filters '''
     col1, col2 = st.columns(2)
+
     with col1:
         adr = st.text_input('Insert the adress to search by:')
+        
     with col2:
         rkm = st.slider('Choose the lenght of the radius:',
                           help='Shown in kilometers.',
@@ -34,13 +37,12 @@ def app():
                           max_value=5.0,
                           step=0.1)
 
-
+    lat = None
     ''' filters input '''
-    # @st.cache(suppress_st_warning=True)
-    # def printall():
-    if st.button('Search'):
+    if st.checkbox('Search'):
+        # @st.cache(suppress_st_warning=True, allow_output_mutation=True)
+        # def printall():
         all_data = pd.read_csv("geotracker/data/all_data_1.csv").iloc[:, 1:]
-
         # range in km
         range = rkm
         address_searched = adr
@@ -55,6 +57,7 @@ def app():
         # lat lon from address searched
         lat = float(geocode(address_searched)[0])
         lon = float(geocode(address_searched)[1])
+        zoom_start=14
 
         # radius limits - converting kms into coordinates and calculating boundaries
         distance_lat_degrees = (1/110.574) * range
@@ -81,7 +84,8 @@ def app():
 
         st.set_option('deprecation.showPyplotGlobalUse', False)
 
-
+        # @st.cache
+        # def graphs():
         ''' graphs '''
 
         ''' number of restaurants '''
@@ -463,61 +467,80 @@ def app():
             st.subheader('All')
             st.caption('Not available')
 
+    ''' mapa '''
+    colchoose, colmap = st.columns([1,5])
 
+    with colchoose:
+        alw = st.radio('Choose a delivery company:', options=['All restaurants','Lieferando','Wolt'])
+    with colmap:
+    
+        if lat is None:
+            lat = 52.520008
+            lon = 13.404954
+            zoom_start = 11
 
+        if alw == 'All restaurants':
+            st.header('Take a look at all restaurants:')
+            # 52.520008, 13.404954
 
-        ''' mapa '''
-        st.header('Take a look at all restaurants:')
-        colchoose, colmap = st.columns([1,5])
+            a = folium.Map(
+                location=[lat, lon],
+                zoom_start=zoom_start,
+                prefer_canvas=True
+            )
 
-        with colchoose:
-            alw = st.radio('Choose a delivery company:', options=['All restaurants','Lieferando','Wolt'])
-        with colmap:
-            if alw == 'All restaurants':
-                # 52.520008, 13.404954
-                a = folium.Map(
-                    location=[lat, lon],
-                    zoom_start=13,
-                    prefer_canvas=True,)
-                with open("geotracker/website/data/geojson.json") as f:
-                    file = json.load(f)
+            with open("geotracker/website/data/geojson.json") as f:
+                file = json.load(f)
 
-                folium.GeoJson(file, name="geojson.json").add_to(a)
+            folium.GeoJson(file, name="geojson.json").add_to(a)
 
-                samples = pd.read_csv("geotracker/website/data/r4map.csv")
-                a.add_child(FastMarkerCluster(samples[['lat', 'lon']].values.tolist())) 
+            samples = pd.read_csv("geotracker/website/data/r4map.csv")
 
-                folium_static(a)
-            if alw == 'Lieferando':
-                l = folium.Map(
-                    location=[lat, lon],
-                    zoom_start=13,
-                    prefer_canvas=True,
-                )
-                with open("geotracker/website/data/geojson.json") as f:
-                    file = json.load(f)
+            a.add_child(FastMarkerCluster(samples[['lat', 'lon']].values.tolist())) 
 
-                folium.GeoJson(file, name="geojson.json").add_to(l)
+            folium_static(a)
 
-                samples = pd.read_csv("geotracker/website/data/r4map_lieferando.csv")
-                l.add_child(
-                    FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
+        if alw == 'Lieferando':
+            
+            st.header('Take a look at Lieferando\'s restaurants:')
 
-                folium_static(l)
-            if alw == 'Wolt':
-                w = folium.Map(
-                    location=[lat, lon],
-                    zoom_start=13,
-                    prefer_canvas=True,
-                )
-                with open("geotracker/website/data/geojson.json") as f:
-                    file = json.load(f)
+            l = folium.Map(
+                location=[lat, lon],
+                zoom_start=zoom_start,
+                prefer_canvas=True,
+            )
+            with open("geotracker/website/data/geojson.json") as f:
+                file = json.load(f)
 
-                folium.GeoJson(file, name="geojson.json").add_to(w)
+            folium.GeoJson(file, name="geojson.json").add_to(l)
 
-                samples = pd.read_csv("geotracker/website/data/r4map_wolt.csv")
-                w.add_child(
-                    FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
+            samples = pd.read_csv("geotracker/website/data/r4map_lieferando.csv")
 
-                folium_static(w)
+            l.add_child(FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
+
+            folium_static(l)
+
+        if alw == 'Wolt':
+
+            st.header('Take a look at Wolt\'s restaurants:')
+
+            w = folium.Map(
+                location=[lat, lon],
+                zoom_start=zoom_start,
+                prefer_canvas=True
+            )
+
+            with open("geotracker/website/data/geojson.json") as f:
+                file = json.load(f)
+
+            folium.GeoJson(file, name="geojson.json").add_to(w)
+
+            samples = pd.read_csv("geotracker/website/data/r4map_wolt.csv")
+
+            w.add_child(FastMarkerCluster(samples[['lat', 'lon']].values.tolist()))
+
+            folium_static(w)
+
+    # graphs()
+    # maps()
     # printall()
