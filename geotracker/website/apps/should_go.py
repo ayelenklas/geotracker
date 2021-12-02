@@ -77,6 +77,7 @@ def app():
 
         # Filter down to restaurants for specific radius and for selected cuisines
         df = df[df["kmradius"] == kmradius]
+        df.drop_duplicates(inplace=True)
         if "All" not in cuisines:
             df = df[df["type_of_cuisine"].isin(cuisines)]
 
