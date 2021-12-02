@@ -118,7 +118,7 @@ def app():
         df["address"] = df["address"].str.replace("\.0", "")
         df = df.assign(hack='').set_index('hack')
         df.columns = ["Name", "Address", "Type of Cuisine"]
-        df.drop_duplicates(subset=["Name", "Address", "Cuisine"])
+        df.drop_duplicates(subset=["Name", "Address"])
 
         return df
 
